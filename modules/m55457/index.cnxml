@@ -1,0 +1,223 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Supplementary Solutions of the Question Bank 4EC111</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55457</md:content-id>
+  <md:title>Supplementary Solutions of the Question Bank 4EC111</md:title>
+  <md:abstract>This gives the theoretical background and the solution of Question 5 of the question bank.</md:abstract>
+  <md:uuid>2697c61a-5846-46d7-a8f5-4a2105c0cab4</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1166112617135">
+      <emphasis effect="bold">An Introduction to Eber-Moll Model.</emphasis>
+    </para>
+    <para id="import-auto-id4866340">A NPN BJT is a back to back diodes connected in series and PNP BJT is face to face diodes connected in series as shown in Figure 1.</para>
+    <figure id="import-auto-id1166094291387">
+      <media id="import-auto-id1166087559890" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-7c3f.png" height="402" width="592"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166084760821">
+      <emphasis effect="bold">Figure 1.The symbol, physical structure and representation of BJT in terms of diodes.</emphasis>
+    </para>
+    <para id="import-auto-id1166084005577">Integrated Circuit Structures of NPN and PNP BJT are given in Figure 2. From inspection of vertical NPN BJT it is clear that </para>
+    <para id="import-auto-id1166081125636">CBJ(=cross sectional area of EB Junction )= K×EBJ(=cross sectional area of EB Junction) </para>
+    <para id="import-auto-id1166098526230">where K =  3 ~ 10. </para>
+    <para id="import-auto-id1166098183773">Hence the two diodes DC and DE are neither dimensionally symmetric nor doping wise symmetric.  EBJ is ONE-SIDED STEP JUNCTION with BV<sub>EBO</sub> = 5V whereas CBJ is lightly doped LINEARLY GRADED JUNCTION with BV<sub>CBO</sub> = 30V.</para>
+    <para id="import-auto-id1166078599260">Emitter is heavily doped and collector is lightly doped. The doping density profile is reviewed in Figure 3.</para>
+    <para id="import-auto-id1166103679821">This has been purposely done so as to optimize its performance in forward active mode.</para>
+    <figure id="import-auto-id1166103744540">
+      <media id="import-auto-id1166084412694" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-dd1c.png" height="417" width="624"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166076293449">
+      <emphasis effect="bold">Figure 2.IC structure of Vertical NPN BJT and lateral PNP BJT.</emphasis>
+    </para>
+    <figure id="import-auto-id1166077684022">
+      <media id="import-auto-id1166086335136" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-9b37.png" height="326" width="609"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166078211944">
+      <emphasis effect="bold">Figure 3.Doping Profile of vertical NPN BJT. The asymmetry of doping profile is evident.It is heavily tilted towards Emitter.</emphasis>
+    </para>
+    <para id="import-auto-id1166098118986">Eber Moll treats both junctions as diodes but these are very asymmetric diodes. DE behaves as ZENER diode whereas DC behaves as a classical diode. </para>
+    <para id="import-auto-id1166106223292">In forward active mode as shown in Figure 3, DE is forward biased and it injects very efficiently  into the middle layer. What does efficient injection mean ? </para>
+    <para id="import-auto-id1166096010560">DE in forward biased contains I<sub>Dn</sub>(diode current carried by electrons)+ I<sub>Dp</sub>(diode current carried by holes).Injection efficiency is defined as:</para>
+    <figure id="import-auto-id1166070337536">
+      <media id="import-auto-id1166096282501" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-cf34.png" height="42" width="516"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166107931545">Whereas DC in forward biased condition has very poor injection efficiency (= 0.1).</para>
+    <para id="import-auto-id1166097942316">Because of this asymmetry in forward active mode:</para>
+    <figure id="import-auto-id1166095207255">
+      <media id="import-auto-id1166109250666" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-1fbd.png" height="22" width="494"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1166099719940">
+      <media id="import-auto-id1166086761565" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-ec75.png" height="39" width="485"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166098177782">And in inverse-active mode:</para>
+    <figure id="import-auto-id1166101539053">
+      <media id="import-auto-id1166103787625" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-f7fa.png" height="22" width="488"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1166096678956">
+      <media id="import-auto-id1166096000519" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-8b96.png" height="39" width="500"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166081226373">Apart from this difference there is a big difference in Ideal Diode equation describing DE and DC.</para>
+    <para id="import-auto-id1166081985358">Ideal diode equation of DE:</para>
+    <figure id="import-auto-id1166111365164">
+      <media id="import-auto-id1166097655752" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-c134.png" height="42" width="471"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166096769721">Ideal diode equation of DC:</para>
+    <figure id="import-auto-id1166112156533">
+      <media id="import-auto-id1166098070779" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-1913.png" height="42" width="471"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166082063308">So in forward active mode: DE emits according to (1) and CBJ collects and both actions are efficient. They are pictorially depicted in Figure 4.</para>
+    <figure id="import-auto-id1166106443623">
+      <media id="import-auto-id1166086115386" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-dd1c.png" height="342" width="421"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166105077957">
+      <emphasis effect="bold">Figure 4.Eber-Moll Model of BJT in Forward Active Mode.</emphasis>
+    </para>
+    <para id="import-auto-id1166076998451">
+      <emphasis effect="bold">From Figure 4 we get the following DC equation governing the CB BJT:</emphasis>
+    </para>
+    <figure id="import-auto-id1166081973274">
+      <media id="import-auto-id1166090161369" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-2937.png" height="65" width="624"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166077486596">Here I<sub>SE</sub> (EBJ reverse saturation current)and I<sub>SC</sub> (CBJ reverse saturation current ) are related by the following equation:</para>
+    <figure id="import-auto-id1166104332800">
+      <media id="import-auto-id1166084092118" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-bd49.png" height="22" width="388"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166086797465">Through rigorous analysis we get the following in Forward Active Mode:</para>
+    <figure id="import-auto-id1166095867463">
+      <media id="import-auto-id1166083770751" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-ad95.png" height="42" width="397"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1166101340598">
+      <media id="import-auto-id1166085006416" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-194a.png" height="42" width="415"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1166085359977">
+      <media id="import-auto-id1166093980268" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-c1ca.png" height="42" width="408"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166077278296">In exactly the same manner for Inverse Active Mode we get:</para>
+    <figure id="import-auto-id1166103159324">
+      <media id="import-auto-id1166105863846" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-caeb.png" height="42" width="409"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1166095585963">
+      <media id="import-auto-id1166102452544" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-f698.png" height="42" width="427"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1166098416940">
+      <media id="import-auto-id1166100725152" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-47dc.png" height="42" width="417"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166084468304">Solution of Question 5.</para>
+    <para id="import-auto-id1166081275535">Given:</para>
+    <figure id="import-auto-id1166108043507">
+      <media id="import-auto-id1166107392445" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-0cd5.png" height="22" width="341"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1166084008872">
+      <media id="import-auto-id1166093138247" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-e6ef.png" height="22" width="398"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166101244743">Using (4) we get:</para>
+    <figure id="import-auto-id1166086867787">
+      <media id="import-auto-id1166112425605" alt="">
+        <image mime-type="image/png" src="../../media/graphics18-d7a4.png" height="22" width="292"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166077167447">Part (a)</para>
+    <para id="import-auto-id4845376">Since Collector current is 1mA, therefore from (6):</para>
+    <figure id="import-auto-id1166111372995">
+      <media id="import-auto-id1166084470708" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-a601.png" height="42" width="514"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166076691518">Solving the above equation we get: V<sub>BE </sub>= 0.7184V;</para>
+    <para id="import-auto-id1166076354939">Using (5) we get:</para>
+    <figure id="import-auto-id1166098185096">
+      <media id="import-auto-id1166098548228" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-a195.png" height="64" width="624"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166084171034">Using (7) we get:</para>
+    <figure id="import-auto-id1166097474878">
+      <media id="import-auto-id1166104465803" alt="">
+        <image mime-type="image/png" src="../../media/graphics21-e661.png" height="45" width="611"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id7129184">
+      <media id="import-auto-id7297407" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-ff57.png" height="22" width="7"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166087947999">Therefore I<sub>B</sub> =9.997481µA.</para>
+    <para id="import-auto-id1166078373782">As a final check of our calculation we must have:</para>
+    <figure id="import-auto-id1166086591945">
+      <media id="import-auto-id1166083626456" alt="">
+        <image mime-type="image/png" src="../../media/graphics23-8cc4.png" height="22" width="332"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166099565344">In the above equation there is near match so our calculation is correct..</para>
+    <para id="import-auto-id1166101848130">Part b.</para>
+    <para id="import-auto-id1166096628305">The BJT is operated in INVERSE ACTIVE MODE with DC forward biased by 0.7184V and DE reverse biased by 1V. As long as DE is reverse biased it is immaterial what the magnitude of reverse bias is.</para>
+    <para id="import-auto-id1166108238065">Using (8)</para>
+    <figure id="import-auto-id1166086730728">
+      <media id="import-auto-id1166070302257" alt="">
+        <image mime-type="image/png" src="../../media/graphics24-bb45.png" height="42" width="615"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166100375065">Using (9)</para>
+    <figure id="import-auto-id1166099450604">
+      <media id="import-auto-id1166104550683" alt="">
+        <image mime-type="image/png" src="../../media/graphics25-3a33.png" height="42" width="589"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166084141867">Using (10)</para>
+    <figure id="import-auto-id1166093159686">
+      <media id="import-auto-id1166101430545" alt="">
+        <image mime-type="image/png" src="../../media/graphics26-7109.png" height="66" width="624"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166085220614">Again the check is:</para>
+    <figure id="import-auto-id1166094143425">
+      <media id="import-auto-id1166076778701" alt="">
+        <image mime-type="image/png" src="../../media/graphics27-ad5d.png" height="22" width="589"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1166078190903">The answer nearly matches hence it is correct.</para>
+  </content>
+</document>

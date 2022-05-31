@@ -1,0 +1,195 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Tutorial 5_Mid&amp;High frequency Analysis of CE &amp; CB BJT Amplifier</title>
+  <metadata>
+  <md:content-id>m31743</md:content-id><md:title>AE_Tutorial 5_Mid&amp;High frequency Analysis of CE &amp; CB BJT Amplifier</md:title>
+  <md:abstract>AE_Tutorial5_This gives problems on CE and CB Amplifiers.</md:abstract>
+  <md:uuid>2807ba3a-ecf2-49aa-90dc-696a9a48b811</md:uuid>
+</metadata>
+
+<content>
+    <para id="id11773180">
+      <emphasis effect="bold">TUTORIAL 5_MID &amp; HIGH frequency analysis of CE &amp; CB amplifiers.</emphasis>
+    </para>
+    <para id="id3517617">(1) <figure id="id3170377"><media id="id3170377_media" alt=""><image mime-type="image/png" src="../../media/Picture 2-7673.png" id="id3170377__onlineimage" height="400" width="650"/></media></figure></para>
+    <figure id="id3569477">
+      <media id="id3569477_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-be5b.png" id="id3569477__onlineimage" height="26" width="338"/>
+      </media>
+    </figure>
+    <para id="id8264913">Q point(1.6mA,3V)</para>
+    <para id="id7910186">Find A<sub>vo</sub> And f<sub>h</sub>.</para>
+    <para id="id10031038">Solution:-</para>
+    <figure id="id15200212">
+      <media id="id15200212_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-32c9.png" id="id15200212__onlineimage" height="46" width="157"/>
+      </media>
+    </figure>
+    <figure id="id11412163">
+      <media id="id11412163_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-c782.png" id="id11412163__onlineimage" height="44" width="266"/>
+      </media>
+    </figure>
+    <figure id="id12885885">
+      <media id="id12885885_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-6ced.png" id="id12885885__onlineimage" height="26" width="176"/>
+      </media>
+    </figure>
+    <figure id="id4533398">
+      <media id="id4533398_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-6a36.png" id="id4533398__onlineimage" height="42" width="111"/>
+      </media>
+    </figure>
+    <figure id="id5616393">
+      <media id="id5616393_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-72ac.png" id="id5616393__onlineimage" height="24" width="105"/>
+      </media>
+    </figure>
+    <figure id="id4614215">
+      <media id="id4614215_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-94d3.png" id="id4614215__onlineimage" height="45" width="500"/>
+      </media>
+    </figure>
+    <para id="id7350458">
+      <figure id="id5920600">
+        <media id="id5920600_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics8-8bad.png" id="id5920600__onlineimage" height="24" width="397"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id16826584">
+      <media id="id16826584_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-15c5.png" id="id16826584__onlineimage" height="24" width="118"/>
+      </media>
+    </figure>
+    <figure id="id3709365">
+      <media id="id3709365_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-95f9.png" id="id3709365__onlineimage" height="24" width="305"/>
+      </media>
+    </figure>
+    <figure id="id4945213">
+      <media id="id4945213_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-182f.png" id="id4945213__onlineimage" height="45" width="354"/>
+      </media>
+    </figure>
+    <figure id="id5125935">
+      <media id="id5125935_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-37b9.png" id="id5125935__onlineimage" height="24" width="288"/>
+      </media>
+    </figure>
+    <para id="id9955515">(2)In problem (1),if C<sub>µ</sub> =1pF,what is the new value of A<sub>Vo</sub> &amp;f<sub>h</sub> ?</para>
+    <para id="id9896046">[Answer:- A<sub>Vo </sub>remains -153 but f<sub>h</sub> deteriorates to 835kHz.]</para>
+    <para id="id8813889">(3) Given CB BJT Amplifier in Figure 2.</para>
+    <figure id="id11020642">
+      <media id="id11020642_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-820a.png" id="id11020642__onlineimage" height="311" width="611"/>
+      </media>
+    </figure>
+    <para id="id10337385">All the parameters are the same &amp; Q point is the same.</para>
+    <para id="id13980360">R<sub>C</sub> = 22k, R<sub>L</sub> = 75k, R<sub>E</sub> = 43k, R<sub>S</sub> = 0.1k;</para>
+    <para id="id4936906">[Ans: A<sub>VS</sub>=48, f<sub>h</sub>=10.7MHz]</para>
+    <para id="id8858908">Solution: We will have to use the T-model for analyzing CB BJT Amplifier and we will use open circuit time constant method for detrmining the upper -3dB frequency.</para>
+    <para id="id11805185">C<sub>µ</sub> =0.5pF, C<sub>π</sub> =19.9pF</para>
+    <figure id="id9920547">
+      <media id="id9920547_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-3637.png" id="id9920547__onlineimage" height="26" width="120"/>
+      </media>
+    </figure>
+    <para id="id10153231"/>
+    <para id="id7120654">MIDBAND GAIN Analysis:</para>
+    <figure id="id14337141">
+      <media id="id14337141_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-e1f2.png" id="id14337141__onlineimage" height="211" width="584"/>
+      </media>
+    </figure>
+    <figure id="id6847912">
+      <media id="id6847912_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-aa1b.png" id="id6847912__onlineimage" height="46" width="180"/>
+      </media>
+    </figure>
+    <figure id="id6890963">
+      <media id="id6890963_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-51f9.png" id="id6890963__onlineimage" height="27" width="143"/>
+      </media>
+    </figure>
+    <figure id="id17522831">
+      <media id="id17522831_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-c079.png" id="id17522831__onlineimage" height="24" width="177"/>
+      </media>
+    </figure>
+    <figure id="id4647535">
+      <media id="id4647535_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-d42b.png" id="id4647535__onlineimage" height="46" width="195"/>
+      </media>
+    </figure>
+    <para id="id13226541">At high frequency</para>
+    <figure id="id7345313">
+      <media id="id7345313_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-754c.png" id="id7345313__onlineimage" height="249" width="642"/>
+      </media>
+    </figure>
+    <figure id="id10665689">
+      <media id="id10665689_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics18-2c90.png" id="id10665689__onlineimage" height="24" width="180"/>
+      </media>
+    </figure>
+    <para id="id7780268">
+      <figure id="id14319008">
+        <media id="id14319008_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics19-f0a8.png" id="id14319008__onlineimage" height="33" width="445"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id4111214">
+      <media id="id4111214_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-74ab.png" id="id4111214__onlineimage" height="24" width="147"/>
+      </media>
+    </figure>
+    <para id="id6707082">
+      <figure id="id4250696">
+        <media id="id4250696_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics21-a1a6.png" id="id4250696__onlineimage" height="24" width="101"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id8688427">
+      <media id="id8688427_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-90be.png" id="id8688427__onlineimage" height="24" width="34"/>
+      </media>
+    </figure>
+    <figure id="id12986508">
+      <media id="id12986508_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics23-5ec1.png" id="id12986508__onlineimage" height="45" width="65"/>
+      </media>
+    </figure>
+    <figure id="id7385184">
+      <media id="id7385184_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics24-03f5.png" id="id7385184__onlineimage" height="24" width="254"/>
+      </media>
+    </figure>
+    <figure id="id12118528">
+      <media id="id12118528_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics25-4954.png" id="id12118528__onlineimage" height="24" width="251"/>
+      </media>
+    </figure>
+    <figure id="id4543926">
+      <media id="id4543926_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics26-efad.png" id="id4543926__onlineimage" height="24" width="181"/>
+      </media>
+    </figure>
+    <figure id="id7183640">
+      <media id="id7183640_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics27-df8b.png" id="id7183640__onlineimage" height="42" width="290"/>
+      </media>
+    </figure>
+    <figure id="id11967167">
+      <media id="id11967167_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics28-4397.png" id="id11967167__onlineimage" height="42" width="118"/>
+      </media>
+    </figure>
+    <figure id="id6446696">
+      <media id="id6446696_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics29-d646.png" id="id6446696__onlineimage" height="42" width="102"/>
+      </media>
+    </figure>
+  </content>
+</document>

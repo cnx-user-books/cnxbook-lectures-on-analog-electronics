@@ -1,0 +1,134 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Tutorial 10_Noise</title>
+  <metadata>
+  <md:content-id>m32192</md:content-id><md:title>AE_Tutorial 10_Noise</md:title>
+  <md:abstract>This gives problems on Noise Chapter AE-LECTURE9</md:abstract>
+  <md:uuid>08b6b659-0d3b-48e6-b93d-69609bd80d7e</md:uuid>
+</metadata>
+
+<content>
+    <para id="id8540781">AE_TUTORIAL NO 10_Problems on NOISE PARAMETRS.</para>
+    <para id="id1166976162800">
+      <emphasis effect="bold">Problem (1)</emphasis>
+      <emphasis effect="italics">Calculate the available power per Hz of BW for a resistance at room temperature (T=290 K).Express in decibels with reference to 1mW(dBm) And with reference to 1 W(dBW).</emphasis>
+    </para>
+    <para id="id1166981515136">Solution: Available power per Hz =kT (W/Hz)</para>
+    <para id="id1166978123141">Power in W/Hz=kT=4 x 10<sup>-21</sup> W/Hz</para>
+    <para id="id1166976789151">Power in dBm=10 log(4 x 10<sup>-21</sup>/1 x 10-3)= -174dBm</para>
+    <para id="id3751051">Power in dBW= 10 log(4 x 10<sup>-21</sup>/1)= -204dBW</para>
+    <para id="id1166976148082">
+      <emphasis effect="bold">PROBLEM(2)</emphasis>
+      <emphasis effect="italics">Given one port network:</emphasis>
+    </para>
+    <figure id="id1166978349771">
+      <media id="id1166978349771_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-f038.png" id="id1166978349771__onlineimage" height="221" width="324"/>
+      </media>
+    </figure>
+    <para id="id4019526">
+      <emphasis effect="italics">Determine &lt;v</emphasis>
+      <emphasis effect="italics">n</emphasis>
+      <emphasis effect="italics">2</emphasis>
+      <emphasis effect="italics">&gt; at AA’ in BW=100kHz. Also determine the rms voltage at AA’.</emphasis>
+    </para>
+    <para id="id4157409">SOLUTION: R<sub>eq</sub> at AA’=R3||(R1+R2)</para>
+    <para id="id1166976140984">= 1K||(1K+1K)</para>
+    <para id="id1166978185782">= 1K||(2K)</para>
+    <para id="id8873004">= 1 x 2/ 1+2 =2/3 K</para>
+    <para id="id8092403">Therefore &lt;v<sub>n</sub><sup>2</sup>&gt;|<sub>AA’</sub>= (4kTB)R<sub>eq</sub>|<sub>AA’</sub>=(4 x k x 290 x 100 x 10<sup>3</sup>) x (2/3) x 10<sup>3</sup></para>
+    <para id="id1166978124141">=1 x 10<sup>-12</sup>(V)<sup>2</sup></para>
+    <para id="id1166976886782">rms noise voltage=<figure id="id8575791"><media id="id8575791_media" alt=""><image mime-type="image/png" src="../../media/graphics1-0516.png" id="id8575791__onlineimage" height="28" width="184"/></media></figure></para>
+    <para id="id1166981616179">
+      <emphasis effect="bold">PROBLEM(3)</emphasis>
+      <emphasis effect="italics">In TV receiver the antenna is often mounted on a tall mast and long lossy cable is used to connect the antenna to the receiver. To overcome the effect of lossy cable, a pre amplifier is mounted on the antenna as shown in the figure.</emphasis>
+    </para>
+    <para id="id6818523">(a)Find the overall noise figure.</para>
+    <para id="id1166977892342">(b)Find the overall noise figure if pre-amplifier is omitted and gain of front end is increased by 20dB.Normally the NOISE FIGURE of the front end of the receiver is 16dB.</para>
+    <para id="id1166977057900">
+      <figure id="id1166976774978">
+        <media id="id1166976774978_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-62e2.png" id="id1166976774978__onlineimage" height="300" width="597"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1166981378731">Note: The first stage is the pre-amplifier kept at the top of the mast which carries the antenna. This pre-amplifier is supposed to compensate for the loss occurring while carrying the signal from the antenna to the front end of the receiver. </para>
+    <para id="id8969710">The second block represents the lossy cable.</para>
+    <para id="id1166975851785">The third block is the front end of the receiver which has a noise figure of 16dB.</para>
+    <para id="id1166977915649">Solution of Problem(3):</para>
+    <figure id="id1166976735714">
+      <media id="id1166976735714_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-cb47.png" id="id1166976735714__onlineimage" height="210" width="595"/>
+      </media>
+    </figure>
+    <para id="id8732710">The noise figure of 2 stages is given by the formula:</para>
+    <figure id="id4508161">
+      <media id="id4508161_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-0ae4.png" id="id4508161__onlineimage" height="45" width="113"/>
+      </media>
+    </figure>
+    <para id="id1166981596290">Generalizing this result we get</para>
+    <figure id="id4575250">
+      <media id="id4575250_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-db05.png" id="id4575250__onlineimage" height="45" width="344"/>
+      </media>
+    </figure>
+    <para id="id1426126">Therefore the overall Noise figure is largely determined by the Noise Figure of the FIRST stage and the gain of the 1st stage. F1 should be very low and the gain <figure id="id1166978162263"><media id="id1166978162263_media" alt=""><image mime-type="image/png" src="../../media/graphics4-c8b1.png" id="id1166978162263__onlineimage" height="24" width="17"/></media></figure> should be very high.</para>
+    <para id="id1166978106330">Part(a) <figure id="id8947334"><media id="id8947334_media" alt=""><image mime-type="image/png" src="../../media/graphics5-47b6.png" id="id8947334__onlineimage" height="24" width="194"/></media></figure></para>
+    <figure id="id8728699">
+      <media id="id8728699_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-12b2.png" id="id8728699__onlineimage" height="24" width="215"/>
+      </media>
+    </figure>
+    <para id="id1166977974227">
+      <figure id="id4697142">
+        <media id="id4697142_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics7-6dfc.png" id="id4697142__onlineimage" height="24" width="226"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id4531908">
+      <media id="id4531908_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-fef5.png" id="id4531908__onlineimage" height="42" width="79"/>
+      </media>
+    </figure>
+    <figure id="id1166978398893">
+      <media id="id1166978398893_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-d874.png" id="id1166978398893__onlineimage" height="24" width="213"/>
+      </media>
+    </figure>
+    <figure id="id8670658">
+      <media id="id8670658_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-400e.png" id="id8670658__onlineimage" height="24" width="167"/>
+      </media>
+    </figure>
+    <para id="id4637137">When all three stages are considered:</para>
+    <figure id="id7578235">
+      <media id="id7578235_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-c5cb.png" id="id7578235__onlineimage" height="45" width="219"/>
+      </media>
+    </figure>
+    <figure id="id1166981432812">
+      <media id="id1166981432812_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-b656.png" id="id1166981432812__onlineimage" height="58" width="214"/>
+      </media>
+    </figure>
+    <figure id="id1166975877375">
+      <media id="id1166975877375_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-4bef.png" id="id1166975877375__onlineimage" height="24" width="285"/>
+      </media>
+    </figure>
+    <figure id="id1166981490227">
+      <media id="id1166981490227_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-e882.png" id="id1166981490227__onlineimage" height="24" width="269"/>
+      </media>
+    </figure>
+    <para id="id8755304">Part(b)  Without the pre-amplifier</para>
+    <figure id="id8655599">
+      <media id="id8655599_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-c39e.png" id="id8655599__onlineimage" height="52" width="312"/>
+      </media>
+    </figure>
+    <para id="id1166981502524">In part(b), we have a very bad overall noise figure resulting into a very poor reception of the TV station tuned to.</para>
+    <para id="id1166978399467">To overcome this problem we always mount a pre-amplifier on the tall mast which carries the antenna. </para>
+  </content>
+</document>

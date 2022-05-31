@@ -1,0 +1,243 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>AE_Lecture11_Part3_Radio-Frequency Oscillators Continued</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m32430</md:content-id>
+  <md:title>AE_Lecture11_Part3_Radio-Frequency Oscillators Continued</md:title>
+  <md:abstract>AE_Lecture11_Part3 deals with the specefic RF Oscillators such as Colpitts, Hartley, Tuned and Crystal Oscillator.</md:abstract>
+  <md:uuid>e97e0c4e-7112-44b2-9b0e-89155e3c9b21</md:uuid>
+</metadata>
+
+<content>
+    <para id="id39488157">
+      <emphasis effect="bold">Section 1.2. Colpitts Oscillator Using Op-Amp</emphasis>
+    </para>
+    <para id="id42156842">Theoretical Analytical results have been taken from”Microelectronic Circuits_Analysis &amp; Design” by Rashid, Publisher Thomson(Indian Edition),1999.Chapter 14_Power Amplifiers.</para>
+    <figure id="id36379059">
+      <media id="id36379059_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-c185.png" id="id36379059__onlineimage" height="459" width="625"/>
+      </media>
+    </figure>
+    <para id="id34110292">
+      <emphasis effect="bold">Figure 8. Circuit Diagram of Colpitts Oscillator.</emphasis>
+    </para>
+    <para id="id39040505">The frequency of oscillation:</para>
+    <figure id="id42714380">
+      <media id="id42714380_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-e2e1.png" id="id42714380__onlineimage" height="67" width="134"/>
+      </media>
+    </figure>
+    <para id="id46516872">The Barkhausen Criteria is satisfied by the following ratio:</para>
+    <para id="eip-884">gmR1=C2/C1+(C1/C2)(R1/RL)+(L/(C2RL^2))+L/(C1R1RL)</para><para id="eip-795">For large values of RL: gmR1=C2/C1 and gm=Aopen/RL </para><para id="eip-419">But magnitude of Aopen = magnitude of the voltage gain of the Basic Amplifier in Figure 8. The basic amplifier is an inverting amplifier hence /Aopen/= RF/R1</para><para id="eip-791">Therefore gmR1=(Aopen/RL)R1=(RF/R1)*(R1/RL)=RF/RL=C2/C1;</para>
+    
+    <para id="eip-685">Therefore when RL is large then we must satisfy the condition:RF/RL = C2/C1</para><para id="eip-548">A typical Colpitts oscillator with fosc at 150kHz will have the component values as follows:</para><para id="eip-172">R1 = 100kohm, RF= 1000kohm, RL = 100kohm,C1=0.01uF,C2=0.1uF,L=124uH</para><para id="id41852103">
+      <emphasis effect="bold">Section 1.2.1.Colpitt’s oscillator Using BJT</emphasis>
+    </para>
+    <para id="id34049657"/>
+    <figure id="id41897598">
+      <media id="id41897598_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-a51b.png" id="id41897598__onlineimage" height="314" width="626"/>
+      </media>
+    </figure>
+    <para id="id39508967">
+      <emphasis effect="bold">Figure 9.Circuit Diagram of Colpitts Oscillator using BJT.</emphasis>
+    </para>
+    <para id="id34300244">
+      <emphasis effect="bold">Section 1.3.1. Hartley Oscillator Using Op-Amp</emphasis>
+    </para>
+    <figure id="id39112810">
+      <media id="id39112810_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-c2bd.png" id="id39112810__onlineimage" height="479" width="625"/>
+      </media>
+    </figure>
+    <para id="id46089392">
+      <emphasis effect="bold">Figure 10. Circuit Diagram of Hartley Oscillator using Op.Amp.</emphasis>
+    </para>
+    <para id="id42025579">For oscillation:</para>
+    
+    
+    <para id="eip-589">gmR1 = (L1/L2)+(R1.L2)/(RL.L1)</para><para id="id33792965">For large values of R<sub>L</sub>,</para>
+    
+    <para id="eip-844">gm.R1 = L1/L2</para><para id="eip-893">But gm = Aopen/RL  and /Aopen/ = RF/R1 </para><para id="eip-104">Therefore gmR1=RF/RL =(L1/L2)+(R1.L2)/(RL.L1)</para><para id="eip-690">Typical device parameters of a Hartley Oscillator with fosc = 33kHz are: </para><para id="eip-610">R1=100kohms, RF = 1Mohms, RL = 900kohms, L1=L2=125uH, C = 0.1uF.</para><figure id="id42602327">
+      <media id="id42602327_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-c6c0.png" id="id42602327__onlineimage" height="50" width="144"/>
+      </media>
+    </figure>
+    <para id="id36212420">
+      <emphasis effect="bold">Section 1.3.2. HARTLEY OSCILLATOR USING JFET</emphasis>
+    </para>
+    <figure id="id45542444">
+      <media id="id45542444_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-48ac.png" id="id45542444__onlineimage" height="468" width="627"/>
+      </media>
+    </figure>
+    <para id="id34088374">
+      <emphasis effect="bold">Figure 11. Circuit Diagram of Hartley Oscillator using JFET.</emphasis>
+    </para>
+    <figure id="id42539334">
+      <media id="id42539334_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-8b99.png" id="id42539334__onlineimage" height="50" width="130"/>
+      </media>
+    </figure>
+    <para id="id34287515">Here <figure id="id42184707"><media id="id42184707_media" alt=""><image mime-type="image/png" src="../../media/graphics13-7a8e.png" id="id42184707__onlineimage" height="45" width="156"/></media></figure></para>
+    <figure id="id38631424">
+      <media id="id38631424_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-bb7d.png" id="id38631424__onlineimage" height="24" width="68"/>
+      </media>
+    </figure>
+    <para id="id42323276">
+      <figure id="id46055423">
+        <media id="id46055423_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics15-2069.png" id="id46055423__onlineimage" height="24" width="72"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id36022931">
+      <emphasis effect="bold">Section 1.4. TUNED OSCILLATOR</emphasis>
+    </para>
+    <figure id="id46474696">
+      <media id="id46474696_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-8e4d.png" id="id46474696__onlineimage" height="468" width="627"/>
+      </media>
+    </figure>
+    <para id="id39116363">
+      <emphasis effect="bold">Figure 12. Circuit diagram of a tuned oscillator.</emphasis>
+    </para>
+    <figure id="id47480129">
+      <media id="id47480129_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-6867.png" id="id47480129__onlineimage" height="46" width="72"/>
+      </media>
+    </figure>
+    <figure id="id45665804">
+      <media id="id45665804_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics18-3fa3.png" id="id45665804__onlineimage" height="42" width="86"/>
+      </media>
+    </figure>
+    <figure id="id42056402">
+      <media id="id42056402_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-888c.png" id="id42056402__onlineimage" height="24" width="70"/>
+      </media>
+    </figure>
+    <para id="id34268024">
+      <emphasis effect="bold">Section 2. CRYSTAL OSCILLATOR</emphasis>
+    </para>
+    <para id="id43175391">In Colpitts oscillator, inductor is replaced by a crystal.</para>
+    <para id="id39345828">Quartz crystal is preferred due to the stability and accuracy.</para>
+    <para id="id34030443">
+      <figure id="id34647378">
+        <media id="id34647378_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 34-cdc2.png" id="id34647378__onlineimage" height="309" width="627"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id36577291">
+      <emphasis effect="bold">Figure 13. The symbol of a quartz crystal, the equivalent circuit, pole-zero pattern of a crystal resonance circuit.</emphasis>
+    </para>
+    <para id="id46431767">Q(of series resistance)=<figure id="id34305877"><media id="id34305877_media" alt=""><image mime-type="image/png" src="../../media/graphics20-9cc4.png" id="id34305877__onlineimage" height="36" width="40"/></media></figure></para>
+    <para id="id42095665">Q(Of Tank Circuit)=<figure id="id35915011"><media id="id35915011_media" alt=""><image mime-type="image/png" src="../../media/graphics21-43cb.png" id="id35915011__onlineimage" height="36" width="43"/></media></figure></para>
+    <para id="id45525859">Mass of the crystal gives rise to L<sub>s</sub></para>
+    <para id="id41265010">Elasticity of the crystals gives rise to C<sub>s</sub>.</para>
+    <para id="id39424607">Damping force gives rise to R<sub>s</sub>.</para>
+    <para id="id36224255">L<sub>S</sub>, C<sub>S</sub> and R<sub>S</sub> comprises the intrinsic series resonance path through the crystal.</para>
+    <para id="id33848733">Table 2. COMMON CUTS OF QUARTZ CRYSTAL(RCA Corp.)</para>
+    <table id="id33848738" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry>Frequency</entry>
+            <entry>32kHz</entry>
+            <entry>280kHz</entry>
+            <entry>525kHz</entry>
+            <entry>2MHz</entry>
+            <entry>10MHz</entry>
+          </row>
+          <row>
+            <entry>Cut</entry>
+            <entry>XY Bar</entry>
+            <entry>DT</entry>
+            <entry>DT</entry>
+            <entry>AT</entry>
+            <entry>AT</entry>
+          </row>
+          <row>
+            <entry>R<sub>s</sub></entry>
+            <entry>40KΩ</entry>
+            <entry>1820Ω</entry>
+            <entry>1400Ω</entry>
+            <entry>82Ω</entry>
+            <entry>5Ω</entry>
+          </row>
+          <row>
+            <entry>L</entry>
+            <entry>4800H</entry>
+            <entry>25.9H</entry>
+            <entry>12.7H</entry>
+            <entry>0.52H</entry>
+            <entry>12mH</entry>
+          </row>
+          <row>
+            <entry>C<sub>s</sub>(pF)</entry>
+            <entry>0.0491</entry>
+            <entry>0.0126</entry>
+            <entry>0.00724</entry>
+            <entry>0.0122</entry>
+            <entry>0.0145</entry>
+          </row>
+          <row>
+            <entry>C<sub>p</sub>(pF)</entry>
+            <entry>2.85</entry>
+            <entry>5.62</entry>
+            <entry>3.44</entry>
+            <entry>4.27</entry>
+            <entry>4.35</entry>
+          </row>
+          <row>
+            <entry>Q</entry>
+            <entry>25,000</entry>
+            <entry>25,000</entry>
+            <entry>30,000</entry>
+            <entry>80,000</entry>
+            <entry>150,000</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id41496528">
+      <emphasis effect="bold">Section 2.1.CRYSTAL OSCILLATOR CIRCUIT</emphasis>
+    </para>
+    <figure id="id36792671">
+      <media id="id36792671_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-dda3.png" id="id36792671__onlineimage" height="478" width="627"/>
+      </media>
+    </figure>
+    <para id="id46296532">
+      <emphasis effect="bold">Figure 14. Crystal Oscillator circuit using an Op.Amp.</emphasis>
+    </para>
+    <para id="id46409085">The tank circuit of CRYSTAL OSCILLATOR</para>
+    <para id="id46515719">
+      <figure id="id38854784">
+        <media id="id38854784_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics23-c17f.png" id="id38854784__onlineimage" height="375" width="625"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id41984539">EXACT RELATION</para>
+    <figure id="id45644633">
+      <media id="id45644633_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics24-0d7d.png" id="id45644633__onlineimage" height="52" width="215"/>
+      </media>
+    </figure>
+    <para id="id38997507">When Q is very high which is true for crystal then R<sub>e</sub>~0.</para>
+    <para id="id39331749">And <figure id="id36275311"><media id="id36275311_media" alt=""><image mime-type="image/png" src="../../media/graphics25-1047.png" id="id36275311__onlineimage" height="34" width="74"/></media></figure></para>
+    <para id="id49218929">In near future, we will have a Paradigm Shift. The scaling of CMOS will hit the wall. For that day we are developing ‘ MICROELECTROMECHANICAL SYSTEM(M E M S)’,Molecular Electronics &amp; Nanotechnology.</para>
+    <para id="id49218934">We have to replace low Q integrated capacitor &amp; inductors. These will be replaced by MEMS structure. MEMS &amp; CMOS will enable highly efficient single chip radio.</para>
+    <para id="id46318618">In 2002 Hewlett-Packard &amp; HCLA announced a molecular array with 100nm center to center memory element spacing(9/10/02)</para>
+    <para id="id34031444">If we achieve 35nm center to center we will achieve 100 Gb memory space in 1(cm)<sup>2</sup>.</para>
+    <para id="id45546140"/>
+  </content>
+</document>

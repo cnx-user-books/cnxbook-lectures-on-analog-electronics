@@ -1,0 +1,364 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Tutorial 12_Oscillators</title>
+  <metadata>
+  <md:content-id>m32489</md:content-id><md:title>AE_Tutorial 12_Oscillators</md:title>
+  <md:abstract>AE_Tutorial 12 gives the design problems on Audio &amp; Radio Frequency Oscillators.</md:abstract>
+  <md:uuid>43e0640a-b769-4682-bb55-4f11b3f758af</md:uuid>
+</metadata>
+
+<content>
+    <para id="id14506753">
+      <emphasis effect="bold">AE_Tutorial 12. Problems on OSCILLATORS</emphasis>
+    </para>
+    <para id="id14282581">Problems have been taken from:</para>
+    <para id="id14282585">“Microelectronic Circuit Design” by R.C.Jaeger and T.N. Blalock, 2<sup>nd</sup> Edition, McGraw Hill,2006.</para>
+    <para id="id14767955">“Microelectronic Circuits- Analysis &amp; Design”, Muhammad H. Rashid, Thomson, Indian Edition, 1999.</para>
+    <para id="id5720659">
+      <emphasis effect="italics">Problem (1)Wien Bridge Oscillator</emphasis>
+    </para>
+    <figure id="id14519860">
+      <media id="id14519860_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-570a.png" id="id14519860__onlineimage" height="471" width="649"/>
+      </media>
+    </figure>
+    <figure id="id14510179">
+      <media id="id14510179_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-9d3d.png" id="id14510179__onlineimage" height="61" width="370"/>
+      </media>
+    </figure>
+    <figure id="id14677864">
+      <media id="id14677864_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-6a32.png" id="id14677864__onlineimage" height="42" width="63"/>
+      </media>
+    </figure>
+    <para id="id14466389">This is called Diode amplitude stabilization of a Wien Bridge Oscillator.</para>
+    <para id="id13244851">Determine frequency of oscillation &amp; the amplitude of the oscillation.</para>
+    <para id="id13244855">[Ans:- 9.95 kHz,3.0V]</para>
+    <para id="id13244860">When the diodes are off,the gain of the amplifier is <figure id="id14444697"><media id="id14444697_media" alt=""><image mime-type="image/png" src="../../media/graphics3-b8d5.png" id="id14444697__onlineimage" height="35" width="208"/></media></figure></para>
+    <para id="id14565426">So that loop gain &gt;1 and the oscillations grow.</para>
+    <para id="id14565433">When diode turn ON, the gain is <figure id="id14510629"><media id="id14510629_media" alt=""><image mime-type="image/png" src="../../media/graphics4-8c37.png" id="id14510629__onlineimage" height="35" width="267"/></media></figure>and the oscillations decay.</para>
+    <para id="id14452041">PROBLEM(2)</para>
+    <figure id="id14430437">
+      <media id="id14430437_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-e11e.png" id="id14430437__onlineimage" height="345" width="388"/>
+      </media>
+    </figure>
+    <figure id="id14411970">
+      <media id="id14411970_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-e376.png" id="id14411970__onlineimage" height="45" width="330"/>
+      </media>
+    </figure>
+    <para id="id14279885">Design the Colpitt’s for oscillation frequency <figure id="id14279891"><media id="id14279891_media" alt=""><image mime-type="image/png" src="../../media/graphics6-fd08.png" id="id14279891__onlineimage" height="24" width="97"/></media></figure></para>
+    <para id="id14629313">Step(1) Choose <figure id="id14629319"><media id="id14629319_media" alt=""><image mime-type="image/png" src="../../media/graphics7-3f66.png" id="id14629319__onlineimage" height="24" width="192"/></media></figure></para>
+    <figure id="id14463350">
+      <media id="id14463350_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-4fda.png" id="id14463350__onlineimage" height="45" width="124"/>
+      </media>
+    </figure>
+    <para id="id14609156">Step(2) Calculate L from <figure id="id14609160"><media id="id14609160_media" alt=""><image mime-type="image/png" src="../../media/graphics9-ea4c.png" id="id14609160__onlineimage" height="78" width="171"/></media></figure></para>
+    <figure id="id14474401">
+      <media id="id14474401_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-e0ee.png" id="id14474401__onlineimage" height="45" width="176"/>
+      </media>
+    </figure>
+    <para id="id14472696">Step(3) Calculate R<sub>F</sub> &amp; R<sub>L</sub>.</para>
+    <para id="id13244628">Let R<sub>L</sub>=100kΩ Therefore R<sub>F</sub>=<figure id="id14619838"><media id="id14619838_media" alt=""><image mime-type="image/png" src="../../media/graphics11-5322.png" id="id14619838__onlineimage" height="35" width="106"/></media></figure></para>
+    <para id="id14486751">Step(4) Determine R<sub>1</sub>______Let A=10</para>
+    <figure id="id14652294">
+      <media id="id14652294_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-1549.png" id="id14652294__onlineimage" height="45" width="115"/>
+      </media>
+    </figure>
+    <para id="id14584414">
+      <figure id="id14584418">
+        <media id="id14584418_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics13-8248.png" id="id14584418__onlineimage" height="24" width="102"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id6386622">Step(5) Determmine g<sub>m</sub></para>
+    <figure id="id14564577">
+      <media id="id14564577_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-0fc4.png" id="id14564577__onlineimage" height="45" width="77"/>
+      </media>
+    </figure>
+    <figure id="id14272202">
+      <media id="id14272202_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-51a3.png" id="id14272202__onlineimage" height="24" width="113"/>
+      </media>
+    </figure>
+    <figure id="id5721010">
+      <media id="id5721010_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-3419.png" id="id5721010__onlineimage" height="42" width="175"/>
+      </media>
+    </figure>
+    <para id="id14363379">PROBLEM(3) Colpitts Oscillator Using BJT</para>
+    <figure id="id11561878">
+      <media id="id11561878_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-a406.png" id="id11561878__onlineimage" height="509" width="509"/>
+      </media>
+    </figure>
+    <figure id="id13244365">
+      <media id="id13244365_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-4a79.png" id="id13244365__onlineimage" height="26" width="490"/>
+      </media>
+    </figure>
+    <para id="id14766681">Calculate (i) Frequency of oscillation.</para>
+    <para id="id14531366">(ii)Check the Barkhausen criteria.</para>
+    <para id="id14410569">(iii)Determine R<sub>2</sub>.</para>
+    <para id="id14306734">Solution:-</para>
+    <para id="id14306739">RFC acts as a open circuit And C<sub>B</sub> and C<sub>E</sub> acts as a short circuit.</para>
+    <para id="id14434500">Therefore the Equivalent Circuit is :-</para>
+    <para id="id14434504">
+      <figure id="id14766510">
+        <media id="id14766510_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-b403.png" id="id14766510__onlineimage" height="315" width="282"/>
+        </media>
+      </figure>
+      <figure id="id14720186">
+        <media id="id14720186_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-4e69.png" id="id14720186__onlineimage" height="491" width="613"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id14444405">From the nodal equations we get equating the imaginary parts</para>
+    <figure id="id14555287">
+      <media id="id14555287_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics18-4dc2.png" id="id14555287__onlineimage" height="64" width="169"/>
+      </media>
+    </figure>
+    <para id="id14308516">Equating Real parts we get</para>
+    <figure id="id14688496">
+      <media id="id14688496_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-aa60.png" id="id14688496__onlineimage" height="47" width="267"/>
+      </media>
+    </figure>
+    <para id="id14171750">For large values of <figure id="id14171755"><media id="id14171755_media" alt=""><image mime-type="image/png" src="../../media/graphics20-61c0.png" id="id14171755__onlineimage" height="24" width="18"/></media></figure></para>
+    <figure id="id14722978">
+      <media id="id14722978_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics21-0609.png" id="id14722978__onlineimage" height="45" width="146"/>
+      </media>
+    </figure>
+    <para id="id11038050">Gain <figure id="id11038054"><media id="id11038054_media" alt=""><image mime-type="image/png" src="../../media/graphics22-8cb0.png" id="id11038054__onlineimage" height="24" width="101"/></media></figure></para>
+    <para id="id13213950">Subs <figure id="id13213955"><media id="id13213955_media" alt=""><image mime-type="image/png" src="../../media/graphics23-8cb0.png" id="id13213955__onlineimage" height="24" width="101"/></media></figure> in Eq(2)</para>
+    <figure id="id14310743">
+      <media id="id14310743_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics24-268c.png" id="id14310743__onlineimage" height="45" width="256"/>
+      </media>
+    </figure>
+    <para id="id14543549">For <figure id="id14676216"><media id="id14676216_media" alt=""><image mime-type="image/png" src="../../media/graphics25-0636.png" id="id14676216__onlineimage" height="24" width="56"/></media></figure></para>
+    <figure id="id14586504">
+      <media id="id14586504_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics26-7526.png" id="id14586504__onlineimage" height="46" width="313"/>
+      </media>
+    </figure>
+    <para id="id14561364">Sub (4) in (3)</para>
+    <figure id="id14508810">
+      <media id="id14508810_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics27-327a.png" id="id14508810__onlineimage" height="46" width="144"/>
+      </media>
+    </figure>
+    <figure id="id14354360">
+      <media id="id14354360_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics28-e736.png" id="id14354360__onlineimage" height="45" width="161"/>
+      </media>
+    </figure>
+    <para id="id14611107">(i)This <figure id="id5720483"><media id="id5720483_media" alt=""><image mime-type="image/png" src="../../media/graphics29-37a5.png" id="id5720483__onlineimage" height="26" width="23"/></media></figure> can be provided by BJT hence Barkhausen Criteria is satisfied</para>
+    <para id="id14520310">(ii)Frequency of oscillation=<figure id="id14520314"><media id="id14520314_media" alt=""><image mime-type="image/png" src="../../media/graphics30-dc2f.png" id="id14520314__onlineimage" height="45" width="192"/></media></figure></para>
+    <para id="id14450834">(iii) <figure id="id14450838"><media id="id14450838_media" alt=""><image mime-type="image/png" src="../../media/graphics31-05c0.png" id="id14450838__onlineimage" height="38" width="267"/></media></figure></para>
+    <figure id="id14753928">
+      <media id="id14753928_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics32-77f3.png" id="id14753928__onlineimage" height="24" width="152"/>
+      </media>
+    </figure>
+    <figure id="id14408151">
+      <media id="id14408151_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics33-a106.png" id="id14408151__onlineimage" height="45" width="241"/>
+      </media>
+    </figure>
+    <para id="id14585679">PROBLEM(4)LC-Tuned MOS Oscillator</para>
+    <para id="id14585685">Design an oscillator at <figure id="id14585689"><media id="id14585689_media" alt=""><image mime-type="image/png" src="../../media/graphics34-49c0.png" id="id14585689__onlineimage" height="32" width="360"/></media></figure></para>
+    <figure id="id14465096">
+      <media id="id14465096_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-821c.png" id="id14465096__onlineimage" height="275" width="266"/>
+      </media>
+    </figure>
+    <figure id="id14374803">
+      <media id="id14374803_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-7cdc.png" id="id14374803__onlineimage" height="600" width="650"/>
+      </media>
+    </figure>
+    <para id="id6624722">
+      <figure id="id6624726">
+        <media id="id6624726_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics35-3ca4.png" id="id6624726__onlineimage" height="61" width="149"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id11486240">
+      <media id="id11486240_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics36-a445.png" id="id11486240__onlineimage" height="47" width="134"/>
+      </media>
+    </figure>
+    <figure id="id14619770">
+      <media id="id14619770_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics37-462e.png" id="id14619770__onlineimage" height="47" width="198"/>
+      </media>
+    </figure>
+    <figure id="id14666222">
+      <media id="id14666222_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics38-9fc7.png" id="id14666222__onlineimage" height="58" width="217"/>
+      </media>
+    </figure>
+    <para id="id14364269">For oscillation Loop Gain= 1∠0˚</para>
+    <figure id="id14496311">
+      <media id="id14496311_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics39-ec7c.png" id="id14496311__onlineimage" height="26" width="135"/>
+      </media>
+    </figure>
+    <figure id="id14730808">
+      <media id="id14730808_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics40-d8b4.png" id="id14730808__onlineimage" height="24" width="165"/>
+      </media>
+    </figure>
+    <figure id="id14640767">
+      <media id="id14640767_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics41-a204.png" id="id14640767__onlineimage" height="46" width="173"/>
+      </media>
+    </figure>
+    <figure id="id14550310">
+      <media id="id14550310_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics42-f4d3.png" id="id14550310__onlineimage" height="24" width="280"/>
+      </media>
+    </figure>
+    <para id="id14538976">Step(1) Choose a suitable value of C:</para>
+    <para id="id14538981">Let C=0.01μF</para>
+    <para id="id14538985">Step(2) Calculate the value of L from <figure id="id14365263"><media id="id14365263_media" alt=""><image mime-type="image/png" src="../../media/graphics43-85ac.png" id="id14365263__onlineimage" height="33" width="63"/></media></figure></para>
+    <figure id="id14375341">
+      <media id="id14375341_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics44-744d.png" id="id14375341__onlineimage" height="47" width="184"/>
+      </media>
+    </figure>
+    <para id="id14707086">Step(3) Find the value of R<sub>1</sub> from Eq <figure id="id14419109"><media id="id14419109_media" alt=""><image mime-type="image/png" src="../../media/graphics45-888c.png" id="id14419109__onlineimage" height="24" width="70"/></media></figure></para>
+    <figure id="id14656166">
+      <media id="id14656166_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics46-8de7.png" id="id14656166__onlineimage" height="24" width="78"/>
+      </media>
+    </figure>
+    <para id="id14376844">Step(4) <figure id="id14376848"><media id="id14376848_media" alt=""><image mime-type="image/png" src="../../media/graphics47-8419.png" id="id14376848__onlineimage" height="32" width="82"/></media></figure></para>
+    <figure id="id14464546">
+      <media id="id14464546_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics48-768d.png" id="id14464546__onlineimage" height="24" width="157"/>
+      </media>
+    </figure>
+    <para id="id14572660">PROBLEM(5)</para>
+    <para id="id14572665">Design a Hartley Oscillator at f<sub>o</sub>=5MHz.USE 2N3822 n-JFET whose parameters are <figure id="id14745253"><media id="id14745253_media" alt=""><image mime-type="image/png" src="../../media/graphics49-4e14.png" id="id14745253__onlineimage" height="32" width="74"/></media></figure></para>
+    <para id="id14644102">Load Resistance is R<sub>L</sub>=100Ω</para>
+    <para id="id14644112">The circuit is:-</para>
+    <figure id="id14312597">
+      <media id="id14312597_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-2bca.png" id="id14312597__onlineimage" height="327" width="380"/>
+      </media>
+    </figure>
+    <para id="id14710247">Practically it is implemented in the following manner:-</para>
+    <figure id="id14710255">
+      <media id="id14710255_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 11-143b.png" id="id14710255__onlineimage" height="329" width="419"/>
+      </media>
+    </figure>
+    <para id="id14440892">The incremental circuit is given in Figure 10.</para>
+    <para id="id14474820">
+      <figure id="id14474823">
+        <media id="id14474823_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 10-6d75.png" id="id14474823__onlineimage" height="300" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id14629684">Solution:-<figure id="id14629688"><media id="id14629688_media" alt=""><image mime-type="image/png" src="../../media/graphics50-c8ed.png" id="id14629688__onlineimage" height="24" width="116"/></media></figure></para>
+    <figure id="id14561610">
+      <media id="id14561610_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics51-2e45.png" id="id14561610__onlineimage" height="45" width="263"/>
+      </media>
+    </figure>
+    <para id="id14420781">BY analysis:-<figure id="id14741291"><media id="id14741291_media" alt=""><image mime-type="image/png" src="../../media/graphics52-e8d7.png" id="id14741291__onlineimage" height="34" width="194"/></media></figure></para>
+    <para id="id14743026">We take <figure id="id14343579"><media id="id14343579_media" alt=""><image mime-type="image/png" src="../../media/graphics53-45e9.png" id="id14343579__onlineimage" height="24" width="79"/></media></figure></para>
+    <figure id="id10886889">
+      <media id="id10886889_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics54-5aff.png" id="id10886889__onlineimage" height="46" width="139"/>
+      </media>
+    </figure>
+    <figure id="id14573285">
+      <media id="id14573285_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics55-1747.png" id="id14573285__onlineimage" height="24" width="55"/>
+      </media>
+    </figure>
+    <figure id="id14631386">
+      <media id="id14631386_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics56-24bf.png" id="id14631386__onlineimage" height="45" width="226"/>
+      </media>
+    </figure>
+    <para id="id14600628">PROBLEM(6)CRYSTAL OSCILLATOR</para>
+    <figure id="id14453070">
+      <media id="id14453070_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 12-fea4.png" id="id14453070__onlineimage" height="266" width="354"/>
+      </media>
+    </figure>
+    <para id="id14321155">This is a Colpitts-derived op-amp crystal oscillator which uses crystal as an inductor.</para>
+    <para id="id14321160">This uses a 2 MHz crystal oscillator <figure id="id14321164"><media id="id14321164_media" alt=""><image mime-type="image/png" src="../../media/graphics57-b631.png" id="id14321164__onlineimage" height="24" width="453"/></media></figure></para>
+    <para id="id14561737">Find the frequency of oscillator.</para>
+    <para id="id5991090">Given <figure id="id5991094"><media id="id5991094_media" alt=""><image mime-type="image/png" src="../../media/graphics58-968f.png" id="id5991094__onlineimage" height="26" width="370"/></media></figure></para>
+    <figure id="id14607716">
+      <media id="id14607716_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 13-5b1d.png" id="id14607716__onlineimage" height="358" width="650"/>
+      </media>
+    </figure>
+    <figure id="id13244390">
+      <media id="id13244390_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics59-1f08.png" id="id13244390__onlineimage" height="85" width="251"/>
+      </media>
+    </figure>
+    <para id="id14578527">Equivalent Circuit of Crystal Oscillator:</para>
+    <para id="id14494555">
+      <figure id="id14494559">
+        <media id="id14494559_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 14-6476.png" id="id14494559__onlineimage" height="264" width="634"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id14540298">This can also be expressed as:</para>
+    <figure id="id14540305">
+      <media id="id14540305_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 15-173b.png" id="id14540305__onlineimage" height="338" width="635"/>
+      </media>
+    </figure>
+    <figure id="id14731690">
+      <media id="id14731690_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics60-ab57.png" id="id14731690__onlineimage" height="45" width="230"/>
+      </media>
+    </figure>
+    <para id="id14528773">Effective Capacitance C<sub>eq</sub> is parallel with <figure id="id10785332"><media id="id10785332_media" alt=""><image mime-type="image/png" src="../../media/graphics61-d496.png" id="id10785332__onlineimage" height="24" width="16"/></media></figure>is given by</para>
+    <figure id="id14711474">
+      <media id="id14711474_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics62-a75d.png" id="id14711474__onlineimage" height="49" width="203"/>
+      </media>
+    </figure>
+    <figure id="id14472603">
+      <media id="id14472603_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics63-5420.png" id="id14472603__onlineimage" height="50" width="528"/>
+      </media>
+    </figure>
+    <para id="id14543368">It is given that 2MHz crystal is used. Hence the result is self consistent.</para>
+    <para id="id14543373">This is the frequency of the Crystal Oscillator.</para>
+    <figure id="id14634156">
+      <media id="id14634156_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics64-98f4.png" id="id14634156__onlineimage" height="24" width="4"/>
+      </media>
+    </figure>
+    <para id="id14620414"/>
+    <figure id="id14280715">
+      <media id="id14280715_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics65-55c6.png" id="id14280715__onlineimage" height="24" width="7"/>
+      </media>
+    </figure>
+  </content>
+</document>

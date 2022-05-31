@@ -1,0 +1,272 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Analog Electronics_Lecture 1_Independent and Controlled Sources</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33375</md:content-id>
+  <md:title>Analog Electronics_Lecture 1_Independent and Controlled Sources</md:title>
+  <md:abstract>A battery or power socket in our household is an independent source of electric energy.The output of this source is independent of any other electrical parameter in the circuit in which the the independent source is being used. Active Devices such as Vacuum Triode, Tetrode, Pentode, Field Effect Transistor(FET), Bipolar Junction Transistor(BJT) and Operational Amplifiers (Op. Amp)are controlled sources.</md:abstract>
+  <md:uuid>ba376535-8627-4403-8eb8-b688ba23a19f</md:uuid>
+</metadata>
+<content>
+    <para id="id22319044">AnalogElectronics_LECTURE NO.1_Independent and Controlled sources.</para>
+    <para id="id19365687"><emphasis effect="bold">Q.1)</emphasis>Define Independent and Controlled/Dependent sources. </para>
+    <para id="id21194904"><emphasis effect="bold">Ans:-</emphasis>Those sources which do not depend upon the values of the current or the voltages in any other part of that circuit are called independent sources. Independent sources are two-terminal devices.</para>
+    <para id="id17615874">The source between two terminals which depends upon the value of either voltage or current at a third terminal of the given circuit or device are called dependent (or) controlled sources. These are 3-terminal devices such as Vacuum Tube Triode and Pentode, Bipolar Junction Transistor (BJT) and Field Effect Transistor (FET).</para>
+    <para id="id21179734">In triode , the voltage at GRID controls the dependent voltage source between Anode and Cathode.</para>
+    <para id="id17271304">In pentode , the voltage at GRID controls the dependent current source between Anode and Cathode.</para>
+    <para id="id20881448">In Common Emitter BJT, the base current in the BASE controls the dependent current source between Collector and Emitter in forward active region.</para>
+    <para id="id18170571">In Common Source FET, the voltage at the GATE controls the current source between Drain and Source in Pentode Region of the output characteristics or the output family of curves. </para>
+    <para id="id23055814"><emphasis effect="bold">Q.2)</emphasis>Define independent voltage source and independent current source.</para>
+    <para id="id15398572">Any Power Source supplies voltage as well as current. Source resistance compared to the load resistance decides if the power source will be represented as voltage source or as current source.</para>
+    <para id="id23183223"><emphasis effect="bold">Ans:-</emphasis>When source resistance is much less than the load resistance ( that is less than 1/10 of the minimum load resistance likely to be connected ) then we take the Thevenin Equivalent of the power source. This Thevenin equivalent is an Independent Voltage Source representation of the power source. The open circuit voltage V<sub>OC</sub> at the output terminals is the Thevenin Equivalent Voltage, V<sub>Th</sub> , and the equivalent resistance measured at the output terminals with power supply inactivated is Thevenin resistance R<sub>Th</sub> . Here power supply inactivated means that if we have a voltage source we consider it to be short circuited and if we have a current source we consider it to be open. </para>
+    <para id="id19302904">
+      <figure id="id20426391">
+        <media id="id20426391_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-3cee.png" id="id20426391__onlineimage" height="143" width="191"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id19969896">When source resistance is much greater than the load resistance ( that is greater than 10 times of the maximum load resistance likely to be connected ) then we take the Norton Equivalent of the power source. This Norton equivalent is an Independent Current Source representation of the power source. The short circuit current I<sub>SC</sub> at the output terminals is the Norton equivalent current, I<sub>N</sub> , and the equivalent resistance measured at the output terminals with power supply inactivated is Norton resistance R<sub>N</sub> . Here power supply inactivated means that if we have a voltage source we consider it to be short circuited and if we have a current source we consider it to be open circuited. In actual practice it is dangerous to short the output terminals of a power source. It will lead to fuse blow up. Hence short circuit current can be determined only if we are sure that the internal impedance or the source impedance is very high.</para>
+    <figure id="id21381889">
+      <media id="id21381889_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-d768.png" id="id21381889__onlineimage" height="148" width="237"/>
+      </media>
+    </figure>
+    <para id="id21688476"><emphasis effect="bold">Q.3)</emphasis>Define Ideal Voltage and Ideal current sources.</para>
+    <para id="id20892766"><emphasis effect="bold">Ans:-</emphasis> An ideal voltage source is constant voltage source which :</para>
+    <list id="id17767645" list-type="enumerated" number-style="lower-alpha" mark-suffix=")">
+      <item>Has Zero internal impedance.</item>
+      <item>0% Regulation i.e. it gives a constant terminal voltage irrespective of the load current. </item>
+    </list>
+    <para id="id23129440">An ideal current source is constant current source which:</para>
+    <list id="id17219076" list-type="enumerated" number-style="lower-alpha" mark-suffix=")">
+      <item>Has Infinite internal impedance.</item>
+      <item>Gives constant terminal current irrespective of the load voltage.</item>
+    </list>
+    <para id="id12552861">Q.4) Give the I-V characteristics of Open Circuit and Short Circuit.</para>
+    <para id="id17491885"> As shown in Figure 1, Open Circuit has Horizontal Line along X-axis as its I-V characteristics and Short Circuit has a Vertical Line along Y-axis as its I-V characteristics.</para>
+    <para id="id21666237"><figure id="id20205694"><media id="id20205694_media" alt=""><image mime-type="image/png" src="../../media/Picture 3-5743.png" id="id20205694__onlineimage" height="220" width="640"/></media></figure>Q.5) Give the I-V characteristics of an Ideal Voltage Source and Ideal Current Source.</para>
+    <para id="id19297788"><figure id="id12666060"><media id="id12666060_media" alt=""><image mime-type="image/png" src="../../media/Picture 4-166f.png" id="id12666060__onlineimage" height="222" width="634"/></media></figure>An ideal voltage source gives a constant terminal voltage V<sub>ideal</sub> irrespective of the load current drawn out of it. I-V characteristics is vertical but shifted with respect to Y-axis . It is vertical because the source resistance is zero and hence slope is infinite.</para>
+    <para id="id13043592">An ideal current source supplies a constant source current I<sub>ideal</sub> irrespective of the terminal voltage. I-V characteristics is horizontal but shifted with respect to X-axis. It is horizontal because the source resistance is infinite hence slope is zero.</para>
+    <para id="id17623750">Q.6) Give I-V characteristics of a Real Voltage Source and a Real Current Source.</para>
+    <para id="id20869621">
+      <figure id="id12285565">
+        <media id="id12285565_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-cf46.png" id="id12285565__onlineimage" height="220" width="640"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id17593024">In real life we can never have a vertical line for a voltage source. It will always have a slope = 1/R<sub>Th</sub> . Since sources with low R<sub>Th</sub> are going to be represented as Voltage Source hence Voltage Sources will always be slightly positively inclined vertical line. </para>
+    <para id="id21264750">In real life we can never have a hoizontal line for a current source. It will always have a slope = 1/R<sub>N</sub> . Since sources with high R<sub>N</sub> are going to be represented as Current Source hence Current Sources will always be slightly positively inclined horizontal line. </para>
+    <para id="id19032550">Q.7) Give the I-V characteristics of the active devices used in Electronics namely Diode, Triode, Pentode, BJT and FET.</para>
+    <figure id="id15382704">
+      <media id="id15382704_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-4ec1.png" id="id15382704__onlineimage" height="272" width="648"/>
+      </media>
+    </figure>
+    <para id="id12786185">Figure 4 gives the I-V curve of a diode. Examining Figure 4c we clearly conclude that an ideal diode is a voltage controlled switch which is a short circuit under forward bias and an open circuit under reverse bias.</para>
+    <para id="id22174037">
+      <figure id="id15573535">
+        <media id="id15573535_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 7-b7b2.png" id="id15573535__onlineimage" height="250" width="645"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id21637567">Figure 5 gives the I-V family of curves for a real Triode and ideal Triode. Examining Figure 5b it is clear that Triode’s family of curves is a family of constant voltage sources. Triode at a given time will behave as one of the constant voltage sources . The grid voltage V<sub>G</sub> will decide which constant voltage source it corresponds. In order that real Triode behaves like a linear circuit element, the family of curves must be equally spaced and equally inclined. A linear Triode when used in an amplifier will give a sinusoidal output for a sinusoidal input. But a real Triode is far from linear. Hence a sine wave input will generate fundamental and harmonics. As the amplitude of input sine wave increases so will the percentage content of the harmonic waves in the output will also increase. Hence this Harmonic Distortion is called Amplitude Distortion. If the input is kept very small then there will be little or no harmonic distortion. How small is very small? In BJT this is less than 5mV and in FET it is less than 400mV. This permissible input voltage range for low level harmonic distortion is referred to as Dynamic Range.</para>
+    <figure id="id21396842">
+      <media id="id21396842_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-ce61.png" id="id21396842__onlineimage" height="219" width="636"/>
+      </media>
+    </figure>
+    <para id="id13050058">Figure 6 gives the family of curves of a Pentode. By examining the idealized family of curves it is evident that Pentode output is a family of Constant Current Sources controlled by Grid Voltage. In order that Pentode behaves like a linear circuit element the family of curves must be equally spaced and equally inclined but this is not the case. Only under very small signal condition or under incremental condition it will behave like a linear element.</para>
+    <figure id="id18180745">
+      <media id="id18180745_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-021b.png" id="id18180745__onlineimage" height="227" width="646"/>
+      </media>
+    </figure>
+    <para id="id20023516">Figure 7 gives the family of curves of a Common Emitter Bipolar Junction Transistor (CE BJT). By examining the idealized family of curves it is evident that CE BJT output is a family of Constant Current Sources controlled by Base Current. In order that CE BJT behaves like a linear circuit element the family of curves must be equally spaced and equally inclined but this is not the case. Only under very small signal condition or under incremental condition it will behave like a linear element.</para>
+    <figure id="id21638835">
+      <media id="id21638835_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-dae4.png" id="id21638835__onlineimage" height="220" width="649"/>
+      </media>
+    </figure>
+    <para id="id17220833">Figure 8 gives the family of curves of a Common Source Junction Field Effect Transistor (CS_ JFET). By examining the idealized family of curves it is evident that CS_JFET output is a family of Constant Current Sources controlled by Gate Voltage. In order that CS_JFET behaves like a linear circuit element the family of curves must be equally spaced and equally inclined but this is not the case. Only under very small signal condition or under incremental condition it will behave like a linear element.</para>
+    <para id="id20210755"><emphasis effect="bold">Q.8)</emphasis> what are the different types of controlled sources?</para>
+    <para id="id23169874"><emphasis effect="bold">Ans:-</emphasis>The types of CONTROLLED sources are:-</para>
+    <list id="id21668571" list-type="enumerated" number-style="lower-alpha" mark-suffix=")">
+      <item>Voltage Controlled Voltage Source</item>
+      <item>Voltage Controlled Current Source</item>
+      <item>Current Controlled Voltage Source</item>
+      <item>Current Controlled Current Source</item>
+    </list>
+    <para id="id20443210">The controlled sources shown in the figure 9 are ideal. In practice we do not have ideal controlled sources hence R<sub>out</sub> of the controlled sources must be shown. Also at the input R<sub>in</sub> will have to be shown.</para>
+    <para id="id17519592">In each of the controlled sources R<sub>in</sub> and R<sub>out</sub> should be shown as indicated in the Table below.</para>
+    <para id="id12539543">Table 1. Set of R<sub>in</sub> and R<sub>out</sub> and their placements in the four controlled sources.</para>
+    <table id="id21084349" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>Type of controlled source</entry>
+            <entry>Input impedance (R<sub>in</sub>)</entry>
+            <entry>Output Impedance(R<sub>out</sub>)</entry>
+          </row>
+          <row>
+            <entry>VCVS</entry>
+            <entry>High impedance at I/P node pair</entry>
+            <entry>Low impedance in series with controlled voltage source</entry>
+          </row>
+          <row>
+            <entry>VCCS</entry>
+            <entry>High impedance at I/P node pair</entry>
+            <entry>High impedance in parallel with controlled current source</entry>
+          </row>
+          <row>
+            <entry>CCVS</entry>
+            <entry>Low impedance at I/P node pair</entry>
+            <entry>Low impedance in series with controlled voltage source</entry>
+          </row>
+          <row>
+            <entry>CCCS</entry>
+            <entry>Low impedance at I/P node pair</entry>
+            <entry>High impedance in parallel with controlled current source</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id18190507"/>
+    <para id="id21084153">
+      <table id="id11332126" summary="">
+        <tgroup cols="8">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <colspec colnum="7" colname="c7"/>
+          <colspec colnum="8" colname="c8"/>
+          <tbody>
+            <row>
+              <entry>Type Of Controlled Source</entry>
+              <entry>Rin</entry>
+              <entry>Rout</entry>
+              <entry>Controlled Source</entry>
+              <entry>Controlling Parameter</entry>
+              <entry>Type Of Ideal Amplifier</entry>
+              <entry>Parameter</entry>
+              <entry>Example Of Such A Device</entry>
+            </row>
+            <row>
+              <entry>Voltage Controlled Voltage Source</entry>
+              <entry>∞</entry>
+              <entry>0</entry>
+              <entry>Voltage</entry>
+              <entry>Input Voltage</entry>
+              <entry>Voltage Amplifier</entry>
+              <entry>Av</entry>
+              <entry>Triode,Op-Amp</entry>
+            </row>
+            <row>
+              <entry>Voltage Controlled Current Source</entry>
+              <entry>∞</entry>
+              <entry>∞</entry>
+              <entry>Current</entry>
+              <entry>Input Voltage</entry>
+              <entry>Transconductance Amplifier</entry>
+              <entry>Gm</entry>
+              <entry>Pentode,Field Effect Transistor(FET)</entry>
+            </row>
+            <row>
+              <entry>Current Controlled Voltage Source</entry>
+              <entry>0</entry>
+              <entry>0</entry>
+              <entry>Voltage</entry>
+              <entry>Input Current</entry>
+              <entry>Transresistance Amplifier</entry>
+              <entry>Rm</entry>
+              <entry>__</entry>
+            </row>
+            <row>
+              <entry>Current Controlled Current Source</entry>
+              <entry>0</entry>
+              <entry>∞</entry>
+              <entry>Current</entry>
+              <entry>Input Current</entry>
+              <entry>Current Amplifier</entry>
+              <entry>A<sub>I</sub></entry>
+              <entry>Bipolar Junction Transistor(BJT)</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </para>
+    <para id="id12539156">
+      <figure id="id18173305">
+        <media id="id18173305_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 11-430c.png" id="id18173305__onlineimage" height="185" width="374"/>
+        </media>
+      </figure>
+      <figure id="id17521051">
+        <media id="id17521051_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 12-8ecf.png" id="id17521051__onlineimage" height="176" width="397"/>
+        </media>
+      </figure>
+      <figure id="id21023454">
+        <media id="id21023454_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 13-c96a.png" id="id21023454__onlineimage" height="185" width="394"/>
+        </media>
+      </figure>
+      <figure id="id13263675">
+        <media id="id13263675_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 14-8a83.png" id="id13263675__onlineimage" height="189" width="413"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id13069108">
+      <emphasis effect="bold">Figure 9. The incremental model of four controlled sources: VCVS,VCCS,CCCS and CCVS</emphasis>
+    </para>
+    <para id="id23350700">The above controlled sources can be implemented using the four feedback topologies.</para>
+    <para id="id21076602">Voltage Sampling Voltage Comparison (Voltage-Series) feedback topology implements VCVS.</para>
+    <para id="id21110546">Voltage Sampling Current Comparison (Voltage-Shunt) feedback topology implements CCVS.</para>
+    <para id="id18175360">Current Sampling Voltage Comparison (Current-Series) feedback topology implements VCCS.</para>
+    <para id="id15372922">Current Sampling Current Comparison (Current-Shunt) feedback topology implements CCCS.</para>
+    <para id="id18964075"><emphasis effect="bold">Q 9)</emphasis> What is the difference between passive device/component and active device/component?</para>
+    <table id="id22194809" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Passive Device</entry>
+            <entry>Active Device</entry>
+          </row>
+          <row>
+            <entry>R, L and C are passive devices</entry>
+            <entry>Diode, Vacuum Tubes, BJT, FET are active devices</entry>
+          </row>
+          <row>
+            <entry>A passive network comprising of passive components can neveramplify. </entry>
+            <entry>An active network comprised of active and passivecomponents, if suitably biased with a dc power supply,can amplify.</entry>
+          </row>
+          <row>
+            <entry>A passive network is unconditionally stable. It always has its poles lying in left half plane(LHP) or on jω axis of the complex plane.</entry>
+            <entry>An active network is potentially unstable. Its poles can lie in right half plane(RHP). </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id22286626"><emphasis effect="bold">Q.10)</emphasis> Are the controlled sources active network or passive network?</para>
+    <para id="id22298278">Since controlled sources have an amplifying property hence they are always Active Network. In a Controlled Source the controlling parameter may get amplified. This controlling parameter may be voltage or may be current. A VCVS is a Voltage Amplifier. CCCS is a current Amplifier.</para>
+    <para id="id17434245"><emphasis effect="bold">Q.11)</emphasis>What is meant by Poles of a given network ?</para>
+    <para id="id20379355">This comes from network analysis of a given network in S-plane where S-plane is complex frequency plane. Laplace Transformation uses the complex frequency concept . The solution of S-plane analysisleads to complete response of the circuit. The complete response is the sum of transient plus steady state response. This is also known as natural response plus forced response. By Fourier Transform or by treating inductor as jωL and by treating capacitance as 1/(jωC) we arrive at steady state sinusoidal response of the network. The total response can be determined by Theory of Operator method also. In this approach the differential equation is set up and its solution determined. When the forcing function is made zero then the differential equation obtained is known as the characteristic equations or homogeneous equation. The roots of this characteristic equation are the poles of the system also known as natural frequencies of the system.These poles can be real or complex hence we say that the poles lie in complex plane. The nature of these poles determine the nature of transient response which is the solution of the characteristic equation or the homogeneous equation known as Complementary Function. This Complementary Function corresponds to the natural response or the transient response in Laplace Transform jargon.In Figure 10 we give the location of poles and its corresponding time-domain transient response.As seen from the Figure, poles in LHP correspond to exponentially decaying type transients which is an indication of stability. On the other hand the poles in RHP correspond to exponentially growing type transients which is an indication of instability which ultimately will lead to catastrophic collapse of the system.</para>
+    <para id="id9990755">
+      <figure id="id21180222">
+        <media id="id21180222_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 15-ec51.png" id="id21180222__onlineimage" height="613" width="654"/>
+        </media>
+      </figure>
+    </para>
+  </content>
+</document>

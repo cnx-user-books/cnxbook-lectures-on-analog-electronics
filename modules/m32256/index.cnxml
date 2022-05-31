@@ -1,0 +1,147 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Lectur10_PowerAmplifiers_Part1_Power Analysis of Emitter Follower.</title>
+  <metadata>
+  <md:content-id>m32256</md:content-id><md:title>AE_Lectur10_PowerAmplifiers_Part1_Power Analysis of Emitter Follower.</md:title>
+  <md:abstract>AE Lecture 10 is devoted to audio Power Amplifiers. Part 1 does power analysis of Emitter Follower and shows that it has a very poor power conversion efficiency of 25%.Because of Class A mode of operation the standby power is considerable. This means a wasteful Power Amplifier.</md:abstract>
+  <md:uuid>a6025afd-a03e-4f4b-b35d-dcea4a460f7b</md:uuid>
+</metadata>
+
+<content>
+    <para id="id16130345">The Output Stage Of an Electronic system</para>
+    <figure id="id12745548">
+      <media id="id12745548_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-cc35.png" id="id12745548__onlineimage" height="298" width="650"/>
+      </media>
+    </figure>
+    <para id="id6848273">Figure 1. The Block Diagram of an Electronic System.</para>
+    <para id="id15215839">The output of an electronic system is invariably a Speaker/VideoMonitor/VideoDisplay/Target of a Process Control System. Driving any of these loads requires power. Power means(voltage × current). Since most of the systems are using low voltages(Logic Systems have 5V,Analog systems also operate at 5V) hence output stage has to deliver a large current in order to drive a load like speaker/video monitor/display/transmission lines.</para>
+    <para id="id6874328">This output stage must be a voltage controlled voltage source (VCVS).</para>
+    <para id="id12377381">WHY Output STAGE IS VCVS??</para>
+    <para id="id12998574">Because O/P is preceded by the pre-amplifier which amplifies voltage only.</para>
+    <para id="id13351015">O/P must be a voltage source with a low output impedence. This ensures a constant voltage drive for variable load. The voltage gain has been provided by the preamplifier. Power Amplifier or the ouput amplifier is required to provide current amplification. O/P stage is a large signal amplifier hence considerable amplitude distortion occurs. This has to be minimized..</para>
+    <para id="id12983585">All the above requirements are fulfilled by the CC-BJT configuration.</para>
+    <para id="id12829447">
+      <figure id="id9256228">
+        <media id="id9256228_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-e3f6.png" id="id9256228__onlineimage" height="328" width="458"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id15625534">Figure 2. CC or Emitter Follower stage. </para>
+    <para id="id14673102">If R1||R2 is neglected by BOOTSTRAPPING then:</para>
+    <figure id="id12715482">
+      <media id="id12715482_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-6808.png" id="id12715482__onlineimage" height="27" width="131"/>
+      </media>
+    </figure>
+    <figure id="id13339998">
+      <media id="id13339998_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-b560.png" id="id13339998__onlineimage" height="49" width="157"/>
+      </media>
+    </figure>
+    <figure id="id14098737">
+      <media id="id14098737_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-6095.png" id="id14098737__onlineimage" height="26" width="61"/>
+      </media>
+    </figure>
+    <para id="id12368799">This is an ideal VCVS.</para>
+    <para id="id16009176">CC BJT is also known as EMITTER FOLLLOWER.</para>
+    <para id="id9459884">So Emitter Follower is always the O/P stage of the Electronic system. Emitter Follower also isolates the load from the system. Hence it is called a BUFFER .</para>
+    <para id="id13462737">If suitable power transistors with heat sink is utilized then emitter follower can deliver a large current and hence a large power to the load. But it has a problem:</para>
+    <para id="id15637863">
+      <figure id="id16071744">
+        <media id="id16071744_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-9109.png" id="id16071744__onlineimage" height="328" width="458"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id6558968">
+      <media id="id6558968_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-1d30.png" id="id6558968__onlineimage" height="42" width="467"/>
+      </media>
+    </figure>
+    <figure id="id14754410">
+      <media id="id14754410_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-7ab2.png" id="id14754410__onlineimage" height="45" width="196"/>
+      </media>
+    </figure>
+    <figure id="id16316028">
+      <media id="id16316028_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-3175.png" id="id16316028__onlineimage" height="25" width="250"/>
+      </media>
+    </figure>
+    <figure id="id15198752">
+      <media id="id15198752_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-1cae.png" id="id15198752__onlineimage" height="48" width="181"/>
+      </media>
+    </figure>
+    <figure id="id15731078">
+      <media id="id15731078_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-9109.png" id="id15731078__onlineimage" height="356" width="293"/>
+      </media>
+    </figure>
+    <para id="id15610118">Under Maximum Symmetrical Swing</para>
+    <para id="id13592953">Amplitude of the O/P Voltage across R<sub>L</sub><figure id="id9411714"><media id="id9411714_media" alt=""><image mime-type="image/png" src="../../media/graphics8-62cd.png" id="id9411714__onlineimage" height="34" width="54"/></media></figure></para>
+    <figure id="id9453826">
+      <media id="id9453826_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-1768.png" id="id9453826__onlineimage" height="51" width="526"/>
+      </media>
+    </figure>
+    <figure id="id14669757">
+      <media id="id14669757_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-61e2.png" id="id14669757__onlineimage" height="50" width="315"/>
+      </media>
+    </figure>
+    <figure id="id6050906">
+      <media id="id6050906_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-54ef.png" id="id6050906__onlineimage" height="24" width="408"/>
+      </media>
+    </figure>
+    <para id="id14266109">Where <figure id="id12528027"><media id="id12528027_media" alt=""><image mime-type="image/png" src="../../media/graphics12-4a2a.png" id="id12528027__onlineimage" height="34" width="118"/></media></figure></para>
+    <figure id="id6511405">
+      <media id="id6511405_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-76a6.png" id="id6511405__onlineimage" height="48" width="185"/>
+      </media>
+    </figure>
+    <figure id="id6742522">
+      <media id="id6742522_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-498f.png" id="id6742522__onlineimage" height="84" width="369"/>
+      </media>
+    </figure>
+    <figure id="id16163757">
+      <media id="id16163757_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-4dc8.png" id="id16163757__onlineimage" height="45" width="120"/>
+      </media>
+    </figure>
+    <para id="id14259385">If <figure id="id14761817"><media id="id14761817_media" alt=""><image mime-type="image/png" src="../../media/graphics16-9b01.png" id="id14761817__onlineimage" height="24" width="169"/></media></figure></para>
+    <para id="id6527895">Under no signal conditions:</para>
+    <figure id="id6657018">
+      <media id="id6657018_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-bda5.png" id="id6657018__onlineimage" height="26" width="135"/>
+      </media>
+    </figure>
+    <figure id="id14372359">
+      <media id="id14372359_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics18-a60c.png" id="id14372359__onlineimage" height="24" width="333"/>
+      </media>
+    </figure>
+    <figure id="id15437798">
+      <media id="id15437798_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-f3fa.png" id="id15437798__onlineimage" height="26" width="254"/>
+      </media>
+    </figure>
+    <figure id="id3873759">
+      <media id="id3873759_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-5ecf.png" id="id3873759__onlineimage" height="24" width="157"/>
+      </media>
+    </figure>
+    <para id="id9264858">Even when there is no signal, power is consumed and dissipated in the form of heat. This is wasteful and not eco-friendly. CC Amplifier or Emitter Follower will always have this problem because it is operating in Class A mode.</para>
+    <para id="id15124534">By definition, Class A has current conducting in the active device for 360° phase angle of input signal..</para>
+    <para id="id15631852">Class B has current conducting in the active device for 180° phase angle of input signal.</para>
+    <para id="id12823071">Class AB has current conducting in the active device for slightly more than 180° phase angle of input signal.</para>
+    <para id="id6773552">Class C has current conducting in the active device for less than 180° phase angle of input signal. </para>
+    <para id="id16118719">Hence Class B and Class C mode of operation does not have the problem of standby dissipation. Under no signal condition the active device is not conducting hence standby power dissipation is zero.</para>
+    <para id="id14890890">Therefore we go for Class B mode of operation. Class B mode of operation will improve the power conversion efficiency from 25% in capacitance coupled load in Class A CC-BJT Amplifier to 78.8% in Class B PushPull Amplifier and in Class B complementary symmetry Amplifier. Class B Push Pull Amplifier was Transformer Coupled Discrete Amplifier whereas Complementary Symmetry gets rid of Transformer Coupling and is amenable to Integration and its integrated version is being fabricated. This suppresses the even harmonics also which are bound to be generated because of large signal operation. </para>
+    <para id="id13341740">So today in Integrated Circuit Era, power amplifier is invariably Complementary Symmetry Amplifier which we will study in Part 2.</para>
+  </content>
+</document>

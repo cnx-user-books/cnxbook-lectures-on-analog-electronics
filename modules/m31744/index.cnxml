@@ -1,0 +1,212 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Tutorial6_Mid &amp; High Frequency Analysis of CC &amp; Cascode.</title>
+  <metadata>
+  <md:content-id>m31744</md:content-id><md:title>AE_Tutorial6_Mid &amp; High Frequency Analysis of CC &amp; Cascode.</md:title>
+  <md:abstract>AE_Tutorial6 gives the full analysis of CC and Cascode Amplifier.</md:abstract>
+  <md:uuid>1d699228-5e34-49f2-b169-eae3b7a3381f</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1165672367588">
+      <emphasis effect="bold">AE_TUTORIAL NO.6_Analysis of CC &amp; Cascode Amplifiers</emphasis>
+    </para>
+    <para id="id1165674837418">Table of CC Amplifier performance Parameters</para>
+    <para id="id1165665937741">Internal voltage gain= <figure id="id1165665970558"><media id="id1165665970558_media" alt=""><image mime-type="image/png" src="../../media/graphics1-bf52.png" id="id1165665970558__onlineimage" height="35" width="227"/></media></figure></para>
+    <figure id="id1165663867803">
+      <media id="id1165663867803_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-40cc.png" id="id1165663867803__onlineimage" height="24" width="185"/>
+      </media>
+    </figure>
+    <figure id="id1165675154530">
+      <media id="id1165675154530_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-e079.png" id="id1165675154530__onlineimage" height="45" width="74"/>
+      </media>
+    </figure>
+    <para id="id1165667226096">I/P signal range 0.005(1+<figure id="id1165665378764"><media id="id1165665378764_media" alt=""><image mime-type="image/png" src="../../media/graphics4-e16e.png" id="id1165665378764__onlineimage" height="24" width="40"/></media></figure>)</para>
+    <para id="id1165659471533">Terminal Current Gain (<figure id="id1165665983028"><media id="id1165665983028_media" alt=""><image mime-type="image/png" src="../../media/graphics5-ecd6.png" id="id1165665983028__onlineimage" height="24" width="46"/></media></figure>)</para>
+    <para id="id1165675675559">Problem 1.</para>
+    <figure id="id1165658088780">
+      <media id="id1165658088780_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-5c40.png" id="id1165658088780__onlineimage" height="363" width="394"/>
+      </media>
+    </figure>
+    <para id="id1165669630494">Given: <figure id="id1165669580077"><media id="id1165669580077_media" alt=""><image mime-type="image/png" src="../../media/graphics6-56cd.png" id="id1165669580077__onlineimage" height="24" width="141"/></media></figure></para>
+    <para id="id1165665409735">Find the Q point and hybrid pi parameters.</para>
+    <para id="id1165673632094">[Ans: <figure id="id1165672543198"><media id="id1165672543198_media" alt=""><image mime-type="image/png" src="../../media/graphics7-6b48.png" id="id1165672543198__onlineimage" height="28" width="561"/></media></figure></para>
+    <para id="id1165674729055">Problem 2. Draw the small signal equivalent circuit or the incremental circuit of CC amplifier.</para>
+    <para id="id1165665785820">
+      <figure id="id1165660603554">
+        <media id="id1165660603554_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-4e5d.png" id="id1165660603554__onlineimage" height="320" width="452"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165670242473">Given: <figure id="id1165672486329"><media id="id1165672486329_media" alt=""><image mime-type="image/png" src="../../media/graphics8-56cd.png" id="id1165672486329__onlineimage" height="24" width="141"/></media></figure></para>
+    <figure id="id1165663910132">
+      <media id="id1165663910132_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-f2fe.png" id="id1165663910132__onlineimage" height="392" width="548"/>
+      </media>
+    </figure>
+    <para id="id1165674708605">Find the Q point and the hybrid-π parameters</para>
+    <para id="id1165665177484">Ans:<figure id="id1165665148550"><media id="id1165665148550_media" alt=""><image mime-type="image/png" src="../../media/graphics9-15b5.png" id="id1165665148550__onlineimage" height="25" width="463"/></media></figure></para>
+    <para id="id1165673493489">Problem 3.Calculate the voltage gain and R<sub>in</sub> of the CC amplifier of Problem 2.</para>
+    <para id="id1165664189428">[Ans <figure id="id1165674922442"><media id="id1165674922442_media" alt=""><image mime-type="image/png" src="../../media/graphics10-d7f9.png" id="id1165674922442__onlineimage" height="27" width="351"/></media></figure></para>
+    <para id="id1165665733873">
+      <figure id="id1165664363818">
+        <media id="id1165664363818_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics11-d0cc.png" id="id1165664363818__onlineimage" height="24" width="315"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1165659290585">
+      <media id="id1165659290585_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-c83f.png" id="id1165659290585__onlineimage" height="24" width="191"/>
+      </media>
+    </figure>
+    <figure id="id1165675251978">
+      <media id="id1165675251978_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-2b38.png" id="id1165675251978__onlineimage" height="47" width="463"/>
+      </media>
+    </figure>
+    <para id="id1165672535560"><figure id="id1165659492330"><media id="id1165659492330_media" alt=""><image mime-type="image/png" src="../../media/graphics14-d71b.png" id="id1165659492330__onlineimage" height="36" width="471"/></media></figure>]</para>
+    <para id="id1165672511034">(4)Determine the input dynamic range for CC amplifier ?</para>
+    <para id="id1165664168641">The voltage developed across r<sub>π</sub> must be less than 5mV if BJT is to remain a linear device.</para>
+    <para id="id1165664162530">Therefore <figure id="id1165664228174"><media id="id1165664228174_media" alt=""><image mime-type="image/png" src="../../media/graphics15-cbd2.png" id="id1165664228174__onlineimage" height="46" width="374"/></media></figure></para>
+    <figure id="id1165674824546">
+      <media id="id1165674824546_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-c671.png" id="id1165674824546__onlineimage" height="27" width="390"/>
+      </media>
+    </figure>
+    <para id="id1165672490380">Therefore signal handling capacity has increased by <figure id="id1165660641008"><media id="id1165660641008_media" alt=""><image mime-type="image/png" src="../../media/graphics17-6f27.png" id="id1165660641008__onlineimage" height="27" width="84"/></media></figure>times because of negative feedback property of CC amplifier. Similarly in an Emitter Degenerate amplifier also the signal handling capacity increases due to negative feedback.</para>
+    <para id="id1165672527836">(5)How do the I/P signal handling capacity of CC and CD compare?</para>
+    <para id="id1165663814265">Ans:- CC I/P signal handling 0.565V</para>
+    <para id="id1165665786748">CD I/P signal handling 1.23V</para>
+    <para id="id1165672486104">BJT is an exponential device whereas FET is a quadratic device therefore FET can handle larger signal with little or no harmonic distortion.</para>
+    <para id="id1165665123685">(6)What is the output resistance of CC amplifier ?</para>
+    <figure id="id1165659172569">
+      <media id="id1165659172569_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-de02.png" id="id1165659172569__onlineimage" height="319" width="465"/>
+      </media>
+    </figure>
+    <para id="id1165673552422">
+      <figure id="id1165659483253">
+        <media id="id1165659483253_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics18-31e2.png" id="id1165659483253__onlineimage" height="42" width="257"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165665970292">
+      <figure id="id1165659178588">
+        <media id="id1165659178588_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics19-beb2.png" id="id1165659178588__onlineimage" height="40" width="118"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1165664160708">
+      <media id="id1165664160708_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-a8ec.png" id="id1165664160708__onlineimage" height="50" width="385"/>
+      </media>
+    </figure>
+    <para id="id1165664145200">This Ro comes in parallel with Re’. Because of very high <figure id="id1165669335768"><media id="id1165669335768_media" alt=""><image mime-type="image/png" src="../../media/graphics21-b401.png" id="id1165669335768__onlineimage" height="24" width="23"/></media></figure> and very low <figure id="id1165658087029"><media id="id1165658087029_media" alt=""><image mime-type="image/png" src="../../media/graphics22-623e.png" id="id1165658087029__onlineimage" height="24" width="31"/></media></figure> and Av ~ 1, CC amplifier acts as an ideal voltage source for driving variable loads and transmission lines.</para>
+    <para id="id1165669804173">(6)Make a table of the performance parameters of CC amplifier.</para>
+    <table id="id1165672200529" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Avo</entry>
+            <entry>0.956</entry>
+          </row>
+          <row>
+            <entry><media id="id1165672283644" alt=""><image mime-type="image/png" src="../../media/graphics23-b401.png"/></media> (without loading of biasing network)</entry>
+            <entry>1.17Mohm</entry>
+          </row>
+          <row>
+            <entry>
+              <media id="id1165664306613" alt="">
+                <image mime-type="image/png" src="../../media/graphics24-623e.png"/>
+              </media>
+            </entry>
+            <entry>121ohm</entry>
+          </row>
+          <row>
+            <entry>I<emphasis effect="italics">/P Dynamic Range</emphasis></entry>
+            <entry>0.565V</entry>
+          </row>
+          <row>
+            <entry>Current Gain</entry>
+            <entry>101</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1165667128179">By Bootstrap technique the loading of Biasing network can be removed.</para>
+    <para id="id1165667493161">(7)Referring to the figure in Lecture 10,Calculate the two port hybrid parameters of the CASCODE amplifier.</para>
+    <para id="id1165675877691">Make the following assumptions.</para>
+    <para id="id1165667406871">Q<sub>1</sub>(I<sub>C1</sub>=101µA,5V) and Q<sub>2</sub>(I<sub>C2</sub>=100µA,V<sub>CE2</sub> 10V)Q<sub>1</sub> and Q<sub>2</sub> are identical,β<sub>F</sub> =β<sub>fo</sub>=100,V<sub>A</sub>=75V;</para>
+    <para id="id1165672567926">What are the hybrid –π parameters of Q<sub>2</sub> at I<sub>C2</sub>=100µA,V<sub>CE2</sub>=10V.What are the current gain and amplification factor of the cascade amplifier?</para>
+    <para id="id1165659410750">[Ans: Hybrid parameters of the Cascode</para>
+    <figure id="id1165665161469">
+      <media id="id1165665161469_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics25-2eb1.png" id="id1165665161469__onlineimage" height="46" width="307"/>
+      </media>
+    </figure>
+    <figure id="id1165664257368">
+      <media id="id1165664257368_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics26-7dc9.png" id="id1165664257368__onlineimage" height="44" width="250"/>
+      </media>
+    </figure>
+    <figure id="id1165658104181">
+      <media id="id1165658104181_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics27-209c.png" id="id1165658104181__onlineimage" height="45" width="552"/>
+      </media>
+    </figure>
+    <figure id="id1165658039575">
+      <media id="id1165658039575_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics28-477e.png" id="id1165658039575__onlineimage" height="49" width="266"/>
+      </media>
+    </figure>
+    <para id="id1165665128347">
+      <figure id="id1165670166307">
+        <media id="id1165670166307_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics29-086b.png" id="id1165670166307__onlineimage" height="48" width="416"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1165663731590">
+      <media id="id1165663731590_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics30-9f3f.png" id="id1165663731590__onlineimage" height="45" width="229"/>
+      </media>
+    </figure>
+    <figure id="id1165665816653">
+      <media id="id1165665816653_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics31-28cf.png" id="id1165665816653__onlineimage" height="26" width="355"/>
+      </media>
+    </figure>
+    <figure id="id1165660631079">
+      <media id="id1165660631079_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics32-b956.png" id="id1165660631079__onlineimage" height="42" width="253"/>
+      </media>
+    </figure>
+    <figure id="id1165663955364">
+      <media id="id1165663955364_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics33-2c57.png" id="id1165663955364__onlineimage" height="24" width="204"/>
+      </media>
+    </figure>
+    <para id="id1165672674138"><figure id="id1165673622692"><media id="id1165673622692_media" alt=""><image mime-type="image/png" src="../../media/graphics34-24ba.png" id="id1165673622692__onlineimage" height="35" width="401"/></media></figure>]</para>
+    <para id="id1165665444119">(8)Find the midband gain and <figure id="id1165665837792"><media id="id1165665837792_media" alt=""><image mime-type="image/png" src="../../media/graphics35-888d.png" id="id1165665837792__onlineimage" height="24" width="21"/></media></figure>of a CASCODE amplifier.</para>
+    <para id="id1165663932733">Given β<sub>fo</sub>=100, f<sub>T</sub>=500MHz, Cµ=0.5pF,r<sub>x</sub>=250Ω, R<sub>S</sub>=882Ω,R<sub>L</sub>=4.12kΩ.</para>
+    <para id="id1165665952050">Q point(1.6mA,3V)for Q2.</para>
+    <para id="id1165673101350">[Answer:--151, 10MHz].</para>
+    <figure id="id1165664179340">
+      <media id="id1165664179340_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics36-e048.png" id="id1165664179340__onlineimage" height="47" width="247"/>
+      </media>
+    </figure>
+    <para id="id1165665124169">In CE configuration same transistor will give 1.56 MHz upper cut off frequency.</para>
+    <para id="id1165674592555">(9)Find the midband gain and f<sub>H</sub> for a CB amplifier .Given β<sub>fo</sub>=100,f<sub>T</sub>=500MHz,Cµ=0.5pF,r<sub>x </sub>=250Ω.</para>
+    <para id="id1165665432729">Q point(0.1mA,3.5V).</para>
+    <para id="id1165673489805">[ANSWER: 48, 10.7MHz]</para>
+  </content>
+</document>

@@ -1,0 +1,164 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>TUTORIAL NO.1 of Lecture 1 of Analog Electronics.</title>
+  <metadata>
+  <md:content-id>m29639</md:content-id><md:title>TUTORIAL NO.1 of Lecture 1 of Analog Electronics.</md:title>
+  <md:abstract>Abstract: The Tutorial Problems on Lecture 1 of Analog Electronics.</md:abstract>
+  <md:uuid>55704711-acee-4ffe-81f6-2ce07ddbcb8e</md:uuid>
+</metadata>
+
+<content>
+    <para id="id9091384">TUTORIAL NO.1</para>
+    <list id="id8528425" list-type="enumerated" number-style="arabic" mark-prefix="(" mark-suffix=")">
+      <item>What are the Solid State Equivalents of the electronic components and systems in Vacuum Tube Era?</item>
+    </list>
+    <table id="id12004312" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Vacuum Tube Era(1895- 1954)</entry>
+            <entry>Solid State Era(1954 onward)</entry>
+          </row>
+          <row>
+            <entry>Incandescent Lamp</entry>
+            <entry>White Light Emitting Diodes(still in experimental stage)</entry>
+          </row>
+          <row>
+            <entry>Cathode Ray Oscilloscope(Raster Scan System)- here we address pixel by pixel</entry>
+            <entry>Liquid Crystal Display ( Line at a time display)- here we address row of pixels at a time.</entry>
+          </row>
+          <row>
+            <entry>Vacuum Diode</entry>
+            <entry>PN junction silicon diode(Rectifier-full wave and half wave)</entry>
+          </row>
+          <row>
+            <entry>Vacuum Pentode</entry>
+            <entry>Bipolar Junction Transistor (BJT)or Field Effect Transistor(FET)</entry>
+          </row>
+          <row>
+            <entry>Thyratron for industrial applications( thyratron was made of gas filled tubes)</entry>
+            <entry>Thyristors for industrial applications(Silicon Controlled Rectifiers_SCR made of four layer PNPN diode- these are also rectifiers but here the angle of firing or phase angle for which the SCR is on can be controlled hence it is called controlled rectifier)</entry>
+          </row>
+          <row>
+            <entry>Gas filled discharge tubes produce different colours such as <list id="id13490272" list-type="enumerated" number-style="lower-alpha"><item>Sodium Vapour Discharge Lamps-Yellow Light;</item><item>Neon Lamps_Orange-Red Light;</item><item>Mercury Vapour Lamps-UV light;</item><item>Argon Discharge Lamps-Bluish purple light;</item><item>Krypton Discharge Lamp-White light;</item></list></entry>
+            <entry>Different Coloured Light Emitting Diodes(LED) or LASER Diodes</entry>
+          </row>
+          <row>
+            <entry>Photo Multipliers</entry>
+            <entry>Photo-diodes(sensors as well as Photo Voltaic Cell or Solar Cell)</entry>
+          </row>
+          <row>
+            <entry>Photography Cameras</entry>
+            <entry>Charge Coupled Devices Camera</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id5829598">We have studied different applications of Op.Amp. in Basic Electronics Class as well as we have studied Negative feedback Amplifiers. All the op amp amplifiers are negative feed back amplifiers. Each amplifier application approximates one of the ideal controlled sources. In the following example you have got to identify the controlled sources which the particular example of op.amp. application approximates.</para>
+    <para id="id7294256">(2). <emphasis effect="bold">Explain how a Non-inverting amplifier is a Transconductance amplifier</emphasis>.</para>
+    <para id="id6397295">Ans: </para>
+    <para id="id10141918"><figure id="id10433494"><media id="id10433494_media" alt=""><image mime-type="image/png" src="../../media/graphics1-e33a.png" id="id10433494__onlineimage" height="197" width="286"/></media></figure>v<sub>O</sub>/v<sub>S </sub>= (1+ R<sub>2</sub>/R<sub>1</sub>)</para>
+    <para id="id8521260">From this equation we get:</para>
+    <para id="id8175865">(v<sub>O </sub>-<sub/>v<sub>S </sub>)/R<sub>2</sub> = i ;</para>
+    <para id="id7109267">Thus it is an input voltage is being converted to a current i . Hence it is voltage-to-current converter therefore it is an ideal trans-conductance amplifier or voltage controlled current source. </para>
+    <para id="id9139452">If we are working in terms of output voltage and input voltage then we have VCVS. It is an ideal Voltage Amplifier.</para>
+    <para id="id6974470">(3) <emphasis effect="bold">Explain how an inverting amplifier is an ideal trans-resistance amplifier.</emphasis></para>
+    <para id="id8581207">Ans:- </para>
+    <para id="id13124506">
+      <figure id="id12362073">
+        <media id="id12362073_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-cf97.png" id="id12362073__onlineimage" height="170" width="295"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id7517536">By Norton Theorem At the input terminal:-</para>
+    <figure id="id12075307">
+      <media id="id12075307_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-aa63.png" id="id12075307__onlineimage" height="174" width="293"/>
+      </media>
+    </figure>
+    <para id="id8784460">Here all input current i<sub>1</sub> flows into R<sub>2</sub> because we know that input impedance of the Op.Amp. is very large in tens of Megohms and input voltage at the double ended input of OP.Amp. is practically zero.</para>
+    <para id="id8077153">Therefore v<sub>o</sub> = - i<sub>2</sub> R<sub>2</sub> ;</para>
+    <para id="id9575552">Here input current is being converted into output voltage;</para>
+    <para id="id12972904">This is known as current to voltage converter. This is used to convert photo-ionic currents generated in photocells or in photo=diodes into voltage sources with very low source impedance. Here a current source with high internal impedance is converted to a voltage source v<sub>o</sub> with low internal impedance.</para>
+    <para id="id7314371">4) <emphasis effect="bold">Give the characteristics of the four ideal amplifiers and give an example of each.</emphasis></para>
+    <para id="id3555725">Ans)</para>
+    <table id="id8669691" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>
+              <emphasis effect="italics">Ideal Amplifier</emphasis>
+            </entry>
+            <entry>Gain</entry>
+            <entry>Rin</entry>
+            <entry>Rout</entry>
+            <entry>Example</entry>
+          </row>
+          <row>
+            <entry>Voltage Controlled Voltage Source (Voltage Amplifier)</entry>
+            <entry>
+              <media id="id10041691" alt="">
+                <image mime-type="image/png" src="../../media/graphics2-32c5.png"/>
+              </media>
+            </entry>
+            <entry>∞</entry>
+            <entry>0</entry>
+            <entry>Triode,Op-Amp,Emitter follower,voltage follower,source follower, Non-Inv Amplifier</entry>
+          </row>
+          <row>
+            <entry>Voltage Controlled Current Source (Transconductance Amplifier)</entry>
+            <entry>
+              <media id="id15464560" alt="">
+                <image mime-type="image/png" src="../../media/graphics3-a67e.png"/>
+              </media>
+            </entry>
+            <entry>∞</entry>
+            <entry>∞</entry>
+            <entry>Pentode,Field Effect Transistor(FET)</entry>
+          </row>
+          <row>
+            <entry>Current Controlled Voltage Source (Transresistance Amplifier)</entry>
+            <entry>
+              <media id="id9481505" alt="">
+                <image mime-type="image/png" src="../../media/graphics4-9aae.png"/>
+              </media>
+            </entry>
+            <entry>0</entry>
+            <entry>0</entry>
+            <entry>Inverting Amplifier</entry>
+          </row>
+          <row>
+            <entry>Current Controlled Current Source (Current Amplifier)</entry>
+            <entry>
+              <media id="id10459220" alt="">
+                <image mime-type="image/png" src="../../media/graphics5-a168.png"/>
+              </media>
+            </entry>
+            <entry>0</entry>
+            <entry>∞</entry>
+            <entry>Bipolar Junction Transistor(BJT)(CE &amp; CB)CE-&gt;i<sub>b</sub> controls β<sub>fo</sub>i<sub>b</sub>CB-&gt;i<sub>e </sub>controls α<sub>fo</sub>i<sub>e</sub></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id8495947">Electronics In Action</para>
+    <para id="id3921528">MP3 Player Amplifier Characteristics (Used In APPLE IPods)</para>
+    <figure id="id9742261">
+      <media id="id9742261_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-cf6a.png" id="id9742261__onlineimage" height="220" width="243"/>
+      </media>
+    </figure>
+    <para id="id10232873">Constant voltage Source</para>
+    <para id="id9685305">Band Width = 20 Hz – 20 kHz</para>
+    <para id="id12383119">Pout =30 mW in each channel of a stereo head phone</para>
+    <para id="id4208064">Total Harmonic Distortion = 0.1 % at full power;</para>
+    <para id="id13483699">This is called a high fidelity system.</para>
+  </content>
+</document>

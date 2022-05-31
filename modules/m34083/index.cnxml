@@ -1,0 +1,97 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>AE_Lecture 5_Part C_continued_Simulated Frequency Domain Study of CB,CE,Emitter Degenerate Amplifier and CC Amplifier.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34083</md:content-id>
+  <md:title>AE_Lecture 5_Part C_continued_Simulated Frequency Domain Study of CB,CE,Emitter Degenerate Amplifier and CC Amplifier.</md:title>
+  <md:abstract>AE_lecture 5_PartC_continuation is the simulated study of CE Amplifier, Emitter degenerate Amplifier, CB Amplifier and CC Amplifier. The results corroborated the experimental values.</md:abstract>
+  <md:uuid>b21ca5c0-bda7-4470-8559-f630f5611206</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1167058519583">AE_Lecture 5_Part C_continued_Simulated Frequency Domain Study of CB,CE,Emitter Degenerate Amplifier and CC Amplifier.</para>
+    <para id="id1167051185858">In this Lecture , we carry out the frequency domain studies of Common Base, Common Emitter, Emitter Degenerate Amplifier and Common Collector Amplifier. These studies had been carried in Laboratory also. We find that the frequency response Band Width of the two studies have a remarkable correspondence. The simulation has been carried out using Multisim Simulation Software marketed by National Instruments.</para>
+    <figure id="id1167062990833">
+      <media id="id1167062990833_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 18-d3d7.png" id="id1167062990833__onlineimage" height="235" width="650"/>
+      </media>
+    </figure>
+    <figure id="id1167060402291">
+      <media id="id1167060402291_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 19-2ef0.png" id="id1167060402291__onlineimage" height="247" width="650"/>
+      </media>
+    </figure>
+    <para id="id1167055070062">Common Emitter Circuit Schematics is given in Figure 1c. The Gain Magnitude Plot and Gain Phase plot are given in Figure 1 and 1b. </para>
+    <para id="id1167053857109">By inspecting Figure 1 we find a Band-width of 5Mhz. The midband gain is 43dB and -3dB frequencies are i.e. 40dB frequencies are 10Hz and 5Mhz.</para>
+    <para id="id1167055101472">
+      <figure id="id1167053910335">
+        <media id="id1167053910335_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 20-5d70.png" id="id1167053910335__onlineimage" height="397" width="468"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1167054072308">
+      <media id="id1167054072308_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 21-57ff.png" id="id1167054072308__onlineimage" height="239" width="649"/>
+      </media>
+    </figure>
+    <para id="id1167054526697">Emitter Degenerate Circuit Schematics is given in Figure 2c. The Gain Magnitude Plot and Gain Phase plot are given in Figure 2 and 2b. </para>
+    <para id="id1167052015223">By inspecting Figure 2 we find a Band-width of 10Mhz. The midband gain is 7dB and -3dB frequencies are i.e. 4dB frequencies are (less than 1Hz) and 10Mhz. </para>
+    <para id="id1167053987419">Emitter Degenerate Amplifier is a negative feedback amplifier with current-series feedback. The improvement is little less than 2× .</para>
+    <para id="id1167060272327">
+      <figure id="id7638963">
+        <media id="id7638963_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 22-cb3e.png" id="id7638963__onlineimage" height="258" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1167053852111">
+      
+      <figure id="id1167059869264">
+        <media id="id1167059869264_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 24-a3bc.png" id="id1167059869264__onlineimage" height="405" width="526"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1167058698536">
+      <figure id="id1167053689445">
+        <media id="id1167053689445_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 11-3d6f.png" id="id1167053689445__onlineimage" height="246" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1167051717093">
+      <media id="id1167051717093_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 25-9f80.png" id="id1167051717093__onlineimage" height="233" width="649"/>
+      </media>
+    </figure>
+    <para id="id1167050990580">Common Base Circuit Schematics is given in Figure 3c. The Gain Magnitude Plot and Gain Phase plot are given in Figure 3 and 3b. </para>
+    <para id="id1167054508762">By inspecting Figure 3 we find a Band-width of 5Mhz. The midband gain is 43dB and -3dB frequencies are i.e. 40dB frequencies are 500Hz and 5Mhz.</para>
+    <para id="id1167063798043">
+      <figure id="id1167058899096">
+        <media id="id1167058899096_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 26-5ac4.png" id="id1167058899096__onlineimage" height="438" width="407"/>
+        </media>
+      </figure>
+      
+    </para>
+    <figure id="id7638943">
+      <media id="id7638943_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 28-5d74.png" id="id7638943__onlineimage" height="238" width="649"/>
+      </media>
+    </figure>
+    <para id="id1167060546089">Common Collector Circuit Schematics is given in Figure 4c. The Gain Magnitude Plot and Gain Phase plot are given in Figure 4 and 4b. </para>
+    <para id="id1167053847434">By inspecting Figure 1 we find a Band-width of 4GHz. The midband gain is 0dB and -3dB frequencies are (less than 1Hz) and 4GHz.</para>
+    <para id="id7866307">
+      <figure id="id1167053970217">
+        <media id="id1167053970217_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 29-dc36.png" id="id1167053970217__onlineimage" height="227" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id5744256">
+      <media id="id5744256_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 30-461e.png" id="id5744256__onlineimage" height="406" width="423"/>
+      </media>
+    </figure>
+  </content>
+</document>

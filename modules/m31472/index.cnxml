@@ -1,0 +1,108 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Lecture4_PartD1_Time_Domain_Response</title>
+  <metadata>
+  <md:content-id>m31472</md:content-id><md:title>AE_Lecture4_PartD1_Time_Domain_Response</md:title>
+  <md:abstract>This gives the definition of Frequency Domain &amp; Time Domain response of an Amplifier.</md:abstract>
+  <md:uuid>4c54ced3-0c2e-41c9-a31b-3dfc115f7771</md:uuid>
+</metadata>
+
+<content>
+    <para id="id6934416">Analog Electronics_Lecture4_PartD</para>
+    <para id="id5890758">Experimental Methods of measuring </para>
+    <para id="id6918538">
+      <emphasis effect="bold">the Frequency Band-Width of an Amplifier.</emphasis>
+    </para>
+    <para id="id4873971">There are two methods of determining the frequency Band Width (BW) of any amplifier:</para>
+    <list id="id7102358" list-type="enumerated" number-style="lower-alpha">
+      <item>Frequency Domain Response method and</item>
+      <item>Time Domain Response Method.</item>
+    </list>
+    <para id="id6413429">Frequency Domain Response</para>
+    <figure id="id2847846">
+      <media id="id2847846_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-7a95.png" id="id2847846__onlineimage" height="246" width="408"/>
+      </media>
+    </figure>
+    <para id="id4638477">Figure 1. Block Diagram of an Electronic System(Amplifier) connected to the source at the Input and to the Load at the Output.</para>
+    <figure id="id5175565">
+      <media id="id5175565_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-048d.png" id="id5175565__onlineimage" height="52" width="159"/>
+      </media>
+    </figure>
+    <para id="id5864375">Plot of <figure id="id3066410"><media id="id3066410_media" alt=""><image mime-type="image/png" src="../../media/Picture 4-4542.png" id="id3066410__onlineimage" height="22" width="65"/></media></figure>vs Frequency - magnitude frequency response ;</para>
+    <para id="id4064846">Plot of <figure id="id5584779"><media id="id5584779_media" alt=""><image mime-type="image/png" src="../../media/Picture 6-a8f5.png" id="id5584779__onlineimage" height="27" width="68"/></media></figure>vs frequency - phase angle frequency response. </para>
+    <para id="id4132580">Both together constitute the Frequency domain response.</para>
+    <para id="id3353504">
+      <emphasis effect="bold">Time Domain Response </emphasis>
+    </para>
+    <para id="id5020730">When we apply square wave and measure the rise time(t<sub>r</sub>) at high frequency and measure the sag (10% sag frequency) at low frequency then we say that we are looking at time domain response.</para>
+    <list id="id4067955" list-type="enumerated" number-style="arabic">
+      <item>Rise Time Method of determining the upper -3dB frequency.</item>
+    </list>
+    <figure id="id3574017">
+      <media id="id3574017_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-8ab6.png" id="id3574017__onlineimage" height="240" width="460"/>
+      </media>
+    </figure>
+    <para id="id6868555">
+      <emphasis effect="bold">Figure 2. Square Wave Input into an amplifier gives a response from which Time Domain studies can be done.</emphasis>
+    </para>
+    <figure id="id5143718">
+      <media id="id5143718_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-3b41.png" id="id5143718__onlineimage" height="234" width="650"/>
+      </media>
+    </figure>
+    <para id="id5325061">Figure 3. Square Wave Response of an Amplifier at high frequencies. Because of upper -3dB frequency the leading and lagging edges get rounded off. At the leading edge rise time and at lagging edge fall time is introduced. </para>
+    <figure id="id7101478">
+      <media id="id7101478_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-a73b.png" id="id7101478__onlineimage" height="156" width="411"/>
+      </media>
+    </figure>
+    <para id="id3317135"/>
+    <para id="id5354642">NOTE: At the leading edge we measure the rise time and at the lagging edge we measure the fall time.</para>
+    <list id="id2772546" list-type="enumerated" number-style="arabic">
+      <item>
+        <emphasis effect="bold">DETERMINATION OF LOWER -3dB FREQUENCY(f</emphasis>
+        <emphasis effect="bold">L</emphasis>
+        <emphasis effect="bold">) BY TIME DOMAIN METHOD</emphasis>
+      </item>
+    </list>
+    <figure id="id5265217">
+      <media id="id5265217_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-3308.png" id="id5265217__onlineimage" height="320" width="542"/>
+      </media>
+    </figure>
+    <para id="id5925597">Figure 4. Square Wave Response of the Amplifier at low frequencies gives a sag at the top and bottom as shown below. </para>
+    <para id="id5081275">
+      <figure id="id4245339">
+        <media id="id4245339_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 11-f6ab.png" id="id4245339__onlineimage" height="379" width="479"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id3103132">
+      <emphasis effect="bold">Figure 5. Square Wave Response of the Amplifier at low frequencies. % Sag = (∆V/V</emphasis>
+      <emphasis effect="bold">0</emphasis>
+      <emphasis effect="bold">)×100 where V</emphasis>
+      <emphasis effect="bold">0</emphasis>
+      <emphasis effect="bold"> is peak to peak amplitude and ∆V is the tilt at the top or at the bottom.</emphasis>
+    </para>
+    <para id="id2695129">
+      <emphasis effect="bold">(∆V/V</emphasis>
+      <emphasis effect="bold">0</emphasis>
+      <emphasis effect="bold">)×100 = % sag.</emphasis>
+    </para>
+    <para id="id6917803">
+      <emphasis effect="bold">The p.r.f is adjusted to f* to obtain 10% ag then f</emphasis>
+      <emphasis effect="bold">L</emphasis>
+      <emphasis effect="bold"> = (0.1f*/π).</emphasis>
+    </para>
+    <para id="id3397984">
+      <emphasis effect="bold">Where f</emphasis>
+      <emphasis effect="bold">L</emphasis>
+      <emphasis effect="bold"> = lower -3dB frequency.</emphasis>
+    </para>
+    <para id="id5930477">High frequency suppression leads to the rounding off the leading and the lagging edges of the square wave.</para>
+    <para id="id4835376">Low frequency suppression leads to the sag of the top and bottom of the square wave.</para>
+  </content>
+</document>

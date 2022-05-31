@@ -1,0 +1,93 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Tutorial 2 on Active Devices.</title>
+  <metadata>
+  <md:content-id>m29772</md:content-id><md:title>Tutorial 2 on Active Devices.</md:title>
+  <md:abstract>Summary: Here we give a short introduction to discrete and integrated circuits.</md:abstract>
+  <md:uuid>e695c5bd-fc56-4eae-8695-f287a01fbe97</md:uuid>
+</metadata>
+
+<content>
+    <para id="id8147626">Tutorial 2 on Active Devices.</para>
+    <para id="id1164569784340">Summary: Here we give a short introduction to discrete and integrated circuits.</para>
+    <para id="id1164570191923">Key words: Passive Devices, Active Devices, Discrete Circuits, Integrated Circuits;</para>
+    <list id="id7070304" list-type="enumerated" number-style="arabic">
+      <item>Active devices are the electronic components which enable amplification and oscillation. Give a Table of passive and active components.</item>
+    </list>
+    <table id="id1164570222558" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Passive components</entry>
+            <entry>Active components </entry>
+          </row>
+          <row>
+            <entry>Resistance: Carbon track Resistance of ¼ and ½ W, thin film NiCr resistance, CERMET resistances, wire wound resistance of 1W and above power rating. Surface Mounted Chip Resistance,</entry>
+            <entry>Vacuum Tube Era:Diode,Triode,Tetrode,Pentode.</entry>
+          </row>
+          <row>
+            <entry>Capacitance: electrolytic capacitors(10µF and above), ceramic capacitors, polystyrene capacitors, mica capacitors, gang capacitors with air-gap(variable capacitors for tuning), trimmer(variable capacitor used in series) and padder ( variable capacitors in parallel).Surface Mounted Chip Capacitances.</entry>
+            <entry>Solid State Era:PN Jn. Diode,Bipolar Junction Transistor(BJT),Field Effect Transistor(FET),JFET , MOSFET and CMOS,Photo-diode, Light Emitting Diode &amp; LASE DIODE.</entry>
+          </row>
+          <row>
+            <entry>Inductors(these can be fabricated by winding enamel wire of proper guage on a thread bobbin). </entry>
+            <entry>Industrial Devices: Silicon Control Rectifier, DIAC, TRIAC, Uni-Junction Transistor(UJT)</entry>
+          </row>
+          <row>
+            <entry>Rheostat(wire wound) heavy duty variable resistance.</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Carbon Track Potentiometer(linear &amp; logrithimic).</entry>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <list id="id534252" list-type="enumerated" number-style="arabic">
+      <item>Why is the Solid State Era called the harbinger of Third Wave of Civilization?</item>
+    </list>
+    <para id="id1164576111504">First Wave of Civilization is Agriculture-labour intensive production.</para>
+    <para id="id1164571394126">Second Wave of Civilization is Industry- capital intensive production.</para>
+    <para id="id1164568601325">Third Wave of Civilization is Computerization, Automation and Robotization-knowledge intensive production.</para>
+    <para id="id7269649">I.C. technology is the enabling technology of the present times and I.C.Technology is based on Solid State Physics &amp; Devices. Hence SSPD is the harbinger of Third Wave of Civilization.</para>
+    <para id="id6888470">3. Who is the Father of Electronics ?</para>
+    <para id="id1164577108284"> J.J. Thomson is the Father of Electronics. He discovered electron through the study of cathode ray which is a beam of electrons emitted from cathode through thermal ionic emission and collected by positively charged anode.</para>
+    <para id="id1164565824491">4. Why was the introduction of Public Service Telephone Network(PSTN) delayed by 40 years though Alexandre Grahm Bell invented telephone in 1876 ?</para>
+    <para id="id1164571317826">Triode and Pentode were invented in 1903 and 1905 respectively. Lee de Forest the inventor of Triode also invented RC-coupled Amplifier. This became the enabling technology of PSTN. Heaviside discovery of distortion-less transmission condition removed the phase distortion or propagation distortion . For this the transmission line was heavily loaded with large inductors.This enabled the first long distance call from New York to Denver, Colorado, over a distance of 2000 miles without Amplifier in 1911. Use of RC-coupled Amplifier overcame the problem of attenuation and the signal getting lost over long distances of transmission. Combining the loading for distortionless transmission and amplification, enabled first long distance call from New York to San –Francisco over a distance of 4000miles in 1913. From then onward PSTN very rapidly grew.</para>
+    <para id="id1164568101122">[Heaviside Distortionless transmission condition is :</para>
+    <para id="id1164570193321">
+      <figure id="id1164570562173">
+        <media id="id1164570562173_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-b7c3.png" id="id1164570562173__onlineimage" height="50" width="187"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164575296292">Here L= the inductance of line pair over 1 km,</para>
+    <para id="id1164564424371">R= ohmic resistance of the line over 1km,</para>
+    <para id="id1164569139788">C= inter wiring capacitance per km length of the transmission line,</para>
+    <para id="id1164564395376">G= conductance between the lines per km length .</para>
+    <para id="id7023979">The line can be represented as a distributed model shown in the figure:</para>
+    <para id="id1164568704967">
+      <figure id="id1164566596544">
+        <media id="id1164566596544_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-cedf.png" id="id1164566596544__onlineimage" height="189" width="486"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id8593582">In a practical cable this balance was not achieved hence transmission line had to be loaded with a large inductors at certain intervals.]</para>
+    <para id="id5653639">5. When did formally Solid State Era ushered in ?</para>
+    <para id="id1164574801826">In 1948, Shockley, Bardeen &amp; Braittain invented solid state Ge Bipolar Transistor. Subsequently Si BJT was manufactured. This ushered in Solid State era.</para>
+    <para id="id1164570746039">6. When was Integrated Circuit Technology born?</para>
+    <para id="id1164570227225">In 1959 , Jack Kilby of Texas Instrument and Robert Noyce of FairChild simultaneously announced the invention of Integrated Circuit Technolgy.</para>
+    <para id="id8289847">7. How was INTEL born?</para>
+    <para id="id8760844">Robert Noyce and Gordon Moore together launched INTEL (Integrated Electronics) in 1968. They were later joined by Andy Grove.</para>
+    <para id="id8196982">8. What is Moore’s Law?</para>
+    <para id="id1164570800461"><emphasis effect="italics">Gordon Moore predicted that number of transistors on integrated circuits( a rough measure of computer processing power) will double every 18 months at a minimum cost. It became a self fulfilling prophecy</emphasis>. <emphasis effect="italics">Moore’s Law has become a yardstick of our progress as we harness the cunning of NATURE’s design strategies.</emphasis></para>
+    <para id="id1604108">9. In this long journey of 50 years from micro to nano era where have we arrived?</para>
+    <para id="id1590806">In a single day the state-of-art fabs are producing 100 trillion transistors roughly 250 times the number of stars in our galaxy Milky Way. There are 43 commercial 300-mm wafer Fabs. Many more are coming on-line. Today IC Technology is the enabling Technology of the post-industrial Society.</para>
+    <para id="id4944252"> 10. What is the future direction of IC Technology?</para>
+    <para id="id1164574011269">In the future we hope to go from 45nm technology to 32nm technology to 22nm technology to 16nm technology.</para>
+  </content>
+</document>

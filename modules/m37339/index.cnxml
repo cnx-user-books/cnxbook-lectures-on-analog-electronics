@@ -1,0 +1,305 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>AE_EC1405_EVENSEM_2011_MidSemesterSolutions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37339</md:content-id>
+  <md:title>AE_EC1405_EVENSEM_2011_MidSemesterSolutions</md:title>
+  <md:abstract>This module gives the solutions of the questions asked in MisSemester Examination.</md:abstract>
+  <md:uuid>ba517fd2-8550-48b1-a128-bcf64453cddb</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1169222702342">Solutions of Midesemester Examination_AE_EC1405_EVEN_2011</para>
+    <list id="id1169213816760" list-type="enumerated" number-style="arabic">
+      <item>i.Give the spectrum slot allocated for the following applications:</item>
+    </list>
+    <table id="id1169209807222" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Application</entry>
+            <entry>Spectrum Slot </entry>
+          </row>
+          <row>
+            <entry>Medium Wave AIR local broadcast_AM</entry>
+            <entry>540kHz to 1.7Mhz</entry>
+          </row>
+          <row>
+            <entry>Short Wave Global Broadcast of different countries_AM</entry>
+            <entry>5.95MHz to 26.1MHz</entry>
+          </row>
+          <row>
+            <entry>Doordarshan TV Broadcast_ Channel 2 to 6</entry>
+            <entry>54MHz to 88MHz</entry>
+          </row>
+          <row>
+            <entry>AIR_FM broadcast</entry>
+            <entry>88MHz to 108MHz</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1169210763831">ii. Nonlinear characteristics of the active device causes Amplitude Distortion or Harmonic Distortion. In RC-coupled Amplifier when input voltage exceeds 10mVpeak to peak the small signal approximation is vilated and Amplitude distortion occurs.</para>
+    <para id="id1169212575850">iii. When the full spectrum of the given intelligent signal say speech signal is not transmitted then Frequency Distortion occurs as Sqaure Wave passing through RC Low Pass Filter. If the Time Period(T) of the square wave is comparable to the time constant of RC Filter(τ) then rounding off of the edges occur. When T &lt;&lt; τ, then the square wave is completely obliterated. Only the mean value or the DC part remains with slight ripple.</para>
+    <para id="id1169219179721">iv. Different Schemes of Biasing:</para>
+    <table id="id1169210046031" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Biasing Schemes</entry>
+            <entry>Applications</entry>
+          </row>
+          <row>
+            <entry>Two Battery Biaing</entry>
+            <entry>Expensive, cumbersome and preferred only for device characterrization</entry>
+          </row>
+          <row>
+            <entry>Fixed Biasing</entry>
+            <entry>No feedback hence drift prone. Q-point drifts with temperature, aging and replacement.</entry>
+          </row>
+          <row>
+            <entry>Potential Divider Biasing</entry>
+            <entry>No feedback hence drift prone. Q-point drifts with temperature, aging and replacement.</entry>
+          </row>
+          <row>
+            <entry>Self Biasing</entry>
+            <entry>Through R<sub>E</sub> , negative current-series feedback is provided hence no drift of Q-point with temperatue, aging and replacement. Finds wide application in Discrete Amplifiers.</entry>
+          </row>
+          <row>
+            <entry>Collector-Base feedback bising</entry>
+            <entry>Through R<sub>B</sub>, negative voltage shunt feedback is provided hence no drift of Q-point with temperature, aging and replacement. Finds wide application in Discrete Amplifiers.</entry>
+          </row>
+          <row>
+            <entry>Widlar Biasing</entry>
+            <entry>This also has negative voltage shunt feedback hence no drift of Q-point with temperature, aging and replacement. Finds wide application in Integrated Circuit Amplifiers.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1169208234960">v. Frequency Domain Response of the magnitude of the Voltage Gain of Emitter Degenerate Amplifier:</para>
+    <figure id="id1169207218295">
+      <media id="id1169207218295_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-e928.png" id="id1169207218295__onlineimage" height="526" width="555"/>
+      </media>
+    </figure>
+    <para id="id1169208808275">The square wave response of the Emiter Degenerate Amplifier is the Time Domain Response. At 10kHz, rounding off of the edges of the square wave is taking place. At 100Hz, the top and bottom of the square wave are sagging or tilting. </para>
+    <para id="id1169208745856">vi. High Pass Filter behaves as differentiator at very low frequencies. It just produces positive spikes at positive edges and negative spikes at negative edges.</para>
+    <para id="id1169208745953">vii. Low Pass Filter behaves as integrator at very high frequencies. It gives the mean value of the input square wave .</para>
+    <para id="id1169209104219"/>
+    <para id="id1169209014307">viii. CRO display under Component Testing Mode for resistances:</para>
+    <table id="id1169217658549" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Resistance value</entry>
+            <entry>Display</entry>
+          </row>
+          <row>
+            <entry>Very high resistance</entry>
+            <entry>Inclined line with very low angle of inclination</entry>
+          </row>
+          <row>
+            <entry>Low resistance</entry>
+            <entry>Inclined line with high angle of inclination</entry>
+          </row>
+          <row>
+            <entry>Open Circuit</entry>
+            <entry>Horizontal line</entry>
+          </row>
+          <row>
+            <entry>Short Circuit</entry>
+            <entry>Vertical line.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <list id="id1169208949612" list-type="enumerated" number-style="arabic">
+      <item>Identify the Amplifier ? Emitter degenerate Amplifier.</item>
+    </list>
+    <para id="id1169206762715">Q point I<sub>CQ</sub> = 1mA and V<sub>CEQ</sub> = 5V</para>
+    <para id="id1169209125679">Parameters of h-model:</para>
+    <table id="id1169213012027" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>h- parameter</entry>
+            <entry>value</entry>
+          </row>
+          <row>
+            <entry>hie</entry>
+            <entry>2.6k+100ohm</entry>
+          </row>
+          <row>
+            <entry>hre</entry>
+            <entry>10<sup>-4</sup></entry>
+          </row>
+          <row>
+            <entry>hfe</entry>
+            <entry>100</entry>
+          </row>
+          <row>
+            <entry>hoe</entry>
+            <entry>1/40k</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1169212666361">Hybrid-π Parameters:</para>
+    <table id="id1169209807261" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Hybrid-π Parameters</entry>
+            <entry>value</entry>
+          </row>
+          <row>
+            <entry>rx</entry>
+            <entry>100Ω</entry>
+          </row>
+          <row>
+            <entry>rπ</entry>
+            <entry>2.6kΩ</entry>
+          </row>
+          <row>
+            <entry>rµ</entry>
+            <entry>4M</entry>
+          </row>
+          <row>
+            <entry>ro</entry>
+            <entry>40k</entry>
+          </row>
+          <row>
+            <entry>βfo</entry>
+            <entry>100</entry>
+          </row>
+          <row>
+            <entry>Cπ</entry>
+            <entry>100pF</entry>
+          </row>
+          <row>
+            <entry>Cµ</entry>
+            <entry>5pF</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <figure id="id1169208493136">
+      <media id="id1169208493136_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-68b9.png" id="id1169208493136__onlineimage" height="510" width="556"/>
+      </media>
+    </figure>
+    <para id="id1169209196700"/>
+    <list id="id1169222146438" list-type="enumerated" number-style="arabic">
+      <item>(a) Low Pass Filter R = 10k and C = 1µF</item>
+    </list>
+    <para id="id1169233996558">Therefore Time Constant = τ = RC = 10 msec ;</para>
+    <para id="id1169214990116">Upper Cut off Circular Frequency = ω<sub>h</sub> = (1/10)kradians/sec;</para>
+    <para id="id1169208494566">Upper Cut off Frequency = f<sub>h</sub> = 15.9Hz.</para>
+    <para id="id1169216297794">Bode Plot:</para>
+    <para id="id1169216244515">
+      <figure id="id1169222509554">
+        <media id="id1169222509554_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-2431.png" id="id1169222509554__onlineimage" height="442" width="560"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169227449872"/>
+    <para id="id1169208970038">b. Time Domain Response of LPF:</para>
+    <figure id="id1169208637716">
+      <media id="id1169208637716_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-ebcd.png" id="id1169208637716__onlineimage" height="529" width="543"/>
+      </media>
+    </figure>
+    <para id="id1169216871460"/>
+    <list id="id1169215041660" list-type="enumerated" number-style="arabic">
+      <item>(a) This is a RC-coupled Amplifier.</item>
+    </list>
+    <para id="id1169219522041">(b) Q point I<sub>CQ</sub> = 1mA and V<sub>CEQ</sub> = 5V</para>
+    <para id="id1169208071253">Parameters of h-model:</para>
+    <table id="id1169208911319" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>h- parameter</entry>
+            <entry>value</entry>
+          </row>
+          <row>
+            <entry>hie</entry>
+            <entry>2.6k+100ohm</entry>
+          </row>
+          <row>
+            <entry>hre</entry>
+            <entry>10<sup>-4</sup></entry>
+          </row>
+          <row>
+            <entry>hfe</entry>
+            <entry>100</entry>
+          </row>
+          <row>
+            <entry>hoe</entry>
+            <entry>1/40k</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1169212992021">Hybrid-π Parameters:</para>
+    <table id="id1169227767500" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Hybrid-π Parameters</entry>
+            <entry>value</entry>
+          </row>
+          <row>
+            <entry>rx</entry>
+            <entry>100Ω</entry>
+          </row>
+          <row>
+            <entry>rπ</entry>
+            <entry>2.6kΩ</entry>
+          </row>
+          <row>
+            <entry>rµ</entry>
+            <entry>4M</entry>
+          </row>
+          <row>
+            <entry>ro</entry>
+            <entry>40k</entry>
+          </row>
+          <row>
+            <entry>βfo</entry>
+            <entry>100</entry>
+          </row>
+          <row>
+            <entry>Cπ</entry>
+            <entry>100pF</entry>
+          </row>
+          <row>
+            <entry>Cµ</entry>
+            <entry>5pF</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1169217087319">
+      <figure id="id1169212847093">
+        <media id="id1169212847093_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-a91e.png" id="id1169212847093__onlineimage" height="470" width="530"/>
+        </media>
+      </figure>
+    </para>
+  </content>
+</document>

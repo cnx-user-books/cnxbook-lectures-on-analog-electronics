@@ -1,0 +1,69 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Lecture10_Supplementary</title>
+  <metadata>
+  <md:content-id>m32376</md:content-id><md:title>AE_Lecture10_Supplementary</md:title>
+  <md:abstract>AE_Lecture10_Supplement gives the power analysis of Class A _ CE Amplifier . Its poor power conversion efficiency does not justify its applications for Power Amplification applications.</md:abstract>
+  <md:uuid>eb86898e-084a-4509-8873-26f0e8a5513e</md:uuid>
+</metadata>
+
+<content>
+    <para id="id3452820">AE_Lecture10_SupplementaryNotes.</para>
+    <para id="id3721573"><emphasis effect="italics">Class A Direct Coupled Resistive Load Power Analysis</emphasis>.<emphasis effect="bold"/></para>
+    <para id="id4272890">Here we are analyzing Class A_ CE Amplifier with resistive load connected as R<sub>C</sub> .</para>
+    <figure id="id3437624">
+      <media id="id3437624_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-d52b.png" id="id3437624__onlineimage" height="304" width="463"/>
+      </media>
+    </figure>
+    <figure id="id3334394">
+      <media id="id3334394_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-ccce.png" id="id3334394__onlineimage" height="304" width="463"/>
+      </media>
+    </figure>
+    <para id="id3708261">Under no signal condition:</para>
+    <para id="id3465232">The dc power drawn from the battery is = P<sub>battery</sub> = I<sub>CEQ</sub>V<sub>CC</sub></para>
+    <para id="id2922908">For maximum symmetrical swing, Q point is chosen to give :</para>
+    <para id="id4283418">I<sub>CEQ </sub>= V<sub>CC</sub>/(2R<sub>C</sub>) and <sub/>V<sub>CEQ</sub> = V<sub>CC</sub>/2 ;</para>
+    <para id="id3491122">Therefore P<sub>battery</sub> = V<sub>CC</sub><sup>2</sup>/(2R<sub>C</sub>) ;</para>
+    <para id="id4360364">Power dissipated in the device = P<sub>dissip</sub> = I<sub>CEQ</sub>V<sub>CEQ </sub>= V<sub>CC</sub><sup>2</sup>/(4 R<sub>C</sub>);</para>
+    <para id="id4160017">Power dissipated in the collector resistance = P<sub>RC</sub> = (I<sub>CEQ</sub>)<sup>2</sup>. R<sub>C </sub>= V<sub>CC</sub><sup>2</sup>/(4 R<sub>C</sub>) ;</para>
+    <para id="id4211762">P<sub>battery </sub>= P<sub>dissip </sub>+ P<sub>RC</sub> ;</para>
+    <para id="id3314591">This means power drawn from the battery is equally dissipated across the collector resistance and the device .</para>
+    <para id="id3347356">When maximum signal is applied at the input, we get maximum output signal.</para>
+    <para id="id4417944">It will be noticed in Figure 2 that when maximum current flows in BJT there is minimum voltage across BJT and when there is maximum voltage across BJT then there is minimum current through BJT. Both these situations minimize the device dissipation. The saved portion of device dissipation is converted into signal power.</para>
+    <para id="id3919316">The signal voltage across the load i.e. R<sub>C</sub> is = (V<sub>CC</sub>/2)Sin(ωt)</para>
+    <para id="id2715351">Therefore signal power developed across the load = Vrms<sup>2</sup>/R<sub>C</sub> ;</para>
+    <para id="id4299216">Vrms = ( amplitude of the sinusoidal voltage swing) = (V<sub>CC</sub>/2)/√2 ;</para>
+    <para id="id865240">Signal Power = P<sub>signal</sub> = Vrms<sup>2</sup>/R<sub>C </sub>= ((V<sub>CC</sub>/2)/√2)<sup>2</sup>/R<sub>C</sub> = (V<sub>CC</sub>)<sup>2</sup>/(8R<sub>C</sub>) ;</para>
+    <para id="id2620913">Power Conversion of efficiency = η = P<sub>signal</sub>/ P<sub>battery </sub>= 2/8 = 1 / 4 =25%;</para>
+    <para id="id2915721">Class A Transformer Coupled Load.</para>
+    <figure id="id4385970">
+      <media id="id4385970_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-9bea.png" id="id4385970__onlineimage" height="304" width="463"/>
+      </media>
+    </figure>
+    <para id="id3773277">
+      <figure id="id873028">
+        <media id="id873028_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-d95e.png" id="id873028__onlineimage" height="304" width="463"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id2693847">Figure 4 gives the static and dynamic load line in case of ClassA CE transformer coupled resisitive load. Since transformer primary coil offers 0Ω under dc condition hence the static load line has a slope of = -1/0 = ∞. Therefore Static load line is a vertical line parallel to Y axis and cutting X axis at V<sub>CC</sub>.</para>
+    <para id="id4391537">Q point is so chosen that we obtain maximum symmetrical swing. For this the vertical from Q must bisect the X axis intercept of the Dynamic Load Line.</para>
+    <para id="id2598871">Hence slope of OQ = negative slope of the dynamic load Line= 1/R<sub>L</sub>’ </para>
+    <para id="id3955648">where R<sub>L</sub>’ = n<sup>2</sup> R<sub>L</sub> and n= turns ratio of primary to secondary..</para>
+    <para id="id3714561">Therefore Q point is : V<sub>CEQ</sub> = V<sub>CC</sub> and I<sub>CQ</sub>= V<sub>CC</sub>/ R<sub>L</sub>’ .</para>
+    <para id="id4261029">Under no signal condition the power drawn from the battery = </para>
+    <para id="id4105234">P<sub>battery</sub> = V<sub>CC</sub>× I<sub>CQ</sub> =( V<sub>CC</sub>)<sup>2</sup>/ R<sub>L</sub>’= this power is totally dissipated in the device. There is no resistive dissipation as the dc ohmic resistance is zero in collector circuit.</para>
+    <para id="id4104555">Signal Power delivered to the load as seen on the primary side is = Vrms<sup>2</sup>/R<sub>L</sub>’ ;</para>
+    <para id="id3668505">But Vrms = amplitude of maximum sinusoidal swing/ √2 ;</para>
+    <para id="id3741598">As seen from the graph in Figure 4 the amplitude of maximum sinusoidal swing= V<sub>CC</sub>;</para>
+    <para id="id3745222">Hence P<sub>signal</sub> = (Vrms= V<sub>CC</sub>/√2 )<sup>2</sup>/R<sub>L</sub>’ = ( V<sub>CC</sub>)<sup>2</sup>/ (2R<sub>L</sub>’);</para>
+    <para id="id3733492">Therefore η = 1/2 = 50% . Almost hundred percent improvement over the direct coupled load but still not permissible for Power Amplifiers.Here half of the device power dissipation under no signal condition is being transformed into signal power under signal condition. Thus we achieve 50% power conversion efficiency.</para>
+    <para id="id2734978">So we go for Class B mode of operation where we will achieve 80% power conversion efficiency.</para>
+    <para id="id3783509">In RF applications we will go for Class C mode of operation which will provide 99% power conversion efficiency.</para>
+    <para id="id3968035">Here the question arises why do we not go for Class C mode of operation in Audio Frequency Range.</para>
+    <para id="id4302426">This is because Class C suffers from very severe harmonic distortion which can be removed only by tuned circuits and tuned circuits are not practical at audio range.</para>
+  </content>
+</document>

@@ -1,0 +1,30 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>The New Syllabus of EC1X05_Lectures on AnalogElectronics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34862</md:content-id>
+  <md:title>The New Syllabus of EC1X05_Lectures on AnalogElectronics</md:title>
+  <md:abstract>The Syllabus of EC1X05 has been revised. The new revised syllabus is being posted.</md:abstract>
+  <md:uuid>6bbd282c-64a7-44ac-9c49-7eac73ffd74e</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1166503794692">
+      <title>EC 1x05Analog Electronics</title>
+      <para id="id1166494872688">L-T-P: 3-0-3         Credit: 5</para>
+      <para id="id1166494866411">Semiconductor diodes, Bipolar Junction Transistors and MOSFETs.</para>
+      <para id="id1166493155648">Biasing circuits of BJT, FET and MOSFET, RC and DC coupled amplifiers, wide-band and tuned amplifiers. Active impedance transformers(Gyrators), power amplifiers, impedance matching.</para>
+      <para id="id1166503771611">Feedback Amplifiers. RC and LC Oscillators, Blocking Oscillators.</para>
+      <para id="id1166503789481">Characteristics, limitations and applications of OP-AMPS. Internal structure of OP-AMPs.</para>
+      <para id="id1166503907618">Special purpose amplifiers (Instrumentation Amplifiers, Logarithmic Amplifiers, Current Conveyors-Current Sources[Current Mirror, Symmetrical Widlar, Widlar, Wilson, Improved Wilson]). </para>
+      <para id="id1166492247399">Special purpose ICs: Analog multipliers. Voltage regulators, Timers, VCO, PLL and function generators. Analog switches and multiplexers. </para>
+      <para id="id1166492012314">Practical:</para>
+      <para id="id1166493227906">  As per above syllabus</para>
+      <para id="id1166495022948">Text Book: </para>
+      <para id="id1166495027813">Microelectronic Circuit Design by Richar C. Jaeger, 1997;</para>
+      <para id="id1166493220542">Reference Books:</para>
+      <para id="id1166495025785">Microelectronic Circuits, by Millman &amp; Grabel, McGraw Hills, 1988;</para>
+      <para id="id1166495105776">Microelectronic Circuit Design by Sedra Smith, McGraw Hills, 2009;</para>
+      <para id="id1166493162029">Microelectronic Circuit Design by Rashid, CENGAGE Learning, 2009;</para>
+    </section>
+  </content>
+</document>

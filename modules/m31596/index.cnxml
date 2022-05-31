@@ -1,0 +1,225 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Lecture6_Analysis of CASCODE AMPLIFIER.</title>
+  <metadata>
+  <md:content-id>m31596</md:content-id><md:title>AE_Lecture6_Analysis of CASCODE AMPLIFIER.</md:title>
+  <md:abstract>AE_lecture6 deals with midfrequency and high frequency analysis of CASCODE Amplifier.</md:abstract>
+  <md:uuid>30cb12f3-b701-43aa-8cb7-0c572cd002c2</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1164455590440">AE_LECTURE 6_Analysis of CASCODE AMPLIFIER</para>
+    <para id="id1164448477361">CASCODE AMPLIFIER- This is a form of composite transistor where CE and CB have been cascaded. By using the composite form we achieve best of both the circuit configurations namely we get a moderate input impedance and high voltage gain of CE configuration and almost near unilaterality , very large output impedance , large output voltage swing limited by BV<sub>CBO</sub> and much larger Band Width of CB configuration. Because of near uni-laterality on account of near zero reverse transmission factor, this CASCODE is very suitable RF Amplifier applications. This configuration is also suitable for constant current drive as required in generating SAW TOOTH WAVEFORM.</para>
+    <figure id="id1164448826759">
+      <media id="id1164448826759_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-46a8.png" id="id1164448826759__onlineimage" height="522" width="342"/>
+      </media>
+    </figure>
+    <para id="id1164451849729">This CASCODE configuration has a self biasing for Q point stabilization. Both Transistors are in forward active mode. Q<sub>1</sub> is connected in CE configuration under signal condition and Q<sub>2</sub> is in CB configuration under signal condition.</para>
+    <para id="id1164452158722">C<sub>1</sub> provides the ground to Q<sub>2 </sub>under signal condition.</para>
+    <para id="id1164455476150">C<sub>2 </sub>is the coupling capacitor and C<sub>3</sub> provides the by-pass capacitor of emitter resistance.</para>
+    <para id="id1164455576204">INCREMENTAL MODEL</para>
+    <figure id="id1164452239562">
+      <media id="id1164452239562_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-b4f3.png" id="id1164452239562__onlineimage" height="304" width="422"/>
+      </media>
+    </figure>
+    <para id="id1164455011773">Effectively we obtain CE configuration followed by CB configuration hence we call it CE-CB cascade.</para>
+    <para id="id1164454264526">Overall Reverse transmission factor= h<sub>re</sub>.h<sub>rb</sub></para>
+    <para id="id1164444529912">=<figure id="id1164445152100"><media id="id1164445152100_media" alt=""><image mime-type="image/png" src="../../media/graphics1-0ff1.png" id="id1164445152100__onlineimage" height="41" width="76"/></media></figure> = 10<sup>-4</sup>×10<sup>-5</sup> = 10<sup>-9</sup>= this provides the near-unilaterality property to CASCODE configuration making it suitable for RF applications.</para>
+    <para id="id1164454708496">Overall R<sub>out</sub>=1/h<sub>ob</sub>=2M</para>
+    <para id="id1164454811688">Overall R<sub>in</sub>=h<sub>ie</sub>=r<sub>x</sub>+r<sub>π</sub>=(100+2.6kΩ)</para>
+    <para id="id1164452113900">Frequency response of CB&gt;&gt; Frequency response of CE</para>
+    <para id="id1164455012258">CE configuration faces a load which is R<sub>in</sub> of CB which is r<sub>e</sub> . Hence Miller Muliplication factor is only 1+1 hence Miller Capacitance is much lower thereby boosting the frequency response of CASCODE configuration.</para>
+    <para id="id1164454348097">INCREMENTAL MODEL</para>
+    <para id="id1164455586673">
+      <figure id="id1164455028359">
+        <media id="id1164455028359_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-8da7.png" id="id1164455028359__onlineimage" height="290" width="646"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164443644822">R<sub>s</sub>=1kΩ, β<sub>fo</sub>=100, r<sub>x</sub>=0.1k, C<sub>µ</sub>=2pF, R<sub>L</sub>=2k, g<sub>m</sub>=40mS, r<sub>π</sub>=2.5k, C<sub>π</sub>=100pF</para>
+    <figure id="id1164452177571">
+      <media id="id1164452177571_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-0476.png" id="id1164452177571__onlineimage" height="45" width="427"/>
+      </media>
+    </figure>
+    <figure id="id1164451792764">
+      <media id="id1164451792764_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-6844.png" id="id1164451792764__onlineimage" height="46" width="299"/>
+      </media>
+    </figure>
+    <figure id="id1164450533291">
+      <media id="id1164450533291_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-fe48.png" id="id1164450533291__onlineimage" height="47" width="454"/>
+      </media>
+    </figure>
+    <figure id="id1164455578625">
+      <media id="id1164455578625_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-a5b6.png" id="id1164455578625__onlineimage" height="26" width="246"/>
+      </media>
+    </figure>
+    <figure id="id1164451944504">
+      <media id="id1164451944504_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-0204.png" id="id1164451944504__onlineimage" height="49" width="392"/>
+      </media>
+    </figure>
+    <figure id="id1164447838923">
+      <media id="id1164447838923_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-7aea.png" id="id1164447838923__onlineimage" height="42" width="268"/>
+      </media>
+    </figure>
+    <figure id="id1164458197828">
+      <media id="id1164458197828_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-45c7.png" id="id1164458197828__onlineimage" height="42" width="199"/>
+      </media>
+    </figure>
+    <para id="id1164458384437">AT MID FREQUENCIES</para>
+    <para id="id1164447311144">
+      <figure id="id1164447751390">
+        <media id="id1164447751390_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-76eb.png" id="id1164447751390__onlineimage" height="243" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1164456437000">
+      <media id="id1164456437000_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-948e.png" id="id1164456437000__onlineimage" height="42" width="178"/>
+      </media>
+    </figure>
+    <figure id="id1164445066506">
+      <media id="id1164445066506_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-c96b.png" id="id1164445066506__onlineimage" height="24" width="117"/>
+      </media>
+    </figure>
+    <figure id="id1164451871281">
+      <media id="id1164451871281_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-5e59.png" id="id1164451871281__onlineimage" height="42" width="331"/>
+      </media>
+    </figure>
+    <figure id="id1164454108316">
+      <media id="id1164454108316_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-a5cc.png" id="id1164454108316__onlineimage" height="39" width="203"/>
+      </media>
+    </figure>
+    <figure id="id1164446669449">
+      <media id="id1164446669449_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-85f6.png" id="id1164446669449__onlineimage" height="47" width="340"/>
+      </media>
+    </figure>
+    <figure id="id1164445547016">
+      <media id="id1164445547016_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-bfde.png" id="id1164445547016__onlineimage" height="43" width="165"/>
+      </media>
+    </figure>
+    <figure id="id1164455010357">
+      <media id="id1164455010357_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-d979.png" id="id1164455010357__onlineimage" height="49" width="286"/>
+      </media>
+    </figure>
+    <figure id="id1164443864667">
+      <media id="id1164443864667_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-9230.png" id="id1164443864667__onlineimage" height="24" width="99"/>
+      </media>
+    </figure>
+    <figure id="id1164453014696">
+      <media id="id1164453014696_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-93d3.png" id="id1164453014696__onlineimage" height="24" width="238"/>
+      </media>
+    </figure>
+    <figure id="id1164455020856">
+      <media id="id1164455020856_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics18-875d.png" id="id1164455020856__onlineimage" height="47" width="224"/>
+      </media>
+    </figure>
+    <para id="id1164443735073">Midband gain of cascade ~ a single stage CE amplifier with a load resistance of 2k.</para>
+    <para id="id1164454883440">BW calculations</para>
+    <para id="id1164455023326">The midband gain of CE stage =-g<sub>m</sub>r<sub>e</sub>=-1</para>
+    <para id="id1164443746043">Therefore Miller Capacitance=C<sub>µ</sub>[1-(-1)]=2C<sub>µ</sub></para>
+    <para id="id1164451795945">Therefore total input Capacitance=C<sub>π</sub>+C<sub>µ</sub> (1-A<sub>V</sub>)=100+8=108pF</para>
+    <para id="id1164454888546">There is very little Miller Multiplication of C<sub>µ</sub>.</para>
+    <para id="id1164454872266">R<sub>eq</sub> of C<sub>M</sub> (Miller Capacitance) is = <figure id="id1164455041949"><media id="id1164455041949_media" alt=""><image mime-type="image/png" src="../../media/graphics19-723f.png" id="id1164455041949__onlineimage" height="35" width="357"/></media></figure></para>
+    <figure id="id1164454248110">
+      <media id="id1164454248110_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-3fed.png" id="id1164454248110__onlineimage" height="24" width="304"/>
+      </media>
+    </figure>
+    <figure id="id1164455490901">
+      <media id="id1164455490901_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics21-0915.png" id="id1164455490901__onlineimage" height="42" width="217"/>
+      </media>
+    </figure>
+    <figure id="id1164454715694">
+      <media id="id1164454715694_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-22c2.png" id="id1164454715694__onlineimage" height="42" width="257"/>
+      </media>
+    </figure>
+    <para id="id1164455562885">The BW of common base is much larger.</para>
+    <figure id="id1164455588946">
+      <media id="id1164455588946_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics23-a36a.png" id="id1164455588946__onlineimage" height="45" width="270"/>
+      </media>
+    </figure>
+    <figure id="id1164452016264">
+      <media id="id1164452016264_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics24-9217.png" id="id1164452016264__onlineimage" height="42" width="290"/>
+      </media>
+    </figure>
+    <figure id="id1164451832350">
+      <media id="id1164451832350_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics25-0b2b.png" id="id1164451832350__onlineimage" height="42" width="175"/>
+      </media>
+    </figure>
+    <figure id="id1164452265783">
+      <media id="id1164452265783_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics26-b960.png" id="id1164452265783__onlineimage" height="42" width="102"/>
+      </media>
+    </figure>
+    <figure id="id1164452946400">
+      <media id="id1164452946400_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics27-1fe9.png" id="id1164452946400__onlineimage" height="42" width="102"/>
+      </media>
+    </figure>
+    <figure id="id1164446594710">
+      <media id="id1164446594710_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics28-2942.png" id="id1164446594710__onlineimage" height="42" width="93"/>
+      </media>
+    </figure>
+    <figure id="id1164442929633">
+      <media id="id1164442929633_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics29-fb24.png" id="id1164442929633__onlineimage" height="24" width="125"/>
+      </media>
+    </figure>
+    <para id="id1164448050546">Overall BW of Cascode=1.93Mhz</para>
+    <para id="id1164443064474">Exact analysis gives the same result.</para>
+    <figure id="id1164455469916">
+      <media id="id1164455469916_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics30-6906.png" id="id1164455469916__onlineimage" height="73" width="519"/>
+      </media>
+    </figure>
+    <para id="id1164445521567">Four poles because there are C<sub>µ</sub>,C<sub>e,</sub>C<sub>π,</sub>C<sub>bo.</sub></para>
+    <para id="id1164449695122">There are two zeroes which are complex conjugate.</para>
+    <para id="id1164442834454">If CB stage was replaced by 2k to obtain the same gain the Miller Multiplication would have increased and BW fallen to 491 kHz.</para>
+    <figure id="id1164451178618">
+      <media id="id1164451178618_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics31-10d1.png" id="id1164451178618__onlineimage" height="27" width="357"/>
+      </media>
+    </figure>
+    <figure id="id1164445565873">
+      <media id="id1164445565873_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics32-9f90.png" id="id1164445565873__onlineimage" height="42" width="110"/>
+      </media>
+    </figure>
+    <para id="id1164451184744">f<sub>h</sub>=491kHz</para>
+    <para id="id1164444783344">(1)Large gain x BW or large GBP </para>
+    <para id="id1164454293118">(2)Output Voltage swing is limited by BV<sub>CBO</sub> and not BV<sub> CEO</sub>.</para>
+    <para id="id1164454184138">Applications:-</para>
+    <para id="id1164443458100">(1)Wide band video amplifier(TV &amp; FM Radio)</para>
+    <para id="id1164451160231">(2)Wide Band Amplifier used in RF communication,</para>
+    <para id="id1164447845968">(3)Near ideal current sources and in high gain amplifiers.</para>
+    <para id="id1164449718505">(4)Current Amplification factor is increased(β<sub>fo</sub> +1).</para>
+    <para id="id1164445565378">(5)Used in high performance differential amplifers which is the building block of op amps. This enables very high gain &amp; high CMRR.</para>
+    <para id="id1164454709021">(6)We can realize near ideal current sources.</para>
+    <para id="id1164447334224">(7)Much higher B.W.</para>
+  </content>
+</document>

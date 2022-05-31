@@ -1,0 +1,187 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>AE_Lecture 5_Part C_continued_High frequency analysis of CB.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34116</md:content-id>
+  <md:title>AE_Lecture 5_Part C_continued_High frequency analysis of CB.</md:title>
+  <md:abstract>This continuation gives the worked out example of CB high frequency analysis from a generalized self-biased network which will be also used for high frequency analysis of CE and CC Amplifier.</md:abstract>
+  <md:uuid>71d10415-6fa6-4ebb-82ec-32269836b6cf</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1170095840851">
+      <emphasis effect="bold">AE_Lecture 5_Part c_continued_High frequency analysis of CB.</emphasis>
+    </para>
+    <para id="id1170095343176">In this continuation of high frequency application, we use the same self-biasing configuration to achieve CB, CE and CC amplifier. These three Circuit Configuration have the same Q point ( I<sub>CQ</sub> = 1mA , V<sub>CEQ</sub> = 5V). Hence they have the same Hybrid-π parameters namely:</para>
+    <para id="id5434297">
+      <emphasis effect="bold">β</emphasis>
+      <emphasis effect="bold">fo</emphasis>
+      <emphasis effect="bold"> = incremental short circuit gain at low frequencies = 100;</emphasis>
+    </para>
+    <para id="id1170094819463">
+      <emphasis effect="bold">Transit frequency given = f</emphasis>
+      <emphasis effect="bold">T</emphasis>
+      <emphasis effect="bold"> = 200MHz;</emphasis>
+    </para>
+    <para id="id1170094573163">
+      <emphasis effect="bold">At the Q point, C</emphasis>
+      <emphasis effect="bold">ob</emphasis>
+      <emphasis effect="bold"> = C</emphasis>
+      <emphasis effect="bold">µ</emphasis>
+      <emphasis effect="bold"> = C</emphasis>
+      <emphasis effect="bold">jBC</emphasis>
+      <emphasis effect="bold"> = </emphasis>
+      <figure id="id1170095862415">
+        <media id="id1170095862415_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-246a.png" id="id1170095862415__onlineimage" height="30" width="23"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">= 5pF ;</emphasis>
+    </para>
+    <para id="id1170094576613">
+      <emphasis effect="bold">Circular Transit Frequency = ω</emphasis>
+      <emphasis effect="bold">T</emphasis>
+      <emphasis effect="bold"> = </emphasis>
+      <figure id="id1170094336787">
+        <media id="id1170094336787_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-18bf.png" id="id1170094336787__onlineimage" height="46" width="42"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">1.2566×10</emphasis>
+      <emphasis effect="bold">9</emphasis>
+      <emphasis effect="bold"> radians/second;</emphasis>
+    </para>
+    <para id="id1170095819522">Here it may be noted that reciprocal of frequency gives Time Period of repetition T but reciprocal of circular frequency always gives the Time –Constant. In filters the reciprocal of circular cut-off frequencies gives the RC time constant of the associated RC configuration. Here the reciprocal of the circular transit frequency gives the transit time across the narrow base of the BJT .</para>
+    <para id="id1170095261718">
+      <emphasis effect="bold">Transit Time = </emphasis>
+      <figure id="id1170098317569">
+        <media id="id1170098317569_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-bfdc.png" id="id1170098317569__onlineimage" height="43" width="166"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">0.8nsec;</emphasis>
+    </para>
+    <para id="id1170095181348">
+      <emphasis effect="bold">Trans-conductance = g</emphasis>
+      <emphasis effect="bold">m</emphasis>
+      <emphasis effect="bold"> = </emphasis>
+      <figure id="id1170094576695">
+        <media id="id1170094576695_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-5cd0.png" id="id1170094576695__onlineimage" height="45" width="47"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">40mSiemens(or mS) = </emphasis>
+      <figure id="id1170095860788">
+        <media id="id1170095860788_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics5-4505.png" id="id1170095860788__onlineimage" height="46" width="26"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">= 1/25Ω;</emphasis>
+    </para>
+    <para id="id1170096762185">
+      <emphasis effect="bold">Whereas </emphasis>
+      <figure id="id1170095863021">
+        <media id="id1170095863021_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics6-64ef.png" id="id1170095863021__onlineimage" height="57" width="239"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">;</emphasis>
+    </para>
+    <figure id="id1170094170419">
+      <media id="id1170094170419_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-da9a.png" id="id1170094170419__onlineimage" height="59" width="190"/>
+      </media>
+    </figure>
+    <para id="id1170094342762">
+      <emphasis effect="bold">Therefore </emphasis>
+      <figure id="id1170094845690">
+        <media id="id1170094845690_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics8-516a.png" id="id1170094845690__onlineimage" height="31" width="531"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id1170095357767">
+      <emphasis effect="bold">Therefore </emphasis>
+      <figure id="id1170095258949">
+        <media id="id1170095258949_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics9-ff06.png" id="id1170095258949__onlineimage" height="30" width="167"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170094305890">
+      <emphasis effect="bold">Base spreading resistance is given as r</emphasis>
+      <emphasis effect="bold">x</emphasis>
+      <emphasis effect="bold"> =100Ω ;</emphasis>
+    </para>
+    <figure id="id1170095184404">
+      <media id="id1170095184404_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-d866.png" id="id1170095184404__onlineimage" height="60" width="180"/>
+      </media>
+    </figure>
+    <figure id="id1170095306951">
+      <media id="id1170095306951_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-914d.png" id="id1170095306951__onlineimage" height="315" width="406"/>
+      </media>
+    </figure>
+    <para id="id1170094607272">Self –biasing configuration is connected as CE BJT Amplifier by the use of Emitter bypass capacitance C<sub>E</sub>.</para>
+    <para id="id1170094173981">The circuit elements are given as :</para>
+    <para id="id1170095134990">R<sub>C</sub> = 5k, R<sub>E</sub> = 2k, R<sub>1</sub> = 200k, R<sub>2</sub> = 60k, R<sub>L</sub> = 100k , R<sub>S</sub> = 50Ω,</para>
+    <para id="id1170094598750">R<sub>B</sub> = R<sub>1 </sub>|| R<sub>2</sub>=46k, R<sub>L</sub><sup>′</sup> = 5k||100k – 4.76k;</para>
+    <para id="id1170094853556">The same configuration can be connected as CB Amplifier by the use of Base bypass capacitance C<sub>B</sub> as shown in the Figure 3. The same configuration can be connected as CC Amplifier by the use of Collector bypass capacitance C<sub>C</sub> as shown in the Figure 4. </para>
+    <para id="id1170094846751"/>
+    <figure id="id1170094237099">
+      <media id="id1170094237099_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-b9a5.png" id="id1170094237099__onlineimage" height="473" width="650"/>
+      </media>
+    </figure>
+    <para id="id1170095382946">High Frequency Analysis of CB Amplifier:</para>
+    <para id="id1170094306536">Under incremental condition (refer to Figure 3),</para>
+    <para id="id1170094868819">C<sub>B</sub> shorts out R<sub>1</sub> and R<sub>2</sub> . Coupling capacitors appear as short circuit. Battery V<sub>CC</sub> appears as short circuit. Hence the incremental circuit of CB amplifier is the following as shown in Figure 5 :</para>
+    <para id="id1170094688186">
+      <figure id="id1170095191830">
+        <media id="id1170095191830_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics13-f8cc.png" id="id1170095191830__onlineimage" height="300" width="652"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170098405898">For circuit analysis we replace CB configuration of BJT with its corresponding T-Model as shown in Figure 6.</para>
+    <figure id="id1170095633526">
+      <media id="id1170095633526_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-1cba.png" id="id1170095633526__onlineimage" height="341" width="623"/>
+      </media>
+    </figure>
+    <para id="id1170097119003">In Figure 6, b<sup>׳</sup> is the active base region and b is the external base terminal. The T-Model is further re-oriented as two input and output loop as shown in Figure 7.</para>
+    <para id="id7837290">
+      <figure id="id1170094688780">
+        <media id="id1170094688780_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics15-3af5.png" id="id1170094688780__onlineimage" height="319" width="596"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170094527023">The T-Model of CB BJT is further simplified into two non-interacting loops as shown in Figure 8.</para>
+    <figure id="id7651380">
+      <media id="id7651380_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-308a.png" id="id7651380__onlineimage" height="320" width="604"/>
+      </media>
+    </figure>
+    <para id="id1170095336921">Base spreading resistance r<sub>x</sub> is reflected as (1-α<sub>fo</sub>)r<sub>x</sub> in input loop and in output loop it is not reflected since it is controlled loop. Since (1-α<sub>fo</sub>)r<sub>x</sub> is a negligible resistance hence in input loop it has been completely neglected as a result the input and output loops are completely non-interacting. This is the reason reverse transmission factor is almost non-existent in CB BJT and it is a near-Unilateral device. Hence it is very suitable for RF applications. RF Amplifier are very prone to parasitic oscillations. But if we use a Unilateral Active Device the possibility of parasitic oscillation is minimal.</para>
+    <para id="id1170095879463">Referring to Figure 8, we see there are two capacitors Ce and Cc. Both have two time-constants associated with them.</para>
+    <para id="id7848268">R<sub>10</sub> as seen by Ce is r<sub>e</sub>||R<sub>E</sub>||R<sub>S</sub> = 25Ω</para>
+    <para id="id1170096168911">Therefore time constant associated with Ce = τ<sub>10</sub> = 29pF.25Ω=725psec.</para>
+    <para id="id1170096100251">R<sub>20</sub> as seen by Cc is R<sub>C</sub>||R<sub>L</sub> = 4.76kΩ</para>
+    <para id="id1170096162977">Therefore time constant associated with Cc = τ<sub>20</sub></para>
+    <para id="id1170094814972">=5pF.4.76kΩ=2380psec.</para>
+    <figure id="id1170094983015">
+      <media id="id1170094983015_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-62f4.png" id="id1170094983015__onlineimage" height="58" width="327"/>
+      </media>
+    </figure>
+    <para id="id1170098277549">Therefore higher cut-off frequency = f<sub>h</sub> = 6.489kHz.</para>
+    <para id="id1170096949917">Midband Voltage Gain w.r.t. source (shown previously) </para>
+    <para id="id1170095496437">= <figure id="id1170095972172"><media id="id1170095972172_media" alt=""><image mime-type="image/png" src="../../media/graphics18-1a89.png" id="id1170095972172__onlineimage" height="48" width="77"/></media></figure> = <figure id="id8534385"><media id="id8534385_media" alt=""><image mime-type="image/png" src="../../media/graphics19-1c46.png" id="id8534385__onlineimage" height="42" width="78"/></media></figure> = 63.4</para>
+    <para id="id1170094658466">Internal Voltage Gain = <figure id="id1170094849724"><media id="id1170094849724_media" alt=""><image mime-type="image/png" src="../../media/graphics20-3134.png" id="id1170094849724__onlineimage" height="48" width="165"/></media></figure> .</para>
+    <para id="id1170095973148">Note these are non-inverting gains.</para>
+    <para id="id7127000">In the lab, we will get vastly different gains by including source resistance and neglecting source resistance. So while making voltage gain measurement we have to be careful as to which gain we are measuring.</para>
+    <para id="id5625989"/>
+  </content>
+</document>

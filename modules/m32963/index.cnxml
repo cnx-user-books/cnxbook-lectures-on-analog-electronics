@@ -1,0 +1,530 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Analog Electronics_Univ Question Paper with Solution of Even09</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m32963</md:content-id>
+  <md:title>Analog Electronics_Univ Question Paper with Solution of Even09</md:title>
+  <md:abstract>AE_University Question Paper describes the questions and solutions given in Even09.</md:abstract>
+  <md:uuid>9536787c-20b0-46f8-8ee7-43c8dc9bc4e2</md:uuid>
+</metadata>
+<content>
+    <para id="id12035088">Question Paper of University Examination_EC1305_Spring09_Analog Electronics</para>
+    <para id="id12073560">A. What are the ideal characteristics of a voltage amplifier ? Explain it with respect to the value of source and load resistances.</para>
+    <para id="id7956646">B. The two npn transistors are connected as in Figure 1.b. having collector currents 1mA and 10mA with corresponding base-to-emitter voltages of 0.63V and 0.7V. What would be the total current if the base-to-emitter voltage becomes 0.65V ?</para>
+    <para id="id10494654">Solution of Question 1.A.</para>
+    <figure id="id9196244">
+      <media id="id9196244_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-c38d.png" id="id9196244__onlineimage" height="246" width="491"/>
+      </media>
+    </figure>
+    <para id="id12060984">Voltage Gain = Vout/Vin = Av </para>
+    <para id="id9693762">irrespective of Rs (source resistance) and R<sub>L</sub> (load resistance).</para>
+    <para id="id7555684">The output terminal voltage is equal to open circuit voltage at the output irrespective of Load Resistance. Hence it acts as a voltage controlled voltage source where output is a constant voltage source and is suitable for driving variable loads.</para>
+    <para id="id9357694">All this is true only when input resistance (Rin) is large and output resistance is small (Rout).</para>
+    <para id="id5703759">Solution of Question 1.b.</para>
+    <para id="id13866511">Individually Q1 gives Ic1= 1mA at Vbe1= 0.63V;</para>
+    <para id="id15306488">Q2 gives Ic2 = 10mA at Veb2 = 0.7V</para>
+    <para id="id11042654">Ie1= Ie01Exp(Vbe1/25mV). Therefore Ie1= 1mA = Ie01Exp(630mV/25mV). 1</para>
+    <para id="id12876270">Ie2= Ie02Exp(Vbe2/25mV). Therefore Ie1= 10mA = Ie01Exp(700mV/25mV). 2</para>
+    <figure id="id9790736">
+      <media id="id9790736_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-2469.png" id="id9790736__onlineimage" height="356" width="492"/>
+      </media>
+    </figure>
+    <para id="id7644468">We have to determine the total Ie when Vbe<sup>*</sup>= 0.65V;</para>
+    <para id="id7955574">Solving equations 1 and 2 we get: Ie01=11.4pA and Ie02 = 6.9pA.</para>
+    <para id="id8014237">When they are connected in parallel as shown both have the same Vbe<sup>*</sup>=650mV;</para>
+    <para id="id7167871">Therefore the total current Ie = Ie1+Ie2</para>
+    <para id="id8601587">Where Ie1 =11.4pAExp(Vbe<sup>*</sup>/25) and Ie2 = 6.9pAExp(Vbe<sup>*</sup>/25) </para>
+    <para id="id11893263">Therefore Ie = 11.4pAExp(650/25) + 6.9pAExp(650/25) = 2.2+1.35 = 3.55mA</para>
+    <para id="id5687188">Hence <emphasis effect="bold">Ie = 3.55mA.</emphasis></para>
+    <para id="id5627322">
+      <emphasis effect="italics">a.  BJT amplifier in Figure 2(a) is biased with a constant current source I = 1mA and BJT has a very high β</emphasis>
+      <emphasis effect="italics">f0</emphasis>
+      <emphasis effect="italics"> = very high. Obtain Voltage Gain of the amplifier. The current source may be taken as open circuit in the equivalent circuit.</emphasis>
+    </para>
+    <para id="id12272793">b. For the circuit shown in Figure 2 (b), obtain the collector current of Transistor T4 when Vo = 0.2V.</para>
+    <para id="id7903538">
+      <emphasis effect="italics">Assume β</emphasis>
+      <emphasis effect="italics">F</emphasis>
+      <emphasis effect="italics"> = 100 and β</emphasis>
+      <emphasis effect="italics">I</emphasis>
+      <emphasis effect="italics"> = 0.01 and V</emphasis>
+      <emphasis effect="italics">BE</emphasis>
+      <emphasis effect="italics"> = 0.7V.</emphasis>
+    </para>
+    <para id="id9193415">Solution of Question 2.a.</para>
+    <figure id="id11904413">
+      <media id="id11904413_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-62d9.png" id="id11904413__onlineimage" height="318" width="470"/>
+      </media>
+    </figure>
+    <para id="id9092471">This is a CB amplifier. We re-orient the circuit as follows.</para>
+    <para id="id8970263">
+      <figure id="id12860910">
+        <media id="id12860910_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-5448.png" id="id12860910__onlineimage" height="251" width="511"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id10478890">Now we draw the incremental model of the above circuit. While drawing the incremental model, DC Voltage Source will appear as short circuit and DC Current Source will appear as open circuit.</para>
+    <figure id="id12333296">
+      <media id="id12333296_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-20be.png" id="id12333296__onlineimage" height="391" width="531"/>
+      </media>
+    </figure>
+    <para id="id9372838">Since bias current is 1 mA therefore r<sub>e</sub> (emitter Incremental resistance) = 25 Ω</para>
+    <para id="id8842175">Since β is very high therefore α = 1.</para>
+    <para id="id8848999">Hence <figure id="id9172073"><media id="id9172073_media" alt=""><image mime-type="image/png" src="../../media/graphics1-212d.png" id="id9172073__onlineimage" height="46" width="152"/></media></figure><emphasis effect="bold"> = 80</emphasis>.  [Non-inverting Amplifier]</para>
+    <para id="id7907155">Solution of question 2.b.</para>
+    <para id="id7699573">The circuit is a TTL NAND gate. The question states that Vo is 0.2V. This assumes that INPUT is HIGH and OUTPUT is LOW as should be the case in a TTL NAND gate.</para>
+    <para id="id8953579">Vo = 0.2V implies that T3 is in saturation.</para>
+    <para id="id11766381">If Vin = 5V then T1 is in inverse active mode meaning by Veb1 is reverse biased and Vbc1 is forward biased. This drives T2 to be ON. </para>
+    <para id="id10551747">Flow of Ic2 causes T4 to be OFF and T3 to be saturated. Therefore Vo = 0.2V and Ic4 =0.</para>
+    <para id="id12184552">Therefore <emphasis effect="bold">collector current of T4 is zero.</emphasis></para>
+    <figure id="id9223329">
+      <media id="id9223329_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-49ca.png" id="id9223329__onlineimage" height="348" width="521"/>
+      </media>
+    </figure>
+    <para id="id11628233">(a) Obtain the relation between Io and Iref of Figure 3(a)</para>
+    <para id="id15301920">Solution of question 3(a). </para>
+    <para id="id11891018">
+      <figure id="id7909686">
+        <media id="id7909686_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 9-f870.png" id="id7909686__onlineimage" height="404" width="554"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id12155197">This is a current mirror circuit where Ib1 = Ib2 = Ib</para>
+    <para id="id7642521">Therefore Ic1 = β<sub>F1</sub>Ib1 and Ic2 = β<sub>F2</sub>Ib2</para>
+    <para id="id7900119">Since they are matched transistors therefore β<sub>F1 </sub>= β<sub>F2</sub></para>
+    <para id="id10477818">Hence Ic1 = Ic2 = Io;</para>
+    <para id="id12813239">But Iref = Ic1 + 2Ib ≈ Io since β<sub>F1 </sub>= β<sub>F2 </sub>is very high hence 2Ib is negligible compared to Ic1.</para>
+    <para id="id7701324">Therefore the answer is <emphasis effect="bold">Iref ≈ Io</emphasis></para>
+    <para id="id6893870">
+      <emphasis effect="italics">(b) Calculate the value of output current Io for Vin =5V in the circuit diagram of Figure3(b).Obtain the maximum value of R</emphasis>
+      <emphasis effect="italics">L</emphasis>
+      <emphasis effect="italics"> that can be used in the circuit for Vce2(sat) =0.3V. </emphasis>
+    </para>
+    <para id="id9191468">
+      <figure id="id10765228">
+        <media id="id10765228_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 10-c634.png" id="id10765228__onlineimage" height="338" width="541"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id8605196">Solution of question 3(b).</para>
+    <para id="id12303337">Op Amps always follow two summing point restraints:</para>
+    <para id="id15248806">Summing point Restraint 1 : Inverting I/P Voltage = Non-inverting I/P;</para>
+    <para id="id8300270">Summing point Restraint 2 : Ib1 = Ib2 =0.</para>
+    <para id="id12326003">In Op Amp 1 since Vin = 5 V therefore inverting I/P = 5V.</para>
+    <para id="id15407169">Hence current through Re1=1k is 5mA.</para>
+    <para id="id6902030">Therefore Ic1 = 5mA . This gives Vc1= 15 – Ic1. 1.8k = 6V;</para>
+    <para id="id8594933">Therefore Voltage at INV I/P of Op Amp 2 is = 6V.</para>
+    <para id="id7909978">Therefore Ve2= 6V hence Ie1 = (15-6)V/1k = 9mA</para>
+    <para id="id15568592">Therefore Ic2 = 9mA = Io</para>
+    <para id="id12273282">Therefore <emphasis effect="bold">Io = 9mA</emphasis></para>
+    <para id="id9092959">If T2 is to go into saturation Then Vce2(sat)= 0.3V</para>
+    <para id="id7561925">Therefore voltage across R<sub>L</sub> is =IoR<sub>L</sub> = 5.7V since 15V= 9V + 0.3 + 5.7V;</para>
+    <para id="id5626250">R<sub>L</sub> = 5.7/Io = 5.7/9mA = 630 Ω.</para>
+    <para id="id12897582">
+      <emphasis effect="bold">R</emphasis>
+      <emphasis effect="bold">L </emphasis>
+      <emphasis effect="bold">should be less than 630Ω to prevent T2 from being driven into saturation.</emphasis>
+    </para>
+    <para id="id7637447">(a) Draw a Hybrid-π mpdel.</para>
+    <para id="id8847731">The answer is given in Lecture No.4</para>
+    <para id="id9791224">
+      <emphasis effect="italics">(b) The circuit shown in Figure 4(b) is a power amplifier which drives 8Ω speaker. Obtain the value of Ic2 and Vce2.</emphasis>
+    </para>
+    <para id="id12077549">Solution of question 4(b):</para>
+    <figure id="id9640565">
+      <media id="id9640565_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-6fa4.png" id="id9640565__onlineimage" height="341" width="442"/>
+      </media>
+    </figure>
+    <para id="id9152658">As seen from the figure, Ve1 = 0.7V since Vb1 is ground.</para>
+    <para id="id8603249">But Ve1 = Vb2 = 0.7V therefore Ve2=0V.</para>
+    <para id="id8495816">Therefore the drop across Re1 is 15V </para>
+    <para id="id9525865">Therefore Ie2 = 15/8=1.9A = Ic2 and as seen from the figure Vce2= 15V</para>
+    <para id="id9174610">Therefore <emphasis effect="bold">Ic2= 1.9A &amp; Vce2 = 15V</emphasis></para>
+    <para id="id15323154"/>
+    <para id="id7653322">
+      <emphasis effect="italics">(a) Derive expression for the voltage gain and 3dB frequency of the amplifier shown in Figure 5(a). Neglect the base spreading resistance r</emphasis>
+      <emphasis effect="italics">x</emphasis>
+      <emphasis effect="italics"> . Obtain total input capacitance.</emphasis>
+    </para>
+    <para id="id12856886">Solution of question 5 (a).</para>
+    <figure id="id6866076">
+      <media id="id6866076_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 11-b1f4.png" id="id6866076__onlineimage" height="307" width="279"/>
+      </media>
+    </figure>
+    <para id="id9616113">The midband gain Avo = -g<sub>m</sub>R<sub>L</sub></para>
+    <para id="id7839501">Therefore <emphasis effect="bold">total input capacitance is </emphasis></para>
+    <para id="id6865627">
+      <emphasis effect="bold">Miller Capacitance C</emphasis>
+      <emphasis effect="bold">M</emphasis>
+      <emphasis effect="bold"> = C</emphasis>
+      <emphasis effect="bold">π</emphasis>
+      <emphasis effect="bold"> + C</emphasis>
+      <emphasis effect="bold">μ</emphasis>
+      <emphasis effect="bold">(1+ g</emphasis>
+      <emphasis effect="bold">m</emphasis>
+      <emphasis effect="bold">R</emphasis>
+      <emphasis effect="bold">L</emphasis>
+      <emphasis effect="bold">).</emphasis>
+    </para>
+    <para id="id5531745">Now we draw the incremental circuit of Figure 5(a)</para>
+    <figure id="id8800893">
+      <media id="id8800893_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 12-95fd.png" id="id8800893__onlineimage" height="145" width="413"/>
+      </media>
+    </figure>
+    <para id="id8409408">We apply open circuit time constant method to determine upper -3dB frequency:</para>
+    <para id="id8812090">
+      <figure id="id8397225">
+        <media id="id8397225_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-0a24.png" id="id8397225__onlineimage" height="44" width="122"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id12212333">Where τ10 = C<sub>M</sub>×r<sub>π</sub> and τ20 = C<sub>L</sub>×(R<sub>L</sub>||ro)</para>
+    <para id="id8738675">Therefore <figure id="id8630344"><media id="id8630344_media" alt=""><image mime-type="image/png" src="../../media/graphics3-f828.png" id="id8630344__onlineimage" height="43" width="132"/></media></figure></para>
+    <para id="id9261530">5 <emphasis effect="italics">(b) The lower and upper cut-off frequencies of 1</emphasis><emphasis effect="italics">st</emphasis><emphasis effect="italics"> stage of a two stage amplifier are 100Hz and 140kHz and those of the second stage are 200Hz and 100kHz. If the two stages are cascaded what is the overall bandwidth?</emphasis></para>
+    <para id="id5562718">Solution of question 5 (b) :</para>
+    <para id="id8630342">We have to use the following formulae</para>
+    <para id="id5642624">
+      <figure id="id5511697">
+        <media id="id5511697_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-6ca6.png" id="id5511697__onlineimage" height="58" width="210"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id5538568">
+      <media id="id5538568_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-1640.png" id="id5538568__onlineimage" height="58" width="221"/>
+      </media>
+    </figure>
+    <para id="id7026330">Using these two formulae we get:</para>
+    <para id="id13043434">(f<sub>l</sub>)overall = 223.6 Hz</para>
+    <para id="id7214205">(f<sub>h</sub>)overall = 81.372 kHz.</para>
+    <para id="id12731716">6 <emphasis effect="italics">(a) Compare and contrast the dynamic behavior of the two circuits shown in Figure 6 (a)</emphasis></para>
+    <para id="id5749115">
+      <figure id="id9717153">
+        <media id="id9717153_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 13-ff64.png" id="id9717153__onlineimage" height="253" width="458"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id8573367">Both are NAND gates taught in VLSI.</para>
+    <para id="id6863018">The second gate is much faster as T4 acts as a current source which helps rapidly charge C<sub>L</sub> when I/P is Low and O/P is High.</para>
+    <para id="id5555346">6<emphasis effect="italics"> (b) Each stage of a three stage amplifier without feedback has identical poles and its open loop transfer function is expressed as:</emphasis></para>
+    <figure id="id6862373">
+      <media id="id6862373_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-37f3.png" id="id6862373__onlineimage" height="57" width="67"/>
+      </media>
+    </figure>
+    <para id="id7131056">
+      <emphasis effect="italics">Determine its maximum value of feedback factor f</emphasis>
+      <emphasis effect="italics">max</emphasis>
+      <emphasis effect="italics"> for which the amplitude remains stable. Also determine the corresponding frequency.</emphasis>
+    </para>
+    <para id="id5542882">The overall gain of three stage amplifier is :</para>
+    <para id="id15275304">
+      <figure id="id5505949">
+        <media id="id5505949_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics7-feca.png" id="id5505949__onlineimage" height="72" width="77"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"> = A</emphasis>
+      <emphasis effect="bold">open</emphasis>
+    </para>
+    <para id="id6890222">
+      <emphasis effect="bold">A</emphasis>
+      <emphasis effect="bold">closeed</emphasis>
+      <emphasis effect="bold"> = </emphasis>
+      <figure id="id7076085">
+        <media id="id7076085_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics8-fc22.png" id="id7076085__onlineimage" height="56" width="81"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id7113248">Where f = feedback factor.</para>
+    <para id="id8409632">
+      <emphasis effect="bold">For stability, loop gain = -f A</emphasis>
+      <emphasis effect="bold">open</emphasis>
+      <emphasis effect="bold"> &lt; 1/0°</emphasis>
+    </para>
+    <para id="id11956834">
+      <emphasis effect="bold">At high frequencies : Loop Gain = </emphasis>
+      <figure id="id9144597">
+        <media id="id9144597_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics9-a44e.png" id="id9144597__onlineimage" height="72" width="57"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"> = </emphasis>
+      <figure id="id7291826">
+        <media id="id7291826_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics10-3fd4.png" id="id7291826__onlineimage" height="71" width="68"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id5519890">
+      <emphasis effect="bold">= </emphasis>
+      <figure id="id5641756">
+        <media id="id5641756_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics11-92b5.png" id="id5641756__onlineimage" height="71" width="55"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"> &lt; 1/0°</emphasis>
+    </para>
+    <para id="id8810909">
+      <emphasis effect="bold">Therefore f &lt; (1/0°)×j</emphasis>
+      <figure id="id9322309">
+        <media id="id9322309_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics12-1a68.png" id="id9322309__onlineimage" height="56" width="63"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">×</emphasis>
+      <figure id="id8417444">
+        <media id="id8417444_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics13-db8c.png" id="id8417444__onlineimage" height="53" width="22"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id8417401">
+      <emphasis effect="bold">Therefore f &lt; </emphasis>
+      <figure id="id8776104">
+        <media id="id8776104_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics14-1a68.png" id="id8776104__onlineimage" height="56" width="63"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">×</emphasis>
+      <figure id="id12971847">
+        <media id="id12971847_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics15-db8c.png" id="id12971847__onlineimage" height="53" width="22"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id7209392">Feedback factor will depend upon the frequency ω we are using.</para>
+    <para id="id9542456">Suppose we are using ω* frequency then</para>
+    <para id="id6536680">
+      <emphasis effect="bold"/>
+      <emphasis effect="bold">fmax = </emphasis>
+      <figure id="id8393958">
+        <media id="id8393958_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics16-1916.png" id="id8393958__onlineimage" height="75" width="83"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">×</emphasis>
+      <figure id="id5549031">
+        <media id="id5549031_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics17-5d61.png" id="id5549031__onlineimage" height="71" width="29"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id8038374">
+      <emphasis effect="bold">Hence </emphasis>
+      <figure id="id8392001">
+        <media id="id8392001_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics18-234a.png" id="id8392001__onlineimage" height="54" width="100"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"> ×</emphasis>
+      <figure id="id7839515">
+        <media id="id7839515_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics19-39b4.png" id="id7839515__onlineimage" height="45" width="221"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id9313962">7 (<emphasis effect="italics">a) In the following variant of Wien-Bridge Oscillator Fig 7(a) determine the gain and frequency for sustained oscillation?</emphasis></para>
+    <para id="id10533094">
+      <emphasis effect="italics">(b) A tank circuit is connected to non-inverting terminal of the Op Amp shown in Fig 7(b) having a non-inverting gain of 12. Determine the resonant frequency and Band width of the amplifier. If the input is a current source I</emphasis>
+      <emphasis effect="italics">S</emphasis>
+      <emphasis effect="italics"> , obtain the transfer function between the output voltage and input current source.</emphasis>
+    </para>
+    <para id="id9221009">Solution of question 7 (a). This is a variant of Wien Bridge Oscillator hence we will adopt the same procedure for determining the gain of the basic amplifier for sustained oscillation and the frequency of sustained oscillation.</para>
+    <figure id="id13643361">
+      <media id="id13643361_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 16-a0ec.png" id="id13643361__onlineimage" height="361" width="482"/>
+      </media>
+    </figure>
+    <para id="id5518289">The Loop Gain has to be determined and set to 1/0°,. This is the Barkhausen Criteria. The frequency at which this criteria is satisfied is the frequency of sinusoidal oscillation. If the loop gain is less than 1/0° we will not get any oscillation. If loop gain is greater than 1/0° then we will get clipped sinusoidal. But to achieve self starting condition we have to keep loop gain slightly greater than 1/0° and use amplitude limiting diodes to prevent clipping.</para>
+    <para id="id8832222">In the Figure above:</para>
+    <para id="id8798805">
+      <figure id="id9253561">
+        <media id="id9253561_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics20-fab4.png" id="id9253561__onlineimage" height="47" width="259"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id13775985">
+      <figure id="id8452961">
+        <media id="id8452961_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics21-e5fb.png" id="id8452961__onlineimage" height="58" width="167"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id12457255">
+      <media id="id12457255_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-accc.png" id="id12457255__onlineimage" height="33" width="117"/>
+      </media>
+    </figure>
+    <para id="id6866369">Therefore <figure id="id8081088"><media id="id8081088_media" alt=""><image mime-type="image/png" src="../../media/graphics23-e281.png" id="id8081088__onlineimage" height="46" width="269"/></media></figure> =feedback factor</para>
+    <para id="id7078251">Let <figure id="id8550888"><media id="id8550888_media" alt=""><image mime-type="image/png" src="../../media/graphics24-ef83.png" id="id8550888__onlineimage" height="42" width="85"/></media></figure></para>
+    <para id="id8401457">Therefore:</para>
+    <figure id="id11960587">
+      <media id="id11960587_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics25-e2aa.png" id="id11960587__onlineimage" height="94" width="363"/>
+      </media>
+    </figure>
+    <para id="id15235186">In order to get a real feedback factor, the real part in the denominator should be zero.</para>
+    <para id="id7278639">Equating Real part of Denominator = 0 we get:</para>
+    <figure id="id8513199">
+      <media id="id8513199_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics26-c150.png" id="id8513199__onlineimage" height="52" width="118"/>
+      </media>
+    </figure>
+    <para id="id8422406"><emphasis effect="bold"/>Therefore Oscillator Frequency = <figure id="id7075037"><media id="id7075037_media" alt=""><image mime-type="image/png" src="../../media/graphics27-8565.png" id="id7075037__onlineimage" height="44" width="92"/></media></figure></para>
+    <para id="id7838200">Imaginary Part of the Denominator =<figure id="id8634151"><media id="id8634151_media" alt=""><image mime-type="image/png" src="../../media/graphics28-3916.png" id="id8634151__onlineimage" height="48" width="19"/></media></figure></para>
+    <para id="id15251162">
+      <emphasis effect="bold">Therefore feedback factor at </emphasis>
+      <figure id="id8737080">
+        <media id="id8737080_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics29-cc30.png" id="id8737080__onlineimage" height="33" width="115"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id8921953">
+      <figure id="id7157006">
+        <media id="id7157006_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics30-2544.png" id="id7157006__onlineimage" height="46" width="118"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"> = f</emphasis>
+    </para>
+    <para id="id7028249">Therefore Gain of the Basic Amplifier = <figure id="id15233293"><media id="id15233293_media" alt=""><image mime-type="image/png" src="../../media/graphics31-e554.png" id="id15233293__onlineimage" height="46" width="122"/></media></figure></para>
+    <para id="id8664383">
+      <figure id="id8831443">
+        <media id="id8831443_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics32-c6a9.png" id="id8831443__onlineimage" height="54" width="130"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id9146544">Solution of question 7(b):</para>
+    <figure id="id13852508">
+      <media id="id13852508_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 19-9f16.png" id="id13852508__onlineimage" height="404" width="554"/>
+      </media>
+    </figure>
+    <para id="id8397165">Gain of the Amplifier = 12 = (1+R1/R2);</para>
+    <para id="id8392190">
+      <emphasis effect="bold">Q = </emphasis>
+      <figure id="id7078004">
+        <media id="id7078004_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics33-5aad.png" id="id7078004__onlineimage" height="47" width="129"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id9146933">
+      <emphasis effect="bold">R</emphasis>
+      <emphasis effect="bold">p</emphasis>
+      <emphasis effect="bold"> = 50kΩ.</emphasis>
+    </para>
+    <para id="id8832215">
+      <emphasis effect="bold">A parallel resonance circuit called a tank circuit can be expressed in two ways:</emphasis>
+    </para>
+    <para id="id7111759">
+      <figure id="id7293928">
+        <media id="id7293928_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 20-c92d.png" id="id7293928__onlineimage" height="274" width="499"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id5753704">Both are equivalent hence:</para>
+    <para id="id8395120">
+      <emphasis effect="bold">Q = </emphasis>
+      <figure id="id6955311">
+        <media id="id6955311_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics34-5aad.png" id="id6955311__onlineimage" height="47" width="129"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"/>
+    </para>
+    <para id="id5502005">
+      <emphasis effect="bold">Resonance Frequency =</emphasis>
+      <figure id="id5559653">
+        <media id="id5559653_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics35-d78d.png" id="id5559653__onlineimage" height="30" width="51"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"/>
+      <figure id="id10626057">
+        <media id="id10626057_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics36-a9f5.png" id="id10626057__onlineimage" height="44" width="29"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"> ;</emphasis>
+    </para>
+    <para id="id7976473">
+      <emphasis effect="bold">Therefore f</emphasis>
+      <emphasis effect="bold">0</emphasis>
+      <emphasis effect="bold"> = 63.66kHz.</emphasis>
+    </para>
+    <para id="id8409410">BW = Resonance Frequency/Q = 63.66kHz/12.5 = 5kHz</para>
+    <para id="id12212334">Q of the tank circuit per se is 25 but it is in parallel with the source resistance of 50k hence Q deteriorates to 12.5.</para>
+    <para id="id8421203">
+      <emphasis effect="bold">The Transfer Function = </emphasis>
+      <figure id="id8404480">
+        <media id="id8404480_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics37-764c.png" id="id8404480__onlineimage" height="43" width="18"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"> ;</emphasis>
+    </para>
+    <para id="id8398632">
+      <emphasis effect="bold">The gain of the non-inverting amplifier =12= </emphasis>
+      <figure id="id8811006">
+        <media id="id8811006_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics38-3ffc.png" id="id8811006__onlineimage" height="43" width="32"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id8551368">
+      <emphasis effect="bold">But v</emphasis>
+      <emphasis effect="bold">in</emphasis>
+      <emphasis effect="bold"> = i</emphasis>
+      <emphasis effect="bold">s</emphasis>
+      <emphasis effect="bold">Z where Z is the impedance of the tank circuit and at resonance its value is 50k||50k = 25k.</emphasis>
+    </para>
+    <para id="id7134498">
+      <emphasis effect="bold">Therefore </emphasis>
+      <figure id="id9084958">
+        <media id="id9084958_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics39-5903.png" id="id9084958__onlineimage" height="43" width="114"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id12667658">8 (a) <emphasis effect="italics">The circuit of a power amplifier as shown in Fig 8 (a) amplifies the power of the signal v</emphasis><emphasis effect="italics">m</emphasis><emphasis effect="italics">(t) to feed to a 5Ω loud speaker. What is the maximum power delivered to the 5Ω loud speaker for the maximum output swing from the Op-Amp subject to battery supply of ±8V and I</emphasis><emphasis effect="italics">Cmax </emphasis><emphasis effect="italics">= 2A and P</emphasis><emphasis effect="italics">Cmax</emphasis><emphasis effect="italics"> = 1W. After mounting the transistor on a heat sink it sustains P</emphasis><emphasis effect="italics">Cmax</emphasis><emphasis effect="italics"> = 3W. The circuit has a current booster as the Op.Amp can supply only 25mA at the most.</emphasis></para>
+    <para id="id7294390">Solution of question 8(a).</para>
+    <para id="id15236357">Op Amp acts as Non Inverting Amplifier with gain = 1+ 8/2 = 5 </para>
+    <para id="id6953858">Output Swing of Op Amp peak to peak is = 15 V from 7.5V to -7.5V.</para>
+    <para id="id8515278">Complementary Symmetry Amplifier has been put as a current booster and it has a voltage gain of UNITY only. </para>
+    <para id="id8061108">Therefore v<sub>out</sub> = 5v<sub>in</sub></para>
+    <para id="id9143544">Max Power delivered to the load = V<sub>outrms</sub><sup>2</sup>/5 = (7.5/√2)<sup>2</sup>/5 = 5.625W;</para>
+    <para id="id9651212">
+      <emphasis effect="bold">P</emphasis>
+      <emphasis effect="bold">max</emphasis>
+      <emphasis effect="bold"> delivered to the speaker = 5.625W</emphasis>
+    </para>
+    <para id="id5564459">I<sub>cmax</sub> = 2A therefore V<sub>0max</sub> = 10V but our swing is limited to ±7.5V</para>
+    <para id="id8433092">Therefore it cannot deliver more than 5.625W.</para>
+    <para id="id8392192">At maximum power delivery the dissipation in the amplifier is = P<sub>dissipation</sub> = 5.625W(1-η) = 1.19W since power conversion efficiency = 0.788.</para>
+    <para id="id8417433">This is well within the 3W of heat dissipation which is permitted with the heat sink hence the design is OK. </para>
+  </content>
+</document>

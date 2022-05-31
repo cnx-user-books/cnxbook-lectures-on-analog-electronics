@@ -1,0 +1,652 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Solutions of the Question Bank of 4EC111.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55454</md:content-id>
+  <md:title>Solutions of the Question Bank of 4EC111.</md:title>
+  <md:abstract>The gives the solution  of the Question Bank 4EC111 uploaded as m54985</md:abstract>
+  <md:uuid>ae58f02c-dab1-4c3b-a150-15b3e2d2b4c3</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1169480798231">
+      <emphasis effect="bold">Solutions of the Question Bank of 4EC111.</emphasis>
+    </para>
+    <para id="import-auto-id1169495888477">
+      <emphasis effect="bold">Solution of Question 1. </emphasis>
+    </para>
+    <para id="import-auto-id1169501851219">With the knowledge that µp = O.4µn what must be the relative width of n-channel and p-channel devices if they are to have equal drain currents when operated in the saturation mode with overdrive voltages of the same magnitude?</para>
+    <para id="import-auto-id1169484563529">The solution has been given in the Question Bank.</para>
+    <para id="import-auto-id1169499502891"><emphasis effect="bold">Solution of Question 2. </emphasis>The (E)NMOS is in Pentode region.</para>
+    <para id="import-auto-id1169479091991">A particular enhancement MOSFET for which V<sub>t</sub>=1 V and k<sub>n</sub><sup>′</sup>×W/L = 0.1 mA/V<sup>2</sup> is to be operated in the saturation region. If I<sub>D</sub> is to be 0.2 mA, find the required Vgs and the</para>
+    <para id="import-auto-id1169475604801">minimum required Vds* for pentode operation .Repeat for i<sub>d</sub> = 0.8 mA.</para>
+    <para id="import-auto-id1169483770067">Given Thresold Voltage V<sub>t</sub> =1V, Device Transconductance k<sub>n</sub> = 0.1mA/V<sup>2</sup></para>
+    <para id="import-auto-id1169474840581">The device is in PENTODE REGION hence the equation to be used is:</para>
+    <figure id="import-auto-id1169473252665">
+      <media id="import-auto-id1169481465573" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-da30.png" height="39" width="144"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169477892468">At I<sub>D</sub>=0.2mA, V<sub>OV</sub>= 2V  therefore V<sub>GS</sub> = 3V;</para>
+    <para id="import-auto-id1169477341247">The saturation or the PENTODE region begins  at :</para>
+    <figure id="import-auto-id1169484809161">
+      <media id="import-auto-id1169486104328" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-cf9e.png" height="22" width="140"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169476390564">At I<sub>D</sub>=0.8mA, V<sub>OV</sub>= 4V  therefore V<sub>GS</sub> = 5V;</para>
+    <para id="import-auto-id1169478984416">The saturation or the PENTODE region begins at :</para>
+    <figure id="import-auto-id1169477572807">
+      <media id="import-auto-id1169481040721" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-c4e6.png" height="22" width="140"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169496807880">
+      <emphasis effect="bold">Solution of Question 3.</emphasis>
+    </para>
+    <para id="import-auto-id1169481044271">A particular n-channel enhancement MOSFET is measured to have a drain current of 4 mA at V gs = Vds = 5 V and of 1 mA at Vgs = Vds = 3 V. What are the values of kn<sup>′</sup>×(W/L) and V<sub>t </sub>for this device? </para>
+    <para id="import-auto-id1169477099641">Since V<sub>GS</sub> = V<sub>DS</sub> hence the device is in PENTODE REGION. So we will start from Pentode Region equation:</para>
+    <figure id="import-auto-id1169489553861">
+      <media id="import-auto-id1169487002330" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-3f5f.png" height="39" width="108"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169479341756">Substituting the two Q points we get two equations namely:</para>
+    <figure id="import-auto-id1169475891119">
+      <media id="import-auto-id1169472712922" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-ae11.png" height="22" width="374"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169473284460">We have 2 equations and two unknowns. Solving these two simultaneous equations we get:</para>
+    <figure id="import-auto-id1169499410186">
+      <media id="import-auto-id1169480587813" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-0728.png" height="39" width="178"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169478533248">The above values can be put in the above two equations and check if the Q-point satisfies the above 2 equations.</para>
+    <para id="import-auto-id1169481064615">
+      <emphasis effect="bold">Solution of Question 4.</emphasis>
+    </para>
+    <para id="import-auto-id1169474597157">Consider an n-channel MOSFET with t<sub>ox</sub> = 20 nm,  µn = 650 cm<sup>2</sup>/(V-s), V<sub>t</sub> = 0.8 V, and W/L = 10. Find the drain current in the following cases:</para>
+    <para id="import-auto-id1169472085795">(a) V<sub>gs</sub> = 5 V and V<sub>ds</sub> = 1 V</para>
+    <para id="import-auto-id1169495724262">(b) V<sub>gs</sub> = 2 V and V<sub>ds</sub> = 1.2 V</para>
+    <para id="import-auto-id1169476364410">(c) V<sub>gs</sub> = 5 V and V<sub>ds</sub> = 0.2 V</para>
+    <para id="import-auto-id1169484988622">(d) V<sub>gs</sub> = V<sub>ds</sub> = 5 V</para>
+    <para id="import-auto-id1169486295063">First calculate the device transconductance. Device Transconductance is given as follows:</para>
+    <figure id="import-auto-id1169488569771">
+      <media id="import-auto-id1169478508711" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-f603.png" height="42" width="595"/>
+      </media>
+    </figure>
+    <para id="import-auto-id4553375">Absolute Permittivity = ε<sub>0</sub> = 8.854187817×10<sup>-12</sup>F/m and relative permittivity of SiO<sub>2</sub> is 3.9.</para>
+    <para id="import-auto-id1169499270794">Substituting the appropriate values we get:</para>
+    <para id="import-auto-id1169496608294">Device transconductance = k<sub>n </sub>=1.12125 mA/V<sup>2</sup>  ;</para>
+    <para id="import-auto-id1169477829743">We have four cases. We have to identify in each case whether the device is operating in TRIODE region or in PENTODE region.</para>
+    <para id="import-auto-id1169473249278">In Triode region following equation is applicable:</para>
+    <figure id="import-auto-id1169476502586">
+      <media id="import-auto-id1169475638606" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-11e5.png" height="39" width="460"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169500611017">In Pentode region following equation is applicable:</para>
+    <figure id="import-auto-id1169477718672">
+      <media id="import-auto-id1169474932257" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-c3c9.png" height="39" width="414"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169500353704">In Part (a), drain to source voltage is much smaller than overvoltage hence NMOS is in triode region and triode equation give I<sub>D</sub> =  4.147625mA.</para>
+    <para id="import-auto-id1169489545990">In Part (b), drain to source voltage is just equal to the  overvoltage hence NMOS is in pentode region and pentode  equation give I<sub>D</sub> =  0.8073mA.</para>
+    <para id="import-auto-id1169484634707">In Part (a), drain to source voltage is much much smaller than overvoltage hence NMOS is in triode region and triode equation give I<sub>D</sub> =  0.919425mA.</para>
+    <para id="import-auto-id1169474230760">In Part (a), drain to source voltage is greater than overvoltage hence NMOS is in well inside pentode region and pentode equation gives I<sub>D</sub> =  9.8894mA.</para>
+    <para id="import-auto-id1169471335980">
+      <emphasis effect="bold">Solution of Question 5.</emphasis>
+    </para>
+    <para id="import-auto-id1169476903493">Consider an npn transistor for which β<sub>F</sub> = 100, α<sub>R</sub> (inverse current transfer ratio) = 0. 1 ,</para>
+    <para id="import-auto-id1169491746193">and Is = 10<sup>-15 </sup>A.</para>
+    <para id="import-auto-id1169475481460">(a) If the transistor is operated in the forward active mode</para>
+    <para id="import-auto-id1169498690959">with I<sub>B</sub> = 10 µA and V<sub>CB</sub> = 1 V, find V<sub>BE</sub>, I<sub>E</sub>, and I<sub>C</sub></para>
+    <para id="import-auto-id1169475548933">(b) Now, operate the transistor in the inverse active mode</para>
+    <para id="import-auto-id1169475986443">with a forward-bias voltage V<sub>BC</sub> equal to the value of V<sub>BE</sub></para>
+    <para id="import-auto-id1169473197748">found in (a) and with V<sub>EB</sub> = 1 V(reverse bias). Find Ic, I<sub>B</sub>, and I<sub>E</sub> .</para>
+    <para id="import-auto-id1169479069387">
+      <emphasis effect="bold">
+        <emphasis effect="italics">THIS PROBLEM IS BASED ON EBER_MOLL MODEL WHICH I HAVE NOT DONE IN CLASS BUT MAY BE IT IS DONE IN ECE SECTION. THEREFORE THE QUESTION IS LIKELY TO COME.I WILL GIVE THE SOLUTION AS SUPPLEMENTARY MODULE TODAY ITSELF.</emphasis>
+      </emphasis>
+    </para>
+    <para id="import-auto-id1169500767640">
+      <emphasis effect="bold">Solution of Question 6.</emphasis>
+    </para>
+    <para id="import-auto-id1169474135736">Consider a transistor for which the base-emitter voltage drop is 0.7 V at 10 mA. What current flows for V<sub>BE</sub> = 0.5 V?</para>
+    <para id="import-auto-id1169478911034">The emitter current is given by the following formula:</para>
+    <figure id="import-auto-id1169472912750">
+      <media id="import-auto-id7952718" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-2727.png" height="39" width="138"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169471976210">Substituting V<sub>BE</sub> =0.7V and I<sub>E</sub> = 10mA we get I<sub>EO </sub>= 2.0298×10<sup>-14</sup>A.</para>
+    <para id="import-auto-id1169471480442">Therefore at V<sub>BE</sub> = 0.5V,  I<sub>E</sub> = 4.56324μA.</para>
+    <para id="import-auto-id1169495526843">
+      <emphasis effect="bold">Solution of Question 7.</emphasis>
+    </para>
+    <para id="import-auto-id1169473724362">An npn BJT with grounded emitter is operated with</para>
+    <para id="import-auto-id1169475272960">V<sub>BE </sub>= 0.700 V, at which the collector current is 1mA. A 10 kΩ</para>
+    <para id="import-auto-id4096252">resistor connects the collector to a +15V supply. What is the</para>
+    <para id="import-auto-id1169484361580">resulting collector voltage Vc ? Now, in the above question if a signal applied to</para>
+    <para id="import-auto-id1169472899014">the base raises V<sub>BE</sub> to 705 mV, find the resulting instantaneous collector</para>
+    <para id="import-auto-id1169501061250">current  and instantaneous collector voltage using the exponential</para>
+    <para id="import-auto-id1169500373292">I<sub>C</sub> -V<sub>BE</sub> relationship. For this situation, what are v<sub>BE</sub> and</para>
+    <para id="import-auto-id1169475709952">v<sub>C</sub>? Calculate the incremental voltage gain v<sub>c</sub>/ v<sub>be  </sub>?</para>
+    <para id="import-auto-id1169493612015">CE BJT has 1mA collector current and V<sub>CEQ</sub> = 15V- 1mA×10k=5V.</para>
+    <para id="import-auto-id1169496697144">At  this Q point (1mA,5V), an incremental voltage of 5mV is applied i.e. base voltage is raised from 700mV to 705mV.</para>
+    <para id="import-auto-id1169475516784">We have the following two equations:</para>
+    <figure id="import-auto-id1169476230314">
+      <media id="import-auto-id1169472888087" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-1c3e.png" height="39" width="322"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169473014620"><figure id="import-auto-id1169483991885"><media id="import-auto-id1169502029193" alt=""><image mime-type="image/png" src="../../media/graphics12-d29c.png" height="22" width="534"/></media></figure><figure id="import-auto-id1169480470466"><media id="import-auto-id1169499612198" alt=""><image mime-type="image/png" src="../../media/graphics13-50fd.png" height="31" width="119"/></media></figure>= <figure id="import-auto-id1169501323027"><media id="import-auto-id1169501746340" alt=""><image mime-type="image/png" src="../../media/graphics14-1122.png" height="31" width="491"/></media></figure></para>
+    <para id="import-auto-id1169470346441">Hence <emphasis effect="bold"/>incremental current is as follows:</para><figure id="import-auto-id1169486317425">
+      <media id="import-auto-id1169486614675" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-c75b.png" height="22" width="512"/>
+      </media>
+    </figure>
+    <para id="import-auto-id5680419">So instantaneous Collector current =  1mA + 0.192mA = 1.192mA.</para><para id="import-auto-id1169486511112">And instantaneous Collector voltage = 15- 1.192mA×10k= 3.08V.</para>
+    <para id="import-auto-id1169484668593">Incrementl voltage gain = - (5-3.08)V/5mV= -384.</para>
+    <para id="import-auto-id1169475362854">If we do small signal anlysis </para>
+    <para id="import-auto-id1169497634384">the incremental voltage gain = - g<sub>m</sub>R<sub>C</sub> = - 0.0386S×10k = -386.</para>
+    <para id="import-auto-id1169501075776">We get the same answer both ways.</para>
+    <para id="import-auto-id1169501206306">
+      <emphasis effect="bold">Solution of Question 8.</emphasis>
+    </para>
+    <para id="import-auto-id1169500640879">A forward biased BIT operates as a grounded-emitter amplifier between a signal source, with a source resistance of 10 kΩ, connected to the base and a 1kΩ load connected as a collector resistance R<sub>C</sub>. In the corresponding model, gm is 40 mA/V and r<sub>π</sub> is 2.5 kΩ. Calculate the overall voltage gain ( v<sub>ce</sub>/ v<sub>s</sub>) .  To what value must β be</para>
+    <para id="import-auto-id1169500638356">increased to double the overall voltage gain?</para>
+    <figure id="import-auto-id1169477888827">
+      <media id="import-auto-id1169473672273" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-8cd4.png" height="266" width="611"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169484408979">Overall Voltage Gain in Flat Band Region is:</para>
+    <figure id="import-auto-id1169485960041">
+      <media id="import-auto-id1169477452117" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-dfc5.png" height="43" width="455"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169481357878">If short circuit current gain (β) is increased then r<sub>π = </sub>β<sub>fo</sub>/g<sub>m</sub> is increased and the overall voltage gain is:</para>
+    <figure id="import-auto-id1169492121215">
+      <media id="import-auto-id1169472711652" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-08fa.png" height="58" width="470"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169477695499">
+      <emphasis effect="bold">Solution of Question 9.</emphasis>
+    </para>
+    <para id="import-auto-id1169478905051">Analyze the circuit in Figure 1 to determine the voltages at all nodes and the currents in all branches. Assume β<sub>F</sub>  =DC short circuit gain= β<sub>fo</sub>  = incremental short circuit gain at low frequency=100.</para>
+    <para id="import-auto-id1169481057169">The Circuit is given below. Assume V<sub>BE</sub> = 0.7V</para>
+    <para id="import-auto-id1169497565058">The branch currents are:</para>
+    <figure id="import-auto-id1169489909299">
+      <media id="import-auto-id1169486207583" alt="">
+        <image mime-type="image/png" src="../../media/graphics18-05da.png" height="42" width="532"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169473237388">The node voltages are:</para>
+    <figure id="import-auto-id1169501260556">
+      <media id="import-auto-id1169473199180" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-8d3d.png" height="22" width="449"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1169478026558">
+      <media id="import-auto-id1169499690343" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-63f6.png" height="289" width="191"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169477458266">
+      <emphasis effect="bold">Solution of Question 10.</emphasis>
+    </para>
+    <para id="import-auto-id1169473520615">Analyze the transistor amplifier shown in Figure  to determine its voltage gain. Assume β<sub>F</sub>  = DC short circuit gain= β<sub>fo</sub>  = incremental short circuit gain at low frequency =100.</para>
+    <figure id="import-auto-id1169496139678">
+      <media id="import-auto-id1169490988233" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-0c95.png" height="354" width="326"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169490519308">In this question there are two Voltage Gains: First is internal voltage gain</para>
+    <figure id="import-auto-id1169478554616">
+      <media id="import-auto-id1169501224973" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-a196.png" height="39" width="597"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169483496236">Second is the overall voltage gain with respect to the source voltage = v<sub>s</sub>:</para>
+    <figure id="import-auto-id1169487078014">
+      <media id="import-auto-id1169485862008" alt="">
+        <image mime-type="image/png" src="../../media/graphics21-3269.png" height="43" width="595"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169498125471">You have to specify the voltage gain you are using. We will be using the simple Hybrid-π model given in Sedra and Smith.</para>
+    <para id="import-auto-id1169474554209">Transconductance g<sub>m </sub> has to be calculated for which I<sub>C</sub> is needed.</para>
+    <para id="import-auto-id1169473454957">From the input mesh I<sub>B</sub> is calculated to be 23μA therefore I<sub>C</sub> = β<sub>F</sub>×23μA=2.3mA.</para>
+    <para id="import-auto-id1169486320704">Therefore V<sub>CE</sub> = 10- 2.3mA×3k=3.1V;</para>
+    <para id="import-auto-id1169477695891">Tramsconductace is g<sub>m</sub> = 2.3mA/26mV=88mS and r<sub>π</sub> =β<sub>fo</sub>/g<sub>m</sub> =1.136k</para>
+    <para id="import-auto-id1169499537588">From (10.1) the <emphasis effect="bold">internal voltage gain = - 88mS×3k =-264;</emphasis></para>
+    <para id="import-auto-id1169488110981">From (10.2) the <emphasis effect="bold">overall voltage gain = - (100×3k)/(1.136k+100k)= -2.966</emphasis>.</para>
+    <para id="import-auto-id1169499395642">
+      <emphasis effect="bold">Solution of Question 11.</emphasis>
+    </para>
+    <para id="import-auto-id1169501769723">Analyze all the node voltages and branch currents in the Figure . Assume β<sub>F</sub>  = DC short circuit gain= β<sub>fo</sub>  = incremental short circuit gain at low frequency =100.</para>
+    <figure id="import-auto-id1169500417319">
+      <media id="import-auto-id3955291" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-438f.png" height="256" width="204"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169473196267">From the input mesh Base Current is determined.Assume V<sub>BE</sub>=0.7V.</para>
+    <figure id="import-auto-id1169494019722">
+      <media id="import-auto-id1169501077818" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-f54f.png" height="39" width="463"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1169480605892">
+      <media id="import-auto-id1169485093899" alt="">
+        <image mime-type="image/png" src="../../media/graphics23-fecf.png" height="22" width="231"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169497157684">The node voltage are:</para>
+    <figure id="import-auto-id1169480873123">
+      <media id="import-auto-id1169475446667" alt="">
+        <image mime-type="image/png" src="../../media/graphics24-f6f4.png" height="22" width="428"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169473607683">Therefore:</para>
+    <figure id="import-auto-id1169472992840">
+      <media id="import-auto-id1169502949574" alt="">
+        <image mime-type="image/png" src="../../media/graphics25-4f6c.png" height="23" width="288"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169500249376">
+      <emphasis effect="bold">Solution of Question 12.</emphasis>
+    </para>
+    <para id="import-auto-id1169495952897">THE DIFFERENTIAL AMPLIFIER IN FIG 4 USES  TRANSISTOR β<sub>F</sub>  = DC short circuit gain= β<sub>fo</sub>  = incremental short circuit gain at low frequency =100.EVALUATE THE FOLLOWING</para>
+    <list id="import-auto-id1169483799806" list-type="enumerated" number-style="lower-alpha" mark-prefix="(">
+      <item>THE INPUT DIFFERENTIAL RESISTANCE</item>
+      <item>THE OVERALL DIFFERENTIAL VOLTAGE GAIN (vo/vsig)</item>
+      <item>THE WORST CASE COMMON MODE GAIN IF THE TWO COLLECTOR RESISTANCES ARE  ACCURATE TO WITHIN ±1%</item>
+      <item>THE CMRR IN db</item>
+      <item> THE INPUT COMMON-MODE RESISTANCE(ASSUMING EARLY VOLTAGE V<sub>A</sub>  =100v)</item>
+    </list>
+    <figure id="import-auto-id1169474231967">
+      <media id="import-auto-id1169493302788" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-9881.png" height="422" width="480"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169479642614">By introducing R<sub>E1</sub> = R<sub>E2</sub> = 150Ω, we have introduced a limited amount of  current-series feedback with all its concomitant advantages of improved frequency Band Width, improved linearity and improved dynamic range with less harmonic distortion and higher differential input impedance. But for all these performance improvements gain has been sacrificed. Without R<sub>E1</sub> = R<sub>E2</sub> = 150Ω the differential mode gain is:</para>
+    <figure id="import-auto-id1169478498594">
+      <media id="import-auto-id1169479856599" alt="">
+        <image mime-type="image/png" src="../../media/graphics26-ec0b.png" height="39" width="426"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169479225245">With R<sub>E1</sub> = R<sub>E2</sub> = 150Ω, the symmetrical half circuit is emitter degenerate amplifier hence its differential mode gain = -R<sub>C1</sub>/R<sub>E1</sub>  = -66.67 .</para>
+    <para id="import-auto-id1169479414966">Part (a) Differential Mode Input Impedance = 2×(R<sub>S</sub> + r<sub>π1</sub>+ (1+β<sub>fo</sub>)×R<sub>E1</sub>] =2[5k+5.2k+15k]=50.4k;</para>
+    <para id="import-auto-id6230995">Part (b) Overall differential voltage gain is determined from the half circuit.</para>
+    <figure id="import-auto-id1169499350407">
+      <media id="import-auto-id1169502964987" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-1790.png" height="416" width="489"/>
+      </media>
+    </figure>
+    <para id="import-auto-id2566913">Overall voltage gain is given by the following expression:</para>
+    <figure id="import-auto-id1169487702388">
+      <media id="import-auto-id1169500798674" alt="">
+        <image mime-type="image/png" src="../../media/graphics27-fb19.png" height="46" width="470"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169478703229">So if we double ended output then overall low frequency voltage gain= -39.68</para>
+    <para id="import-auto-id1169498930692">Part (c) The worst case common mode gain is given by the following expression:</para>
+    <figure id="import-auto-id1169475348274">
+      <media id="import-auto-id1169472982741" alt="">
+        <image mime-type="image/png" src="../../media/graphics28-0739.png" height="43" width="369"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169486939047">Part (d) CMRR is given by the following expression:</para>
+    <figure id="import-auto-id4273938">
+      <media id="import-auto-id1169493450013" alt="">
+        <image mime-type="image/png" src="../../media/graphics29-6e26.png" height="42" width="101"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169474287476">Here differential mode gain is given without source resistance namely:</para>
+    <figure id="import-auto-id1169500363509">
+      <media id="import-auto-id1169477251825" alt="">
+        <image mime-type="image/png" src="../../media/graphics30-cbeb.png" height="42" width="482"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169479219467">In dB it is 20log<sub>10</sub>(CMRR)=102.5dB</para>
+    <para id="import-auto-id1169473942649">Part (e) Common Mode Input Impedance is determined from the common mode half circuit.</para>
+    <para id="import-auto-id1169480975578">It is determined from  the figure below.</para>
+    <figure id="import-auto-id1169479451219">
+      <media id="import-auto-id1169501303957" alt="">
+        <image mime-type="image/png" src="../../media/graphics31-34e7.png" height="25" width="544"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1169479152459">
+      <media id="import-auto-id1169502948256" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-83ca.png" height="344" width="580"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169484919272">
+      <emphasis effect="bold">Solution of Question 13.</emphasis>
+    </para>
+    <para id="import-auto-id1169475314577">FOR AN NMOS DIFFERENTIAL PAIR WITH A COMMON MODE VOLTAGE Vcm applied ,as shown in Figure below , let V<sub>DD</sub>=V<sub>SS</sub>=2.5V ,  k<sup>′</sup><sub>n</sub> W /L =3mA/V<sup>2</sup> , Vth = 0.7 V , I<sub>SS</sub> = 0.2mA, R<sub>D1</sub>= R<sub>D1</sub>=5kohm , and neglect channel length modulation</para>
+    <list id="import-auto-id1169477890143" list-type="enumerated" number-style="lower-alpha" mark-prefix="(">
+      <item>Find Vov and V<sub>GS</sub> for each transisitor</item>
+      <item>For V<sub>CM</sub>=0 , find V<sub>S</sub>,I<sub>D1</sub>,I<sub>D2</sub>,V<sub>D1</sub>,V<sub>D2</sub> ;</item>
+      <item>Repeat (b) for V<sub>CM</sub> = 1V</item>
+      <item>Repeat (b) for V<sub>CM</sub> = -1V</item>
+      <item>What is the highest value for V<sub>CM</sub> for which Q1 and Q2 remain in PENTODE REGION(saturation)</item>
+      <item>If current source I<sub>SS</sub> requires a min. voltage of 0.3 V to operate properly, ,what is the lowest value allowed for Source Voltage and hence for  V<sub>CM</sub>.</item>
+    </list>
+    <figure id="import-auto-id1169475793679">
+      <media id="import-auto-id1169479667456" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-282d.png" height="401" width="493"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169499473943">
+      <emphasis effect="bold">Part (a) </emphasis>
+    </para>
+    <figure id="import-auto-id1169500407852">
+      <media id="import-auto-id1169474073868" alt="">
+        <image mime-type="image/png" src="../../media/graphics32-97b1.png" height="60" width="398"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169498118661">Part (b) </para>
+    <figure id="import-auto-id1169473142296">
+      <media id="import-auto-id1169477303167" alt="">
+        <image mime-type="image/png" src="../../media/graphics33-ea7f.png" height="22" width="486"/>
+      </media>
+    </figure>
+    <para id="import-auto-id3721154">Part (c) </para>
+    <figure id="import-auto-id1169499613177">
+      <media id="import-auto-id1169474736595" alt="">
+        <image mime-type="image/png" src="../../media/graphics34-73e6.png" height="22" width="356"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1169493608099">
+      <media id="import-auto-id1169500606358" alt="">
+        <image mime-type="image/png" src="../../media/graphics35-3a6d.png" height="22" width="203"/>
+      </media>
+    </figure>
+    <para id="import-auto-id5843058">Part (d) </para>
+    <figure id="import-auto-id1169490611291">
+      <media id="import-auto-id1169473652802" alt="">
+        <image mime-type="image/png" src="../../media/graphics36-c591.png" height="22" width="356"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1169477526948">
+      <media id="import-auto-id1169478638828" alt="">
+        <image mime-type="image/png" src="../../media/graphics37-73b5.png" height="22" width="227"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169498178239">Part (e) </para>
+    <figure id="import-auto-id1169481531329">
+      <media id="import-auto-id1169493559962" alt="">
+        <image mime-type="image/png" src="../../media/graphics38-4dee.png" height="22" width="281"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1169487192224">
+      <media id="import-auto-id1169500606466" alt="">
+        <image mime-type="image/png" src="../../media/graphics39-6e93.png" height="22" width="189"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169479776444">Part (f)</para>
+    <figure id="import-auto-id1169491295450">
+      <media id="import-auto-id1169498484974" alt="">
+        <image mime-type="image/png" src="../../media/graphics40-8126.png" height="22" width="446"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169476244280">Therefore <figure id="import-auto-id1169497490041"><media id="import-auto-id1169479379690" alt=""><image mime-type="image/png" src="../../media/graphics41-4dac.png" height="22" width="362"/></media></figure></para>
+    <para id="import-auto-id1169474111636">Maximum symmetrical swing at the input in CM = ±1.24V</para>
+    <para id="import-auto-id1169480737840">
+      <emphasis effect="bold">Solution of Question 14. </emphasis>
+    </para>
+    <para id="import-auto-id1169480748443">For the differential amplifier of Figure below, let I<sub>EE</sub> =1mA , Vcc = 5V ,V<sub> CM</sub> = -2 V ,  Rc = 3kohm, β=100. Assume that the BJT have V<sub>BE  </sub>= 0.7V at I<sub>C</sub>=1mA . Find the voltage at the emitter and at the output  V<sub>C1</sub>=V<sub>C2</sub>  ?</para>
+    <figure id="import-auto-id7971841">
+      <media id="import-auto-id1169499732835" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-f63d.png" height="398" width="558"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169501101311">Since two half circuits are identical under CM signal therefore the two collector voltages are:</para>
+    <figure id="import-auto-id1169501372876">
+      <media id="import-auto-id1169484438650" alt="">
+        <image mime-type="image/png" src="../../media/graphics42-eac2.png" height="22" width="454"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169478978219">The emitter voltage is:</para>
+    <figure id="import-auto-id1169480986965">
+      <media id="import-auto-id1169486540849" alt="">
+        <image mime-type="image/png" src="../../media/graphics43-2c16.png" height="22" width="561"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169489475473">
+      <emphasis effect="bold">Solution of Question 15.</emphasis>
+    </para>
+    <para id="import-auto-id1169478130359">Consider the basic differential circuit in which the transistors have β= 100 and V<sub>A </sub>= 100V, </para>
+    <para id="import-auto-id1169484526277">I<sub>EE</sub> = 1 m<emphasis effect="italics">A</emphasis>,</para>
+    <para id="import-auto-id1169478506327">R<sub>E </sub> = 0.5MΩ and R<sub>C </sub>= 20kΩ Find:</para>
+    <para id="import-auto-id1169479410987">(a) the differential gain to a single-ended output</para>
+    <para id="import-auto-id1169500778060">(b) the differential input resistance</para>
+    <para id="import-auto-id1169498290304">(c) the common-mode gain to a single ended output?</para>
+    <para id="import-auto-id1169500347356">Part (a)</para>
+    <para id="import-auto-id1169474287395">Current through each half is I<sub>C1</sub>=I<sub>C2</sub> =0.5mA therefore g<sub>m</sub> =I<sub>C</sub>/26mV=19.23mS and r<sub>π</sub>=5.2k</para>
+    <para id="import-auto-id1169475415733">The half circuit has a gain of A<sub>VDM</sub> = -g<sub>m</sub>R<sub>C </sub>= -19.23mS×20kΩ= -384.6 V/V.</para>
+    <para id="import-auto-id1169499751195">This will be the differential mode gain if double ended output.</para>
+    <para id="import-auto-id1169475202433">In single ended output it will be half this amount=-192.3V/V</para>
+    <para id="import-auto-id1169483532409">Part (b) </para>
+    <figure id="import-auto-id1135650">
+      <media id="import-auto-id1169474340123" alt="">
+        <image mime-type="image/png" src="../../media/graphics44-7f90.png" height="22" width="182"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169484014808">Part (c) </para>
+    <para id="import-auto-id1169480971270">Common Mode Gain of the half circuit is the same for double ended or single ended output. Hence CM voltage gain is as follows:</para>
+    <figure id="import-auto-id1169473008145">
+      <media id="import-auto-id1169494763792" alt="">
+        <image mime-type="image/png" src="../../media/graphics45-a279.png" height="42" width="248"/>
+      </media>
+    </figure>
+    <para id="import-auto-id6466758">
+      <emphasis effect="bold">Solution of Question 16.</emphasis>
+    </para>
+    <para id="import-auto-id1169479002140">A differential amplifier using a 600-µA emitter bias current source uses two well-matched transistors but collector load resistors that are mismatched by 10%. What input offset voltage is required to reduce the differential output voltage to zero?</para>
+    <para id="import-auto-id1169472882833">Mismatch of collector resistance leads to differential output even when differential I/P is zero.</para>
+    <para id="import-auto-id1169475738370">Under differential input = 0, the differential output is as follows:</para>
+    <figure id="import-auto-id1169493589955">
+      <media id="import-auto-id1169474793151" alt="">
+        <image mime-type="image/png" src="../../media/graphics46-fed9.png" height="22" width="248"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169497599252">Therefore Offset input is as follows:</para>
+    <figure id="import-auto-id1169474789505">
+      <media id="import-auto-id1169499174268" alt="">
+        <image mime-type="image/png" src="../../media/graphics47-dde3.png" height="55" width="457"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169500350337">
+      <emphasis effect="bold">Solution of Question 17.</emphasis>
+    </para>
+    <para id="import-auto-id1169485349485">For a particular amplifier connected in a feedback loop in which the output voltage is sampled, measurement of the output resistance before and after the loop is connected shows a change by a factor of 80. Is the output resistance with feedback higher or lower? What is the value of the loop gain Aβ? If R<sub>of</sub> is 100 Ω, what is R<sub>o</sub> without feedback?</para>
+    <para id="import-auto-id1169473230067">Since the system is VOLTAGE SAMPLING hence out voltage is kept constant.</para>
+    <para id="import-auto-id1169497985295">This means output acts as CONSTANT VOLTAGE SOURCE with a low output impedance .</para>
+    <para id="import-auto-id1169497252183">Hence we have the following relationship:</para>
+    <figure id="import-auto-id1169498291561">
+      <media id="import-auto-id1169476543391" alt="">
+        <image mime-type="image/png" src="../../media/graphics48-2085.png" height="42" width="236"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169490611816">Therefore Aβ = 80-1=79;</para>
+    <para id="import-auto-id1169484464270">Output impedance with feedback is lower.</para>
+    <para id="import-auto-id1169501653436">If R<sub>outCLOSED</sub> = 100Ω then R<sub>outOPEN</sub> = (100Ω)×80=8kΩ</para>
+    <para id="import-auto-id1169496370879">
+      <emphasis effect="bold">Solution of Question 18.</emphasis>
+    </para>
+    <para id="import-auto-id1169477641627">Negative feedback is to be used to modify the characteristics of a particular amplifier for various purposes. Identify the feedback topology to be used if:</para>
+    <para id="import-auto-id1169498110848">(a) Input resistance is to be lowered and output resistance raised.</para>
+    <para id="import-auto-id1169496795979">(b) Both input and output resistances are to be raised.</para>
+    <para id="import-auto-id1169471808727">(c) Both input and output resistances are to be lowered.</para>
+    <para id="import-auto-id1169473219521">Part (a) Input Resistance is lowered ≡ Current Comparison and </para>
+    <para id="import-auto-id1169472795551">Output Resistance is raised ≡ Current Sampling.</para>
+    <para id="import-auto-id1169474106994">So the feed back topology is: Current Sampling Current Comparison/ Current-Shunt Feedback/Shunt-Series Feed back in Sedra Smith  terminology.</para>
+    <para id="import-auto-id1169493656383">Part(b) Input Resistance is raised ≡ Voltage Comparison and </para>
+    <para id="import-auto-id1169494074468">Output Resistance is raised ≡ Current Sampling.</para>
+    <para id="import-auto-id1169499165900">So the feed back topology is: Current Sampling Voltage Comparison/ Current-Series Feedback/Series-Series Feed back in Sedra Smith  terminology</para>
+    <para id="import-auto-id1169495639700">Part(c) Input Resistance is lowered ≡ Current Comparison and </para>
+    <para id="import-auto-id1169483828308">Output Resistance is lowered ≡ Voltage Sampling.</para>
+    <para id="import-auto-id1169477833902">So the feed back topology is: Voltage Sampling Current Comparison/ Voltage-Shunt Feedback/Shunt-Shunt Feed back in Sedra Smith  terminology.</para>
+    <para id="import-auto-id1169472823622">
+      <emphasis effect="bold">Solution of Question 19.</emphasis>
+    </para>
+    <para id="import-auto-id1169473311897">A series-shunt feedback amplifier  using an ideal basic voltage amplifier operates with v<sub>in</sub>= 100 mV, v<sub>f</sub> = 95 mV, and v<sub>o</sub> = 10 V. What are the closed loop gain, closed loop input resistance and closed loop output impednce?</para>
+    <figure id="import-auto-id1169498930095">
+      <media id="import-auto-id1169472922476" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-be10.png" height="321" width="624"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1169481399618">
+      <media id="import-auto-id1169475591714" alt="">
+        <image mime-type="image/png" src="../../media/graphics49-5d68.png" height="39" width="428"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1169500411290">
+      <media id="import-auto-id1169475144847" alt="">
+        <image mime-type="image/png" src="../../media/graphics50-61fb.png" height="43" width="213"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169478789208">Therefore:</para>
+    <figure id="import-auto-id1169478824809">
+      <media id="import-auto-id1169477377943" alt="">
+        <image mime-type="image/png" src="../../media/graphics51-0409.png" height="22" width="282"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169473196023">Closed loop Gain is as follows:</para>
+    <figure id="import-auto-id1169486533438">
+      <media id="import-auto-id1169490976753" alt="">
+        <image mime-type="image/png" src="../../media/graphics52-a263.png" height="39" width="241"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169486106318">Closed loop Input Impedance:</para>
+    <figure id="import-auto-id1169501166006">
+      <media id="import-auto-id1169485442719" alt="">
+        <image mime-type="image/png" src="../../media/graphics53-d113.png" height="22" width="183"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169476159559">Because of Voltage Comparison I/P resistance increases.</para>
+    <para id="import-auto-id1169485620834">Closed Loop Output Impedance:</para>
+    <figure id="import-auto-id1169477552687">
+      <media id="import-auto-id1169473844752" alt="">
+        <image mime-type="image/png" src="../../media/graphics54-dd21.png" height="39" width="154"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169490645260">Because of Voltage Sampling, O/P impedance decreases. Output behaves as a Voltage Source.</para>
+    <para id="import-auto-id1169479535111">
+      <emphasis effect="bold">Solution of Question 20.</emphasis>
+    </para>
+    <para id="import-auto-id1169487343436">A series-shunt feedback amplifier employs a basic amplifier with input and output resistances each of 100 ohm and gain A=  2000 V/V. The feedback factor β = 0. 1 V/V. Find the gain A<sub>Closed</sub>  , the input resistance R<sub>if</sub>, and the output resistance, R<sub>of</sub> of the closed-loop amplifier?</para>
+    <para id="import-auto-id2213847">The loop Gain (L) = - Aβ = - 2000×0.1= -200;</para>
+    <para id="import-auto-id1169477486299">Series-Shunt in Sedra Smith implies Voltage-Series feedback or Voltage Sampling and Voltage Comparison therefore:</para>
+    <figure id="import-auto-id1169474227344">
+      <media id="import-auto-id1169484080151" alt="">
+        <image mime-type="image/png" src="../../media/graphics55-15d1.png" height="43" width="324"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1169498079571">
+      <media id="import-auto-id1169477939960" alt="">
+        <image mime-type="image/png" src="../../media/graphics56-2f90.png" height="22" width="494"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169478519345">
+      <emphasis effect="bold">Solution of Question 21.</emphasis>
+    </para>
+    <para id="import-auto-id1169493991139">For a particular amplifier connected in a feedback loop in which the output voltage is sampled, measurement of the output resistance before and after the loop is connected shows a change by a factor of 80. Is the resistance with feedback higher or lower? What is the value of the loop gain A? If R<sub>of</sub> is 100 ohm, what is Ro without feedback?</para>
+    <para id="import-auto-id1169486457039">Repetition of Question 17</para>
+    <para id="import-auto-id1169501324925">
+      <emphasis effect="bold">Solution of Question 22.</emphasis>
+    </para>
+    <para id="import-auto-id1169481419880">A current amplifier with a short -circuit current gain of 100 A/A, an input resistance of 100 ohm, and an output resistance of 1000 ohm is connected in a negative-feedback loop employing the shunt-series topology. The feedback network provides a feedback factor β = 0.1 A/A. Lacking complete data about the situation, estimate the current gain, input resistance, and output resistance of the feedback amplifier.</para>
+    <figure id="import-auto-id1169486820699">
+      <media id="import-auto-id1169501879544" alt="">
+        <image mime-type="image/png" src="../../media/Picture 11-2409.png" height="288" width="612"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169477489239">Desensitivity Factor is as follows:</para>
+    <figure id="import-auto-id1169488595783">
+      <media id="import-auto-id1169472404520" alt="">
+        <image mime-type="image/png" src="../../media/graphics57-4d68.png" height="22" width="230"/>
+      </media>
+    </figure>
+    <para id="import-auto-id6084184">Closed Loop Gain is as follows:</para>
+    <figure id="import-auto-id1169498489465">
+      <media id="import-auto-id1169501174861" alt="">
+        <image mime-type="image/png" src="../../media/graphics58-370d.png" height="39" width="241"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169485088737">Closed Loop Input Resistance is lowered as follows:</para>
+    <figure id="import-auto-id1169501117947">
+      <media id="import-auto-id1169483873491" alt="">
+        <image mime-type="image/png" src="../../media/graphics59-5bb4.png" height="39" width="261"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169501076018">Closed Loop Output Impedance is raised as follows:</para>
+    <figure id="import-auto-id1169499638359">
+      <media id="import-auto-id1169479520274" alt="">
+        <image mime-type="image/png" src="../../media/graphics60-e7d1.png" height="22" width="307"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169500507714">
+      <emphasis effect="bold">Solution of Question 23.</emphasis>
+    </para>
+    <para id="import-auto-id1169497626596">A negative-feedback amplifier has a closed-loop gain A<sub>f</sub> = 100 and an open loop gain A = 105. What is the feedback Factor  If a manufacturing error results in a reduction of  A to 103, what closed-loop gain results? What is the percentage change in A<sub>f</sub>  corresponding to this factor of 100 reduction in A?</para>
+    <figure id="import-auto-id1169473858120">
+      <media id="import-auto-id1169501925095" alt="">
+        <image mime-type="image/png" src="../../media/graphics61-3f16.png" height="43" width="320"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169479356743">Solving the above equation we get β ( feedback factor) = 4.76×10<sup>-4</sup>;</para>
+    <para id="import-auto-id1169490997470">If open loop gain reduces to 103 then </para>
+    <figure id="import-auto-id1169499552757">
+      <media id="import-auto-id1169481027785" alt="">
+        <image mime-type="image/png" src="../../media/graphics62-c6b2.png" height="42" width="413"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169480471538">The percentage change of 1.9% produces a change of 1.8% in closed lop configuration.</para>
+    <para id="import-auto-id1169495723962">The improvement is very little because desensitivity factor is only =D=1+0.04683=1.04683</para>
+    <para id="import-auto-id1169486728594">The percentage change in closed loop is given as follows:</para>
+    <figure id="import-auto-id1169499260253">
+      <media id="import-auto-id1169479449953" alt="">
+        <image mime-type="image/png" src="../../media/graphics63-3e58.png" height="39" width="460"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169477901907">Desensitization would remarkably improve if D is much larger.</para>
+    <para id="import-auto-id7894393">
+      <emphasis effect="bold">Solution of Question 24.</emphasis>
+    </para>
+    <para id="import-auto-id1169471519917">Design a Complementary Symmetry Class B Power Amplifier to deliver an average power of 20W to a speaker of 8Ω speaker. Determine V<sub>CC</sub>  where V<sub>CC</sub> is taken as = V<sub>m</sub>+5V this safety margin avoids the saturation of Q1 and Q2 and suppresses harmonic distortion , V<sub>EE</sub>, I<sub>m</sub> , P<sub>S</sub> , power conversion efficiency η and the power rating of Q1 and Q2. </para>
+    <para id="import-auto-id1169501332846">Power transferred to the load:</para>
+    <figure id="import-auto-id1169478490622">
+      <media id="import-auto-id1169500678378" alt="">
+        <image mime-type="image/png" src="../../media/graphics64-667d.png" height="44" width="492"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169495320531">Average power drawn from each supply is P<sub>S</sub>:</para>
+    <figure id="import-auto-id1169501353592">
+      <media id="import-auto-id1169492569720" alt="">
+        <image mime-type="image/png" src="../../media/graphics65-427e.png" height="42" width="415"/>
+      </media>
+    </figure>
+    <figure id="import-auto-id1169473545230">
+      <media id="import-auto-id1169485520507" alt="">
+        <image mime-type="image/png" src="../../media/graphics66-1108.png" height="39" width="207"/>
+      </media>
+    </figure>
+    <para id="import-auto-id1169484441900">For determining the power rating of Q1 and Q2 we must examine the worst case scenario of heat dissipation across the individual transistors.</para>
+    <para id="import-auto-id1169500238174">The total maximum power dissipation is:</para>
+    <para id="import-auto-id1169473054168">
+      <figure id="import-auto-id1169471553660">
+        <media id="import-auto-id1169480604473" alt="">
+          <image mime-type="image/png" src="../../media/graphics67-8d93.png" height="57" width="624"/>
+        </media>
+      </figure>
+    </para>
+  </content>
+</document>

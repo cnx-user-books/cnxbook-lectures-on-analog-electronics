@@ -1,0 +1,270 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Lectur10_PowerAmplifiers_Part2_Power Analysis of ClassB Amplifiers.</title>
+  <metadata>
+  <md:content-id>m32262</md:content-id><md:title>AE_Lectur10_PowerAmplifiers_Part2_Power Analysis of ClassB Amplifiers.</md:title>
+  <md:abstract>AE_Lecture 10_Part 2 analyzes the power conversion efficiency of capacitive coupled Emitter Followr, Class B Complementary Symmetry Amplfier, Class A transformer coupled Clas A CE Amplifier. It analyzes the working of Class B Transformer Coupled Push Pull Amplifier.</md:abstract>
+  <md:uuid>82f430cf-a175-423a-91e5-35b1ee7adec1</md:uuid>
+</metadata>
+
+<content>
+    <para id="id4618394">
+      <emphasis effect="bold">AE_LECTURE NO- 10_ Part2</emphasis>
+    </para>
+    <para id="id1165401412313">CLASS B (COMPLEMENTARY CONFIGURATION)</para>
+    <para id="id1165402383456">By making I<sub>CQ</sub>=0,a fantastic improvement is achieved in power conversion efficiency[Previously Push pull configuration was used but that needed transformer coupling. Now we use Complementary Symmetry Configuration which is amenable to IC Technology]</para>
+    <para id="id1165410810407">
+      <figure id="id1165413340907">
+        <media id="id1165413340907_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 1-ed63.png" id="id1165413340907__onlineimage" height="328" width="459"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">Figure 1. Class B Complimentary Symmetry Configuration.</emphasis>
+    </para>
+    <para id="id1165400854735">When v<sub>s</sub>=0, both Q<sub>1</sub> and Q<sub>2</sub> are off.</para>
+    <para id="id1165401352576">When v<sub>s </sub>= Positive half then</para>
+    <para id="id1165413215250">Q<sub>1 </sub>is ON and Q<sub>2 </sub>is OFF.</para>
+    <para id="id4634409">When v<sub>s</sub> = Negative half then</para>
+    <para id="id1165410535002">Q<sub>1 </sub>is OFF and Q<sub>2 </sub>is ON.</para>
+    <para id="id4150196">In the first case Q<sub>1 </sub>is sourcing current to the load and in the second half of the sinusoidal cycle,</para>
+    <para id="id1165412202316">Q<sub>2 </sub>is sinking the current from the load.</para>
+    <para id="id1165401344534">
+      <figure id="id1165401405464">
+        <media id="id1165401405464_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-c1a0.png" id="id1165401405464__onlineimage" height="382" width="568"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165401570973">
+      <emphasis effect="bold">Figure 2. Complimentary Symmetry action of Q</emphasis>
+      <emphasis effect="bold">1 </emphasis>
+      <emphasis effect="bold">and Q</emphasis>
+      <emphasis effect="bold">2 </emphasis>
+      <emphasis effect="bold">in a Complimentary-Symmetry Amplifier.</emphasis>
+    </para>
+    <para id="id1165402022192">
+      <figure id="id1165404420305">
+        <media id="id1165404420305_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-70d6.png" id="id1165404420305__onlineimage" height="379" width="649"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">Figure 3. Illustration of Cross-Over Distortion in Class B mode of operation.</emphasis>
+    </para>
+    <para id="id1165400484160">During cross-over distortion, both Q<sub>1</sub> &amp; Q<sub>2</sub> are off and it causes the Dead Zone.</para>
+    <figure id="id1165405862857">
+      <media id="id1165405862857_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-e747.png" id="id1165405862857__onlineimage" height="401" width="649"/>
+      </media>
+    </figure>
+    <para id="id1165405955370">Figure 4. The load line and the dynamic swing of the Q-point under signal condition.</para>
+    <para id="id1165400896083">This is Class B operation.</para>
+    <para id="id1165404744975">Q<sub>1</sub> conducts for 180˚ of the I/P Voltage in positive half.</para>
+    <para id="id1165400972950">Q<sub>2</sub> conducts for 180˚ of the I/P Voltage in negative half.</para>
+    <para id="id1165401518627">In class A→there is one BJT Q<sub>o</sub>. Q<sub>o</sub> conducts for 360˚ of the I/P Voltage.</para>
+    <para id="id1165406013228">
+      <emphasis effect="bold">CLASS B Power Conversion Efficiency.</emphasis>
+    </para>
+    <para id="id1165405890278">Let |V<sub>CC</sub>|=|V<sub>EE</sub>|</para>
+    <para id="id1165401018344">
+      <figure id="id1165401409641">
+        <media id="id1165401409641_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-2b8c.png" id="id1165401409641__onlineimage" height="401" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165401295705">
+      <emphasis effect="bold">Figure 5. Half Wave Rectified Voltage Wave-Form passing through individual BJT but at the load there is full sinusoidal signal..</emphasis>
+    </para>
+    <para id="id3126487">Half wave rectified current is passing through each BJT.</para>
+    <para id="id1165402297861">Average of this half wave rectified current</para>
+    <figure id="id1165405140020">
+      <media id="id1165405140020_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-4be4.png" id="id1165405140020__onlineimage" height="53" width="145"/>
+      </media>
+    </figure>
+    <figure id="id1165417758632">
+      <media id="id1165417758632_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-e9e2.png" id="id1165417758632__onlineimage" height="51" width="136"/>
+      </media>
+    </figure>
+    <figure id="id1165400911525">
+      <media id="id1165400911525_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-f9f5.png" id="id1165400911525__onlineimage" height="57" width="238"/>
+      </media>
+    </figure>
+    <para id="id1165408269584">But <figure id="id1165405053337"><media id="id1165405053337_media" alt=""><image mime-type="image/png" src="../../media/graphics4-0cc3.png" id="id1165405053337__onlineimage" height="42" width="129"/></media></figure></para>
+    <para id="id1165401418253"><figure id="id1165404464890"><media id="id1165404464890_media" alt=""><image mime-type="image/png" src="../../media/graphics5-b3df.png" id="id1165404464890__onlineimage" height="34" width="201"/></media></figure> Where <figure id="id1165412443020"><media id="id1165412443020_media" alt=""><image mime-type="image/png" src="../../media/graphics6-ff36.png" id="id1165412443020__onlineimage" height="35" width="72"/></media></figure></para>
+    <para id="id8358164">Average power supplied by each battery</para>
+    <figure id="id1165403843264">
+      <media id="id1165403843264_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-91e6.png" id="id1165403843264__onlineimage" height="42" width="307"/>
+      </media>
+    </figure>
+    <para id="id1165402033460">
+      <figure id="id1165401319052">
+        <media id="id1165401319052_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics8-c16d.png" id="id1165401319052__onlineimage" height="49" width="552"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1165402294248">
+      <media id="id1165402294248_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-6e81.png" id="id1165402294248__onlineimage" height="24" width="443"/>
+      </media>
+    </figure>
+    <figure id="id1165401331899">
+      <media id="id1165401331899_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-4097.png" id="id1165401331899__onlineimage" height="51" width="271"/>
+      </media>
+    </figure>
+    <figure id="id1165411567917">
+      <media id="id1165411567917_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-7d9e.png" id="id1165411567917__onlineimage" height="51" width="386"/>
+      </media>
+    </figure>
+    <figure id="id1165417884107">
+      <media id="id1165417884107_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-5d5a.png" id="id1165417884107__onlineimage" height="50" width="103"/>
+      </media>
+    </figure>
+    <figure id="id1165402258838">
+      <media id="id1165402258838_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-1063.png" id="id1165402258838__onlineimage" height="84" width="528"/>
+      </media>
+    </figure>
+    <para id="id1165413508976">Therefore 78.5% Efficiency can be achieved in full load condition.</para>
+    <para id="id1165411610111">CROSS-OVER DISTORTION is removed by Class AB operation.</para>
+    <para id="id1165410683729">Under quiescent condition , both BJT are conducting slightly so that there is no dead zone in switch over condition.</para>
+    <figure id="id1165400834643">
+      <media id="id1165400834643_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-9810.png" id="id1165400834643__onlineimage" height="371" width="391"/>
+      </media>
+    </figure>
+    <para id="id1165405134673">
+      <emphasis effect="bold">Figure 6. The Biasing Network to ensure Class AB mode of operation.</emphasis>
+    </para>
+    <figure id="id6305112">
+      <media id="id6305112_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-265a.png" id="id6305112__onlineimage" height="24" width="185"/>
+      </media>
+    </figure>
+    <para id="id1165411624810">1 V bias will keep Q<sub>1</sub> and Q<sub>2 </sub>barely conducting because 0.5 V is the cut-in voltage and 1V across R<sub>0</sub> ensures that both transistors are barely conducting because they in cut-in stage.</para>
+    <para id="id1165411491988">If 1 V is not sufficient then we may take 1.1V to bias Q<sub>1</sub> and Q<sub>2</sub> so that dead zone is removed. </para>
+    <para id="id1165411661136">THE OUTPUT STAGE OF OPERATIONAL AMPLIFIER</para>
+    <figure id="id1165408120035">
+      <media id="id1165408120035_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-8902.png" id="id1165408120035__onlineimage" height="398" width="272"/>
+      </media>
+    </figure>
+    <para id="id1165400793732">Figure 7. The output stage of µA741 Operational Amplifier.</para>
+    <para id="id1165417670054">Q<sub>2</sub>, Q<sub>3 </sub>are short circuit protection BJT’s.</para>
+    <para id="id1165404452831">Normally Q<sub>2</sub> &amp; Q<sub>3</sub> are off. But as excessive current passes through Q<sub>1</sub> &amp; Q<sub>4</sub>, Q<sub>2</sub> or Q<sub>3</sub> turn ON.</para>
+    <para id="id1165401117865">In positive half,Q<sub>2</sub> turns ON &amp; limits the current in Q<sub>1</sub> by shunting I<sub>B1</sub>.</para>
+    <para id="id1165418874349">In positive half,Q<sub>3</sub> turn ON &amp; limits the current in Q<sub>4</sub> by shunting I<sub>B4</sub>.</para>
+    <para id="id8090933">Typically if R=25Ω then maximum output current is 28 mA because 28mA X 25 Ω=0.7 V which turns on Q<sub>2</sub> or Q<sub>3</sub> as the case may be.</para>
+    <para id="id1165408598505">TOTAL HARMONIC DISTORTION OF CLASS B AMPLIFIER</para>
+    <para id="id1165411940982">Non linear operation causes harmonic distortion or amplitude distortion.</para>
+    <para id="id1165408354904">Large signal condition leads to nonlinear operation.</para>
+    <para id="id1165402184675">SINCE power amplifier is large signal system hence harmonic distortion is inevitable.</para>
+    <figure id="id1165401513326">
+      <media id="id1165401513326_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-e302.png" id="id1165401513326__onlineimage" height="24" width="422"/>
+      </media>
+    </figure>
+    <figure id="id1165410663088">
+      <media id="id1165410663088_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-cea9.png" id="id1165410663088__onlineimage" height="64" width="400"/>
+      </media>
+    </figure>
+    <para id="id1165402528352">
+      <figure id="id1165401280979">
+        <media id="id1165401280979_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics17-6a94.png" id="id1165401280979__onlineimage" height="103" width="431"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165400467921">In high fidelity audio amplifiers Total Harmonic Distortion&lt;0.1%.</para>
+    <para id="id1165400886756">Class B mode of operation ensures that even harmonic cancel. </para>
+    <para id="id1165401354900">Refer to Figure 2.</para>
+    <para id="id1165405168920">If i<sub>source</sub> (ωt) = I<sub>C</sub> +B<sub>0</sub>+ B<sub>1</sub>Cosωt + B<sub>2</sub>Cos2ωt + B<sub>3</sub>Cos3ωt + B<sub>4</sub>Cos4ωt ……</para>
+    <para id="id1165401579054">Then i<sub>sink</sub> (ωt) = i<sub>source</sub>(ωt+π) = I<sub>C</sub> +B<sub>0</sub> - B<sub>1</sub>Cosωt + B<sub>2</sub>Cos2ωt - B<sub>3</sub>Cos3ωt + B<sub>4</sub>Cos4ωt -……</para>
+    <para id="id1165415453256">Now net output current through the load = i<sub>out</sub> (ωt)= i<sub>source</sub> (ωt)- i<sub>sink</sub> (ωt)</para>
+    <para id="id1165401411218">Therefore i<sub>out</sub> (ωt) = 2(B<sub>1</sub>Cosωt + B<sub>3</sub>Cos3ωt + B<sub>5</sub>Cos5ωt -……)</para>
+    <para id="id1165404390866">Hence overall harmonic distortion is suppressed automatically in Class B complimentary symmetry amplifier. Therefore signal fidelity is maintained inspite of large signal power amplification. </para>
+    <para id="id1165410628590">
+      <emphasis effect="bold">TRANSFORMER COUPLED CLASS AB PUSH PULL AMPLIFIER</emphasis>
+    </para>
+    <figure id="id1165404894527">
+      <media id="id1165404894527_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-f41c.png" id="id1165404894527__onlineimage" height="401" width="649"/>
+      </media>
+    </figure>
+    <para id="id1165400411968">Figure 8. Circuit Diagram of Transformer Coupled Class B Push-Pull Amplifier.</para>
+    <para id="id1165405005042">Below in Figure 9, the graphical interpretation of Class B Push-Pull Amplifier is given. The battery V<sub>CC</sub> in the output loop of the Class B amplifier supplies a full wave rectified current - one half is being supplied to Q<sub>1</sub> and the other half is supplied to Q<sub>2</sub>. The two half together result in a full sine wave in the secondary coil of the output transformer as shown in Figure 9B. </para>
+    <para id="id1165415598796">Figure 9A gives the load line of one half of the circuit.</para>
+    <para id="id1165414995677">Figure 9B gives the transfer characteristics.(input to output).</para>
+    <para id="id1165404409498">Figure 9C gives the resultant sine wave generated in the secondary loop of the output transformer</para>
+    <figure id="id1705028">
+      <media id="id1705028_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-61e8.png" id="id1705028__onlineimage" height="401" width="649"/>
+      </media>
+    </figure>
+    <para id="id1165410329663">Figure 9. Load Line and Q-point swing under signal condition.</para>
+    <para id="id4918900">TRANSFOMER COUPLED CLASS A CE AMPLIFIER</para>
+    <para id="id1165402267300">
+      <figure id="id1165402199559">
+        <media id="id1165402199559_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 10-36ac.png" id="id1165402199559__onlineimage" height="322" width="420"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165401443117">Figure 10. Circuit Diagram of Class A transformer coupled CE Amplifier.</para>
+    <figure id="id1165401279590">
+      <media id="id1165401279590_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 11-d954.png" id="id1165401279590__onlineimage" height="401" width="649"/>
+      </media>
+    </figure>
+    <para id="id1165412123933">Figure 11. Incremental Circuit of transformer coupled CE amplifier. The load is reflected as n<sup>2</sup>R<sub>L</sub>. Under no load condition there is no collector dissipation.</para>
+    <para id="id1165400917234">
+      <figure id="id1165402205009">
+        <media id="id1165402205009_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 12-b75e.png" id="id1165402205009__onlineimage" height="401" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1165401005188">
+      <media id="id1165401005188_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics18-9690.png" id="id1165401005188__onlineimage" height="49" width="347"/>
+      </media>
+    </figure>
+    <figure id="id1165405152144">
+      <media id="id1165405152144_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-6e9e.png" id="id1165405152144__onlineimage" height="50" width="409"/>
+      </media>
+    </figure>
+    <figure id="id1165400776480">
+      <media id="id1165400776480_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-8770.png" id="id1165400776480__onlineimage" height="50" width="299"/>
+      </media>
+    </figure>
+    <para id="id7147355">Where<figure id="id1165400499516"><media id="id1165400499516_media" alt=""><image mime-type="image/png" src="../../media/graphics21-9aa3.png" id="id1165400499516__onlineimage" height="38" width="98"/></media></figure></para>
+    <figure id="id1165400482745">
+      <media id="id1165400482745_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-fd6f.png" id="id1165400482745__onlineimage" height="53" width="224"/>
+      </media>
+    </figure>
+    <figure id="id1165401265099">
+      <media id="id1165401265099_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics23-06e8.png" id="id1165401265099__onlineimage" height="86" width="216"/>
+      </media>
+    </figure>
+    <figure id="id1165402966492">
+      <media id="id1165402966492_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics24-42ab.png" id="id1165402966492__onlineimage" height="48" width="471"/>
+      </media>
+    </figure>
+    <para id="id1165400913147">During signal condition half of this power is delivered to the load and half power is dissipated in BJT.</para>
+    <para id="id6651980">The considerable improvement in Power Conversion Efficiency is due the fact that under no signal condition dc load is zero hence there is no standby power dissipation in the load circuit though there is power dissipation in the active device. Due to this the efficiency rises from 25% to 50%.</para>
+    <para id="id1165401261935">In direct coupled CE Amplifier, the power conversion efficiency is 25%. This has not been dealt with. We analyzed the capacitive coupled Load in CC Amplifier . In this case also power conversion efficiency is 25%.</para>
+    <para id="id1165402969208">Class C tuned amplifier give more than 99% power conversion efficiency. This we will deal in RF tuned amplifier.</para>
+  </content>
+</document>

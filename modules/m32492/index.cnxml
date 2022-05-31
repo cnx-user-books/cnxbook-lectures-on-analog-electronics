@@ -1,0 +1,179 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Lecture 12_Tuned Amplifiers</title>
+  <metadata>
+  <md:content-id>m32492</md:content-id><md:title>AE_Lecture 12_Tuned Amplifiers</md:title>
+  <md:abstract>AE_lecture 12 deals with RF Amplifiers which always use tank circuit or parallel resonance circuit and have peak type frequency response.These find wide applications in Communication and Broadcast Receivers.</md:abstract>
+  <md:uuid>87f2ad44-ee5b-48fe-9dcc-9f059b0c3e67</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1164278827788">
+      <emphasis effect="bold">AE_LECTURE 12_Tuned Amplifier.</emphasis>
+    </para>
+    <para id="id1164274262357">Section 1.TUNED AMPLIFIER</para>
+    <para id="id1164269897048">Tuned amplifiers are amplifiers as well as Band-Pass Filters.</para>
+    <para id="id7071544">RC-Active Filters are made of RC circuit and Op-Amp.</para>
+    <figure id="id1164273449630">
+      <media id="id1164273449630_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-883e.png" id="id1164273449630__onlineimage" height="300" width="459"/>
+      </media>
+    </figure>
+    <para id="id7907290">Figure 1. Circuit diagram of Low Pass Active Filter</para>
+    <para id="id1164274036603">This is a LOW PASS ACTIVE FILTER. But it operates at 100kHz and below because the frequency response of op-amp is very limited.</para>
+    <para id="id1164271456664">To operate in RF,VHF,UHF range we have to go for circuits using parallel resonance circuits as tank circuit made of L-C-R circuits.</para>
+    <para id="id1164273231105">In communication applications we require narrow band frequency selective amplifiers so that from among closely spaced broadcasting stations, a station of choice is tuned to.</para>
+    <para id="id7908682">In AM radio broadcast we may need to tune to 1 MHz with a B.W. of 20kHz.</para>
+    <figure id="id5709416">
+      <media id="id5709416_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-d6d2.png" id="id5709416__onlineimage" height="42" width="225"/>
+      </media>
+    </figure>
+    <para id="id6394834">This means a Q=50 is required.</para>
+    <para id="id1164274320678">In FM Radio Broadcast which is in VHF range, we need to tune to 100MHz with a B.W.=200kHz,here Q=500.</para>
+    <para id="id1164276942806">These narrow band pass RF-VHF amplifiers are called Tuned Amplifiers.</para>
+    <para id="id1164273757612">The tuned amplifiers are Class A amplifiers but in tuned power amplifiers the conservation of power is at premium therefore we go for class C amplifiers. Class C amplifier gives an energy conversion efficiency of 99%.Therefore dissipation and hence heating of the components is reduced.</para>
+    <para id="id1164270243058">All communication and broadcast receivers require RF amplifiers and IF Amplifiers. These are all tuned amplifiers with a peak response and a narrow band-width.</para>
+    <para id="id1164269745902">Section 1.1.SINGLE TUNED AMPLIFIER</para>
+    <para id="id1164271073211">
+      <figure id="id1164270703552">
+        <media id="id1164270703552_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-0010.png" id="id1164270703552__onlineimage" height="261" width="307"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164273196451">Figure 2. Circuit Diagram of a Single Tuned Amplifier.</para>
+    <para id="id1164269571281">This is a CE BJT except that R<sub>c</sub> is replaced by LC Tank Circuit. The equivalent circuit is:</para>
+    <para id="id1164269550970">
+      <figure id="id2640982">
+        <media id="id2640982_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-92e6.png" id="id2640982__onlineimage" height="235" width="555"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">Figure 3. The incremental circuit representation of the tank circuit.</emphasis>
+    </para>
+    <para id="id1164274369322">All the losses of the tank circuit namely copper losses and dielectric losses are lumped in R<sub>p</sub>. Since inductor is air cored hence no hysteresis and eddy current losses.</para>
+    <para id="id1164276091345">This gives a peak gain of:</para>
+    <para id="id1164270026728">A<sub>V</sub>(jω<sub>o</sub>) = -g<sub>m</sub>R<sub>p</sub></para>
+    <para id="id1164272767868">Off resonance the gain rapidly falls. The rapid fall of the gain at off-resonance defines the selectivity or skirt selectivity of the tuned amplifier.</para>
+    <para id="id1164268228572">
+      <figure id="id1164269722671">
+        <media id="id1164269722671_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-b92b.png" id="id1164269722671__onlineimage" height="300" width="579"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164271456272">
+      <emphasis effect="bold">Figure 4. Definition of Skirt Selectivity from the frequency response curve of the tank circuit.</emphasis>
+    </para>
+    <para id="id1164274077206">Skirt selectivity=<figure id="id1164269867611"><media id="id1164269867611_media" alt=""><image mime-type="image/png" src="../../media/graphics2-cede.png" id="id1164269867611__onlineimage" height="34" width="93"/></media></figure></para>
+    <para id="id1164269765872">Ideal tuned amplifier will have 0 dB or unity skirt selectivity but practically skirt selectivity is always greater than 1.</para>
+    <figure id="id5934593">
+      <media id="id5934593_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-6867.png" id="id5934593__onlineimage" height="46" width="72"/>
+      </media>
+    </figure>
+    <figure id="id6283488">
+      <media id="id6283488_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-b1d8.png" id="id6283488__onlineimage" height="47" width="78"/>
+      </media>
+    </figure>
+    <figure id="id6412014">
+      <media id="id6412014_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-6582.png" id="id6412014__onlineimage" height="46" width="176"/>
+      </media>
+    </figure>
+    <para id="id5917308">Q of Resonance circuit= Q of inductor.</para>
+    <figure id="id1164268255721">
+      <media id="id1164268255721_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-6a0b.png" id="id1164268255721__onlineimage" height="46" width="167"/>
+      </media>
+    </figure>
+    <para id="id1164274418460">
+      <figure id="id1164270069252">
+        <media id="id1164270069252_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-cfd3.png" id="id1164270069252__onlineimage" height="282" width="434"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164271999165">Figure 5. The equivalent circuit representation of a tank circuit with losses represented by a series resistance in left hand diagram and by a shunt resistance in right hand diagram.</para>
+    <figure id="id1806010">
+      <media id="id1806010_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-65b5.png" id="id1806010__onlineimage" height="46" width="113"/>
+      </media>
+    </figure>
+    <para id="id1164269795950">For Q&gt;&gt;1, this equivalence is correct.</para>
+    <para id="id1164270684761">Section 2. USE OF AUTO TRANSFORMER TO IMPLEMENT A TUNED CIRCUIT</para>
+    <para id="id1164276047229">The problem(1) of the tutorials requires a Tank Circuit.</para>
+    <figure id="id1164268855910">
+      <media id="id1164268855910_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-e185.png" id="id1164268855910__onlineimage" height="261" width="235"/>
+      </media>
+    </figure>
+    <para id="id1164270343472">Figure 6. A tank circuit with 3.18µH in parallel with 8nF.</para>
+    <para id="id3918459">The inductance value is too small and it cannot be physically realized. So we use an Autotransformer to achieve the same.</para>
+    <para id="id1164271985702">
+      <figure id="id7267347">
+        <media id="id7267347_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 7-f94e.png" id="id7267347__onlineimage" height="300" width="579"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164275866442">Figure 7. Autotransformer Coupling for realizing small inductance of a given tuned circuit from a realistic real life inductor.</para>
+    <para id="id3715983">We require L=3.18μH and C=8 nF.</para>
+    <para id="id1164273407735">By use of Autotransformer if n=3</para>
+    <para id="id1164269889209">L’=(n)<sup>2</sup>L=9 X 3.18 μH=28.6μH</para>
+    <para id="id1164276754144">C’=C/n<sup>2</sup>=8 nF/9=0.9nF</para>
+    <para id="id1164269844567">L’ and C’ ae easily implementable.</para>
+    <para id="id1164270189859">Section 2.1.Use of autotransformer to reduce the loading of a subsequent IF Stage.</para>
+    <figure id="id1164270203288">
+      <media id="id1164270203288_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-11aa.png" id="id1164270203288__onlineimage" height="315" width="579"/>
+      </media>
+    </figure>
+    <para id="id1164269874621">
+      <emphasis effect="bold">Figure 8. The deterioration of selectivity due to the loading caused by the reduced input impedance of the subsequent stage.</emphasis>
+    </para>
+    <para id="id1164269707122">R<sub>in</sub> will increase the B.W. and reduce the selectivity. Therefore tapped transformer is used. </para>
+    <para id="id1164269770512">
+      <figure id="id1164272071247">
+        <media id="id1164272071247_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 9-076a.png" id="id1164272071247__onlineimage" height="315" width="579"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164269901688">Figure 9. The equivalent circuit for a tapped transformer coupled circuit.</para>
+    <para id="id1164269648784">If <figure id="id1164269713147"><media id="id1164269713147_media" alt=""><image mime-type="image/png" src="../../media/graphics8-4375.png" id="id1164269713147__onlineimage" height="24" width="59"/></media></figure> &gt;&gt;R<sub>1</sub> ; C<sub>in</sub>/n<sup>2</sup>&lt;&lt;C<sub>1</sub> =&gt; Loading Avoided.</para>
+    <para id="id1164270270045">Section 3. DOUBLE TUNED CIRCUIT</para>
+    <figure id="id1164268263806">
+      <media id="id1164268263806_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-e903.png" id="id1164268263806__onlineimage" height="325" width="579"/>
+      </media>
+    </figure>
+    <para id="id1164269536966">Figure 10. The circuit diagram of a double tuned r.f. amplifier.</para>
+    <para id="id1164269599976">In Figure 10 we see a tank circuit at the input as well as at the output. Because of the two tank circuits , these amplifiers are known as double-tuned amplifier. Double-tuned amplifiers are synchronous tuned and stagger tuned.</para>
+    <para id="id8296963">In synchronous tuned circuit, the two resonance frequencies are identical:</para>
+    <para id="id1164278533094">f<sub>10</sub>=f<sub>20</sub></para>
+    <para id="id7910284">
+      <figure id="id1164271364080">
+        <media id="id1164271364080_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 11-481a.png" id="id1164271364080__onlineimage" height="309" width="454"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164278653988">Figure 11. Frequency response of a synchronously tuned circuit. </para>
+    <figure id="id1164269657928">
+      <media id="id1164269657928_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-81f8.png" id="id1164269657928__onlineimage" height="42" width="126"/>
+      </media>
+    </figure>
+    <para id="id1164272122534">In practice it is difficult to achieve synchronous tuned amplifier. Since BJT is a non-unilateral device especially in CE configuration there is considerable interaction between input and output. If we tune input tank to f<sub>10 </sub>and we try to tune the output tank to same frequency f<sub>10 </sub>immediately input will get off-tuned. If we try to tune input then output will be off tuned. Therefore it is better to keep the two tanks off tuned by ∆f. This is called stagger tuned Amplifier.</para>
+    <para id="id1164269558619">f<sub>20</sub>=f<sub>10</sub>+∆f</para>
+    <figure id="id1164269835004">
+      <media id="id1164269835004_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 12-9add.png" id="id1164269835004__onlineimage" height="303" width="452"/>
+      </media>
+    </figure>
+    <para id="id1164270186750">Figure 12. Frequency response of a staggered tuned circuit.</para>
+    <para id="id1164269910422">Staggered tuned amplifier provides a better pass-band filter.. It has a wider BW maintaining a steep skirt. All IF Amplifiers in super-hetrodyne Receivers are double tuned amplifiers and are stagger tuned. There are several stages of IF Amplifiers for increased sensitivity. But to obtain the best results these multistage double tuned amplifiers need to be aligned. This is a strenuous process. By means of trimmer and padder this process is carried out.</para>
+  </content>
+</document>

@@ -1,0 +1,87 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Lecture5_PartA_Low FrequencyAnalysisofCE_Amplifier</title>
+  <metadata>
+  <md:content-id>m31527</md:content-id><md:title>AE_Lecture5_PartA_Low FrequencyAnalysisofCE_Amplifier</md:title>
+  <md:abstract>AE_Lecture5_PartA describes the short Circuit Time Constant Method of determining the lower -3dB frequency of RC coupled CE Amplifier.</md:abstract>
+  <md:uuid>8ceaf8d8-6fa2-43da-8fe4-812c31ec333a</md:uuid>
+</metadata>
+
+<content>
+    <para id="id19699375">
+      <emphasis effect="bold">AnalogElectronics_Lecture5_PartA_Low Frequency Analysis of CE Amplifier(Final)</emphasis>
+    </para>
+    <figure id="id19699387">
+      <media id="id19699387_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-25e3.png" id="id19699387__onlineimage" height="407" width="620"/>
+      </media>
+    </figure>
+    <para id="id19699409">Figure 1. RC-coupled CE Amplifier.</para>
+    <para id="id19699414">Lower -3dB frequency of CE Amplifier is determined by Short Circuit Time Constant Method.</para>
+    <para id="id19699419">Coupling Capacitors and Emitter By-pass capacitor are responsible for lower -3dB frequency(f<sub>L</sub>).</para>
+    <para id="id19699431">We consider the time constant associated with each capacitor with the remaining capacitors shorted. Suppose the time constants associated with C<sub>C1</sub>, C<sub>C2</sub> and C<sub>E</sub> are τ<sub>1S </sub>, τ<sub>2S </sub>and τ<sub>3S </sub>. Then the overall time constant associated with the amplifier due to combined effect of C<sub>C1</sub>, C<sub>C2</sub> and C<sub>E </sub>is τ<sub>L</sub> where:</para>
+    <figure id="id19699501">
+      <media id="id19699501_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-d345.png" id="id19699501__onlineimage" height="87" width="374"/>
+      </media>
+    </figure>
+    <para id="id19699523">Here Time Constant associated with each capacitor is τ = RC where R is the equivalent resistance seen by each Capacitor.</para>
+    <para id="id19699532">
+      <figure id="id19699536">
+        <media id="id19699536_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-b963.png" id="id19699536__onlineimage" height="123" width="486"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id19699561">
+      <media id="id19699561_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-bccd.png" id="id19699561__onlineimage" height="47" width="349"/>
+      </media>
+    </figure>
+    <figure id="id19699586">
+      <media id="id19699586_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-e71f.png" id="id19699586__onlineimage" height="360" width="469"/>
+      </media>
+    </figure>
+    <para id="id19699608">Figure 2. Low Frequency Incremental model</para>
+    <para id="id19699612">
+      <figure id="id19699616">
+        <media id="id19699616_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-fcfc.png" id="id19699616__onlineimage" height="365" width="510"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id19699638">Figure 3. Low frequency Incremental Model with C<sub>E</sub> and Cc2 shorted. Equivalent resistance seen by Cc1 is R<sub>S</sub> + (R<sub>B</sub>||(r<sub>x</sub>+r<sub>π</sub>))</para>
+    <figure id="id19699675">
+      <media id="id19699675_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-89f6.png" id="id19699675__onlineimage" height="347" width="463"/>
+      </media>
+    </figure>
+    <para id="id19699697">Figure 4. Incremental Model with Cc1 and Cc2 shorted. Ce sees the equivalent Resistance R<sub>2s</sub>= v<sub>o</sub>/i<sub>o</sub></para>
+    <para id="id19699719">In Figure 4 , a voltage source v<sub>o</sub> is connected in place of C<sub>E</sub> . </para>
+    <para id="id19699733">Current drawn from the source is : i<sub>o</sub>= i<sub>b</sub> + β<sub>fo</sub>. i<sub>b</sub></para>
+    <para id="id19699759">where i<sub>b</sub> = v<sub>o</sub>/<sub/>(r<sub>π</sub>+ r<sub>x</sub>+ R<sub>B</sub>||R<sub>S</sub>) therefore i<sub>o </sub>= i<sub>b</sub>(1 + β<sub>fo</sub>)= (1 + β<sub>fo</sub>).v<sub>o</sub>/<sub/>(r<sub>π</sub>+ r<sub>x</sub>+ R<sub>B</sub>||R<sub>S</sub>);</para>
+    <para id="id19699858">Therefore v<sub>o</sub>/ i<sub>o</sub> = (r<sub>π</sub>+ r<sub>x</sub>+ R<sub>B</sub>||R<sub>S</sub>)/ (1 + β<sub>fo</sub>)= R<sub>2s</sub> ;</para>
+    <figure id="id19699908">
+      <media id="id19699908_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-f9c8.png" id="id19699908__onlineimage" height="314" width="650"/>
+      </media>
+    </figure>
+    <figure id="id19699933">
+      <media id="id19699933_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-12c2.png" id="id19699933__onlineimage" height="361" width="649"/>
+      </media>
+    </figure>
+    <figure id="id19699958">
+      <media id="id19699958_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 11-ab8b.png" id="id19699958__onlineimage" height="83" width="346"/>
+      </media>
+    </figure>
+    <para id="id19699980">By detailed analysis,</para>
+    <figure id="id19699989">
+      <media id="id19699989_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-d345.png" id="id19699989__onlineimage" height="89" width="367"/>
+      </media>
+    </figure>
+    <para id="id19700011">Here there are two poles corresponding to two capacitors C<sub>C1</sub> and C<sub>E</sub> . The second coupling capacitor is considered to be infinity. The highest pole decides lower -3dB frequency. So 0.188Krads/sec decides the lower -3dB frequency which comes out to be 30Hz.</para>
+  </content>
+</document>

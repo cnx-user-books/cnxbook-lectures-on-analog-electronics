@@ -1,0 +1,272 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Lecture11_Part2_Radio-Frequency Oscillators</title>
+  <metadata>
+  <md:content-id>m32429</md:content-id><md:title>AE_Lecture11_Part2_Radio-Frequency Oscillators</md:title>
+  <md:abstract>AE_Lecture11_Part2 describes the Radio-Frequency Oscillators.</md:abstract>
+  <md:uuid>316a9af0-f812-4520-9b81-3eb4ad9c19b3</md:uuid>
+</metadata>
+
+<content>
+    <para id="id12541491">
+      <emphasis effect="bold">AE_LECTURE 11_Part2.</emphasis>
+    </para>
+    <para id="id13934472">Part 2 deals with RF Oscillators.</para>
+    <para id="id3902931">
+      <emphasis effect="bold">Section 1. Class of RF OSCILLATORS</emphasis>
+    </para>
+    <para id="id9042140">(100kHz- 1000kHz:Medium Wave RF &amp; 1MHz-30MHz:Short Wave RF;</para>
+    <para id="id4206281">30MHz-70MHz: Amateur Band for HAM Radio practitioners;</para>
+    <para id="id9071777">70MHz-300MHz: Very High Frequency (VHF) Band for FM and TV transmissions;</para>
+    <para id="id8525740">300MHz-800MHz: Ultra High Frequency(UHF) Band for Police Communication;</para>
+    <para id="id10157699">1GHz-100GHz: Microwaves for satellite communication;</para>
+    <para id="id9037917">Terra Hz(0.4µm-100µm): Optical Fiber Communication)</para>
+    <para id="id9031220">LC oscillators are RF oscillators.</para>
+    <figure id="id15329515">
+      <media id="id15329515_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-d16b.png" id="id15329515__onlineimage" height="634" width="458"/>
+      </media>
+    </figure>
+    <para id="id14323799">Figure 1. Parallel Resonance Circuit or Tank Circuit.</para>
+    <figure id="id13882784">
+      <media id="id13882784_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-fc38.png" id="id13882784__onlineimage" height="442" width="626"/>
+      </media>
+    </figure>
+    <para id="id13965189">
+      <emphasis effect="bold">Figure 2. Circuit Diagram of a Tank Circuit driven by a constant current source.</emphasis>
+    </para>
+    <para id="id9081458">Parallel resonance circuit is known as tank Circuit.</para>
+    <para id="id12601251">Resonance frequency=ω<sub>o</sub>=<figure id="id15059561"><media id="id15059561_media" alt=""><image mime-type="image/png" src="../../media/graphics3-0fee.png" id="id15059561__onlineimage" height="33" width="22"/></media></figure></para>
+    <figure id="id13935370">
+      <media id="id13935370_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-f7b0.png" id="id13935370__onlineimage" height="24" width="182"/>
+      </media>
+    </figure>
+    <figure id="id10147942">
+      <media id="id10147942_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-b190.png" id="id10147942__onlineimage" height="61" width="385"/>
+      </media>
+    </figure>
+    <para id="id7512219">
+      <figure id="id7512223">
+        <media id="id7512223_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics6-1e01.png" id="id7512223__onlineimage" height="471" width="626"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id11030630">
+      <emphasis effect="bold">Figure 3. Magnitude of the reactance of a tank circuit vs frequency.</emphasis>
+    </para>
+    <figure id="id3903180">
+      <media id="id3903180_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-ebe8.png" id="id3903180__onlineimage" height="45" width="145"/>
+      </media>
+    </figure>
+    <para id="id13901512">At ω=<figure id="id13901516"><media id="id13901516_media" alt=""><image mime-type="image/png" src="../../media/graphics8-0fee.png" id="id13901516__onlineimage" height="33" width="22"/></media></figure>; <figure id="id4112270"><media id="id4112270_media" alt=""><image mime-type="image/png" src="../../media/graphics9-baab.png" id="id4112270__onlineimage" height="24" width="114"/></media></figure></para>
+    <figure id="id10950342">
+      <media id="id10950342_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-fbb2.png" id="id10950342__onlineimage" height="26" width="103"/>
+      </media>
+    </figure>
+    <figure id="id10360314">
+      <media id="id10360314_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-2541.png" id="id10360314__onlineimage" height="24" width="279"/>
+      </media>
+    </figure>
+    <figure id="id14316016">
+      <media id="id14316016_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-cceb.png" id="id14316016__onlineimage" height="26" width="103"/>
+      </media>
+    </figure>
+    <figure id="id3907507">
+      <media id="id3907507_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-1fef.png" id="id3907507__onlineimage" height="24" width="291"/>
+      </media>
+    </figure>
+    <para id="id13938693">When quality factor Q of the tank circuit =∞, the circuit is purely reactive and there is no dissipation.</para>
+    <para id="id13896131">When quality factor Q is finite say 1000 then an equivalent R<sub>P</sub> comes in parallel with the tank circuit. R<sub>P </sub>accounts for the losses</para>
+    <figure id="id9539070">
+      <media id="id9539070_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-0f54.png" id="id9539070__onlineimage" height="24" width="90"/>
+      </media>
+    </figure>
+    <para id="id15341467">For a finite quality factor tank circuit, the effective impedance is a pure resistance R<sub>P</sub> at resonance frequency.</para>
+    <para id="id14023496">Hence <figure id="id13888419"><media id="id13888419_media" alt=""><image mime-type="image/png" src="../../media/graphics15-7437.png" id="id13888419__onlineimage" height="24" width="118"/></media></figure></para>
+    <para id="id3901794">Frequency response of the tank circuit is :</para>
+    <para id="id14026062">
+      <figure id="id14026067">
+        <media id="id14026067_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics16-66bd.png" id="id14026067__onlineimage" height="24" width="164"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id9037389">
+      <media id="id9037389_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-c331.png" id="id9037389__onlineimage" height="392" width="626"/>
+      </media>
+    </figure>
+    <para id="id3903154">
+      <emphasis effect="bold">Figure4. The peak response of a tank circuit for various quality factors.</emphasis>
+    </para>
+    <figure id="id8992465">
+      <media id="id8992465_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics18-cfb0.png" id="id8992465__onlineimage" height="24" width="134"/>
+      </media>
+    </figure>
+    <figure id="id9016387">
+      <media id="id9016387_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-0ac5.png" id="id9016387__onlineimage" height="39" width="56"/>
+      </media>
+    </figure>
+    <para id="id3028400">At Q=∞, spike response.</para>
+    <para id="id14111257">At Q=finite, peak response.</para>
+    <para id="id14111261">As Q falls, sharpness of the peak response is lost.</para>
+    <para id="id9017400">
+      <emphasis effect="bold">Section 1.1. GENERALIZED LC OSCILLATOR.</emphasis>
+    </para>
+    <figure id="id9043876">
+      <media id="id9043876_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-1647.png" id="id9043876__onlineimage" height="509" width="625"/>
+      </media>
+    </figure>
+    <para id="id9016814">
+      <emphasis effect="bold">Figure 5. Block Diagram of generalized LC Oscillator</emphasis>
+    </para>
+    <para id="id9040348">
+      <figure id="id3901356">
+        <media id="id3901356_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics21-3c1b.png" id="id3901356__onlineimage" height="529" width="625"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id10136368">
+      <figure id="id7551244">
+        <media id="id7551244_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics22-d453.png" id="id7551244__onlineimage" height="459" width="625"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id9062542">
+      <media id="id9062542_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics23-e463.png" id="id9062542__onlineimage" height="47" width="122"/>
+      </media>
+    </figure>
+    <para id="id10730525">Where<figure id="id10730530"><media id="id10730530_media" alt=""><image mime-type="image/png" src="../../media/graphics24-1431.png" id="id10730530__onlineimage" height="24" width="141"/></media></figure></para>
+    <para id="id12588574">Therefore:</para>
+    <figure id="id10213610">
+      <media id="id10213610_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics25-6218.png" id="id10213610__onlineimage" height="47" width="328"/>
+      </media>
+    </figure>
+    <para id="id7545802">Examining the feedback network in Figure 8:</para>
+    <para id="id10167495">Feed back voltage <figure id="id10203708"><media id="id10203708_media" alt=""><image mime-type="image/png" src="../../media/graphics26-2884.png" id="id10203708__onlineimage" height="34" width="209"/></media></figure></para>
+    <para id="id8956435">If loop gain=1∟0˚</para>
+    <figure id="id10205613">
+      <media id="id10205613_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics27-713d.png" id="id10205613__onlineimage" height="26" width="59"/>
+      </media>
+    </figure>
+    <figure id="id12308342">
+      <media id="id12308342_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics28-0f89.png" id="id12308342__onlineimage" height="47" width="203"/>
+      </media>
+    </figure>
+    <figure id="id8390869">
+      <media id="id8390869_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics29-62d2.png" id="id8390869__onlineimage" height="82" width="245"/>
+      </media>
+    </figure>
+    <figure id="id9037766">
+      <media id="id9037766_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics30-6c64.png" id="id9037766__onlineimage" height="47" width="362"/>
+      </media>
+    </figure>
+    <para id="id10135138"/>
+    <figure id="id9008086">
+      <media id="id9008086_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics31-0daf.png" id="id9008086__onlineimage" height="45" width="487"/>
+      </media>
+    </figure>
+    <para id="id3901312">This identity can be true only if</para>
+    <figure id="id2966384">
+      <media id="id2966384_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics32-e14d.png" id="id2966384__onlineimage" height="24" width="207"/>
+      </media>
+    </figure>
+    <figure id="id8958848">
+      <media id="id8958848_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics33-cbcc.png" id="id8958848__onlineimage" height="24" width="213"/>
+      </media>
+    </figure>
+    <para id="id10212770">Subs(4) &amp; (5) in (3)</para>
+    <figure id="id10212883">
+      <media id="id10212883_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics34-58e1.png" id="id10212883__onlineimage" height="46" width="213"/>
+      </media>
+    </figure>
+    <figure id="id8997810">
+      <media id="id8997810_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics35-bb70.png" id="id8997810__onlineimage" height="45" width="84"/>
+      </media>
+    </figure>
+    <para id="id9042018">Starting condition is <figure id="id9042022"><media id="id9042022_media" alt=""><image mime-type="image/png" src="../../media/graphics36-f459.png" id="id9042022__onlineimage" height="35" width="82"/></media></figure></para>
+    <para id="id9014914">
+      <emphasis effect="bold">This means </emphasis>
+      <figure id="id5248111">
+        <media id="id5248111_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics37-9ccf.png" id="id5248111__onlineimage" height="24" width="79"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">are same kind of reactance and </emphasis>
+      <figure id="id10091569">
+        <media id="id10091569_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics38-cfdf.png" id="id10091569__onlineimage" height="24" width="19"/>
+        </media>
+      </figure>
+      <emphasis effect="bold"> is of opposite kind of reactance.</emphasis>
+    </para>
+    <para id="id10066694">Table 1. Different possible configurations of a generalized LC Oscillator.</para>
+    <table id="id8928678" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>
+              <emphasis effect="bold">Z</emphasis>
+              <emphasis effect="bold">1</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">Z</emphasis>
+              <emphasis effect="bold">2</emphasis>
+            </entry>
+            <entry>
+              <emphasis effect="bold">Z</emphasis>
+              <emphasis effect="bold">3</emphasis>
+            </entry>
+            <entry>Type of Oscillator</entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>L</entry>
+            <entry>L</entry>
+            <entry>C</entry>
+            <entry>Hartley Oscillator</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>C</entry>
+            <entry>C</entry>
+            <entry>L</entry>
+            <entry>Colpitts Oscillator</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id9047722"/>
+  </content>
+</document>

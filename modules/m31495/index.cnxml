@@ -1,0 +1,69 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Lecture4_PartD2_Line Spectrum of a Pulse Train.</title>
+  <metadata>
+  <md:content-id>m31495</md:content-id><md:title>AE_Lecture4_PartD2_Line Spectrum of a Pulse Train.</md:title>
+  <md:abstract>This Lecture4_PartD2 analyzes the line spectrum of a pulse train with an offset voltage, pulse duration TAU ,pulse period 'T' and pulse height Vo.</md:abstract>
+  <md:uuid>9844621d-cdbd-4be9-97ce-a1a131c361f5</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1165670069916">Analog Electronics_Lecture4_PartD</para>
+    <para id="id1165670276266">Experimental Methods of measuring </para>
+    <para id="id1165665660998">
+      <emphasis effect="bold">the Frequency Band-Width of an Amplifier.</emphasis>
+    </para>
+    <list id="id1165669165293" list-type="enumerated" number-style="arabic">
+      <item>FREQUENCY SPECTRUM OF A PULSE TRAIN.</item>
+    </list>
+    <para id="id1165662590192">Let us look at the spectrum of a pulse train</para>
+    <figure id="id1708027">
+      <media id="id1708027_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 12-c5d5.png" id="id1708027__onlineimage" height="305" width="525"/>
+      </media>
+    </figure>
+    <para id="id1165669191567">
+      <emphasis effect="bold">Figure 6. A pulse train, offseted with respect to the time axis. </emphasis>
+    </para>
+    <para id="id1165666694814">In the above Figure we represent a pulse train of Pulse Repetition Frequency = 1/T </para>
+    <para id="id1165665566962">and duty cycle of (τ/T)×100 percent and pulse duration of τ secs and pulse height of Vo.</para>
+    <para id="id1165665733647">Let us find out the FOURIER SERIES EXPANSION of the pulse train shown in the above figures.</para>
+    <para id="id1165665658951">FOURIER SERIES METHOD states that :</para>
+    <para id="id8192494">Any time periodic function contains a D.C. component , contains a fundamental frequency f<sub>o </sub>=(1/T) and its harmonics.</para>
+    <para id="id7397757">
+      <figure id="id2430827">
+        <media id="id2430827_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 13-6515.png" id="id2430827__onlineimage" height="403" width="649"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165663131938">In terms of phasors(a rotating vector)</para>
+    <figure id="id1165671433085">
+      <media id="id1165671433085_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 14-f87b.png" id="id1165671433085__onlineimage" height="442" width="569"/>
+      </media>
+    </figure>
+    <para id="id3828222">Figure 7. Two oppositely rotating vectors are shown. These rotating vectors are known as Phasors.</para>
+    <figure id="id7482468">
+      <media id="id7482468_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 15-7df7.png" id="id7482468__onlineimage" height="150" width="650"/>
+      </media>
+    </figure>
+    <para id="id1165670254143">Here a<sub>n</sub> = a<sub>-n</sub> are magnitudes of the nth Harmonic oppositely rotating phasors.</para>
+    <para id="id7800335">This gives the double sided spectrum.</para>
+    <figure id="id1165661702242">
+      <media id="id1165661702242_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 16-db84.png" id="id1165661702242__onlineimage" height="427" width="649"/>
+      </media>
+    </figure>
+    <para id="id7532643">Figure 8. Frequency Spectrum of a pulse train.</para>
+    <para id="id1165665633636">
+      <figure id="id8423040">
+        <media id="id8423040_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 17-cf18.png" id="id8423040__onlineimage" height="172" width="533"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1165671336804">A signal has a frequency spectrum. For a periodic signal we use FOURIER SERIES techniques. For a non-periodic signal we use FOURIER-TRANSFORM techniques.</para>
+    <para id="id7285456">If a signal passes through an infinite Band Width system we are able to maintain 100% FIDELITY in reproducing the signal on the output of the system. This is why a wide-band musical system is called a Hi-Fi System. Here Hi-Fi is HIGH FIDELITY. But if we pass a complex signal through a finite B.W. System inevitably there will be suppression of frequency on the high frequency end of the spectrum as well as on the low frequency end of the spectrum .This leads to FREQUENCY DISTORTION as well as PHASE DISTORTION.</para>
+  </content>
+</document>

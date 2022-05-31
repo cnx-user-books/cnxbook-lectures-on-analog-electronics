@@ -1,0 +1,88 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Analog Electronics_Lecture 1_Supplement_Incremental Model of Controlled Sources</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33376</md:content-id>
+  <md:title>Analog Electronics_Lecture 1_Supplement_Incremental Model of Controlled Sources</md:title>
+  <md:abstract>This gives the methodology of arriving at the incremental model of CE BJT namely Hybrid Model.</md:abstract>
+  <md:uuid>4edc30fb-9dd9-4398-8118-bdd1f7aa7772</md:uuid>
+</metadata>
+<content>
+    <para id="id1168618340344">AE_Lecture1_Supplementary_Incremental Model of Controlled Sources.</para>
+    <para id="id1168557612890"> In last Chapter in Figure 9, we have given the incremental model of the controlled sources. Here we will describe the methodology of deriving the incremental model say of CE BJT.</para>
+    <para id="id1168598969840"> A DC model of CE BJT will relate the output dc current, I<sub>C </sub>, and output dc voltage, V<sub>CE</sub> , to input dc current, I<sub>B</sub> , and input dc voltage, V<sub>BE</sub> , as shown in Figure 11.</para>
+    <figure id="id1168596310888">
+      <media id="id1168596310888_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-babc.png" id="id1168596310888__onlineimage" height="381" width="641"/>
+      </media>
+    </figure>
+    <para id="id1168619387325">In Figure 11, the dc model of CE BJT is given. Since BJT is CCCS hence input current I<sub>B</sub> controls the output current through current amplification factor β<sub>F</sub> which is the short circuit current gain of CE BJT. The output current is:</para>
+    <para id="id1168595657907">  I<sub>C</sub> = β<sub>F</sub>.I<sub>B</sub> + I<sub>CEO</sub>        1</para>
+    <para id="id1168606459515"><sub/>The second part of the output current, I<sub>CEO</sub>,<sub/>is reverse leakage current of CB junction and is not controlled by input current I<sub>B </sub>hence is non-useful current and is responsible for thermal –runaway as it is temperature sensitive. It doubles for every 10°C rise in temperature. </para>
+    <para id="id1168593662216">The forward bias V<sub>BE</sub> of BE junction decides the input current I<sub>B</sub> and I<sub>B</sub> in turn decides the output current I<sub>C</sub>.</para>
+    <para id="id1168596733949"><figure id="id1168607384248"><media id="id1168607384248_media" alt=""><image mime-type="image/png" src="../../media/graphics1-a91f.png" id="id1168607384248__onlineimage" height="48" width="88"/></media></figure>        2</para>
+    <para id="id1168567785694">Thus DC Model inter-relates output DC voltage and current to input DC voltage and current.</para>
+    <para id="id1168608487840">In a similar manner Incremental Model linearly inter-relates the incremental output voltage and current to the incremental input voltage and current. It is because of this linear inter-relationship between output and input that we are forced to maintain the small signal condition or incremental signal condition. The moment the small signal condition is violated, the faithful amplification stops . The high fidelity of the system is lost. </para>
+    <para id="id1168614073795">To derive the incremental model we must introduce incremental voltage at the input as we have done in Figure 12. </para>
+    <figure id="id1168619372154">
+      <media id="id1168619372154_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-8d16.png" id="id1168619372154__onlineimage" height="360" width="643"/>
+      </media>
+    </figure>
+    <para id="id1168606400044">In Figure 12, we have instantaneous voltages and currents namely:</para>
+    <para id="id1168577200201">i<sub>B</sub> = I<sub>B</sub> + i<sub>b</sub> ,</para>
+    <para id="id1168597747647">i<sub>C</sub> = I<sub>C</sub> + i<sub>c</sub> ,</para>
+    <para id="id1168606953477">v<sub>CE</sub> = V<sub>CE</sub> + v<sub>ce</sub> ,</para>
+    <para id="id1168606053359">v<sub>BE</sub> = V<sub>BE</sub> + v<sub>be</sub> .</para>
+    <para id="id1168587158447">Here we have DC voltage + incremental voltage and DC current + incremental current.</para>
+    <para id="id1168619746867">We are interested in finding an incremental model which only inter-relates the incremental part of the output -input voltage and output-input current. </para>
+    <para id="id1168608211969">There are two ways of doing it:</para>
+    <para id="id1168574979770">First way is that from the physics of the device we derive the incremental model. This is what we are going to do in subsequent chapters with respect to diodes, BJT and FET. This is called the physical incremental model and in respect to CE BJT it is called Hybrid-π Model and in respect to CB BJT it is called T-Model.</para>
+    <para id="id1168616456985">Second way is to develop a mathematical model. Here we short circuit the DC voltage sources and open circuit DC current sources, and retain only the incremental portions of the voltages and current and the incremental equivalent of diode and controlled sources. Once we apply this rule we get the incremental model as shown in Figure 13.</para>
+    <figure id="id1168594003380">
+      <media id="id1168594003380_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-1717.png" id="id1168594003380__onlineimage" height="282" width="652"/>
+      </media>
+    </figure>
+    <para id="id1168605907556">We have enclosed the active device in a black box and by measurements taken at the two ports, input and output ports, we determine the incremental parameters of the incremental model of the active device which is being treated as a black box.</para>
+    <para id="id1168596401653">If we relate (v<sub>in</sub> , i<sub>out</sub>) to ( i<sub>in</sub>, v<sub>out</sub>) we have hybrid model.</para>
+    <para id="id1168571395083">If we relate (i<sub>in</sub> , i<sub>out</sub>) to ( v<sub>in</sub>, v<sub>out</sub>) we have admittance model.</para>
+    <para id="id1168592214018">If we relate (v<sub>in</sub> , v<sub>out</sub>) to ( i<sub>in</sub>, i<sub>out</sub>) we have impedance model.</para>
+    <para id="id1168568126354">In our syllabus we have hybrid model so we will deal with hybrid model.</para>
+    <para id="id1168608491492">In hybrid model of CE BJT:</para>
+    <para id="id1168591362453">(v<sub>in</sub>) =F1 ( i<sub>in</sub>, v<sub>out</sub>) = h<sub>ie</sub>.i<sub>in </sub>+ h<sub>re</sub>.v<sub>out</sub> ;</para>
+    <para id="id1168607468941">(i<sub>out</sub>) =F2( i<sub>in</sub>, v<sub>out</sub>) = h<sub>fe</sub>.i<sub>in</sub> + h<sub>oe</sub>.v<sub>out</sub> ;</para>
+    <para id="id1168586786496">From partial derivative theorem we know that :</para>
+    <para id="id1168609629121">(v<sub>in</sub>) = total increment in instantaneous value of input voltage =</para>
+    <para id="id1168559862056"><figure id="id1168597540608"><media id="id1168597540608_media" alt=""><image mime-type="image/png" src="../../media/graphics2-f149.png" id="id1168597540608__onlineimage" height="34" width="372"/></media></figure>     3</para>
+    <para id="id1168587123623">Physically this is interpretive as follows:</para>
+    <para id="id1168552979759">Input Voltage is a function of Input Current and Output Voltage hence </para>
+    <para id="id1168598845009">Total Increment in Instantaneous Input Voltage = incremental Input Voltage =</para>
+    <para id="id1168610381133">Partial derivative of F1 w.r.t.(with respect to) instantaneous Input Current with Output Voltage held constant ×increment in Instantaneous Input Current </para>
+    <para id="id1168574892422">PLUS </para>
+    <para id="id1168611637212">Partial derivative of F1 w.r.t.(with respect to) instantaneous Output Voltage with Input Current held constant ×increment in Instantaneous Output Voltage.</para>
+    <para id="id1168557556432"><figure id="id1168596514861"><media id="id1168596514861_media" alt=""><image mime-type="image/png" src="../../media/graphics3-4ce0.png" id="id1168596514861__onlineimage" height="34" width="68"/></media></figure>= h<sub>ie </sub>= input impedance with output shorted hence this is a short circuit parameter</para>
+    <para id="id1168593737060">= <figure id="id1168611216137"><media id="id1168611216137_media" alt=""><image mime-type="image/png" src="../../media/graphics4-ac26.png" id="id1168611216137__onlineimage" height="32" width="69"/></media></figure>;</para>
+    <para id="id1168554152557"><figure id="id1168597731190"><media id="id1168597731190_media" alt=""><image mime-type="image/png" src="../../media/graphics5-53b3.png" id="id1168597731190__onlineimage" height="34" width="80"/></media></figure> h<sub>re </sub>= reverse transmission factor with input open hence this open circuit parameter</para>
+    <para id="id1168594004991">=<figure id="id1168574508307"><media id="id1168574508307_media" alt=""><image mime-type="image/png" src="../../media/graphics6-1f82.png" id="id1168574508307__onlineimage" height="32" width="67"/></media></figure>;</para>
+    <para id="id1168560925216">Similarly </para>
+    <figure id="id1168596570529">
+      <media id="id1168596570529_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-228a.png" id="id1168596570529__onlineimage" height="45" width="396"/>
+      </media>
+    </figure>
+    <para id="id1168608435693"><figure id="id1168610841775"><media id="id1168610841775_media" alt=""><image mime-type="image/png" src="../../media/graphics8-c0a4.png" id="id1168610841775__onlineimage" height="34" width="80"/></media></figure> h<sub>fe</sub> = short circuit current gain = <figure id="id1168610654862"><media id="id1168610654862_media" alt=""><image mime-type="image/png" src="../../media/graphics9-9d90.png" id="id1168610654862__onlineimage" height="34" width="73"/></media></figure> ;</para>
+    <para id="id1168615152941"><figure id="id1168614089367"><media id="id1168614089367_media" alt=""><image mime-type="image/png" src="../../media/graphics10-2974.png" id="id1168614089367__onlineimage" height="34" width="64"/></media></figure>= h<sub>oe</sub> = open circuit output conductance if resistive </para>
+    <para id="id1168619502461">and open circuit output admittance if complex = <figure id="id1168561051078"><media id="id1168561051078_media" alt=""><image mime-type="image/png" src="../../media/graphics11-0331.png" id="id1168561051078__onlineimage" height="34" width="67"/></media></figure>.</para>
+    <para id="id1168557323319">At low and mid-frequencies h<sub>oe</sub> is open circuit output conductance and high frequencies it is open circuit output admittance.</para>
+    <para id="id1168619751747"> In Figure 14 , the Hybrid Model of CE BJT. It should be noted that there are two control sources:</para>
+    <para id="id1168592831988">First is h<sub>fe</sub>.i<sub>b</sub>→ this causes a signal current gain in forward direction and </para>
+    <para id="id1168597744142">second is h<sub>re</sub>.v<sub>ce</sub>→this causes a reverse transmission of signal voltage from output to input.</para>
+    <para id="id1168567845052">The second control source is not a desirable feature and it makes CE BJT a non-Unilateral Device which makes active networks made of CE BJT vulnerable to instability and parasitic oscillation at RadioFrequencies (RF) and above.</para>
+    <para id="id1168606935428">In subsequent chapters we will not take this mathematical route to arrive at the incremental model of the Active Devices. Rather from the first principle of Device Physics we will arrive at the incremental model of Active Devices. </para>
+    <figure id="id1168618467346">
+      <media id="id1168618467346_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-ef56.png" id="id1168618467346__onlineimage" height="422" width="628"/>
+      </media>
+    </figure>
+  </content>
+</document>

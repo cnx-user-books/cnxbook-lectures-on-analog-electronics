@@ -1,0 +1,128 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AnalogElectronics_Lecture2_Supplementary.</title>
+  <metadata>
+  <md:content-id>m29589</md:content-id><md:title>AnalogElectronics_Lecture2_Supplementary.</md:title>
+  <md:abstract>Abstract: This second part of Lecture 2 gives the Symbol, Output Characteristics and Transfer characteristics of  nJFET, NMOS(enhancement) Normally-Off NMOS, NMOS(depletion)-Normally On NMOS. It also gives a comparative study of BJT and FET.</md:abstract>
+  <md:uuid>9ca57070-4d37-437b-9eb5-889ba38ed18b</md:uuid>
+</metadata>
+
+<content>
+    <para id="id2686015">AnalogElectronics_Lecture2_Supplementary. </para>
+    <para id="id8986173">Keywords: JFET, NMOS(enhancement) Normally-Off NMOS, NMOS(depletion)-Normally On NMOS,CMOS;</para>
+    <para id="id1169494307554">Abstract: This second part of Lecture 2 gives the Symbol, Output Characteristics and Transfer characteristics of nJFET, NMOS(enhancement) Normally-Off NMOS, NMOS(depletion)Normally-On NMOS.It gives the symbol of CMOS. It also gives a comparative study of BJT and FET.</para>
+    <para id="id1169493915782">FIELD EFFECT TRANSISTOR</para>
+    <para id="id1169493497060">A Field Effect Transistor is like a pentode. It is an analogue of pentode. Both are Voltage controlled Current Sources.</para>
+    <para id="id6280393">FET</para>
+    <para id="id7520220"> JFET MOSFET</para>
+    <para id="id8918344"/>
+    <para id="id1169492135581">PJFET NJFET NMOS PMOS CMOS </para>
+    <para id="id7074462">Following are the symbols of JFET and MOSFET. </para>
+    <para id="id5514110">Just as we have NPN and PNP BJT, in exactly the same way we have P type FET and N type FET .</para>
+    <para id="id1169495291446">BJT are Bipolar devices. Here both majority and minority carriers partake in Transistor Action.</para>
+    <para id="id2526293">FET are Unipolar devices. Here only majority carriers take part in Transistor Action.</para>
+    <para id="id1169492035117">In NPN_BJT, electrons are emitted from Emitter and injected into Base and collected by Collector. Electrons play the dominant role. </para>
+    <para id="id1169495527786">In PNP_BJT, holes are injected into Base and eventually collected by the Collector.</para>
+    <para id="id1169492032115">In N type FET, electrons are sourced at SOURCE end into the channel and electrons are drained out of the DRAIN. </para>
+    <para id="id1169492385056">Vica Versa in P type FET, holes are sourced at SOURCE end into the channel and holes are drained out of the DRAIN. </para>
+    <para id="id1169492010553">JFET are DEPLETION Type also known as Normally-ON device. Here channel is present under zero gat voltage. By application of appropriate voltage the channel is gradually pinched off until complete pinch off occurs.</para>
+    <para id="id1169492034295">MOSFET can be both types: Normally On and Normally Off.</para>
+    <para id="id1169488151646">MOSFET(D) are depletion or Normally ON devices. Here under GATE Zero Voltage , channel is present.Therefore channel is represented by a continuous line. It can be depleted or enhanced.</para>
+    <para id="id1169492698160">MOSFET(E) are enhancement or Normally OFF devices. Here there is no channel therefore channel is represented by a broken line. When Gate Voltage crosses a threshold voltage then only channel is induced. Once the channel is induced the transistor is ON otherwise it is OFF.</para>
+    <figure id="id1169491988934">
+      <media id="id1169491988934_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 19-c2cd.png" id="id1169491988934__onlineimage" height="534" width="544"/>
+      </media>
+    </figure>
+    <para id="id1169492646579">
+      <figure id="id1169489842967">
+        <media id="id1169489842967_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 20-bb9c.png" id="id1169489842967__onlineimage" height="293" width="283"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1169488383356">The following is the circuit diagram of a Common Source Amplifier using N-channel JFET:</para>
+    <figure id="id1169492190832">
+      <media id="id1169492190832_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 21-9abb.png" id="id1169492190832__onlineimage" height="221" width="310"/>
+      </media>
+    </figure>
+    <para id="id1169492060971"/>
+    <para id="id1169492317445">Characteristics of N-channel JFET</para>
+    <figure id="id6443254">
+      <media id="id6443254_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 22-13af.png" id="id6443254__onlineimage" height="269" width="441"/>
+      </media>
+    </figure>
+    <figure id="id1169498456794">
+      <media id="id1169498456794_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 23-8d17.png" id="id1169498456794__onlineimage" height="249" width="446"/>
+      </media>
+    </figure>
+    <para id="id1169492173781">
+      <figure id="id6402396">
+        <media id="id6402396_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 24-67ce.png" id="id6402396__onlineimage" height="253" width="436"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1169493541029">
+      <media id="id1169493541029_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 25-55af.png" id="id1169493541029__onlineimage" height="315" width="528"/>
+      </media>
+    </figure>
+    <para id="id1169498609262">
+      <figure id="id1169489487344">
+        <media id="id1169489487344_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 26-eb6a.png" id="id1169489487344__onlineimage" height="340" width="490"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1169492706607">
+      <media id="id1169492706607_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 27-9961.png" id="id1169492706607__onlineimage" height="367" width="515"/>
+      </media>
+    </figure>
+    <para id="id1169494068503">JFET has not proved amenable to integration. MOSFET are much more suitable for integration. It has a much better packing density. Historically MOSFET has a been two orders of magnitude slower. Today Pentium IV is toggling at 3GHz whereas best BJT is clocking at 300GHz. The following Table gives the comparative study of BJT and MOSFET:</para>
+    <table id="id1169489748726" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>Bipolar Junction Transistor</entry>
+            <entry>Metal Oxide Semiconductor Field Effect Transistor</entry>
+          </row>
+          <row>
+            <entry>Carriers in action</entry>
+            <entry>Here both minority and majority take part in transistor action therefore BIPOLAR.</entry>
+            <entry>Here only majority carriers take part in transistor action therefore UNIPOLAR.</entry>
+          </row>
+          <row>
+            <entry>Speed</entry>
+            <entry>2 orders of magnitude faster</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>Packing Density</entry>
+            <entry>Because of ISOLATION DIFFUSION packing density is one order of magnitude less</entry>
+            <entry>This a much higher packing density.MOS circuits are reaching 1 billion mark</entry>
+          </row>
+          <row>
+            <entry>Dynamic range</entry>
+            <entry>This exponential device hence harmonic distortion occurs beyond 5mV at the I/P</entry>
+            <entry>This is a quadratic device hence same order od harmonic distortion is beyond 400mV.</entry>
+          </row>
+          <row>
+            <entry>Noise Figure</entry>
+            <entry>This has THERMAL noise, SHOT noise, PARTITION noise but little FLICKER noiseHence Noise Figure is large</entry>
+            <entry>This has only THERMAL and FLICKER hence much quieter device. In fact for deep space communication cryogenically cooled MESFET is preferred for Low Noise Amplifier (LNA) at the front end.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id7987988">CMOS has the advantage of low stand by power dissipation over NMOS circuits hence CMOS is the technology of choice for PC revolution. CMOS is known as nano-watt logic.</para>
+    <para id="id4070123">JFET is not in common use but its variant Metal Semiconductor Field Effect Transistor(MESFET) is the technology of choice for LNA(Low Noise Amplifier).</para>
+  </content>
+</document>

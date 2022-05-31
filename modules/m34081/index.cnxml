@@ -1,0 +1,268 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>AE_Lecture 5_Part C_continued_high frequency analysis  of CE &amp; CC</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m34081</md:content-id>
+  <md:title>AE_Lecture 5_Part C_continued_high frequency analysis  of CE &amp; CC</md:title>
+  <md:abstract>This is the continuation of AE_Lecture 5 _ Part C. We saw in the last part how the B.W. is determined for CB Amplifier. In this continuation of Part C , we do the high frequency analysis of CE and CC amplifier by Open Circuit Time Constant Method.This part is concluded by a Table where we give the Comparative Study of Performance Parameters of CE,CB and CC Amplifier. There will be a final concluding part of Lecture 5_PartC where we will show the simulation results of CE,CB and CC amplifier  in frequency domain.</md:abstract>
+  <md:uuid>ff13fa52-8f9f-4548-ad3f-9cc4fd4819a1</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1168534815078">AE_Lecture 5_Part C_continued_high frequency analysis </para>
+    <para id="id1168541560453">of CE &amp; CC</para>
+    <figure id="id1935619">
+      <media id="id1935619_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-5536.png" id="id1935619__onlineimage" height="311" width="416"/>
+      </media>
+    </figure>
+    <para id="id2144435">In Figure 1 we have RC-coupled CE BJT Amplifier. This has a Q point (I<sub>CQ</sub> = 1mA, V<sub>CEQ</sub> = 5V). The Hybrid- π parameters are same as in last chapter namely: </para>
+    <para id="id1168540505460">
+      <emphasis effect="bold">β</emphasis>
+      <emphasis effect="bold">fo</emphasis>
+      <emphasis effect="bold"> = incremental short circuit gain at low frequencies = 100;</emphasis>
+    </para>
+    <para id="id8020007">
+      <emphasis effect="bold">Transit frequency given = f</emphasis>
+      <emphasis effect="bold">T</emphasis>
+      <emphasis effect="bold"> = 200MHz;</emphasis>
+    </para>
+    <para id="id1168534257966">
+      <emphasis effect="bold">At the Q point, C</emphasis>
+      <emphasis effect="bold">ob</emphasis>
+      <emphasis effect="bold"> = C</emphasis>
+      <emphasis effect="bold">µ</emphasis>
+      <emphasis effect="bold"> = C</emphasis>
+      <emphasis effect="bold">jBC</emphasis>
+      <emphasis effect="bold"> = </emphasis>
+      <figure id="id1168535931113">
+        <media id="id1168535931113_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics1-246a.png" id="id1168535931113__onlineimage" height="30" width="23"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">= 5pF ;</emphasis>
+    </para>
+    <para id="id1876624">
+      <emphasis effect="bold">Circular Transit Frequency = ω</emphasis>
+      <emphasis effect="bold">T</emphasis>
+      <emphasis effect="bold"> = </emphasis>
+      <figure id="id1168533419268">
+        <media id="id1168533419268_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics2-18bf.png" id="id1168533419268__onlineimage" height="46" width="42"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">1.2566×10</emphasis>
+      <emphasis effect="bold">9</emphasis>
+      <emphasis effect="bold"> radians/second;</emphasis>
+    </para>
+    <para id="id1168534300307">
+      <emphasis effect="bold">Trans-conductance = g</emphasis>
+      <emphasis effect="bold">m</emphasis>
+      <emphasis effect="bold"> = </emphasis>
+      <figure id="id1168536398491">
+        <media id="id1168536398491_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-5cd0.png" id="id1168536398491__onlineimage" height="45" width="47"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">40mSiemens(or mS) = </emphasis>
+      <figure id="id2182585">
+        <media id="id2182585_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-4505.png" id="id2182585__onlineimage" height="46" width="26"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">= 1/25Ω;</emphasis>
+    </para>
+    <para id="id1168533310786">
+      <emphasis effect="bold">Whereas </emphasis>
+      <figure id="id1168545103014">
+        <media id="id1168545103014_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics5-64ef.png" id="id1168545103014__onlineimage" height="57" width="239"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">;</emphasis>
+    </para>
+    <figure id="id5517742">
+      <media id="id5517742_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-4a81.png" id="id5517742__onlineimage" height="30" width="109"/>
+      </media>
+    </figure>
+    <para id="id5505445">
+      <emphasis effect="bold">Base spreading resistance is given as r</emphasis>
+      <emphasis effect="bold">x</emphasis>
+      <emphasis effect="bold"> =100Ω ;</emphasis>
+    </para>
+    <figure id="id1168541663914">
+      <media id="id1168541663914_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-d866.png" id="id1168541663914__onlineimage" height="60" width="180"/>
+      </media>
+    </figure>
+    <para id="id1168536416391">The circuit elements are given as :</para>
+    <para id="id2120006">R<sub>C</sub> = 5k, R<sub>E</sub> = 2k, R<sub>1</sub> = 200k, R<sub>2</sub> = 60k, R<sub>L</sub> = 100k , R<sub>S</sub> = 50Ω,</para>
+    <para id="id1168541944440">R<sub>B</sub> = R<sub>1 </sub>|| R<sub>2</sub>=46k, R<sub>L</sub><sup>′</sup> = 5k||100k = 4.76k;</para>
+    <para id="id1168537735230">Under incremental condition, the circuit is represented as Figure 2. Bias Supply V<sub>CC</sub> is shorted, coupling capacitances C<sub>C1</sub> and C<sub>C2</sub> are shorted and Emitter Bypass Capacitance C<sub>E</sub> is is shorted. </para>
+    <figure id="id1168534279105">
+      <media id="id1168534279105_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-8b7e.png" id="id1168534279105__onlineimage" height="323" width="491"/>
+      </media>
+    </figure>
+    <para id="id1168538966777">For incremental analysis at high frequencies, BJT is replaced by its corresponding high frequency Hybrid-π Model as shown in Figure 3.</para>
+    <para id="id1168536747719">
+      <figure id="id1168534709261">
+        <media id="id1168534709261_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-b91b.png" id="id1168534709261__onlineimage" height="263" width="563"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168541403159">In the beginning of the Lecture 5 we have already discussed that the number of energy storage elements decide the order of the system and accordingly the number of poles. We have also discussed that in Low Pass Filter situation if the lowest pole is well below the higher poles then it is the dominant pole and it decides the higher -3dB frequency (f<sub>h</sub>) and in High Pass Filter situation the highest pole decides the lower -3dB frequency (f<sub>l</sub>). </para>
+    <para id="id1168546716217"> In the present case by inspecting the incremental circuit diagram, we find two Capacitances , C<sub>π</sub> and C<sub>μ</sub> . Each has its open circuit time constant , τ<sub>10</sub> and τ<sub>20</sub> respectively.</para>
+    <para id="id5664516">Effective time constant τ<sub>eff</sub> = τ<sub>10</sub> + τ<sub>20</sub> ;</para>
+    <para id="id2080123">Therefore ω<sub>h</sub> = <figure id="id1168534637634"><media id="id1168534637634_media" alt=""><image mime-type="image/png" src="../../media/graphics8-a4de.png" id="id1168534637634__onlineimage" height="45" width="66"/></media></figure>= higher -3dB frequency (2πf<sub>h</sub>);</para>
+    <para id="id1168537604207">Fortunately by applying Miller Transformation we can make single pole approximation of the incremental circuit.</para>
+    <para id="id1168536460670">By Miller Transformation, Cμ is transformed as:</para>
+    <para id="id1168539519291"><figure id="id1168538920322"><media id="id1168538920322_media" alt=""><image mime-type="image/png" src="../../media/graphics9-0f0b.png" id="id1168538920322__onlineimage" height="32" width="115"/></media></figure> at the input pair of nodes b<sup>׳</sup> e and </para>
+    <para id="id1168534821454"><figure id="id1168536329888"><media id="id1168536329888_media" alt=""><image mime-type="image/png" src="../../media/graphics10-75ea.png" id="id1168536329888__onlineimage" height="47" width="82"/></media></figure> at the output pair of nodes ce.</para>
+    <para id="id1168536184516">Here A<sub>V0</sub> = -g<sub>m</sub>R<sub>C</sub>||R<sub>L</sub> = midband gain of the basic CE amplifier.</para>
+    <para id="id1168543271308"><figure id="id1168534561544"><media id="id1168534561544_media" alt=""><image mime-type="image/png" src="../../media/graphics11-f4f8.png" id="id1168534561544__onlineimage" height="30" width="92"/></media></figure> is known as Miller Multiplicaion Factor and </para>
+    <para id="id1994680"><figure id="id1168533252810"><media id="id1168533252810_media" alt=""><image mime-type="image/png" src="../../media/graphics12-051e.png" id="id1168533252810__onlineimage" height="32" width="120"/></media></figure> is known as the Miller Capacitance.</para>
+    <para id="id1168538678679">Therefore total Capacitance appearing at the input node pair is:</para>
+    <para id="id1168535969576">C<sub>T</sub> = C<sub>π</sub> + <figure id="id1168534587106"><media id="id1168534587106_media" alt=""><image mime-type="image/png" src="../../media/graphics13-0f0b.png" id="id1168534587106__onlineimage" height="32" width="115"/></media></figure> = 29pF +5pF(1+180)= 934pF;</para>
+    <para id="id1168534952548">Hence the incremental circuit is modified to the circuit shown in </para>
+    <para id="id1168540666570">Figure 4 with single pole approximation :</para>
+    <figure id="id1168533331642">
+      <media id="id1168533331642_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-391e.png" id="id1168533331642__onlineimage" height="236" width="629"/>
+      </media>
+    </figure>
+    <para id="id1168537135759">The equivalent resistance seen by C<sub>T</sub> by inspection is:</para>
+    <para id="id1168546286914"><figure id="id1168538849595"><media id="id1168538849595_media" alt=""><image mime-type="image/png" src="../../media/graphics14-b2a1.png" id="id1168538849595__onlineimage" height="30" width="338"/></media></figure>;</para>
+    <para id="id1168539569336">Therefore ω<sub>h </sub>= <figure id="id1168536296108"><media id="id1168536296108_media" alt=""><image mime-type="image/png" src="../../media/graphics15-10ed.png" id="id1168536296108__onlineimage" height="45" width="46"/></media></figure> ;</para>
+    <para id="id1168536477456">Thererfore f<sub>h</sub> = 1/0.8304μsec = 1.2MHz;</para>
+    <para id="id1168541506761">The mid-frequency analysis gives the Midband Voltage Gain as :</para>
+    <para id="id1168536953647"><figure id="id1168538917795"><media id="id1168538917795_media" alt=""><image mime-type="image/png" src="../../media/graphics16-3a07.png" id="id1168538917795__onlineimage" height="48" width="311"/></media></figure>= -177.36;</para>
+    <para id="id1168536274741">A<sub>VO</sub> = -183.076</para>
+    <para id="id1168544016077">High Frequency Analysis of CC Amplifier.</para>
+    <para id="id1168538307803">In Figure 5, the circuit configuration of CC Amplifier or more commonly known as Emitter Follower is given. This has a Voltage Gain of Unity hence it is always used as a Buffer with a very large input impedance and a very low output impedance. Hence emitter follower is ideal for driving variable loads and transmission lines. This also helps isolate the load from the Amplifier Circuit thereby ensuring maximum voltage gain of the Amplifier Circuit. If the load is not isolated then loading will occur and Voltage Gain will fall.</para>
+    <figure id="id1168533384098">
+      <media id="id1168533384098_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-8974.png" id="id1168533384098__onlineimage" height="330" width="408"/>
+      </media>
+    </figure>
+    <para id="id1168538246191">The incremental representation of CC BJT Amplifier is given </para>
+    <para id="id1168540687413">in Figure 6. In the incremental representation, biasing Battery is treated as short. C<sub>C1</sub> , C<sub>C2 </sub>and <sub/>C<sub>C</sub> are also treated as a short circuit.</para>
+    <para id="id1168534280649">
+      <figure id="id1168539690377">
+        <media id="id1168539690377_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 9-5a63.png" id="id1168539690377__onlineimage" height="307" width="447"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168539385223">Replacing BJT by Hybrid-π model we get the incremental representation as shown in Figure 7.</para>
+    <figure id="id5825148">
+      <media id="id5825148_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-15f7.png" id="id5825148__onlineimage" height="406" width="473"/>
+      </media>
+    </figure>
+    <para id="id1168539381850">By inspection we see that we have capacitances ; C<sub>π</sub> and C<sub>μ</sub> . They have their associated open circuit time constants τ<sub>10</sub> and τ<sub>20</sub> . For determining these time constants we must know the open circuit resistances seen by C<sub>π</sub> and C<sub>μ</sub> .</para>
+    <para id="id1168541369325">The equivalent resistance R<sub>10</sub> is seen by C<sub>π</sub> can be determined from Figure 8.</para>
+    <figure id="id1168534465430">
+      <media id="id1168534465430_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 11-76f0.png" id="id1168534465430__onlineimage" height="366" width="572"/>
+      </media>
+    </figure>
+    <para id="id1168535614728">Total current drawn from the voltage source v<sub>o</sub> is i<sub>o</sub> = i<sub>x </sub>+ i<sub>π</sub> ;</para>
+    <para id="id1168531892845">Where i<sub>π</sub> = <figure id="id1168536484035"><media id="id1168536484035_media" alt=""><image mime-type="image/png" src="../../media/graphics17-5ec5.png" id="id1168536484035__onlineimage" height="43" width="18"/></media></figure> ;</para>
+    <para id="id2277381">And in the second path of base spreading resistance (r<sub>x</sub>) :</para>
+    <para id="id1168544443976">We have v<sub>o</sub>= i<sub>x </sub>(r<sub>x</sub> + R<sub>S</sub>||R<sub>B </sub>+ R<sub>E</sub>||R<sub>L</sub>) – β<sub>fo</sub>i<sub>π</sub> R<sub>E</sub></para>
+    <para id="id1168534731438">  = i<sub>x </sub>(r<sub>x</sub> + R<sub>S</sub>||R<sub>B </sub>+ R<sub>E</sub>||R<sub>L</sub>) – β<sub>fo</sub>×R<sub>E</sub>×<figure id="id1395969"><media id="id1395969_media" alt=""><image mime-type="image/png" src="../../media/graphics18-5ec5.png" id="id1395969__onlineimage" height="43" width="18"/></media></figure></para>
+    <para id="id1168535693544">  = i<sub>x </sub>(r<sub>x</sub> + R<sub>S</sub>||R<sub>B </sub>+ R<sub>E</sub>||R<sub>L</sub>) – g<sub>m</sub>×R<sub>E</sub>×<figure id="id1168537289469"><media id="id1168537289469_media" alt=""><image mime-type="image/png" src="../../media/graphics19-1a4f.png" id="id1168537289469__onlineimage" height="40" width="18"/></media></figure></para>
+    <para id="id1168537137970"><emphasis effect="italics"/>Rearranging the terms we get: v<sub>o</sub>/i<sub>x</sub> = <figure id="id1168534276089"><media id="id1168534276089_media" alt=""><image mime-type="image/png" src="../../media/graphics20-30ae.png" id="id1168534276089__onlineimage" height="46" width="138"/></media></figure></para>
+    <para id="id1168536273201">Therefore R<sub>10</sub><figure id="id4052618"><media id="id4052618_media" alt=""><image mime-type="image/png" src="../../media/graphics21-d021.png" id="id4052618__onlineimage" height="50" width="211"/></media></figure></para>
+    <para id="id1168534089999">Substituting the parameter and element values we get :</para>
+    <para id="id2703843">R<sub>10</sub><figure id="id1168534461823"><media id="id1168534461823_media" alt=""><image mime-type="image/png" src="../../media/graphics22-0c36.png" id="id1168534461823__onlineimage" height="73" width="448"/></media></figure></para>
+    <para id="id1168534200458">The equivalent resistance seen by C<sub>μ</sub> is R<sub>20</sub> . This equivalent resistance can be determined by the Figure 9.</para>
+    <figure id="id7252313">
+      <media id="id7252313_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 12-45c7.png" id="id7252313__onlineimage" height="417" width="483"/>
+      </media>
+    </figure>
+    <para id="id1168533252752">By inspection we see that there are two currents flowing out of the source v<sub>0</sub> . The two currents are i<sub>x</sub> and i<sub>π</sub> .</para>
+    <para id="id1168536524565">The current i<sub>x</sub> sees the resistance (r<sub>x</sub> + R<sub>S</sub>||R<sub>B</sub>).</para>
+    <para id="id1168536282904">The current i<sub>π</sub> sees the resistance [r<sub>π</sub> + (1+β<sub>fo</sub>) R<sub>E</sub>||R<sub>L</sub>].</para>
+    <para id="id1168536476503">Therefore R<sub>20</sub> = (r<sub>x</sub> + R<sub>S</sub>||R<sub>B</sub>)|| [r<sub>π</sub> + (1+β<sub>fo</sub>) R<sub>E</sub>||R<sub>L</sub>]</para>
+    <para id="id1168535418358">Substituting the parameter values and element values in the above equation we get:</para>
+    <para id="id1168539382681">R<sub>20</sub> = (100 + 50)|| [2500 + (1+100) 2000] = 150Ω</para>
+    <para id="id8687078">Therefore τ<sub>10</sub> = R<sub>10</sub>×C<sub>π</sub> = 26.54Ω×29pF = 769.66psec.</para>
+    <para id="id1168541830272">And τ<sub>20</sub> = R<sub>20</sub>×C<sub>μ</sub> = 150Ω×5pF = 750psec.</para>
+    <para id="id1168546278907">Therefore f<sub>h</sub> = <figure id="id1168533293260"><media id="id1168533293260_media" alt=""><image mime-type="image/png" src="../../media/graphics23-23cd.png" id="id1168533293260__onlineimage" height="45" width="401"/></media></figure></para>
+    <para id="id1168539549355">Referring to Figure 6, we can determine the midband overall gain:</para>
+    <para id="id1168539040206"><figure id="id1168537254856"><media id="id1168537254856_media" alt=""><image mime-type="image/png" src="../../media/graphics24-e9a2.png" id="id1168537254856__onlineimage" height="53" width="283"/></media></figure>≈ 1</para>
+    <para id="id1168536323932">Here we have assumed that loading by R<sub>B</sub> has been removed by boot-strapping technique. As can be seen from the formula above, the internal gain and overall gain including R<sub>S</sub> is the same.</para>
+    <para id="id1168533334136">Determination of the output impedance of CC Amplifier:</para>
+    <para id="id1168539317409">Determination of the output impedance of CE and CB is quite straight forward.</para>
+    <para id="id2718550">R<sub>out</sub> = <figure id="id1168537138928"><media id="id1168537138928_media" alt=""><image mime-type="image/png" src="../../media/graphics25-abe8.png" id="id1168537138928__onlineimage" height="45" width="31"/></media></figure> in CE Amplifier. The default value of <figure id="id1168547681192"><media id="id1168547681192_media" alt=""><image mime-type="image/png" src="../../media/graphics26-abe8.png" id="id1168547681192__onlineimage" height="45" width="31"/></media></figure>= 40k.</para>
+    <para id="id1168542285952">R<sub>out</sub> = <figure id="id1168538406856"><media id="id1168538406856_media" alt=""><image mime-type="image/png" src="../../media/graphics27-fba6.png" id="id1168538406856__onlineimage" height="45" width="32"/></media></figure> in CB Amplifier. The default value of <figure id="id1168536501797"><media id="id1168536501797_media" alt=""><image mime-type="image/png" src="../../media/graphics28-fba6.png" id="id1168536501797__onlineimage" height="45" width="32"/></media></figure>= 2M.</para>
+    <para id="id1168533319054">For CC amplifier we will have to go to the incremental model with source inactivated and a source v<sub>o</sub> applied at the output pair of nodes as shown in Figure 10:</para>
+    <para id="id1674378">
+      <figure id="id1168538654569">
+        <media id="id1168538654569_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 13-1a1e.png" id="id1168538654569__onlineimage" height="348" width="500"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1168534100880">By inspection we see that output current from the applied source is flowing through three paths:</para>
+    <para id="id1168537572049">Through R<sub>E</sub> we have i<sub>e</sub> flowing.</para>
+    <para id="id1168533507578">Through (r<sub>π</sub> + r<sub>x</sub> + R<sub>S</sub>||R<sub>B</sub>) we have i<sub>b</sub> (controlling current) flowing.</para>
+    <para id="id1392387">Through controlled source we have β<sub>fo</sub>i<sub>b</sub> flowing.</para>
+    <para id="id1168539252762">Hence total current i<sub>o</sub> = i<sub>e</sub> + i<sub>b</sub> + β<sub>fo</sub>i<sub>b</sub></para>
+    <para id="id1168533326733">= v<sub>o</sub>(<figure id="id1168545921566"><media id="id1168545921566_media" alt=""><image mime-type="image/png" src="../../media/graphics29-9775.png" id="id1168545921566__onlineimage" height="48" width="271"/></media></figure>v<sub>o</sub>(<figure id="id1168536452889"><media id="id1168536452889_media" alt=""><image mime-type="image/png" src="../../media/graphics30-3d75.png" id="id1168536452889__onlineimage" height="48" width="142"/></media></figure></para>
+    <para id="id1168542109890">Therefore R<sub>out</sub> as seen by v<sub>o</sub> is <figure id="id1168538785692"><media id="id1168538785692_media" alt=""><image mime-type="image/png" src="../../media/graphics31-184a.png" id="id1168538785692__onlineimage" height="50" width="136"/></media></figure>≈ <figure id="id1168533534947"><media id="id1168533534947_media" alt=""><image mime-type="image/png" src="../../media/graphics32-09a7.png" id="id1168533534947__onlineimage" height="45" width="24"/></media></figure> = 25Ω.</para>
+    <para id="id1168534138878">Hence output impedance of CC Amplifier is 25Ω but input impedance is 200kΩ. Therefore CC Amplifier acts as voltage controlled voltage source with unity voltage gain hence it is ideal for BUFFER applications as well as for driving transmission lines and for driving variable loads.</para>
+    <para id="id1168531768211">In Table 1, we make a comparative study of the performance parameters of the three configurations of BJT Amplifier.</para>
+    <para id="id5457850">Table 1. Comparative study of the performance parameters of CE,CB and CC amplifier.</para>
+    <table id="id1168531879106" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry/>
+            <entry>A<sub>VSO</sub>(Overall gain)</entry>
+            <entry>A<sub>VO</sub>(Internal gain)</entry>
+            <entry>Band width</entry>
+            <entry>R<sub>in</sub></entry>
+            <entry>R<sub>out</sub></entry>
+          </row>
+          <row>
+            <entry>CE</entry>
+            <entry>-177.36</entry>
+            <entry>-183.07</entry>
+            <entry>1.2MHz</entry>
+            <entry>2.6k</entry>
+            <entry>40k= 1/h<sub>oe</sub></entry>
+          </row>
+          <row>
+            <entry>CB</entry>
+            <entry>63.4</entry>
+            <entry>190.4</entry>
+            <entry>6.5MHz</entry>
+            <entry>25Ω</entry>
+            <entry>2M = 1/h<sub>ob</sub></entry>
+          </row>
+          <row>
+            <entry>CC</entry>
+            <entry>0.987</entry>
+            <entry>0.987</entry>
+            <entry>104.73MHz</entry>
+            <entry>204.6k</entry>
+            <entry>25Ω</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1168541771562">As can be seen from the Table 1, the internal gain and overall gain are different only in CB. In the remaining two configurations the gains are approximately the same.</para>
+    <para id="id1168541985536">Also Open Circuit Time Constant method gives a conservative value of upper -3dB frequency and Short Circuit Time Constant method also gives a conservative value of lower -3dB frequency. The actual BW is 1.1 times larger than the calculated values.</para>
+  </content>
+</document>

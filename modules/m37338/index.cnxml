@@ -1,0 +1,68 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>AE_EC1405_EVENSEM_2011_MidSemesterQuestions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37338</md:content-id>
+  <md:title>AE_EC1405_EVENSEM_2011_MidSemesterQuestions</md:title>
+  <md:abstract>MidSemester Question Paper of Even Semester_2011 in the subject Analog Electronics.</md:abstract>
+  <md:uuid>7cf51237-fbbe-4b5e-b66b-abc69c786a32</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1171270490174">MIDSEMESTER TEST</para>
+    <para id="id1171266605920">EC1405_Analog Electronics_IT &amp; CSE Fourth Semester.</para>
+    <para id="id1171248853593">Time: 2 hours   Total Marks:18 points</para>
+    <para id="id1171273574275">Question 1 is compulsory and any two of the remaining three questions.</para>
+    <para id="id1171279897112">Question 1.</para>
+    <list id="id1171270862372" list-type="bulleted">
+      <item>Give the spectrum slot allotted for AM_Medium Wave-AIR local transmission, for AM_Short Wave_Global Transmission, for Doordarshan Transmission for Channel 2 to 6 and for FM Radio transmission by AIR.</item>
+      <item>Describe Amplitude Distortion also known as Harmonic Distortion. Give an example of Amplitude Distortion.</item>
+      <item>Describe Frequency Distortion and an application where Frequency Distortion occurs.</item>
+      <item>Describe the different schemes of Biasing and which schemes are preferred in actual circuits.</item>
+      <item>Draw the Frequency Domain Response and Time Domain response of Emitter Degenerate Amplifier at 100Hz and at 10kHz. </item>
+      <item>How does a HPF(High Pass Filter) behave at very low frequencies where time period of repetition of input square wave is much larger than the Time Constant of HPF. </item>
+      <item>How does a LPF(Low Pass Filter) behave at very high frequencies where time period of repetition of input square wave is much smallerthan the Time Constant of LPF. </item>
+      <item>What is the CRO display under Component Testing mode for resistance R which is high, low, open circuit and short circuit.</item>
+    </list>
+    <para id="id1171254269272"/>
+    <para id="id1171254011451">Question 2. </para>
+    <figure id="id1171263138491">
+      <media id="id1171263138491_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-5b84.png" id="id1171263138491__onlineimage" height="349" width="335"/>
+      </media>
+    </figure>
+    <list id="id1171244623025" list-type="bulleted">
+      <item>Identify the amplifier.</item>
+      <item>If I<sub>CQ</sub>= 1mA, V<sub>CEQ</sub> = 5V then write down the incremental parameters of the BJT either for its h-model or for its Hybrid-pi Model.</item>
+      <item>Draw the DC and AC load line on the I-V family of curves of Q BC548 and mark the Q point.</item>
+      <item>Using the load line draw the output curve if the input voltage is </item>
+    </list>
+    <para id="id1171265765139">v<sub>S</sub> = 1VSin(ωt).</para>
+    <para id="id1171260761158">Question 3.</para>
+    <para id="id1171255168636">If a Low Pass Filter has R = 10k and C = 1µF then calculate its cutoff frequency.</para>
+    <list id="id1171267620920" list-type="enumerated" number-style="lower-alpha">
+      <item>What is the frequency response BODE PLOT of the magnitude of the transfer function H(jω) of LPF ?</item>
+      <item>What is the Time Domain Response of LPF for:</item>
+    </list>
+    <list id="id1171248100792" list-type="enumerated" number-style="arabic">
+      <item>T of the square wave &gt;&gt; τ (time constant) of LPF;</item>
+      <item>T of the square wave ≈ τ (time constant) of LPF;</item>
+      <item>T of the square wave &lt;&lt; τ (time constant) of LPF;</item>
+    </list>
+    <para id="id1171255051799">(Assume that input square wave is of 10V amplitude and it is offsetted by 5V).</para>
+    <para id="id1171248292151">Question 4.</para>
+    <para id="id1171249320618">
+      <figure id="id1171245697981">
+        <media id="id1171245697981_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-dbb0.png" id="id1171245697981__onlineimage" height="340" width="328"/>
+        </media>
+      </figure>
+    </para>
+    <list id="id1171283087434" list-type="bulleted">
+      <item>Identify the amplifier.</item>
+      <item>If I<sub>CQ</sub>= 1mA, V<sub>CEQ</sub> = 5V then write down the incremental parameters of the BJT either for its h-model or for its Hybrid-pi Model.</item>
+      <item>Draw the DC and AC load line on the I-V family of curves of Q BC548 and mark the Q point.</item>
+      <item>Using the load line draw the output curve if the input voltage is </item>
+    </list>
+    <para id="id1171254434904">v<sub>S</sub> = 5mVSin(ωt).</para>
+  </content>
+</document>

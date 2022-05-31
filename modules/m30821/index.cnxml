@@ -1,0 +1,351 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Tutorial 3 of AnalogElectronicsLecture3.</title>
+  <metadata>
+  <md:content-id>m30821</md:content-id><md:title>Tutorial 3 of AnalogElectronicsLecture3.</md:title>
+  <md:abstract>This gives the data sheet of Diode and problems on Diode circuits.</md:abstract>
+  <md:uuid>ef5d8f81-438b-4502-8a8c-b33cb8d3bf41</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1164479819289">Tutorial 3 of AnalogElectronicsLecture3.</para>
+    <para id="id1164481050919">DATA SHEET OF DIFFUSED SILICON PLANAR [BAY 73]</para>
+    <list id="id1164479810409" list-type="enumerated" number-style="upper-alpha" mark-suffix=")">
+      <item>BV<sub>A</sub>=125 V (MIN)@100µA Absolute Maximum Ratings </item>
+      <item>Storage temperature ratings -65ºC to +200ºC </item>
+    </list>
+    <para id="id1164481073204">Maximum Junction Operating temperature 175ºC</para>
+    <para id="id1164481129985">Lead temperature +260ºC</para>
+    <list id="id1164481385882" list-type="enumerated" number-style="upper-alpha" mark-suffix=")">
+      <item>Power dissipation </item>
+    </list>
+    <para id="id1164481068363">Maximum Total Power Dissipation at 25ºC Ambient= 500mW</para>
+    <para id="id1164480957107">Linear power derating factor(from 25ºC)=3.33mW/ºC</para>
+    <list id="id1164479961776" list-type="enumerated" number-style="upper-alpha" mark-suffix=")">
+      <item>Maximum Voltage and current </item>
+    </list>
+    <para id="id1164479904202">WIV working inverse voltage BAY73 = 100V</para>
+    <para id="id1164480983978">I<sub>o </sub>Average Rectified Current= 200 mA</para>
+    <para id="id1164481209348">I<sub>F</sub> Continuous Forward Current= 500 mA</para>
+    <para id="id1164479900044">i<sub>f </sub>Peak Repititive forward current = 600 mA</para>
+    <para id="id1164479964240">i<sub>f</sub>(surge) Peak Forward surge Current </para>
+    <para id="id1164481300320">Pulse width= 1 sec 1A </para>
+    <para id="id1164481315359">Pulse Width= 1µsec 4A</para>
+    <para id="id1164479889588">Electrical Characteristics(25ºC Ambient)</para>
+    <table id="id1164480963570" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry>Symbol</entry>
+            <entry>Characteristic</entry>
+            <entrytbl namest="c3" nameend="c4" cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry namest="c1" nameend="c2">Bay 73</entry>
+                </row>
+                <row>
+                  <entry>MIN</entry>
+                  <entry>MAX</entry>
+                </row>
+              </tbody>
+            </entrytbl>
+            <entry>Units</entry>
+            <entry>Test Condition</entry>
+          </row>
+          <row>
+            <entry>
+              <media id="id1164481336529" alt="">
+                <image mime-type="image/png" src="../../media/graphics1-833f.png"/>
+              </media>
+            </entry>
+            <entry>Forward Voltage </entry>
+            <entry>0.850.60</entry>
+            <entry>1.000.65</entry>
+            <entry>VV</entry>
+            <entry>
+              <media id="id1164481164503" alt="">
+                <image mime-type="image/png" src="../../media/graphics2-01bb.png"/>
+              </media>
+              <media id="id1164479907804" alt="">
+                <image mime-type="image/png" src="../../media/graphics3-c865.png"/>
+              </media>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <media id="id1164479876838" alt="">
+                <image mime-type="image/png" src="../../media/graphics4-2621.png"/>
+              </media>
+            </entry>
+            <entry>Reverse Current</entry>
+            <entry/>
+            <entry>0.50</entry>
+            <entry>nA</entry>
+            <entry>
+              <media id="id1164488099223" alt="">
+                <image mime-type="image/png" src="../../media/graphics5-c891.png"/>
+              </media>
+              <media id="id1164479729495" alt="">
+                <image mime-type="image/png" src="../../media/graphics6-2c8c.png"/>
+              </media>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <media id="id1164481393025" alt="">
+                <image mime-type="image/png" src="../../media/graphics7-355f.png"/>
+              </media>
+            </entry>
+            <entry>Breakdown Voltage</entry>
+            <entry>125</entry>
+            <entry/>
+            <entry>V</entry>
+            <entry>
+              <media id="id1164480968867" alt="">
+                <image mime-type="image/png" src="../../media/graphics8-efea.png"/>
+              </media>
+            </entry>
+          </row>
+          <row>
+            <entry>C</entry>
+            <entry>Capacitance</entry>
+            <entry/>
+            <entry>8</entry>
+            <entry>pF</entry>
+            <entry><media id="id1164479753470" alt=""><image mime-type="image/png" src="../../media/graphics9-9eff.png"/></media>=0V,f=1MHz</entry>
+          </row>
+          <row>
+            <entry>
+              <media id="id1164488100295" alt="">
+                <image mime-type="image/png" src="../../media/graphics10-4416.png"/>
+              </media>
+            </entry>
+            <entry>Reverse Recovery Time</entry>
+            <entry/>
+            <entry>3</entry>
+            <entry>µsec</entry>
+            <entry>
+              <media id="id1164481063304" alt="">
+                <image mime-type="image/png" src="../../media/graphics11-b97e.png"/>
+              </media>
+              <media id="id1164481376743" alt="">
+                <image mime-type="image/png" src="../../media/graphics12-a992.png"/>
+              </media>
+              <media id="id1164481342877" alt="">
+                <image mime-type="image/png" src="../../media/graphics13-6822.png"/>
+              </media>
+              <media id="id1164480936728" alt="">
+                <image mime-type="image/png" src="../../media/graphics14-42fe.png"/>
+              </media>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1164479751872">Data Sheet Of Zener Diode</para>
+    <figure id="id1164481141360">
+      <media id="id1164481141360_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-bfc6.png" id="id1164481141360__onlineimage" height="472" width="653"/>
+      </media>
+    </figure>
+    <para id="id1164481118607">Figure 1. I-V characteristics of Zener Diode.</para>
+    <para id="id1164481368754">We have Zener break down below 4V and Avalanche Breakdown above 6V and between 4V and 6V we have mixed breakdown that is partly Zener and remaining Avalanche.</para>
+    <para id="id1164479978427">Zener Breakdown has negative temperature coefficient and Avalanche Breakdown has positive temperature coefficient. Hence at around 5V Breakdown we have almost zero temp coefficient. Hence 5V Breakdown Zener Diode can be used as an Ideal Reference Voltage Source or as a Standard Voltage Source.</para>
+    <para id="id1164481360842">
+      <emphasis effect="bold">Electrical Characteristics Of Zener Diode(T</emphasis>
+      <emphasis effect="bold">ambient </emphasis>
+      <emphasis effect="bold">=25ºC)</emphasis>
+    </para>
+    <table id="id1164481000182" summary="">
+      <tgroup cols="8">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <tbody>
+          <row>
+            <entry>V<sub>Z</sub>(V)</entry>
+            <entry>I<sub>ZT</sub>(mA)</entry>
+            <entry>Z<sub>ZT</sub> (Ω)at I<sub>ZT</sub>(mA)</entry>
+            <entry>Z<sub>ZK</sub> (Ω) atI<sub>ZK </sub>(mA)</entry>
+            <entry>I<sub>R </sub>(µA)at V<sub>R</sub>(V)</entry>
+            <entry>V<sub>R</sub>(V)</entry>
+            <entry>I<sub>ZM</sub>(mA)</entry>
+            <entry>Temperature Coefficient<media id="id1164481295205" alt=""><image mime-type="image/png" src="../../media/graphics15-0ece.png"/></media></entry>
+          </row>
+          <row>
+            <entry>-10</entry>
+            <entry>12.5</entry>
+            <entry>8.5</entry>
+            <entry>700 at 0.25</entry>
+            <entry>10</entry>
+            <entry>7.2</entry>
+            <entry>32</entry>
+            <entry>0.072</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <figure id="id1164481321504">
+      <media id="id1164481321504_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-8b5f.png" id="id1164481321504__onlineimage" height="308" width="409"/>
+      </media>
+    </figure>
+    <para id="id1164488097556">
+      <emphasis effect="bold">Figure 2. Temperature Coefficient of Breakdown Voltages.</emphasis>
+    </para>
+    <para id="id1164481335852">Current Controlled attenuator</para>
+    <para id="id1164479896702">
+      <figure id="id1164479792024">
+        <media id="id1164479792024_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-f298.png" id="id1164479792024__onlineimage" height="141" width="313"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164480935337">Figure 3. Current controlled attenuator.</para>
+    <para id="id1164479793810">Incremental circuit is :</para>
+    <para id="id1164481086718"><figure id="id1164480945560"><media id="id1164480945560_media" alt=""><image mime-type="image/png" src="../../media/graphics16-fa01.png" id="id1164480945560__onlineimage" height="63" width="120"/></media></figure>C acts as a short circuit.</para>
+    <para id="id1164481188759">Diode is replaced by <figure id="id1164479913045"><media id="id1164479913045_media" alt=""><image mime-type="image/png" src="../../media/Picture 5-ba3f.png" id="id1164479913045__onlineimage" height="61" width="85"/></media></figure></para>
+    <figure id="id1164481305425">
+      <media id="id1164481305425_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-7cb2.png" id="id1164481305425__onlineimage" height="131" width="183"/>
+      </media>
+    </figure>
+    <para id="id1164481156792">Figure 4. Incremental Model of Current Controlled Attenuator.</para>
+    <figure id="id1164481394603">
+      <media id="id1164481394603_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-3eb7.png" id="id1164481394603__onlineimage" height="84" width="190"/>
+      </media>
+    </figure>
+    <figure id="id1164479784738">
+      <media id="id1164479784738_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics18-abb8.png" id="id1164479784738__onlineimage" height="96" width="149"/>
+      </media>
+    </figure>
+    <figure id="id1164480927698">
+      <media id="id1164480927698_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-b5a1.png" id="id1164480927698__onlineimage" height="79" width="182"/>
+      </media>
+    </figure>
+    <para id="id1164481198074">we have:- </para>
+    <para id="id1164481004482">R<sub>1</sub>=1kΩ</para>
+    <para id="id1164479742381">I<sub>s</sub>=10<sup>-15</sup>A</para>
+    <table id="id1164481381542" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry namest="c1" nameend="c3">Diode Attenuator Characteristics</entry>
+          </row>
+          <row>
+            <entry>I</entry>
+            <entry>r<sub>d</sub></entry>
+            <entry>v<sub>o</sub></entry>
+          </row>
+          <row>
+            <entry>1µA</entry>
+            <entry>25kΩ</entry>
+            <entry>0.96 v<sub>s</sub></entry>
+          </row>
+          <row>
+            <entry>10µA</entry>
+            <entry>2.5kΩ</entry>
+            <entry>0.71 v<sub>s</sub></entry>
+          </row>
+          <row>
+            <entry>100µA</entry>
+            <entry>250Ω</entry>
+            <entry>0.20 v<sub>s</sub></entry>
+          </row>
+          <row>
+            <entry>1mA</entry>
+            <entry>25Ω</entry>
+            <entry>0.024 v<sub>s</sub></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1164481036702">
+      <emphasis effect="italics">TUTORIAL (3)</emphasis>
+      <emphasis effect="underline"> DIODE-Q POINT AND INCREMENTAL PARAMETERS AND SWITCHING PARAMETERS</emphasis>
+    </para>
+    <para id="id1164480962989">(1)</para>
+    <figure id="id1164481381588">
+      <media id="id1164481381588_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-cbf6.png" id="id1164481381588__onlineimage" height="139" width="209"/>
+      </media>
+    </figure>
+    <para id="id1164481209003">
+      <emphasis effect="bold">Figure 5.A diode circuit of problem 1.</emphasis>
+    </para>
+    <para id="id1164481193489">Given ideality factor η=1 and I<sub>s</sub>=10<sup>-12</sup>A</para>
+    <para id="id1164479973598">Determine I<sub>DQ</sub>, V<sub>DQ</sub> by graphical method or iteration method.</para>
+    <para id="id1164481391683">[Ans: V<sub>DQ</sub> =0.535V ,I<sub>DQ</sub>=0864mA]</para>
+    <para id="id1164479976426">(2)</para>
+    <figure id="id1164480926728">
+      <media id="id1164480926728_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 11-ceb1.png" id="id1164480926728__onlineimage" height="131" width="233"/>
+      </media>
+    </figure>
+    <para id="id1164479875720">Figure 6. A diode circuit of problem 2.</para>
+    <para id="id1164481323403">Given η=1 and I<sub>s</sub>=10<sup>-13</sup>A</para>
+    <para id="id1164481125358">Determine I<sub>DQ</sub>, V<sub>DQ</sub> by graphical method or iteration method.</para>
+    <para id="id1164481022291">[Ans: V<sub>DQ</sub> =0.619V , I<sub>DQ</sub>=2.19mA]</para>
+    <para id="id1164480960085">(3)A diode circuit is given below: </para>
+    <para id="id1164480943119">
+      <figure id="id1164481159195">
+        <media id="id1164481159195_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 12-ea25.png" id="id1164481159195__onlineimage" height="161" width="211"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164479738046">Figure 7. A diode circuit with a signal source in Problem 3.</para>
+    <figure id="id1164481200323">
+      <media id="id1164481200323_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-6b29.png" id="id1164481200323__onlineimage" height="59" width="25"/>
+      </media>
+    </figure>
+    <figure id="id1164481184258">
+      <media id="id1164481184258_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 13-4c88.png" id="id1164481184258__onlineimage" height="129" width="165"/>
+      </media>
+    </figure>
+    <para id="id1164479862831">Figure 8. Incremental model of the diode circuit under signal condition.</para>
+    <para id="id1164481361459">v<sub>s</sub>=[0.1Sin(ωt)]V </para>
+    <para id="id1164479893406">Let V<sub>DQ</sub>=0.6V</para>
+    <para id="id1164481282698">Determine I<sub>DQ</sub>, V<sub>DQ</sub>, r<sub>d</sub> and v<sub>o </sub>= i<sub>d</sub> R<sub>D. </sub>[v<sub>o </sub>=i<sub>d</sub> R<sub>D</sub>=0.0995 sin(ωt) (V)]</para>
+    <para id="id1164479971066">{Ans I<sub>DQ</sub> =0.88 mA, V<sub>DQ</sub> =0.6V, r<sub>d</sub>=29.5Ω}</para>
+    <para id="id1164481093354">(4)<emphasis effect="bold"> ) Calculate the values of the incremental resistance r</emphasis><emphasis effect="bold">d</emphasis><emphasis effect="bold"> for a diode with I</emphasis><emphasis effect="bold">s</emphasis><emphasis effect="bold"> (reverse saturation current)= 1fA operating at I</emphasis><emphasis effect="bold">D</emphasis><emphasis effect="bold">=50 µA,2mA,3A.</emphasis></para>
+    <para id="id1164481008879">Ans: We know that <figure id="id1164488098051"><media id="id1164488098051_media" alt=""><image mime-type="image/png" src="../../media/Picture 14-f62f.png" id="id1164488098051__onlineimage" height="56" width="95"/></media></figure>where <figure id="id1164481027259"><media id="id1164481027259_media" alt=""><image mime-type="image/png" src="../../media/Picture 15-5dc6.png" id="id1164481027259__onlineimage" height="57" width="200"/></media></figure></para>
+    <para id="id1164480936375">Thus we get r<sub>d </sub>= 500Ω, 12.5Ω, 8.33mΩ</para>
+    <para id="id1164479737040">
+      <emphasis effect="bold">(5) What is the small signal diode resistance r</emphasis>
+      <emphasis effect="bold">d</emphasis>
+      <emphasis effect="bold"> at room temperature and at 100ºC for operating current I</emphasis>
+      <emphasis effect="bold">D</emphasis>
+      <emphasis effect="bold">=1.5 mA ?</emphasis>
+    </para>
+    <para id="id1164481317430">Ans: We know that:</para>
+    <para id="id1164480915637">
+      <figure id="id1164479793662">
+        <media id="id1164479793662_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 16-f9a6.png" id="id1164479793662__onlineimage" height="141" width="215"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1164481040640">Thus we get <figure id="id1164479763906"><media id="id1164479763906_media" alt=""><image mime-type="image/png" src="../../media/graphics19-70a8.png" id="id1164479763906__onlineimage" height="24" width="366"/></media></figure></para>
+  </content>
+</document>

@@ -1,0 +1,45 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Tutorial 3_supplementary_AE Lecture No.3.</title>
+  <metadata>
+  <md:content-id>m30892</md:content-id><md:title>Tutorial 3_supplementary_AE Lecture No.3.</md:title>
+  <md:abstract>This gives problems on diffusion capacitances and junction capacitances.</md:abstract>
+  <md:uuid>5c81b00a-cb5e-482f-9610-c18f1b9e0cda</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1171368035926">Tutorial 3_supplementary_AE Lecture No.3.</para>
+    <para id="id1171364222700">Problems on parasitic capacitances associated with Diode at high frequencies.</para>
+    <para id="id1171363888396">Problem 1.Given a diode under reverse bias with a depletion width 4µm.</para>
+    <list id="id1171364255500" list-type="enumerated" number-style="lower-alpha">
+      <item>If cross sectional area is 1mm square, determine C<sub>jD</sub> given </item>
+    </list>
+    <para id="id1171367213476">Absolute permittivity ε<sub>0</sub> = 8.854×10<sup>-12</sup>F/m and relative permittivity or dielectric constant (k) = ε<sub>r</sub>= 11.6   [Answer: 26pF]</para>
+    <list id="id1171364145104" list-type="enumerated" number-style="lower-alpha"><item>If C<sub>jD</sub>= 15pF then determine the cross sectional area. [Ans.0.6 mm<sup>2</sup> ]</item>
+    </list>
+    <para id="id1171367405327">Problem 2. A diode is under forward bias condition at V<sub>D</sub> = 0.7V. Reverse Saturation current I<sub>S</sub>=16nA at 300K. Minority carrier life time are τ<sub>n</sub> = τ<sub>p</sub> = 25µsec.</para>
+    <list id="id1171364094562" list-type="enumerated" number-style="lower-alpha"><item>Find C<sub>d</sub> = diffusion capacitance ; [1/(r<sub>d</sub>C<sub>d</sub>) = 1/ τ<sub>n</sub> +1/ τ<sub>p</sub> ; [Answer 5.74µF]</item>
+      <item>Find V<sub>D</sub> which gives C<sub>d</sub> = 10µF; [Answer V<sub>D </sub>= 0.729V]</item>
+    </list>
+    <para id="id1171366621429">Problem 3. A silicon PN junction has doping concentrations N<sub>A</sub>= 10<sup>19</sup>/cc &amp; N<sub>D</sub>= 10<sup>15</sup>/cc. Cross sectional area A= 0.001cm<sup>2</sup>. Since it is one sided step junction major role is played by holes injected in N-type region. Hence the life-time of holes is given τ<sub>p</sub>(P region)= 0.3µsec.</para>
+    <para id="id1171364032771">Under forward bias condition of V<sub>D</sub> = 0.6V , determine:</para>
+    <list id="id1171366686746" list-type="enumerated" number-style="lower-alpha">
+      <item>Diffusion Capacitance C<sub>d</sub> ;</item>
+      <item>Transition or Junction Capacitance C<sub>jD</sub>;</item>
+    </list>
+    <para id="id1171363962112">Solution: Here I<sub>D</sub> is not given nor the saturation current I<sub>S</sub> is given. We can use the doping to find either of the two.</para>
+    <para id="id1171364494379">I<sub>D</sub> = Q<sub>p</sub>/τ<sub>p</sub> and </para>
+    <para id="id1171370903246">Q<sub>p</sub>= charge stored in N region under forward biased condition = </para>
+    <para id="id1171364244913">q{p<sub>n</sub>(0)-p<sub>n</sub>(thermal equilibrium)}L<sub>p</sub>A;</para>
+    <para id="id1171363901381">and L<sub>p</sub>=√(D<sub>p</sub>τ<sub>p</sub>) and D<sub>p</sub> = µ×V<sub>T</sub> = 450 cm<sup>2</sup>/(V-sec)×26mV= 11.7 cm<sup>2</sup>/sec;</para>
+    <para id="id1171364451601">Therefore L<sub>p</sub>= 1.94×10<sup>-3</sup> cm.</para>
+    <para id="id1171363926066">Therefore I<sub>D</sub>= q{p<sub>n</sub>(0)-p<sub>n</sub>(thermal equilibrium)}L<sub>p</sub>A/τ<sub>p</sub> = 2.453mA;</para>
+    <para id="id1171364732073">Therefore r<sub>d</sub> = 26mV/2.453mA =10.59 Ω.</para>
+    <para id="id1171364486919">r<sub>d</sub>×C<sub>d</sub>= τ<sub>p</sub> therefore C<sub>d</sub> =28,000pF.</para>
+    <para id="id1171363911655">Calculation of C<sub>jD</sub>:</para>
+    <para id="id1171364700911">C<sub>jD</sub>= εA/d<sub>n </sub>where d<sub>n</sub> = the depletion width on N-side = √(qεN<sub>D</sub>/2)√(ø<sub>B0</sub>-V<sub>F</sub>);</para>
+    <para id="id1171363808374">In a one sided step junction d~ d<sub>n</sub> ( depletion width on the lightly doped side);</para>
+    <para id="id1171365150131">Therefore C<sub>jD</sub>= εA/[√(qεN<sub>D</sub>/2)√(ø<sub>B0</sub>-V<sub>F</sub>)] = √(2ε/(qN<sub>D</sub>))×(1/√( ø<sub>B0</sub>-V<sub>F</sub>));</para>
+    <para id="id1171364323010">ø<sub>B0 </sub>= Built in barrier potential under zero bias condition= V<sub>T</sub>ln(N<sub>A</sub>N<sub>D</sub>/n<sub>i</sub><sup>2</sup>)=817.056mV;</para>
+    <para id="id1171364091962">Therefore C<sub>jD</sub>= 19.8 pF.</para>
+  </content>
+</document>

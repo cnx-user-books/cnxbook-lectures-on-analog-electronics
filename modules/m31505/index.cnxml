@@ -1,0 +1,58 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Lecture4_PartD4_Time Domain Response of High Pass Filter.</title>
+  <metadata>
+  <md:content-id>m31505</md:content-id><md:title>AE_Lecture4_PartD4_Time Domain Response of High Pass Filter.</md:title>
+  <md:abstract>AE_Lecture4_PartD4 describes the time domain response of high pass filter and gives the method of determining lower -3dB frequency from 10% sag frequency.</md:abstract>
+  <md:uuid>8b7e12c0-a0a2-4d06-ac90-11bbfd73b6cb</md:uuid>
+</metadata>
+
+<content>
+    <list id="id9419600" list-type="enumerated" number-style="arabic">
+      <item>The study of a C-R High Pass Filter.</item>
+    </list>
+    <figure id="id22061936">
+      <media id="id22061936_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-e318.png" id="id22061936__onlineimage" height="331" width="650"/>
+      </media>
+    </figure>
+    <para id="id11282569">Figure 14. The circuit diagram of C-R high Pass Filter and square wave response.</para>
+    <figure id="id22046334">
+      <media id="id22046334_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-d9fc.png" id="id22046334__onlineimage" height="465" width="413"/>
+      </media>
+    </figure>
+    <para id="id6096512">Figure 15. The Square Wave Response or Time Domain Response of HPF.</para>
+    <para id="id12751371">In Figure 14, the square wave response as well as the step response of C-R High Pass Filter is shown.</para>
+    <para id="id22014870">The slope of the tangent drawn to the exponentially decaying curve at t=o is:</para>
+    <para id="id22040297">d(v<sub>R</sub>)/dt|<sub>t=0</sub> = (1V/τ sec) ;</para>
+    <para id="id21242145">Two triangles shown are similar hence:</para>
+    <para id="id6799286">∆V/(T/2) = (1V/τ sec) ;</para>
+    <para id="id10223390">Or ∆V/1V = fractional sag = T/(2τ) ;</para>
+    <para id="id18791832">We have to adjust the frequency of the periodic square wave to achieve 10% sag;</para>
+    <para id="id14186249">Say the frequency of 10% sag is f*= 1/T where T is the period of repetition.</para>
+    <para id="id16090971">Therefore T=(2τ) = 0.1= (2πf<sub>L</sub>)/(2f*); since 1/τ = ω<sub>L</sub> = 2πf<sub>L</sub>.</para>
+    <para id="id16082349">Therefore     <emphasis effect="bold">f</emphasis><emphasis effect="bold">L</emphasis><emphasis effect="bold"> = (0.1f*)/π</emphasis></para>
+    <para id="id15770548">In figure 15, the square wave response is shown.</para>
+    <para id="id16093987">By inspection we find that </para>
+    <para id="id15975771">when prf &gt;&gt; f<sub>L</sub> then we have faithful reproduction of the square wave except that the dc component is blocked by the series capacitance;</para>
+    <para id="id11300659">when prf ~ f<sub>L</sub> then we have sag effect at the top and bottom of the square wave;</para>
+    <para id="id10650066">when prf &lt;&lt; f<sub>L </sub>then we get the differentiation of the leading and lagging edge. Since the leading edge and lagging edge are positive step and negative step, we get positive impulse and negative impulse at the instants where step voltages had occurred.</para>
+    <para id="id3501598">Hence at frequencies much lower than the cutoff frequency of HPF, the filter behaves like a differentiator. </para>
+    <para id="id15940481">5.1 Frequency Response of High Pass Filter.</para>
+    <para id="id22151892">
+      <figure id="id15985168">
+        <media id="id15985168_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-f6a7.png" id="id15985168__onlineimage" height="333" width="442"/>
+        </media>
+      </figure>
+      <emphasis effect="bold">(2)</emphasis>
+    </para>
+    <para id="id15738304"> Equation (2) has zero at zero frequency and a pole at <figure id="id13599376"><media id="id13599376_media" alt=""><image mime-type="image/png" src="../../media/graphics1-5270.png" id="id13599376__onlineimage" height="24" width="20"/></media></figure> . The zero introduces an +20dB asymptote at zero frequency and an -20dB asymptote at <figure id="id16427219"><media id="id16427219_media" alt=""><image mime-type="image/png" src="../../media/graphics2-5270.png" id="id16427219__onlineimage" height="24" width="20"/></media></figure> . The net result is a High Pass Filter where frequencies higher than <figure id="id13725031"><media id="id13725031_media" alt=""><image mime-type="image/png" src="../../media/graphics3-04b3.png" id="id13725031__onlineimage" height="24" width="22"/></media></figure> have 100% transmission and frequencies lower than <figure id="id21101939"><media id="id21101939_media" alt=""><image mime-type="image/png" src="../../media/graphics4-04b3.png" id="id21101939__onlineimage" height="24" width="22"/></media></figure> are progressively suppressed at 20dB per decade as we move down the frequency scale as shown in the frequency response curve..</para>
+    <figure id="id22052686">
+      <media id="id22052686_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-744e.png" id="id22052686__onlineimage" height="385" width="525"/>
+      </media>
+    </figure>
+    <para id="id22313485">Figure 16. Magnitude of Transfer Function vs Frequency response of HPF.</para>
+  </content>
+</document>

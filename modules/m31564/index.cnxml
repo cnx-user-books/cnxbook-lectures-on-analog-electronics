@@ -1,0 +1,159 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Lecture5_PartB_High Frequency Analysis of CE Amplifier</title>
+  <metadata>
+  <md:content-id>m31564</md:content-id><md:title>AE_Lecture5_PartB_High Frequency Analysis of CE Amplifier</md:title>
+  <md:abstract>AE_Lecture5_PartB does the analysis for determining upper cut off frequency of CE BJT Amplifier.</md:abstract>
+  <md:uuid>1740bccb-38db-4ec3-9299-57b95c08d05d</md:uuid>
+</metadata>
+
+<content>
+    <para id="id9310607">MID FREQUENCY ANALYSIS OF CE AMPLIFIER</para>
+    <figure id="id20077759">
+      <media id="id20077759_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-e0a7.png" id="id20077759__onlineimage" height="223" width="629"/>
+      </media>
+    </figure>
+    <para id="id20742852"><figure id="id12608931"><media id="id12608931_media" alt=""><image mime-type="image/png" src="../../media/graphics1-d060.png" id="id12608931__onlineimage" height="27" width="120"/></media></figure>______(1)</para>
+    <para id="id10004158"><figure id="id7646489"><media id="id7646489_media" alt=""><image mime-type="image/png" src="../../media/graphics2-268d.png" id="id7646489__onlineimage" height="24" width="118"/></media></figure>_______(2)</para>
+    <figure id="id20632232">
+      <media id="id20632232_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-137e.png" id="id20632232__onlineimage" height="49" width="373"/>
+      </media>
+    </figure>
+    <para id="id11577435"><figure id="id8149285"><media id="id8149285_media" alt=""><image mime-type="image/png" src="../../media/graphics4-da72.png" id="id8149285__onlineimage" height="24" width="199"/></media></figure>_____(3)</para>
+    <figure id="id19418421">
+      <media id="id19418421_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-e238.png" id="id19418421__onlineimage" height="48" width="150"/>
+      </media>
+    </figure>
+    <figure id="id21770534">
+      <media id="id21770534_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-7b47.png" id="id21770534__onlineimage" height="48" width="165"/>
+      </media>
+    </figure>
+    <para id="id7507476">Dividing Eq(1) by Eq(3) we get:</para>
+    <figure id="id21515060">
+      <media id="id21515060_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-b7da.png" id="id21515060__onlineimage" height="42" width="288"/>
+      </media>
+    </figure>
+    <figure id="id20373285">
+      <media id="id20373285_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-22f1.png" id="id20373285__onlineimage" height="47" width="235"/>
+      </media>
+    </figure>
+    <para id="id17133008">But <figure id="id7597852"><media id="id7597852_media" alt=""><image mime-type="image/png" src="../../media/graphics9-9c8e.png" id="id7597852__onlineimage" height="36" width="110"/></media></figure></para>
+    <figure id="id17269727">
+      <media id="id17269727_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-4941.png" id="id17269727__onlineimage" height="50" width="337"/>
+      </media>
+    </figure>
+    <para id="id12436626">Normally R<sub>B</sub>&gt;&gt;(r<sub>x</sub> + r<sub>π</sub>) therefore</para>
+    <para id="id18129023"/>
+    <para id="id8992203">
+      <figure id="id6096176">
+        <media id="id6096176_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics11-f907.png" id="id6096176__onlineimage" height="47" width="215"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id11914299">
+      <figure id="id4969165">
+        <media id="id4969165_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics12-2ab0.png" id="id4969165__onlineimage" height="47" width="163"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id13441239">In the actual gain with respect to the source , source resistance plays a very important role. Smaller is R<sub>S</sub> larger is the voltage gain.</para>
+    <para id="id10490734">HIGH FREQUENCY RESPONSE OF CE AMPLIFIER.</para>
+    <para id="id9097407">Upper -3dB frequency (f<sub>H</sub>) is determined by Open Circuit Time Constant Method.</para>
+    <para id="id8415426">The parasitic capacitances C<sub>π</sub> and C<sub>µ</sub> are responsible for the fall in the Voltage Gain Response at high frequencies. The time constant associated with C<sub>π </sub>is the Open Circuit Time Constant τ<sub>10</sub> and the time constant associated with C<sub>µ </sub>is the Open Circuit Time Constant τ<sub>20 </sub>.</para>
+    <para id="id19665580">The overall time constant associated with the amplifier is τ<sub>H</sub> = τ<sub>10 </sub>+ τ<sub>20</sub> = <figure id="id15927649"><media id="id15927649_media" alt=""><image mime-type="image/png" src="../../media/graphics13-1b06.png" id="id15927649__onlineimage" height="32" width="19"/></media></figure></para>
+    <para id="id18993750">Therefore ω<sub>H</sub> = <figure id="id8801646"><media id="id8801646_media" alt=""><image mime-type="image/png" src="../../media/graphics14-5a41.png" id="id8801646__onlineimage" height="34" width="64"/></media></figure> ;</para>
+    <figure id="id21136410">
+      <media id="id21136410_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-e0a7.png" id="id21136410__onlineimage" height="245" width="650"/>
+      </media>
+    </figure>
+    <para id="id7604732">GBP=<figure id="id4467973"><media id="id4467973_media" alt=""><image mime-type="image/png" src="../../media/graphics15-3a44.png" id="id4467973__onlineimage" height="36" width="219"/></media></figure></para>
+    <para id="id10402688">
+      <figure id="id21056894">
+        <media id="id21056894_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics16-cef1.png" id="id21056894__onlineimage" height="24" width="143"/>
+        </media>
+      </figure>
+      <figure id="id7322236">
+        <media id="id7322236_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics17-ecdd.png" id="id7322236__onlineimage" height="24" width="38"/>
+        </media>
+      </figure>
+      <figure id="id19274006">
+        <media id="id19274006_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics18-17a9.png" id="id19274006__onlineimage" height="36" width="33"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id20565197">
+      <media id="id20565197_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-3832.png" id="id20565197__onlineimage" height="26" width="176"/>
+      </media>
+    </figure>
+    <para id="id18134952">If <figure id="id10809095"><media id="id10809095_media" alt=""><image mime-type="image/png" src="../../media/graphics20-ec9a.png" id="id10809095__onlineimage" height="26" width="241"/></media></figure></para>
+    <para id="id10472746">
+      <figure id="id6773707">
+        <media id="id6773707_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics21-f93f.png" id="id6773707__onlineimage" height="49" width="221"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id21344950">
+      <media id="id21344950_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-34ee.png" id="id21344950__onlineimage" height="63" width="184"/>
+      </media>
+    </figure>
+    <figure id="id16007395">
+      <media id="id16007395_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics23-7385.png" id="id16007395__onlineimage" height="50" width="103"/>
+      </media>
+    </figure>
+    <figure id="id8885387">
+      <media id="id8885387_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics24-2db6.png" id="id8885387__onlineimage" height="63" width="155"/>
+      </media>
+    </figure>
+    <para id="id16434853">So we see that base spreading resistance is very important from GBP point of view which is the figure of merit of the given transistor. Also the transit frequency solely depends on the base width. Narrower the base width, faster is the response. But narrow base is detrimental to r<sub>x</sub> which in turn is detrimental for GBP. The only way out is higher doping of Base which is going to reduce the Injection Efficiency. So the new concept of Si-SiGe-Si heterojunction Bipolar Junction Transistor solves all these contradictory requirements. Here we have very narrow base width of the order of 10nm leading to picoseconds transit time through the narrow base, high base doping thereby reducing base spreading resistance and since base is made of Si-Ge alloy which has a narrower band-gap as compared to that of Si, hence inspite of high base doping high injection efficiency is maintained from Emitter to Base thereby obtaining best short circuit forward active current gain. Thus we have achieved the best of all performance parameters. In this process we have been able to achieve Si-Ge HBT with transit frequency of 200GHz.</para>
+    <para id="id13756850">High Frequency Response Of CB Amplifier.</para>
+    <figure id="id17496660">
+      <media id="id17496660_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-21c0.png" id="id17496660__onlineimage" height="203" width="649"/>
+      </media>
+    </figure>
+    <figure id="id8681378">
+      <media id="id8681378_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics25-2c90.png" id="id8681378__onlineimage" height="24" width="180"/>
+      </media>
+    </figure>
+    <para id="id17187976">
+      <figure id="id12643343">
+        <media id="id12643343_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics26-74ab.png" id="id12643343__onlineimage" height="24" width="147"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id21088999">
+      <media id="id21088999_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics27-a1a6.png" id="id21088999__onlineimage" height="24" width="101"/>
+      </media>
+    </figure>
+    <figure id="id7400635">
+      <media id="id7400635_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics28-90be.png" id="id7400635__onlineimage" height="24" width="34"/>
+      </media>
+    </figure>
+    <figure id="id8818083">
+      <media id="id8818083_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics29-1ceb.png" id="id8818083__onlineimage" height="45" width="190"/>
+      </media>
+    </figure>
+  </content>
+</document>

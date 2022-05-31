@@ -1,0 +1,168 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>AE_Tutorial 13_Tuned Amplifiers</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m32495</md:content-id>
+  <md:title>AE_Tutorial 13_Tuned Amplifiers</md:title>
+  <md:abstract>AE_Tutorial 13 gives problems on Tuned Amplifiers.</md:abstract>
+  <md:uuid>bb02b12b-10c1-4b8d-a01a-8539dc42e98d</md:uuid>
+</metadata>
+
+<content>
+    <para id="id10413281"><emphasis effect="bold">AE_Tutorial 13_Problems on TUNED AMPLIFIER</emphasis>
+    </para>
+    <para id="id14773516">Problems have been taken from “Microelectronic Circuit Design” by R.C.Jaeger &amp; T.N.Blalock, McGraw Hill Publibcation,2006.</para>
+    <para id="id11064322">Problem(1)</para>
+    <para id="id11064326">Design a tuned amplifier having f<sub>o</sub>=1MHz, 3dB BW=10kHz and resonance gain= -g<sub>m</sub>R<sub>C</sub>= -10, Use a FET which at the given bias point g<sub>m</sub>=5mA/V and r<sub>o</sub>=10kΩ.</para>
+    <para id="id14721511">Solution:</para>
+    <figure id="id15259716">
+      <media id="id15259716_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-083b.png" id="id15259716__onlineimage" height="24" width="185"/>
+      </media>
+    </figure>
+    <figure id="id15113554">
+      <media id="id15113554_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-a5ec.png" id="id15113554__onlineimage" height="24" width="191"/>
+      </media>
+    </figure>
+    <figure id="id15096990">
+      <media id="id15096990_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-1513.png" id="id15096990__onlineimage" height="42" width="127"/>
+      </media>
+    </figure>
+    <figure id="id14625052">
+      <media id="id14625052_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-2590.png" id="id14625052__onlineimage" height="24" width="254"/>
+      </media>
+    </figure>
+    <figure id="id10361126">
+      <media id="id10361126_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-67b1.png" id="id10361126__onlineimage" height="24" width="97"/>
+      </media>
+    </figure>
+    <figure id="id15086138">
+      <media id="id15086138_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-3c0c.png" id="id15086138__onlineimage" height="45" width="202"/>
+      </media>
+    </figure>
+    <figure id="id15369082">
+      <media id="id15369082_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-572e.png" id="id15369082__onlineimage" height="24" width="107"/>
+      </media>
+    </figure>
+    <figure id="id15103292">
+      <media id="id15103292_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-12d4.png" id="id15103292__onlineimage" height="46" width="158"/>
+      </media>
+    </figure>
+    <figure id="id15072046">
+      <media id="id15072046_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-dc26.png" id="id15072046__onlineimage" height="24" width="98"/>
+      </media>
+    </figure>
+    <para id="id15273029">These L and C values are not realizable hence Autotransformer will have to be used along with L’ and C’ where turns ratio is chosen to get L = L’/n<sup>2</sup> and C = C’n<sup>2</sup>.</para>
+    <para id="id14794480">If n = 3 and L’=28.6µH and C’=0.9nF then it is possible to realize the tank circuit as required in this problem. The actual Autotransformer Configuration is described in the Text (Lecture 12).</para>
+    <para id="id11669861">Problem(2):</para>
+    <para id="id11669865">Repeat Problem 1 but with new Q of the tank circuit as 150, find R<sub>p</sub>. Then find the new value of R<sub>L</sub> so that Q of the circuit remains unchanged at resonance frequency 1MHz.</para>
+    <figure id="id11054141">
+      <media id="id11054141_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-74d8.png" id="id11054141__onlineimage" height="45" width="63"/>
+      </media>
+    </figure>
+    <figure id="id11076056">
+      <media id="id11076056_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-5df2.png" id="id11076056__onlineimage" height="24" width="85"/>
+      </media>
+    </figure>
+    <para id="id15121794">Let the new value of R<sub>L</sub> be R<sub>L</sub>’.</para>
+    <para id="id9952712">If Q should remain unchanged then <figure id="id15114246"><media id="id15114246_media" alt=""><image mime-type="image/png" src="../../media/graphics12-615f.png" id="id15114246__onlineimage" height="31" width="101"/></media></figure></para>
+    <figure id="id15087344">
+      <media id="id15087344_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-6375.png" id="id15087344__onlineimage" height="24" width="84"/>
+      </media>
+    </figure>
+    <para id="id15114308">Problem(3)</para>
+    <para id="id15114312">Part(a)</para>
+    <figure id="id10657750">
+      <media id="id10657750_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-411c.png" id="id10657750__onlineimage" height="290" width="303"/>
+      </media>
+    </figure>
+    <para id="id15258068">L=5μH . Determine C=? </para>
+    <para id="id15259087">Design an Intermediate Frequency Amplifier which resonates at f<sub>o</sub>=455kHz &amp; -3 dB BW=10kHz.</para>
+    <para id="id15104080">Determine C* to give a resonance frequency at fo=455kHz. [Ans: C<sub>1</sub><sup>*</sup>=24.45nF]</para>
+    <figure id="id15088050">
+      <media id="id15088050_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-fa3b.png" id="id15088050__onlineimage" height="46" width="188"/>
+      </media>
+    </figure>
+    <figure id="id14745491">
+      <media id="id14745491_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-1502.png" id="id14745491__onlineimage" height="24" width="102"/>
+      </media>
+    </figure>
+    <para id="id15103375">Part(b):- The IF tuned amplifier is coupled to a second IF stage.</para>
+    <para id="id15104005">
+      <figure id="id11067803">
+        <media id="id11067803_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-dfe9.png" id="id11067803__onlineimage" height="318" width="488"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id15112953">Equivalent Circuit:-</para>
+    <figure id="id14624911">
+      <media id="id14624911_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-faa9.png" id="id14624911__onlineimage" height="319" width="650"/>
+      </media>
+    </figure>
+    <figure id="id11276161">
+      <media id="id11276161_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-6cab.png" id="id11276161__onlineimage" height="217" width="638"/>
+      </media>
+    </figure>
+    <para id="id14796378">R<sub>in</sub>=1kΩ, C<sub>in</sub>=24.27nF</para>
+    <para id="id15284305">Determine C<sub>1</sub> required and the resulting B.W.</para>
+    <para id="id10332517">To give f<sub>o</sub>=455kHz</para>
+    <figure id="id7132523">
+      <media id="id7132523_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-f517.png" id="id7132523__onlineimage" height="24" width="219"/>
+      </media>
+    </figure>
+    <figure id="id15247317">
+      <media id="id15247317_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-9452.png" id="id15247317__onlineimage" height="24" width="247"/>
+      </media>
+    </figure>
+    <para id="id10239157">The resulting resistance= 1kΩ||R<sub>in</sub>=1kΩ||1kΩ=500Ω=<figure id="id14773122"><media id="id14773122_media" alt=""><image mime-type="image/png" src="../../media/graphics18-d756.png" id="id14773122__onlineimage" height="24" width="19"/></media></figure></para>
+    <figure id="id15072528">
+      <media id="id15072528_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-a29b.png" id="id15072528__onlineimage" height="45" width="165"/>
+      </media>
+    </figure>
+    <figure id="id15090390">
+      <media id="id15090390_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-5a3d.png" id="id15090390__onlineimage" height="47" width="336"/>
+      </media>
+    </figure>
+    <figure id="id15121449">
+      <media id="id15121449_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics21-628e.png" id="id15121449__onlineimage" height="24" width="158"/>
+      </media>
+    </figure>
+    <para id="id11046284">This is larger than desired. This is due to loading caused by Z<sub>in</sub> of the subsequent stage.</para>
+    <para id="id11056013">Part(C) By using tapped transformer the loading can be removed. Let g<sub>m</sub>=40mA/V</para>
+    <figure id="id15245808">
+      <media id="id15245808_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-08f2.png" id="id15245808__onlineimage" height="306" width="299"/>
+      </media>
+    </figure>
+    <para id="id14745296">
+      <figure id="id15096833">
+        <media id="id15096833_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-a382.png" id="id15096833__onlineimage" height="414" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id9640390">To achieve a BW of 10kHz, find the value of n=?, C<sub>1</sub>=? And current gain at resonance.</para>
+    <para id="id14794973">Ans:- n=1.36, C<sub>1</sub>=24.36nF, I<sub>C</sub>/I<sub>1</sub>=19.1 A/A</para>
+  </content>
+</document>

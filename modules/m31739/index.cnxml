@@ -1,0 +1,176 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Tutorial 4_BJT incremental model.</title>
+  <metadata>
+  <md:content-id>m31739</md:content-id><md:title>AE_Tutorial 4_BJT incremental model.</md:title>
+  <md:abstract>AE_Tutorial 4_This gives a set of problems on the incremental model of BJT.</md:abstract>
+  <md:uuid>2785b601-5601-4b5c-b639-ec76e5127a4b</md:uuid>
+</metadata>
+
+<content>
+    <para id="id2357498">
+      <emphasis effect="bold">AE_Tutorial 4_BJT incremental model.</emphasis>
+    </para>
+    <para id="id1165667731371">Small signal model of a BJT</para>
+    <para id="id6938338">(1) BJT Small signal parameters versus current</para>
+    <para id="id7309208">Given β<sub>o</sub>=100,</para>
+    <para id="id7365264">V<sub>A </sub>[Early Voltage]=75V,</para>
+    <para id="id5130498">V<sub>CE</sub>=10V</para>
+    <figure id="id7873051">
+      <media id="id7873051_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-80b0.png" id="id7873051__onlineimage" height="45" width="60"/>
+      </media>
+    </figure>
+    <figure id="id8283822">
+      <media id="id8283822_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-d253.png" id="id8283822__onlineimage" height="45" width="95"/>
+      </media>
+    </figure>
+    <figure id="id7738509">
+      <media id="id7738509_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-5bbe.png" id="id7738509__onlineimage" height="45" width="172"/>
+      </media>
+    </figure>
+    <figure id="id8384973">
+      <media id="id8384973_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-7f5b.png" id="id8384973__onlineimage" height="46" width="57"/>
+      </media>
+    </figure>
+    <figure id="id6138205">
+      <media id="id6138205_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-d401.png" id="id6138205__onlineimage" height="24" width="75"/>
+      </media>
+    </figure>
+    <table id="id1165673934809" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry>
+              <media id="id2117298" alt="">
+                <image mime-type="image/png" src="../../media/graphics6-9d05.png"/>
+              </media>
+            </entry>
+            <entry>
+              <media id="id1165676056660" alt="">
+                <image mime-type="image/png" src="../../media/graphics7-aead.png"/>
+              </media>
+            </entry>
+            <entry>
+              <media id="id1165673901748" alt="">
+                <image mime-type="image/png" src="../../media/graphics8-bf9c.png"/>
+              </media>
+            </entry>
+            <entry>
+              <media id="id8219971" alt="">
+                <image mime-type="image/png" src="../../media/graphics9-95e4.png"/>
+              </media>
+            </entry>
+            <entry>
+              <media id="id2283875" alt="">
+                <image mime-type="image/png" src="../../media/graphics10-ef29.png"/>
+              </media>
+            </entry>
+          </row>
+          <row>
+            <entry>1µA</entry>
+            <entry>4 x 10<sup>-5</sup>S</entry>
+            <entry>2.5MΩ</entry>
+            <entry>85MΩ</entry>
+            <entry>3400</entry>
+          </row>
+          <row>
+            <entry>10µA</entry>
+            <entry>4 x 10<sup>-4</sup>S</entry>
+            <entry>250kΩ</entry>
+            <entry>8.5MΩ</entry>
+            <entry>3400</entry>
+          </row>
+          <row>
+            <entry>100µA</entry>
+            <entry>0.004S</entry>
+            <entry>25kΩ</entry>
+            <entry>850kΩ</entry>
+            <entry>3400</entry>
+          </row>
+          <row>
+            <entry>1mA</entry>
+            <entry>0.04S</entry>
+            <entry>2.5kΩ</entry>
+            <entry>85kΩ</entry>
+            <entry>3400</entry>
+          </row>
+          <row>
+            <entry>10mA</entry>
+            <entry>0.40S</entry>
+            <entry>250Ω</entry>
+            <entry>8.5kΩ</entry>
+            <entry>3400</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id6367014">(2)Calculate the values of g<sub>m</sub>, r<sub>π</sub>, r<sub>o</sub>, µ<sub>f</sub> for a BJT with β<sub>o</sub>=75,V<sub>A</sub>=60V and Q-point(50µA,5V).</para>
+    <para id="id7032920">(Answer: 2mS, 37.5kΩ, 1.3MΩ, 2600) </para>
+    <para id="id1165671965552">(3)Calculate the values of g<sub>m</sub>, r<sub>π</sub>, r<sub>o</sub>, µ<sub>f</sub> for a BJT with β<sub>o</sub>=50,V<sub>A</sub>=75V and Q-point(250µA,15V).</para>
+    <para id="id1165671598259">(Answer: 10mS, 5kΩ, 360MΩ, 3600)</para>
+    <para id="id1165676168736">(4)What is the small signal limit of BJT?</para>
+    <para id="id1165663457716">[Answer: │<figure id="id8328522"><media id="id8328522_media" alt=""><image mime-type="image/png" src="../../media/graphics11-747c.png" id="id8328522__onlineimage" height="24" width="23"/></media></figure>│<figure id="id1165670408065"><media id="id1165670408065_media" alt=""><image mime-type="image/png" src="../../media/graphics12-4266.png" id="id1165670408065__onlineimage" height="24" width="13"/></media></figure>5mV and │<figure id="id1165667829368"><media id="id1165667829368_media" alt=""><image mime-type="image/png" src="../../media/graphics13-74b2.png" id="id1165667829368__onlineimage" height="24" width="13"/></media></figure>│<figure id="id1165667806789"><media id="id1165667806789_media" alt=""><image mime-type="image/png" src="../../media/graphics14-4266.png" id="id1165667806789__onlineimage" height="24" width="13"/></media></figure>20% of I<sub>C</sub>]</para>
+    <para id="id1165670442223">We will see that small signal limit of FET is 400mV. This is because BJT is an EXPONENTIAL DEVICE whereas FET is a QUADRATIC DEVICE.</para>
+    <para id="id1165671562833">5)Find the transit time for a NPN BJT with base width 1µm and µ<sub>n</sub>=500<figure id="id1165670447408"><media id="id1165670447408_media" alt=""><image mime-type="image/png" src="../../media/graphics15-104b.png" id="id1165670447408__onlineimage" height="35" width="35"/></media></figure> &amp; T=300K</para>
+    <para id="id1165676249113">According to Einstein Eq:</para>
+    <figure id="id4209071">
+      <media id="id4209071_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-a075.png" id="id4209071__onlineimage" height="45" width="123"/>
+      </media>
+    </figure>
+    <para id="id1165666719939">[Answer: <figure id="id4799330"><media id="id4799330_media" alt=""><image mime-type="image/png" src="../../media/graphics17-b1d8.png" id="id4799330__onlineimage" height="38" width="141"/></media></figure>]</para>
+    <para id="id7937936">(6)In problem (5) for I<sub>CQ</sub>=1mA determine C<sub>D</sub>(diffusion capacitance)for the BJT.</para>
+    <para id="id1165663428086">[Ans: C<sub>D</sub>r<sub>e</sub>=τ<sub>t</sub> ; Therefore C<sub>D</sub>=16pF]</para>
+    <para id="id8557946">(3)Give the hybrid-π parameters of a BJT operating at I<sub>CQ</sub>= 2mA,V<sub>CEQ</sub>= 5V,β<sub>F</sub>=40 and </para>
+    <para id="id1165663436777">h<sub>re</sub>=3.83x10<sup>-4</sup> = η = Base Width Modulation Factor.</para>
+    <para id="id1165670860343">[Answer: <figure id="id1165666694390"><media id="id1165666694390_media" alt=""><image mime-type="image/png" src="../../media/graphics18-2553.png" id="id1165666694390__onlineimage" height="36" width="258"/></media></figure></para>
+    <figure id="id1165674200364">
+      <media id="id1165674200364_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-d35f.png" id="id1165674200364__onlineimage" height="48" width="384"/>
+      </media>
+    </figure>
+    <figure id="id6243638">
+      <media id="id6243638_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-4b0b.png" id="id6243638__onlineimage" height="26" width="407"/>
+      </media>
+    </figure>
+    <para id="id1165670455827">(4) Measurement of low frequency h parameters h<sub>ie</sub>, h<sub>re</sub>, h<sub>fe</sub> and h<sub>oe</sub> at I<sub>CQ</sub>=0.5mA yield </para>
+    <para id="id1165666715581">h<sub>ie</sub>=2050 ohm, h<sub>re</sub>=5x10<sup>-4</sup>, h<sub>fe</sub>=40, h<sub>oe</sub>=2x10<sup>-5</sup>,CB output capacitance C<sub>ob</sub>=3pF and |h<sub>fe</sub>| at 1MHz is 40/√2; At 290K(V<sub>T</sub>=25mV) calculate g<sub>m</sub>, r<sub>x</sub>, r<sub>π</sub>, r<sub>o</sub>, r<sub>µ</sub>, C<sub>π</sub>, C<sub>µ</sub>. </para>
+    <para id="id6460005">Answer: <figure id="id7993453"><media id="id7993453_media" alt=""><image mime-type="image/png" src="../../media/graphics21-c610.png" id="id7993453__onlineimage" height="36" width="329"/></media></figure></para>
+    <figure id="id1165666717909">
+      <media id="id1165666717909_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-3fd3.png" id="id1165666717909__onlineimage" height="42" width="275"/>
+      </media>
+    </figure>
+    <figure id="id1165667954178">
+      <media id="id1165667954178_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics23-7944.png" id="id1165667954178__onlineimage" height="49" width="261"/>
+      </media>
+    </figure>
+    <para id="id8239356">
+      <figure id="id1165666882948">
+        <media id="id1165666882948_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics24-f7df.png" id="id1165666882948__onlineimage" height="26" width="211"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id4033303">
+      <figure id="id1165663434884">
+        <media id="id1165663434884_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics25-63e9.png" id="id1165663434884__onlineimage" height="24" width="222"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id8294462">(5)If <figure id="id2484944"><media id="id2484944_media" alt=""><image mime-type="image/png" src="../../media/graphics26-7e85.png" id="id2484944__onlineimage" height="46" width="650"/></media></figure></para>
+    <para id="id1165668629733">Answer:- <figure id="id5754898"><media id="id5754898_media" alt=""><image mime-type="image/png" src="../../media/graphics27-fecb.png" id="id5754898__onlineimage" height="26" width="369"/></media></figure></para>
+  </content>
+</document>

@@ -1,0 +1,83 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Tutorial 11_Power Amplifiers</title>
+  <metadata>
+  <md:content-id>m32317</md:content-id><md:title>AE_Tutorial 11_Power Amplifiers</md:title>
+  <md:abstract>AE_ Tutorial_11 gives problems on Power Amplifiers discussed in AE_Lecture 10.</md:abstract>
+  <md:uuid>0112e652-19bc-4651-b821-548e1f1449b0</md:uuid>
+</metadata>
+
+<content>
+    <para id="id4207780">AE_Tutorial 11_Power Amplifiers(Audio)</para>
+    <para id="id5806853">Problems have been taken from Microelectronic Circuits_Analysis &amp; Design by Rashid, Publisher Thomson(Indian Edition),1999.Chapter 14_Power Amplifiers.</para>
+    <para id="id6698803"><emphasis effect="bold">Problem 1</emphasis>. <emphasis effect="bold">Design of a transformer coupled Class A Amplifier.</emphasis></para>
+    <figure id="id1170887759492">
+      <media id="id1170887759492_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-8e6a.png" id="id1170887759492__onlineimage" height="326" width="458"/>
+      </media>
+    </figure>
+    <para id="id6960697">Refer to Figure 1.Design a Transformer-coupled Class A CE Amplifier to give an output power of P<sub>L</sub> = 10W at a load resistance of 4Ω speaker. Assume DC bias of V<sub>CC</sub> =12V. The BJT has short circuit dc as well as incremental current gain of 100.</para>
+    <para id="id2603348">Solution.</para>
+    <para id="id3606833">Step 1. Maximum Voltage Swing = V<sub>CE</sub>(max) = 2V<sub>CC</sub> = 24 V;</para>
+    <para id="id6487675">Step 2. Whatever power is dissipated by BJT under no signal, half of it at most will be transferred to the load under full signal condition.</para>
+    <para id="id1170888974062">Therefore Collector Power Dissipation under no signal condition is P<sub>C</sub> = 2 P<sub>L</sub> = 20W= I<sub>CQ</sub>× V<sub>CC</sub>= I<sub>CQ</sub>×12</para>
+    <para id="id6104110">Therefore I<sub>CQ</sub> = 20/12 = 1.67A;</para>
+    <para id="id6042098">In Figure 12 in AE_Lecture 10_Part2, the load line graphical interpretation of Class A amplifier is given.</para>
+    <para id="id2203035">The slope of the dynamic load line is = -(1/R<sub>L</sub>’) = -( I<sub>CQ</sub>/ V<sub>CC</sub>);</para>
+    <para id="id3998822">Therefore R<sub>L</sub>’ = 12/1.67 = 7.19Ω;</para>
+    <para id="id6245153">Step 3. R<sub>L</sub>’ = n<sup>2 </sup>× R<sub>L</sub> = n<sup>2</sup>×4Ω where n = turns ratio = primary coil no. of turns/ secondary coli number of turns;</para>
+    <para id="id1170899870657">Therefore n = √(7.19/4) =1.34;</para>
+    <para id="id6648516">Step 4. Peak Collector Current = 2I<sub>CQ</sub> = 3.34A;</para>
+    <para id="id7453422">Step 5. The quiescent base current = I<sub>CQ</sub>/β<sub>F</sub> = 1.67/100 A =16.7mA;</para>
+    <para id="id1170899195212">The biasing network has to be designed to achieve the above quiescent point (1.67A, 12V).</para>
+    <para id="id6014385">Problem2. Finding the efficiency and power dissipation of a complementary push-pull amplifier.</para>
+    <figure id="id4336782">
+      <media id="id4336782_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-8d8d.png" id="id4336782__onlineimage" height="386" width="572"/>
+      </media>
+    </figure>
+    <para id="id1170896745822">Refer to Figure 2 .</para>
+    <list id="id6695028" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>Calculate the efficiency and power dissipation of each transistor in the complementary push-pull output stage if V<sub>CC</sub> = +12V and V<sub>EE</sub> =-12V and R<sub>L</sub> = 50Ω. The parameters of the transistors are: β<sub>f0</sub> = β<sub>F</sub> = 100, V<sub>CE</sub>(sat)=0.2V and V<sub>BE</sub>(on)=0.72V.</item>
+      <item>Use Orcad simulation to plot the transfer characteristic.</item>
+    </list>
+    <para id="id6751894">Solution.</para>
+    <para id="id1170893204042">Peak load voltage in positive half is = V<sub>P</sub> =V<sub>CC</sub> – V<sub>CE(sat)</sub>= (12-0.2)= 11.8V;</para>
+    <para id="id6957767">Similarly negative peak voltage = -11.8 V.</para>
+    <para id="id3574673">Positive peak current = magnitude of negative peak current = V<sub>P</sub> /R<sub>L</sub> = 11.8/50 = 0.236A</para>
+    <para id="id7164349">Under signal condition average current drawn from one battery = I<sub>P</sub>/π since each battery supplies half wave rectified current. Hence power supplied by one battery is = (I<sub>P</sub>/π)×V<sub>CC</sub>;</para>
+    <para id="id4194233">Power supplied by two batteries = P<sub>S</sub> = 2(I<sub>P</sub>/π)×V<sub>CC</sub> = (2× 0.236×12)/π = 1.803W;</para>
+    <para id="id7317579">Output power across the load = P<sub>L</sub> = (I<sub>P</sub>/√2)× (V<sub>P</sub>/√2) = 1.392W;</para>
+    <para id="id5301133">Power conversion efficiency = 1.392/1.803= 77.2%;</para>
+    <para id="id1170893562466">Power dissipation in each transistor is = (P<sub>S</sub> - P<sub>L </sub>)/2 = 206mW.</para>
+    <para id="id8126015">Problem 3.Design a transformer- coupled Class B Amplifier.</para>
+    <para id="id1170893311906">Refer to Figure 3.</para>
+    <para id="id7323164"><figure id="id2589142"><media id="id2589142_media" alt=""><image mime-type="image/png" src="../../media/Picture 3-19b4.png" id="id2589142__onlineimage" height="405" width="653"/></media></figure>Design a transformer-coupled Class B push-pull amplifier to supply a maximum output power of P<sub>L</sub>(max) =10W at a load resistance of R<sub>L</sub> = 4Ω. Assume a DC supply of 15V and current gain 100 and V<sub>BE(ON)</sub>=0.7V.</para>
+    <para id="id5920245">Solution:</para>
+    <figure id="id7441055">
+      <media id="id7441055_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-00d2.png" id="id7441055__onlineimage" height="313" width="457"/>
+      </media>
+    </figure>
+    <para id="id1170899923394">Step1</para>
+    <para id="id1170898878053">Maximum voltage swing across either of BJTs =V<sub>CE</sub>(max)=2V<sub>CC</sub> = 30V;</para>
+    <para id="id3035702">Step 2 Effective load resistance as seen by the primary side is R<sub>L</sub>’ = n<sup>2</sup>R<sub>L</sub>.</para>
+    <para id="id8122236">P<sub>L</sub>(max) = V<sub>CC</sub><sup>2</sup>/(2 R<sub>L</sub>’) ↔ this is because there is a sinusoidal voltage swing across the reflected load R<sub>L</sub>’ of amplitude V<sub>CC</sub>.</para>
+    <para id="id1170896493542">Therefore R<sub>L</sub>’ = V<sub>CC</sub><sup>2</sup>/(2 P<sub>L</sub>(max) ) = 15<sup>2</sup>/(2×10) = 11.25Ω;</para>
+    <para id="id1170886614038">Ste 3. Calculation of Peak collector current:</para>
+    <para id="id2368779">I<sub>C</sub>(peak) = V<sub>CC</sub>/R<sub>L</sub>’ = 15/11.25 =1.33A;</para>
+    <para id="id7337720">Step 3. Average Current supplied by each transistor.</para>
+    <para id="id1170898922579">Each transistor supplies half wave rectified current.</para>
+    <para id="id1170893259208">Hence I<sub>C</sub> (average) = I<sub>C</sub>(peak)/π = 1.33/3.14= 0.424A;</para>
+    <para id="id7366578">Total average current supplied by the battery= 2 I<sub>C</sub> (average)=0.848A;</para>
+    <para id="id1170893347515">Step 4. DC Power from the battery = V<sub>CC </sub>×2 I<sub>C</sub> (average) =15×0.848 = 12.72W;</para>
+    <para id="id1170893523555">Step 5. Average Collector Power Dissipation for both transistors is given by :</para>
+    <para id="id1170886622471">2P<sub>C</sub> = P<sub>DC</sub> – P<sub>L</sub> = [(2V<sub>C</sub>(peak)/π)÷ R<sub>L</sub>’]× V<sub>CC</sub> - V<sub>C</sub>(peak)<sup>2</sup>/(2 R<sub>L</sub>’);</para>
+    <para id="id1170894277785">Under Maximum Collector Power dissipation condition, V<sub>C</sub>(peak) is not V<sub>CC </sub>but 2V<sub>CC</sub> /π </para>
+    <para id="id6372059">And I<sub>C</sub>(peak) = 2V<sub>CC</sub> /(π R<sub>L</sub>’); Detailed analysis is given in Rashid’s book.</para>
+    <para id="id1170898717546">Therefore 2P<sub>C</sub> (max) = P<sub>DC</sub> (max)– P<sub>L</sub> (max)= [(2×(2V<sub>CC</sub>/π))(1/π)÷ R<sub>L</sub>’] × V<sub>CC</sub> – (2V<sub>CC</sub> /π )<sup>2</sup><sub/>/(2 R<sub>L</sub>’)</para>
+    <para id="id3709685">= 4 V<sub>CC</sub><sup>2</sup>/(π<sup>2</sup> R<sub>L</sub>’) - 2V<sub>CC</sub><sup>2</sup>/(π<sup>2</sup> R<sub>L</sub>’) = 2V<sub>CC</sub><sup>2</sup>/(π<sup>2</sup> R<sub>L</sub>’)=(2/π<sup>2</sup>)×2(V<sub>CC</sub><sup>2</sup>/(2 R<sub>L</sub>’)=(4/π<sup>2</sup>) P<sub>L</sub>(max);</para>
+    <para id="id1897754">Therefore P<sub>C</sub> (max) = (2/π<sup>2</sup>) P<sub>L</sub>(max) = (2/π<sup>2</sup>)×10 = 2W;</para>
+    <para id="id4221428">Step 6. Required turns ratio: R<sub>L</sub>’ = n<sup>2</sup>× R<sub>L</sub>;</para>
+    <para id="id5853988">Therefore n =√( R<sub>L</sub>’/ R<sub>L</sub>) = √(11.25/4) =1.68.</para>
+  </content>
+</document>

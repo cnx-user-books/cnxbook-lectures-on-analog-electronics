@@ -1,0 +1,103 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AnalogElectronics_Lecture4_Supplement_BODE_PLOT</title>
+  <metadata>
+  <md:content-id>m31062</md:content-id><md:title>AnalogElectronics_Lecture4_Supplement_BODE_PLOT</md:title>
+  <md:abstract>This supplement of Lecture 4 gives the insight into Bode Plot of forward currrent transfer ratio.</md:abstract>
+  <md:uuid>0c0b767f-4994-48d9-94ef-934420f2158f</md:uuid>
+</metadata>
+
+<content>
+    <para id="id21694121">
+      <emphasis effect="bold">AnalogElectronics_Lecture4_Supplement_BODE_PLOT</emphasis>
+    </para>
+    <para id="id15837010">Bode Plot of short circuit forward current transfer ratio of CB BJT(α<sub>f</sub>) .</para>
+    <para id="id10635173">As we have already seen in the T Model of CB BJT, the short circuit forward current transfer ratio is given by the expression:</para>
+    <figure id="id21936844">
+      <media id="id21936844_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-fd28.png" id="id21936844__onlineimage" height="89" width="202"/>
+      </media>
+    </figure>
+    <para id="id21847376">Magnitude-Frequency response of this parameter is :-</para>
+    <figure id="id21847384">
+      <media id="id21847384_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 17-da67.png" id="id21847384__onlineimage" height="302" width="461"/>
+      </media>
+    </figure>
+    <para id="id21739010">Absolute value of <figure id="id21956229"><media id="id21956229_media" alt=""><image mime-type="image/png" src="../../media/Picture 3-e312.png" id="id21956229__onlineimage" height="71" width="170"/></media></figure></para>
+    <figure id="id21801678">
+      <media id="id21801678_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-2298.png" id="id21801678__onlineimage" height="105" width="250"/>
+      </media>
+    </figure>
+    <para id="id22317260">Other way is to plot the log value(decibel value)</para>
+    <para id="id22317265">dB value of <figure id="id22261702"><media id="id22261702_media" alt=""><image mime-type="image/png" src="../../media/Picture 5-2573.png" id="id22261702__onlineimage" height="63" width="172"/></media></figure></para>
+    <para id="id22101282">If <figure id="id22101287"><media id="id22101287_media" alt=""><image mime-type="image/png" src="../../media/graphics1-6254.png" id="id22101287__onlineimage" height="26" width="63"/></media></figure> then dB =0 dB,</para>
+    <para id="id12974452">In direct calculation:</para>
+    <para id="id12974457">
+      <figure id="id21994917">
+        <media id="id21994917_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-3d9e.png" id="id21994917__onlineimage" height="41" width="202"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id6016420">
+      <media id="id6016420_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-b70f.png" id="id6016420__onlineimage" height="80" width="278"/>
+      </media>
+    </figure>
+    <figure id="id21740913">
+      <media id="id21740913_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-8944.png" id="id21740913__onlineimage" height="47" width="476"/>
+      </media>
+    </figure>
+    <para id="id22171962"><figure id="id22171969"><media id="id22171969_media" alt=""><image mime-type="image/png" src="../../media/Picture 9-01c5.png" id="id22171969__onlineimage" height="48" width="341"/></media></figure>= -3dB frequency =<figure id="id21967110"><media id="id21967110_media" alt=""><image mime-type="image/png" src="../../media/graphics2-63e4.png" id="id21967110__onlineimage" height="24" width="127"/></media></figure> =corner frequency</para>
+    <figure id="id21876145">
+      <media id="id21876145_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 10-47ca.png" id="id21876145__onlineimage" height="158" width="330"/>
+      </media>
+    </figure>
+    <para id="id3848745">Let f<sub>α</sub> = 1GHz then the circular frequency is:</para>
+    <figure id="id22189904">
+      <media id="id22189904_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 11-f388.png" id="id22189904__onlineimage" height="275" width="233"/>
+      </media>
+    </figure>
+    <figure id="id12281732">
+      <media id="id12281732_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 12-4fa9.png" id="id12281732__onlineimage" height="105" width="215"/>
+      </media>
+    </figure>
+    <para id="id21865396">At ω &lt;&lt; ω<sub>α</sub> , phase angle is 0°</para>
+    <para id="id21782561">At ω = ω<sub>α</sub> , phase angle is -45°</para>
+    <para id="id21897103">At ω &gt;&gt; ω<sub>α</sub> , phase angle is -90°</para>
+    <para id="id20905444">PHASE RESPONSE</para>
+    <figure id="id22177973">
+      <media id="id22177973_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 13-d195.png" id="id22177973__onlineimage" height="241" width="397"/>
+      </media>
+    </figure>
+    <para id="id10104168">In Bode Plot, total frequency can be plotted without breaking the scale. So this plot is preferred.</para>
+    <figure id="id22149050">
+      <media id="id22149050_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 14-0c47.png" id="id22149050__onlineimage" height="93" width="196"/>
+      </media>
+    </figure>
+    <para id="id21845032">Consider the plot at frequencies ω &gt;&gt; ω<sub>α</sub> : </para>
+    <para id="id20069717">
+      <figure id="id22236324">
+        <media id="id22236324_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 15-1329.png" id="id22236324__onlineimage" height="432" width="400"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id22122608">A<sub>1</sub>-A<sub>2</sub> = 20dB </para>
+    <para id="id22105794">SO if frequency is increased by 10 times, difference is 20dB. This gives a skirt of -20dB per decade. That is for every 10 times increase in frequency, magnitude of response falls by 20dB as shown in Figure 3.</para>
+    <figure id="id21710633">
+      <media id="id21710633_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 16-f36b.png" id="id21710633__onlineimage" height="300" width="458"/>
+      </media>
+    </figure>
+    <para id="id21705339">In the above plot, light continuous line is ASYMPTOTIC PLOT and dark continuous line is Actual Response Plot. </para>
+    <para id="id21913088"/>
+  </content>
+</document>

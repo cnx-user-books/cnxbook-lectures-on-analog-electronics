@@ -1,0 +1,265 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Tutorial 9_Multistage Amplifiers</title>
+  <metadata>
+  <md:content-id>m31762</md:content-id><md:title>AE_Tutorial 9_Multistage Amplifiers</md:title>
+  <md:abstract>AE_Tutorial 9 gives a set of Problems on Multistage or cascaded amplifiers.</md:abstract>
+  <md:uuid>33c920a2-b9ee-4fe9-8431-d131f95226e3</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1170641638393">
+      <emphasis effect="bold">AE_TUTORIAL 9_ MULTISTAGE AMPLIFIERS.</emphasis>
+    </para>
+    <para id="id1170680815747">Band Width Shrinkage Factor </para>
+    <table id="id1170662283828" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>n</entry>
+            <entry>
+              <media id="id1170641639164" alt="">
+                <image mime-type="image/png" src="../../media/graphics1-7477.png"/>
+              </media>
+            </entry>
+          </row>
+          <row>
+            <entry>1</entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>0.644</entry>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>0.510</entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>0.435</entry>
+          </row>
+          <row>
+            <entry>5</entry>
+            <entry>0.368</entry>
+          </row>
+          <row>
+            <entry>6</entry>
+            <entry>0.350</entry>
+          </row>
+          <row>
+            <entry>7</entry>
+            <entry>0.323</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1170678109030">(1)</para>
+    <figure id="id1170678144742">
+      <media id="id1170678144742_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-45f1.png" id="id1170678144742__onlineimage" height="324" width="626"/>
+      </media>
+    </figure>
+    <para id="id1170659399900"><emphasis effect="bold">Determine A</emphasis><emphasis effect="bold">vo</emphasis><emphasis effect="bold"> and overall B.W. ;</emphasis> Assume f<sub>u</sub>=1 MHz.</para>
+    <para id="id1170674227197">{Answer: A<sub>vo</sub>=50, (BW)<sub>overall</sub>~ (0.644)×10<sup>5</sup> Hz}</para>
+    <para id="id1170674495406">Solution: <figure id="id1170680861317"><media id="id1170680861317_media" alt=""><image mime-type="image/png" src="../../media/graphics2-4c46.png" id="id1170680861317__onlineimage" height="35" width="171"/></media></figure></para>
+    <figure id="id1170663849374">
+      <media id="id1170663849374_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-8cac.png" id="id1170663849374__onlineimage" height="42" width="229"/>
+      </media>
+    </figure>
+    <para id="id8521477">
+      <figure id="id1170646014703">
+        <media id="id1170646014703_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-18e8.png" id="id1170646014703__onlineimage" height="24" width="80"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id3660148">
+      <media id="id3660148_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-ab31.png" id="id3660148__onlineimage" height="26" width="397"/>
+      </media>
+    </figure>
+    <para id="id1170641639628">For stage1, BW=<figure id="id1170641642275"><media id="id1170641642275_media" alt=""><image mime-type="image/png" src="../../media/graphics6-1e8a.png" id="id1170641642275__onlineimage" height="35" width="68"/></media></figure></para>
+    <para id="id1170679543434">For stage2, BW=<figure id="id1170678333200"><media id="id1170678333200_media" alt=""><image mime-type="image/png" src="../../media/graphics7-550d.png" id="id1170678333200__onlineimage" height="35" width="96"/></media></figure></para>
+    <figure id="id1170663765668">
+      <media id="id1170663765668_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-f07d.png" id="id1170663765668__onlineimage" height="45" width="336"/>
+      </media>
+    </figure>
+    <para id="id1170659522295">(2)</para>
+    <figure id="id1170641329678">
+      <media id="id1170641329678_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-801d.png" id="id1170641329678__onlineimage" height="263" width="626"/>
+      </media>
+    </figure>
+    <para id="id1170665760219">3 stage cascaded amplifier: Assume f<sub>u</sub>=1 MHz. <emphasis effect="bold">Determine: overall B.W and overall gain.</emphasis></para>
+    <para id="id1170676618880">{ A<sub>vo</sub>=(-20)<sup>3</sup>; BW=(10<sup>6</sup>/20)(0.510)Hz}</para>
+    <para id="id1170645536359">For one stage, voltage gain= -40/2= - 20V= V<sub>o</sub>/V<sub>1</sub></para>
+    <figure id="id5784753">
+      <media id="id5784753_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-112f.png" id="id5784753__onlineimage" height="45" width="501"/>
+      </media>
+    </figure>
+    <figure id="id1170658925968">
+      <media id="id1170658925968_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-8af0.png" id="id1170658925968__onlineimage" height="26" width="100"/>
+      </media>
+    </figure>
+    <figure id="id1170665069531">
+      <media id="id1170665069531_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-ab31.png" id="id1170665069531__onlineimage" height="26" width="397"/>
+      </media>
+    </figure>
+    <para id="id1170641206605">For stage1 BW=<figure id="id1170665399783"><media id="id1170665399783_media" alt=""><image mime-type="image/png" src="../../media/graphics12-b2bd.png" id="id1170665399783__onlineimage" height="35" width="96"/></media></figure></para>
+    <para id="id1170677569348">For stage2 BW=<figure id="id1170682050837"><media id="id1170682050837_media" alt=""><image mime-type="image/png" src="../../media/graphics13-b2bd.png" id="id1170682050837__onlineimage" height="35" width="96"/></media></figure></para>
+    <para id="id1170641494782">For stage3 BW=<figure id="id1170671485004"><media id="id1170671485004_media" alt=""><image mime-type="image/png" src="../../media/graphics14-b2bd.png" id="id1170671485004__onlineimage" height="35" width="96"/></media></figure></para>
+    <figure id="id1170665070424">
+      <media id="id1170665070424_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-2e82.png" id="id1170665070424__onlineimage" height="45" width="393"/>
+      </media>
+    </figure>
+    <para id="id1170663738190"/>
+    <para id="id1170670396390">(3)<emphasis effect="bold">Design a multistage amplifier that meet the following specification </emphasis><figure id="id1170663568055"><media id="id1170663568055_media" alt=""><image mime-type="image/png" src="../../media/graphics16-23d9.png" id="id1170663568055__onlineimage" height="30" width="206"/></media></figure></para>
+    <figure id="id1170665850458">
+      <media id="id1170665850458_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-08c2.png" id="id1170665850458__onlineimage" height="24" width="84"/>
+      </media>
+    </figure>
+    <figure id="id1170658139102">
+      <media id="id1170658139102_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics18-7f9a.png" id="id1170658139102__onlineimage" height="24" width="85"/>
+      </media>
+    </figure>
+    <figure id="id3342279">
+      <media id="id3342279_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-6e9d.png" id="id3342279__onlineimage" height="24" width="84"/>
+      </media>
+    </figure>
+    <para id="id1170657176540">Given <figure id="id1170640724549"><media id="id1170640724549_media" alt=""><image mime-type="image/png" src="../../media/graphics20-d207.png" id="id1170640724549__onlineimage" height="29" width="388"/></media></figure></para>
+    <para id="id8911958">Solution:</para>
+    <para id="id1170661987516">86 dB = 20 log(<figure id="id1170666463320"><media id="id1170666463320_media" alt=""><image mime-type="image/png" src="../../media/graphics21-7171.png" id="id1170666463320__onlineimage" height="26" width="63"/></media></figure>)</para>
+    <figure id="id1170669917511">
+      <media id="id1170669917511_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-9077.png" id="id1170669917511__onlineimage" height="26" width="274"/>
+      </media>
+    </figure>
+    <para id="id1170674631834">Let us choose 3 stages:</para>
+    <para id="id6808812">Each stage with gain 40, closed loop B.W. of single stage =10<sup>6</sup>/40=25 kHz</para>
+    <figure id="id1170641070791">
+      <media id="id1170641070791_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics23-8d8a.png" id="id1170641070791__onlineimage" height="26" width="478"/>
+      </media>
+    </figure>
+    <figure id="id1170676625106">
+      <media id="id1170676625106_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics24-f171.png" id="id1170676625106__onlineimage" height="45" width="265"/>
+      </media>
+    </figure>
+    <figure id="id1170646238844">
+      <media id="id1170646238844_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics25-d5c7.png" id="id1170646238844__onlineimage" height="24" width="322"/>
+      </media>
+    </figure>
+    <para id="id1170663277883">This design does not meet our specification:</para>
+    <para id="id1170669136457">Therefore we choose 3 stages each with gain as 30.</para>
+    <figure id="id1170658219434">
+      <media id="id1170658219434_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics26-fb91.png" id="id1170658219434__onlineimage" height="44" width="306"/>
+      </media>
+    </figure>
+    <figure id="id1170658396018">
+      <media id="id1170658396018_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics27-58ff.png" id="id1170658396018__onlineimage" height="69" width="650"/>
+      </media>
+    </figure>
+    <figure id="id1170677553227">
+      <media id="id1170677553227_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics28-c8ba.png" id="id1170677553227__onlineimage" height="24" width="345"/>
+      </media>
+    </figure>
+    <para id="id1170668510857">
+      <figure id="id1170661094746">
+        <media id="id1170661094746_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 3-2832.png" id="id1170661094746__onlineimage" height="266" width="599"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170658923300">This multistage amplifier does not meet the given specifications.</para>
+    <para id="id1170659797327">We will have to use a higher performance Op Amp of f<sub>u</sub> = 10MHz to meet the above specifications.</para>
+    <para id="id7502817">4)</para>
+    <figure id="id1170680419539">
+      <media id="id1170680419539_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-6cef.png" id="id1170680419539__onlineimage" height="312" width="627"/>
+      </media>
+    </figure>
+    <para id="id1170671961390">(a)Determine the flat band gain and BW of each stage.</para>
+    <para id="id1170651193045">(b)Write the expression for each stage including the effect of ω<sub>h</sub>.</para>
+    <para id="id1170674498305">(c)Plot the asymptotic plot.</para>
+    <para id="id1170661968791">(d)Determine the overall gain and the overall BW.</para>
+    <para id="id1170640228253">Solution:-</para>
+    <para id="id1170671865379">(a)&amp;(b)1 st stage is a non-inverting amplifier.</para>
+    <para id="id7228788">
+      <figure id="id1170640614700">
+        <media id="id1170640614700_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics29-d660.png" id="id1170640614700__onlineimage" height="72" width="161"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170655763274">2<sup>nd</sup> stage is Inverting amplifer.</para>
+    <figure id="id1170665258968">
+      <media id="id1170665258968_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics30-0c01.png" id="id1170665258968__onlineimage" height="75" width="173"/>
+      </media>
+    </figure>
+    <para id="id1170640560398">3<sup>rd</sup> stage is a non-inverting amplifier.</para>
+    <figure id="id5071384">
+      <media id="id5071384_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics31-4cbb.png" id="id5071384__onlineimage" height="75" width="189"/>
+      </media>
+    </figure>
+    <para id="id1170641207962">
+      <figure id="id1170662132701">
+        <media id="id1170662132701_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics32-bb76.png" id="id1170662132701__onlineimage" height="34" width="273"/>
+        </media>
+      </figure>
+      <figure id="id1170658611349">
+        <media id="id1170658611349_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics33-7bdd.png" id="id1170658611349__onlineimage" height="35" width="303"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1170658927578">
+      <media id="id1170658927578_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics34-7dab.png" id="id1170658927578__onlineimage" height="45" width="335"/>
+      </media>
+    </figure>
+    <figure id="id1170669067348">
+      <media id="id1170669067348_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics35-73eb.png" id="id1170669067348__onlineimage" height="45" width="343"/>
+      </media>
+    </figure>
+    <para id="id1170641539089">Lowest pole is the dominant pole in LPF.</para>
+    <para id="id3335335">(c)Flat band Gain=50 X 5 X3 =750 </para>
+    <para id="id1170665128293">In db the gain is 20log<sub>10</sub>(750)= 57.5 dB</para>
+    <figure id="id1170666429606">
+      <media id="id1170666429606_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics36-81b5.png" id="id1170666429606__onlineimage" height="65" width="407"/>
+      </media>
+    </figure>
+    <figure id="id1170683145626">
+      <media id="id1170683145626_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics37-1ca6.png" id="id1170683145626__onlineimage" height="48" width="247"/>
+      </media>
+    </figure>
+    <para id="id1170640683491">
+      <figure id="id1170641806225">
+        <media id="id1170641806225_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 6-a0f7.png" id="id1170641806225__onlineimage" height="312" width="627"/>
+        </media>
+      </figure>
+    </para>
+  </content>
+</document>

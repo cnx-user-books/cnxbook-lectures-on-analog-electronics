@@ -1,0 +1,138 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Lecture7_Multistage Amplifier</title>
+  <metadata>
+  <md:content-id>m31668</md:content-id><md:title>AE_Lecture7_Multistage Amplifier</md:title>
+  <md:abstract>AE_Lecture7 describes the different kinds of multistage amplifiers and the effect of cascading on different performance parameters especially on BW.</md:abstract>
+  <md:uuid>826da5ae-dfca-4bc9-a983-194b422a9e05</md:uuid>
+</metadata>
+
+<content>
+    <para id="id17584799">
+      <emphasis effect="bold">AE_LECTURE7_ MULTISTAGE AMPLIFIERS</emphasis>
+    </para>
+    <para id="id9621237">In real world, a variety of combination of performance specifications have to be achieved. </para>
+    <para id="id14707377">One such combination as required for an op-amp is:</para>
+    <figure id="id18029871">
+      <media id="id18029871_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-e2cb.png" id="id18029871__onlineimage" height="26" width="263"/>
+      </media>
+    </figure>
+    <para id="id2788382">This cannot be met by a single stage amplifier. By cascading several stages we achieve it .</para>
+    <figure id="id20634288">
+      <media id="id20634288_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-caf7.png" id="id20634288__onlineimage" height="151" width="619"/>
+      </media>
+    </figure>
+    <para id="id9784770">Figure 1. Block Diagram of an Op Amp which is a cascaded amplifier.</para>
+    <para id="id10328192">While designing multi-stage amplifier, if we have capacitance coupling then it becomes easier to design since there is no DC interaction.</para>
+    <para id="id20778443">But in a directly coupled multistage amplifier since we have DC interaction hence it is difficult to design.</para>
+    <para id="id7282113">A direct coupled amplifier implies DC Amplifier whereas a capacitive coupled amplifier implies AC Amplifier as RC-coupled Amplifier is.</para>
+    <para id="id16443604">COMMONLY USED CASCADED AMPLIFIER</para>
+    <figure id="id20676283">
+      <media id="id20676283_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-55ce.png" id="id20676283__onlineimage" height="175" width="623"/>
+      </media>
+    </figure>
+    <para id="id12034842">Figure 3. The Block Diagram of commonly used Cascaded Amplifier.</para>
+    <para id="id20712773"><figure id="id13957598"><media id="id13957598_media" alt=""><image mime-type="image/png" src="../../media/Picture 3-111c.png" id="id13957598__onlineimage" height="259" width="615"/></media></figure>v</para>
+    <para id="id10299660"><emphasis effect="bold">Figure 3. Actual implementation of Instrumentation Amplifier using a cascade of CS-CE-CC.</emphasis>
+</para>
+    <figure id="id18066021">
+      <media id="id18066021_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-551d.png" id="id18066021__onlineimage" height="203" width="620"/>
+      </media>
+    </figure>
+    <para id="id16971687">
+      <emphasis effect="bold">Figure 4. EQUIVALENT CIRCUIT of the above cascade at MID FREQUENCY.</emphasis>
+    </para>
+    <para id="id20724226">In Multi-stage amplifiers we have the problem of BAND WIDTH SHRINKAGE.</para>
+    <para id="id18117556"> In Figure 5, the Bode Plot of single stage amplifier is shown. As can be seen the frequency response is that of Band-Pass filter with lower -3dB frequency being f<sub>L</sub> and upper -3dB being f<sub>H </sub>. The skirt of the response is -20dB/decade at the higher end and +20dB/decade at lower end. The mid-band gain or flat band-gain is 20dB.</para>
+    <para id="id18207580"> If two such identical Amplifiers are cascaded in a non-interacting fashion then overall gain will be +40dB but the BW will shrink as shown in Figure 6. The skirts are steeper: 40dB/decade at lower end and -4-dB/decade at higher end. The upper cut-off frequency now is </para>
+    <para id="id18437735">f<sub>H</sub> = f<sub>H</sub>′×Sn where Sn=shrinkage factor and f<sub>L</sub> = f<sub>L</sub>′/Sn as shown in Figure 6. </para>
+    <figure id="id18463713">
+      <media id="id18463713_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 7-131f.png" id="id18463713__onlineimage" height="324" width="616"/>
+      </media>
+    </figure>
+    <figure id="id18456751">
+      <media id="id18456751_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 8-ed2e.png" id="id18456751__onlineimage" height="347" width="617"/>
+      </media>
+    </figure>
+    <para id="id15721779">From Figure 6 it is clear that single stage amplifier has a mid-band gain of 20dB and -3dB BW of </para>
+    <para id="id9826322">[f ′ <sub>H</sub> – f ′<sub>L</sub>] whereas a double stage amplifier has a mid-band gain of 40 dB and -3dB BW is [f<sub>H</sub>-f<sub>L</sub>] where [f<sub>H</sub>-f<sub>L</sub>] = f '<sub>H</sub>× S<sub>2</sub> – f '<sub>L</sub>/ S<sub>2</sub> and S<sub>2</sub> = √(2<sup>1/2</sup>-1) = 0.64= shrinkage factor of a double stage amplifier.</para>
+    <figure id="id20780772">
+      <media id="id20780772_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-61c0.png" id="id20780772__onlineimage" height="31" width="357"/>
+      </media>
+    </figure>
+    <para id="id20635215">For n stage cascade of identical amplifiers</para>
+    <figure id="id20778569">
+      <media id="id20778569_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-44e1.png" id="id20778569__onlineimage" height="51" width="164"/>
+      </media>
+    </figure>
+    <figure id="id7963940">
+      <media id="id7963940_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-4a99.png" id="id7963940__onlineimage" height="31" width="182"/>
+      </media>
+    </figure>
+    <para id="id9374435">Where f<sub>L</sub> = lower -3dB frequency of single stage and f<sub>H</sub> = Upper -3dB frequency of single stage amplifier.</para>
+    <table id="id20716790" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry>n</entry>
+            <entry>1</entry>
+            <entry>2</entry>
+            <entry>3</entry>
+            <entry>4</entry>
+            <entry>5</entry>
+          </row>
+          <row>
+            <entry>
+              <media id="id11739945" alt="">
+                <image mime-type="image/png" src="../../media/graphics5-998b.png"/>
+              </media>
+            </entry>
+            <entry>1</entry>
+            <entry>0.64</entry>
+            <entry>0.51</entry>
+            <entry>0.44</entry>
+            <entry>0.34</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id18761606">This formula is applicable only if there are identical stages which we cascade in a non interacting manner.</para>
+    <figure id="id18907996">
+      <media id="id18907996_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 9-fdd6.png" id="id18907996__onlineimage" height="179" width="625"/>
+      </media>
+    </figure>
+    <para id="id20630856">If these identical stages are cascaded without buffer then they will interact among themselves and even if they are identical their individual upper -3dB frequencies and lower -3dB frequencies will get dispersed and there are non-identical upper -3dB frequencies <figure id="id14265801"><media id="id14265801_media" alt=""><image mime-type="image/png" src="../../media/graphics6-5fc4.png" id="id14265801__onlineimage" height="26" width="245"/></media></figure>.</para>
+    <para id="id17944804">Then the overall upper -3dB frequency<figure id="id19897599"><media id="id19897599_media" alt=""><image mime-type="image/png" src="../../media/graphics7-88bb.png" id="id19897599__onlineimage" height="24" width="32"/></media></figure>,</para>
+    <figure id="id9352314">
+      <media id="id9352314_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-c976.png" id="id9352314__onlineimage" height="64" width="462"/>
+      </media>
+    </figure>
+    <para id="id17965749">This equation implies that in time domain the overall rise time <figure id="id9761066"><media id="id9761066_media" alt=""><image mime-type="image/png" src="../../media/graphics9-1c14.png" id="id9761066__onlineimage" height="28" width="400"/></media></figure></para>
+    <para id="id12112893">In case of lower -3dB frequencies, the individual lower -3dB frequencies are <figure id="id18641755"><media id="id18641755_media" alt=""><image mime-type="image/png" src="../../media/graphics10-94ee.png" id="id18641755__onlineimage" height="26" width="232"/></media></figure> and in that case the overall -3dB frequency is given by the following formula:</para>
+    <figure id="id11793408">
+      <media id="id11793408_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-1897.png" id="id11793408__onlineimage" height="45" width="484"/>
+      </media>
+    </figure>
+    <para id="id7689038">This formula implies that overall sag=<figure id="id8715091"><media id="id8715091_media" alt=""><image mime-type="image/png" src="../../media/graphics12-13b9.png" id="id8715091__onlineimage" height="24" width="132"/></media></figure></para>
+    <para id="id15842278">Therefore for obtaining 10% sag we will have to increase the frequency <figure id="id20700318"><media id="id20700318_media" alt=""><image mime-type="image/png" src="../../media/graphics13-ede6.png" id="id20700318__onlineimage" height="24" width="17"/></media></figure></para>
+    <para id="id7443240">Hence <figure id="id16746438"><media id="id16746438_media" alt=""><image mime-type="image/png" src="../../media/graphics14-8f91.png" id="id16746438__onlineimage" height="33" width="67"/></media></figure> will also increase. </para>
+    <para id="id20775199">In identical stages with non-interacting cascade shrinkage factor will decide the band-width whereas in interacting cascade the above equations will decide the band-width.</para>
+  </content>
+</document>

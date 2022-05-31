@@ -1,0 +1,102 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Lecture4_PartD3_Time Domain Response of Low Pass Filter.</title>
+  <metadata>
+  <md:content-id>m31504</md:content-id><md:title>AE_Lecture4_PartD3_Time Domain Response of Low Pass Filter.</md:title>
+  <md:abstract>AE_Lecture4_PartD3 deals with the time domain response of RC Low Pass Filter.</md:abstract>
+  <md:uuid>6b51a943-b78c-4ee5-912f-b5432f1c68be</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1167775774848">
+      <emphasis effect="bold">Analog Electronics_Lecture4_PartD2</emphasis>
+    </para>
+    <para id="id5386448">Experimental Methods of measuring </para>
+    <para id="id1167774531434">
+      <emphasis effect="bold">the Frequency Band-Width of an Amplifier.</emphasis>
+    </para>
+    <list id="id1167776277378" list-type="enumerated" number-style="arabic">
+      <item>Study of R-C Low Pass Filter.</item>
+    </list>
+    <figure id="id3927387">
+      <media id="id3927387_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 18-ec96.png" id="id3927387__onlineimage" height="492" width="532"/>
+      </media>
+    </figure>
+    <para id="id1167781299478">
+      <emphasis effect="bold">Figure 9. The circuit diagram of a R-C Low Pass Filter.</emphasis>
+    </para>
+    <para id="id3951714">In Figure 9, the square wave response as well as the step response of R-C Low Pass Filter is shown.</para>
+    <para id="id1167777324102">The Step Response of LPF = v<sub>c</sub>(t) = charging of the capacitor = [1- Exp(-t/τ)];</para>
+    <para id="id7444402">The final voltage across the capacitor is 1V since unit step voltage u(t) is the input.</para>
+    <para id="id1167776243395">10% of 1V = 0.1= [1- Exp(-t<sub>1</sub>/τ)];   A</para>
+    <para id="id4731543">90% of 1V = 0.9 = [1- Exp(-t <sub>2</sub>/τ)];   B</para>
+    <para id="id3388930">From Eq(A) and (B) we get:</para>
+    <para id="id4982557">t<sub>2</sub> - t<sub>1</sub> = t<sub>r</sub> = 2.2τ = 2.2/ω<sub>h</sub></para>
+    <para id="id1167775841251">Therefore    <emphasis effect="bold">t</emphasis><emphasis effect="bold">r</emphasis><emphasis effect="bold">×f</emphasis><emphasis effect="bold">h</emphasis><emphasis effect="bold"> = 0.35</emphasis></para>
+    <figure id="id3961530">
+      <media id="id3961530_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 19-fcb3.png" id="id3961530__onlineimage" height="487" width="650"/>
+      </media>
+    </figure>
+    <para id="id1167775785533">Figure 10. Square Wave Response(also known as Time Domain Response) of R-C LPF.</para>
+    <para id="id1167774532685">By inspection we find that </para>
+    <para id="id5057206">when prf &lt;&lt; f<sub>H</sub> then we have faithful reproduction of the square wave;</para>
+    <para id="id1167776073168">when prf ~ f<sub>H</sub> then we have rise time and fall time effect at the leading and lagging edges respectively;</para>
+    <para id="id1167775877059">when prf &gt;&gt; f<sub>H </sub>then we get the average value of the square wave. In this case we get about 1V.</para>
+    <para id="id1167776034625">Hence at frequencies much higher than the cutoff frequency of LPF, the filter behaves like an integrator. The positive flat top becomes a positive sloped ramp and negative flat top becomes a negative sloped ramp.</para>
+    <para id="id2987794">Above 30 Hz our RETINA acts as an integrator.</para>
+    <para id="id1167774530255">
+      <emphasis effect="bold">4.1  The Frequency Response of a Low Pass R-C Filter</emphasis>
+    </para>
+    <figure id="id3321722">
+      <media id="id3321722_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 20-fe65.png" id="id3321722__onlineimage" height="489" width="650"/>
+      </media>
+    </figure>
+    <para id="id1167777217336">Figure 11. Magnitude of the transfer function-Frequency Response of a LPF.</para>
+    <figure id="id3460313">
+      <media id="id3460313_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-ffa5.png" id="id3460313__onlineimage" height="41" width="184"/>
+      </media>
+    </figure>
+    <figure id="id5503936">
+      <media id="id5503936_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-c633.png" id="id5503936__onlineimage" height="41" width="163"/>
+      </media>
+    </figure>
+    <para id="id1167776210495">
+      <figure id="id3313097">
+        <media id="id3313097_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics3-ea2d.png" id="id3313097__onlineimage" height="53" width="213"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1167775830636">           ( 1)</para>
+    <figure id="id4667786">
+      <media id="id4667786_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-e435.png" id="id4667786__onlineimage" height="38" width="60"/>
+      </media>
+    </figure>
+    <para id="id1167779965873">Equation (1) has a zero at infinity and a pole at <figure id="id1167778603363"><media id="id1167778603363_media" alt=""><image mime-type="image/png" src="../../media/graphics5-e4e1.png" id="id1167778603363__onlineimage" height="21" width="20"/></media></figure><emphasis effect="bold">. </emphasis>Hence it has -20dB asymptote at <figure id="id1167781030817"><media id="id1167781030817_media" alt=""><image mime-type="image/png" src="../../media/graphics6-e1ad.png" id="id1167781030817__onlineimage" height="21" width="19"/></media></figure> . This gives 100% transmission below <figure id="id1167776250508"><media id="id1167776250508_media" alt=""><image mime-type="image/png" src="../../media/graphics7-e85e.png" id="id1167776250508__onlineimage" height="21" width="22"/></media></figure> and suppression of frequencies higher than <figure id="id1167776178766"><media id="id1167776178766_media" alt=""><image mime-type="image/png" src="../../media/graphics8-e1ad.png" id="id1167776178766__onlineimage" height="21" width="19"/></media></figure> at the rate of 20dB per decade as we move up the frequency scale .</para>
+    <para id="id1167777411941">The Time-Domain Response at high frequencies and Frequency Response of a LPF are related to each other through the relation: <figure id="id1167775822129"><media id="id1167775822129_media" alt=""><image mime-type="image/png" src="../../media/Picture 4-0372.png" id="id1167775822129__onlineimage" height="32" width="122"/></media></figure></para>
+    <figure id="id1167778284337">
+      <media id="id1167778284337_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-7b37.png" id="id1167778284337__onlineimage" height="392" width="554"/>
+      </media>
+    </figure>
+    <para id="id4078100">Figure 12. The estimation of the overall rise time as observed in the Oscilloscope. The overall rise time will be influenced by the rise time of the oscilloscope as well as that of the source.</para>
+    <para id="id5805687">
+      <figure id="id4197188">
+        <media id="id4197188_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 5-b840.png" id="id4197188__onlineimage" height="102" width="328"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1167775776420">
+      <media id="id1167775776420_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 6-ce14.png" id="id1167775776420__onlineimage" height="449" width="511"/>
+      </media>
+    </figure>
+    <para id="id2644425">Figure 13. Definition of the rise time.</para>
+  </content>
+</document>

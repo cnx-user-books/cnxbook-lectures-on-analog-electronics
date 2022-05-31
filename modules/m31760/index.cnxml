@@ -1,0 +1,180 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Tutorial8_MOSFET&amp;JFET</title>
+  <metadata>
+  <md:content-id>m31760</md:content-id><md:title>AE_Tutorial8_MOSFET&amp;JFET</md:title>
+  <md:abstract>AE_Tutorial8 gives a set of problems on MOSFET &amp; JFET.</md:abstract>
+  <md:uuid>d7beae94-2e14-48fc-b1d9-385fabc6128a</md:uuid>
+</metadata>
+
+<content>
+    <para id="id15233278">
+      <emphasis effect="bold">AE_TUTORIAL 8_MOSFET&amp;JFET</emphasis>
+    </para>
+    <para id="id7346468">Tutorial on NMOS (TRIODE REGION)</para>
+    <para id="id17775538">(1)Calculate K<sub>n</sub>″ for a NMOSFET with µ<sub>n</sub>= 500 <figure id="id11818462"><media id="id11818462_media" alt=""><image mime-type="image/png" src="../../media/graphics1-104b.png" id="id11818462__onlineimage" height="35" width="35"/></media></figure> and T<sub>ox</sub>=25nm</para>
+    <para id="id6389043">Solution: K<sub>n</sub>″= µ<sub>n</sub>C<sub>ox</sub>″= µ<sub>n</sub><figure id="id5297951"><media id="id5297951_media" alt=""><image mime-type="image/png" src="../../media/graphics2-c98c.png" id="id5297951__onlineimage" height="39" width="30"/></media></figure></para>
+    <para id="id15560707"><figure id="id15210084"><media id="id15210084_media" alt=""><image mime-type="image/png" src="../../media/graphics3-42f3.png" id="id15210084__onlineimage" height="24" width="41"/></media></figure>=<figure id="id16454260"><media id="id16454260_media" alt=""><image mime-type="image/png" src="../../media/graphics4-2d6a.png" id="id16454260__onlineimage" height="35" width="105"/></media></figure><figure id="id10223798"><media id="id10223798_media" alt=""><image mime-type="image/png" src="../../media/graphics5-b528.png" id="id10223798__onlineimage" height="34" width="296"/></media></figure></para>
+    <para id="id8574711">
+      <emphasis effect="italics">=</emphasis>
+      <figure id="id15514656">
+        <media id="id15514656_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics6-2a91.png" id="id15514656__onlineimage" height="40" width="373"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id13725325"><figure id="id12651741"><media id="id12651741_media" alt=""><image mime-type="image/png" src="../../media/graphics7-faf8.png" id="id12651741__onlineimage" height="33" width="102"/></media></figure><emphasis effect="italics"/>; <emphasis effect="italics"/>µ<sub>n</sub> in bulk is 1500 <figure id="id5689542"><media id="id5689542_media" alt=""><image mime-type="image/png" src="../../media/graphics8-104b.png" id="id5689542__onlineimage" height="35" width="35"/></media></figure> but in 2D sheet it is only 500 <figure id="id7902874"><media id="id7902874_media" alt=""><image mime-type="image/png" src="../../media/graphics9-104b.png" id="id7902874__onlineimage" height="35" width="35"/></media></figure></para>
+    <para id="id12941815">(2)A NMOSFET has K<sub>n</sub>'=50<figure id="id15714352"><media id="id15714352_media" alt=""><image mime-type="image/png" src="../../media/graphics10-2081.png" id="id15714352__onlineimage" height="33" width="16"/></media></figure>. What is the value of K<sub>n </sub>if</para>
+    <table id="id4312134" summary="">
+      <tgroup cols="4">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <tbody>
+          <row>
+            <entry>W</entry>
+            <entry>20µm</entry>
+            <entry>60µm</entry>
+            <entry>10µm</entry>
+          </row>
+          <row>
+            <entry>L</entry>
+            <entry>1µm</entry>
+            <entry>3µm</entry>
+            <entry>0.25µm</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id7951129">Answer: K<sub>n</sub>=<sub/>K<sub>n</sub>′<figure id="id17789154"><media id="id17789154_media" alt=""><image mime-type="image/png" src="../../media/graphics11-0f4d.png" id="id17789154__onlineimage" height="34" width="28"/></media></figure>= 1000<figure id="id11469346"><media id="id11469346_media" alt=""><image mime-type="image/png" src="../../media/graphics12-2081.png" id="id11469346__onlineimage" height="33" width="16"/></media></figure>, 1000<figure id="id9964113"><media id="id9964113_media" alt=""><image mime-type="image/png" src="../../media/graphics13-2081.png" id="id9964113__onlineimage" height="33" width="16"/></media></figure>, 2000<figure id="id18226950"><media id="id18226950_media" alt=""><image mime-type="image/png" src="../../media/graphics14-2081.png" id="id18226950__onlineimage" height="33" width="16"/></media></figure></para>
+    <para id="id5355814">(3)Calculate the Drain current in NMOS FET if V<sub>GS</sub>=0, 1, 2, 3V;When V<sub>DS</sub>=0.1V and W=10µm, L=1µm, V<sub>Th</sub>=1.5V and K<sub>n</sub>'=250<figure id="id3466415"><media id="id3466415_media" alt=""><image mime-type="image/png" src="../../media/graphics15-edf8.png" id="id3466415__onlineimage" height="33" width="199"/></media></figure></para>
+    <para id="id12567839">Answer: <figure id="id9751421"><media id="id9751421_media" alt=""><image mime-type="image/png" src="../../media/graphics16-60bf.png" id="id9751421__onlineimage" height="34" width="336"/></media></figure></para>
+    <para id="id5338215">Expanding K<sub>n</sub> and rearranging the terms,</para>
+    <figure id="id17340580">
+      <media id="id17340580_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-8f52.png" id="id17340580__onlineimage" height="42" width="310"/>
+      </media>
+    </figure>
+    <para id="id16354014">Where </para>
+    <list id="id4089362" list-type="bulleted">
+      <item>
+        <figure id="id5770343">
+          <media id="id5770343_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics18-d60d.png" id="id5770343__onlineimage" height="21" width="282"/>
+          </media>
+        </figure>
+      </item>
+      <item><figure id="id8596319"><media id="id8596319_media" alt=""><image mime-type="image/png" src="../../media/graphics19-dc72.png" id="id8596319__onlineimage" height="28" width="323"/></media></figure>.</item>
+      <item>
+        <figure id="id16851417">
+          <media id="id16851417_media" alt="">
+            <image mime-type="image/png" src="../../media/graphics20-7efa.png" id="id16851417__onlineimage" height="30" width="430"/>
+          </media>
+        </figure>
+      </item>
+    </list>
+    <para id="id3116595">because average channel voltage =<figure id="id18379583"><media id="id18379583_media" alt=""><image mime-type="image/png" src="../../media/graphics21-0762.png" id="id18379583__onlineimage" height="28" width="21"/></media></figure></para>
+    <table id="id18379552" summary="">
+      <tgroup cols="5">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <tbody>
+          <row>
+            <entry namest="c1" nameend="c5">V<sub>DS</sub>=0.1V</entry>
+          </row>
+          <row>
+            <entry>V<sub>GS</sub></entry>
+            <entry>0</entry>
+            <entry>1V</entry>
+            <entry>2V</entry>
+            <entry>3V</entry>
+          </row>
+          <row>
+            <entry>I<sub>DS</sub></entry>
+            <entry>0</entry>
+            <entry>0</entry>
+            <entry>11.3µA</entry>
+            <entry>36.3µA</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id17673556">(4)What is the region of operation and drain current of an NMOSFET having </para>
+    <para id="id11805078">V<sub>TN</sub>=1V,K<sub>n</sub>=1<figure id="id15557980"><media id="id15557980_media" alt=""><image mime-type="image/png" src="../../media/graphics22-4148.png" id="id15557980__onlineimage" height="29" width="18"/></media></figure> ,λ=0.02 V<sup>-1</sup></para>
+    <para id="id11931582">For 
+(a)Vgs =0V,Vds=1V, 
+(b)Vgs=2V, Vds=0.5V,  
+(c)Vgs=2V, Vds=2V;
+
+Ans: (a) device is cutoff, drain current =0;
+(b) device is in triode region, drain current is 325uA;
+(c) device is in pentode region, drain current is 520uA;</para>
+    <para id="id16598994">(5)</para>
+    <figure id="id5562789">
+      <media id="id5562789_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-c4e0.png" id="id5562789__onlineimage" height="282" width="610"/>
+      </media>
+    </figure>
+    <figure id="id8136459">
+      <media id="id8136459_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 2-6ba8.png" id="id8136459__onlineimage" height="217" width="286"/>
+      </media>
+    </figure>
+    <para id="id12123953">In Triode region:</para>
+    <para id="id7936953"><figure id="id5386065"><media id="id5386065_media" alt=""><image mime-type="image/png" src="../../media/graphics26-8597.png" id="id5386065__onlineimage" height="35" width="218"/></media></figure> for V<sub>GS</sub> ≥ V<sub>P</sub> and V<sub>GS</sub> - V<sub>P</sub> ≥ V<sub>DS</sub> ≥ 0;</para>
+    <para id="id12779916">In Pentode region:</para>
+    <para id="id4039169"><figure id="id15481538"><media id="id15481538_media" alt=""><image mime-type="image/png" src="../../media/graphics27-6f3e.png" id="id15481538__onlineimage" height="34" width="143"/></media></figure> for V<sub>DS</sub> ≥ V<sub>GS</sub> - V<sub>P</sub> ≥ 0;</para>
+    <para id="id18791078">Here I<sub>DSS</sub> = <figure id="id12879769"><media id="id12879769_media" alt=""><image mime-type="image/png" src="../../media/graphics28-b92e.png" id="id12879769__onlineimage" height="32" width="86"/></media></figure></para>
+    <para id="id7846869">Or <figure id="id5598291"><media id="id5598291_media" alt=""><image mime-type="image/png" src="../../media/graphics29-94b8.png" id="id5598291__onlineimage" height="35" width="76"/></media></figure></para>
+    <para id="id9627217">The pinch off voltage ranges from 0 to -25V and I<sub>DSS</sub> can range from 10µA to 10A.</para>
+    <para id="id3907551">If channel length modulation is included:</para>
+    <figure id="id4470659">
+      <media id="id4470659_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics30-6655.png" id="id4470659__onlineimage" height="53" width="268"/>
+      </media>
+    </figure>
+    <para id="id18764540">(6) Calculate the drain current for NMOS FET operating at V<sub>GS</sub>=5V, V<sub>DS</sub>=10V and V<sub>TN</sub>=1V,K<sub>n</sub>=1<figure id="id4415419"><media id="id4415419_media" alt=""><image mime-type="image/png" src="../../media/graphics31-143d.png" id="id4415419__onlineimage" height="33" width="19"/></media></figure> ,λ=0.02 V<sup>-1</sup> and λ=0.</para>
+    <para id="id8285957">[Answer I<sub>D</sub>=9.6mA with λ=0.02V<sup>-1</sup> and I<sub>D</sub>=8.0mA with λ=0]</para>
+    <para id="id7179384">(7)Calculate the drain current for NMOS FET operating at V<sub>GS</sub>=5V, V<sub>DS</sub>=10V and V<sub>TN</sub>=1V, K<sub>n</sub>=25<figure id="id5418389"><media id="id5418389_media" alt=""><image mime-type="image/png" src="../../media/graphics32-2081.png" id="id5418389__onlineimage" height="33" width="16"/></media></figure> , and λ=0.01 V<sup>-1</sup>]</para>
+    <table id="id10002330" summary="">
+      <tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <tbody>
+          <row>
+            <entry>
+              <media id="id4050112" alt="">
+                <image mime-type="image/png" src="../../media/graphics33-ca89.png"/>
+              </media>
+            </entry>
+            <entry>
+              <media id="id9805973" alt="">
+                <image mime-type="image/png" src="../../media/graphics34-819a.png"/>
+              </media>
+            </entry>
+            <entry>
+              <media id="id5278279" alt="">
+                <image mime-type="image/png" src="../../media/graphics35-c757.png"/>
+              </media>
+            </entry>
+          </row>
+          <row>
+            <entry>4V</entry>
+            <entry>5V</entry>
+            <entry>?</entry>
+          </row>
+          <row>
+            <entry>5V</entry>
+            <entry>10V</entry>
+            <entry>?</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id13877658">[Answer: 118µA, 220µA]</para>
+  </content>
+</document>

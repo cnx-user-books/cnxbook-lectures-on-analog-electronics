@@ -1,0 +1,177 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Lecture11_Part1_Audio Oscillators</title>
+  <metadata>
+  <md:content-id>m32428</md:content-id><md:title>AE_Lecture11_Part1_Audio Oscillators</md:title>
+  <md:abstract>AE_lecture11_Part1 describes a feedback system and the Barkhausen Criteria for sustained oscillation.It describes the circuit diagram and working of Audio Oscillators.</md:abstract>
+  <md:uuid>19cb658d-b4be-4f68-86ab-abbfca420b13</md:uuid>
+</metadata>
+
+<content>
+    <para id="id41975075">
+      <emphasis effect="bold">AE_LECTURE 11_Part1.</emphasis>
+    </para>
+    <para id="id41620405">Section 1. FEEDBACK SYSTEMS STABILITY AND OSCILLATORS</para>
+    <figure id="id40770315">
+      <media id="id40770315_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-6809.png" id="id40770315__onlineimage" height="300" width="653"/>
+      </media>
+    </figure>
+    <para id="id40867536">Figure 1. Block Diagram of feedback system.</para>
+    <para id="id40779644">Here ‘s’ implies s-domain and s=σ+jω. Just as we have time domain, we have frequency domain, s-domain and z-domain.</para>
+    <para id="id40745107">In Time-domain we study the response of a system with respect to time.</para>
+    <para id="id45576223">In Frequency-domain we study the steady state sinusoidal response of a system.</para>
+    <para id="id44889240">In s-domain we get to see the total response of the system. Whenever a certain input is applied we have a transient response and steady state response. Total response is the sum total of transient plus steady state response. </para>
+    <para id="id44657539">z-domain is for discrete time systems and s-domain is for continuous time systems.</para>
+    <para id="id40804596">In the Block Diagram of a feedback system, we have the Basic Amplifier Block A(s) , the feedback network block f(s) and comparison node. f(s) can be frequency independent or frequency selective.</para>
+    <figure id="id47779770">
+      <media id="id47779770_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-3b5c.png" id="id47779770__onlineimage" height="27" width="101"/>
+      </media>
+    </figure>
+    <figure id="id42911607">
+      <media id="id42911607_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-852c.png" id="id42911607__onlineimage" height="24" width="128"/>
+      </media>
+    </figure>
+    <figure id="id45229436">
+      <media id="id45229436_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-4888.png" id="id45229436__onlineimage" height="26" width="129"/>
+      </media>
+    </figure>
+    <figure id="id40608416">
+      <media id="id40608416_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics4-42d0.png" id="id40608416__onlineimage" height="47" width="306"/>
+      </media>
+    </figure>
+    <figure id="id40900693">
+      <media id="id40900693_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-a75a.png" id="id40900693__onlineimage" height="47" width="154"/>
+      </media>
+    </figure>
+    <figure id="id46050131">
+      <media id="id46050131_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-2bb7.png" id="id46050131__onlineimage" height="26" width="255"/>
+      </media>
+    </figure>
+    <para id="id44702253">In negative feed back <figure id="id42890222"><media id="id42890222_media" alt=""><image mime-type="image/png" src="../../media/graphics7-58a4.png" id="id42890222__onlineimage" height="24" width="120"/></media></figure></para>
+    <para id="id45710471">In positive feed back <figure id="id45710474"><media id="id45710474_media" alt=""><image mime-type="image/png" src="../../media/graphics8-5d5b.png" id="id45710474__onlineimage" height="24" width="114"/></media></figure></para>
+    <para id="id40772055">Negative feed back system is a degenerative system:</para>
+    <figure id="id47768384">
+      <media id="id47768384_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-9c04.png" id="id47768384__onlineimage" height="46" width="141"/>
+      </media>
+    </figure>
+    <para id="id42747009">And A<sub>closed </sub>&lt; A<sub>open </sub>Hence a degenerate system.</para>
+    <para id="id47737707">Positive feedback system is a regenerative system:</para>
+    <para id="id45544283">   A<sub>closed</sub> = A<sub>open</sub>/[1- |L(s)|]</para>
+    <para id="id45256542">If <figure id="id45327513"><media id="id45327513_media" alt=""><image mime-type="image/png" src="../../media/graphics10-2752.png" id="id45327513__onlineimage" height="24" width="73"/></media></figure> then <figure id="id45718319"><media id="id45718319_media" alt=""><image mime-type="image/png" src="../../media/graphics11-dddc.png" id="id45718319__onlineimage" height="26" width="110"/></media></figure> Hence regenerative system</para>
+    <para id="id41621426"><figure id="id40614205"><media id="id40614205_media" alt=""><image mime-type="image/png" src="../../media/graphics12-56ff.png" id="id40614205__onlineimage" height="24" width="93"/></media></figure>then <figure id="id45636495"><media id="id45636495_media" alt=""><image mime-type="image/png" src="../../media/graphics13-f92a.png" id="id45636495__onlineimage" height="24" width="90"/></media></figure> and system becomes unstable and oscillatory.</para>
+    <para id="id44736623">We can take advantage of instability and realize a pure sine wave oscillator.</para>
+    <para id="id41984848">When <figure id="id48196754"><media id="id48196754_media" alt=""><image mime-type="image/png" src="../../media/graphics14-62fc.png" id="id48196754__onlineimage" height="26" width="183"/></media></figure> . This is BARKHAUSEN CRITERIA.</para>
+    <para id="id42655067">Then we realize a pure sine wave oscillator. </para>
+    <para id="id40353562">For self starting condition we allow <figure id="id40353566"><media id="id40353566_media" alt=""><image mime-type="image/png" src="../../media/graphics15-ab5b.png" id="id40353566__onlineimage" height="26" width="127"/></media></figure> to be slightly greater than <figure id="id42702743"><media id="id42702743_media" alt=""><image mime-type="image/png" src="../../media/graphics16-687e.png" id="id42702743__onlineimage" height="24" width="34"/></media></figure>.This will ensure self starting condition but it will cause a slight distortion.</para>
+    <para id="id42825177">
+      <emphasis effect="bold">Section 2. Class of audio oscillators(1 Hz </emphasis>
+      <emphasis effect="bold">→</emphasis>
+      <emphasis effect="bold"> 100kHz)</emphasis>
+    </para>
+    <para id="id45685579">Wien Bridge Oscillator, Phase-Shift Oscillator and Quadrature Oscillator.</para>
+    <para id="id45746237"><emphasis effect="bold">2.1. Wien Bridge Oscillator</emphasis>.</para>
+    <para id="id43393360">Here Op.Amp is connected as an Non-inverting amplifier with a gain of 3/_0º. The feedback network is a notch filter providing a dip of exactly 1/3 and phase angle 0º at an angular frequency of </para>
+    <para id="id42233502"><figure id="id42906457"><media id="id42906457_media" alt=""><image mime-type="image/png" src="../../media/graphics17-c56d.png" id="id42906457__onlineimage" height="24" width="36"/></media></figure><figure id="id40610082"><media id="id40610082_media" alt=""><image mime-type="image/png" src="../../media/graphics18-abef.png" id="id40610082__onlineimage" height="34" width="27"/></media></figure> . Thus an exact loop gain of unity with 0º phase shift is achieved. But for selfstarting condition the non-inverting gain is kept slightly larger than 3.</para>
+    <para id="id41906813">
+      <figure id="id45580680">
+        <media id="id45580680_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-131b.png" id="id45580680__onlineimage" height="540" width="653"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id45530633">
+      <emphasis effect="bold">Figure 2. Circuit Diagram of Wien Bridge Oscillator.</emphasis>
+    </para>
+    <figure id="id40799224">
+      <media id="id40799224_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-6be1.png" id="id40799224__onlineimage" height="150" width="337"/>
+      </media>
+    </figure>
+    <figure id="id42662230">
+      <media id="id42662230_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-e10e.png" id="id42662230__onlineimage" height="80" width="213"/>
+      </media>
+    </figure>
+    <figure id="id45711256">
+      <media id="id45711256_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics21-fdde.png" id="id45711256__onlineimage" height="45" width="174"/>
+      </media>
+    </figure>
+    <figure id="id45731089">
+      <media id="id45731089_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-5fab.png" id="id45731089__onlineimage" height="47" width="248"/>
+      </media>
+    </figure>
+    <para id="id40664320">
+      <figure id="id40664323">
+        <media id="id40664323_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics23-83ea.png" id="id40664323__onlineimage" height="48" width="227"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id44764286">Replacing s by jω,</para>
+    <figure id="id47792117">
+      <media id="id47792117_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics24-d99b.png" id="id47792117__onlineimage" height="50" width="271"/>
+      </media>
+    </figure>
+    <para id="id48058657">At <figure id="id48058662"><media id="id48058662_media" alt=""><image mime-type="image/png" src="../../media/graphics25-7609.png" id="id48058662__onlineimage" height="34" width="233"/></media></figure></para>
+    <figure id="id44842021">
+      <media id="id44842021_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics26-2e23.png" id="id44842021__onlineimage" height="47" width="107"/>
+      </media>
+    </figure>
+    <figure id="id44447611">
+      <media id="id44447611_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics27-4b32.png" id="id44447611__onlineimage" height="47" width="168"/>
+      </media>
+    </figure>
+    <para id="id47587704">Then Loop Gain=<figure id="id47587707"><media id="id47587707_media" alt=""><image mime-type="image/png" src="../../media/graphics28-687e.png" id="id47587707__onlineimage" height="24" width="34"/></media></figure></para>
+    <para id="id47810596">Oscillation Frequency=<figure id="id47810600"><media id="id47810600_media" alt=""><image mime-type="image/png" src="../../media/graphics29-c220.png" id="id47810600__onlineimage" height="34" width="69"/></media></figure></para>
+    <para id="id45723332"><figure id="id41969787"><media id="id41969787_media" alt=""><image mime-type="image/png" src="../../media/graphics30-68cb.png" id="id41969787__onlineimage" height="34" width="45"/></media></figure> ; This gives a non-inverting gain of 3.</para>
+    <para id="id44769320">2.2. RC PHASE SHIFT OSCILLATOR</para>
+    <figure id="id40580838">
+      <media id="id40580838_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-b6a7.png" id="id40580838__onlineimage" height="327" width="638"/>
+      </media>
+    </figure>
+    <para id="id40734125">Figure 3. Circuit Diagram of RC phase shift oscillator.</para>
+    <para id="id40618525">Here Op Amp is connected as an inverting amplifier providing a gain of 29 and phase shift of 180º.</para>
+    <para id="id45685760">The RC phase shift network gives an attenuation of 1/29 and a phase shift of another 180º. </para>
+    <para id="id45299047">Thus an exact Loop Gain of 1/_0º is achieved. But for self starting condition the inverting gain is kept slightly larger than 29.</para>
+    <para id="id45697360">
+      <figure id="id49085838">
+        <media id="id49085838_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 4-b9c7.png" id="id49085838__onlineimage" height="233" width="454"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id43889700">
+      <emphasis effect="bold">Figure 4. The feed back network.</emphasis>
+    </para>
+    <para id="id44693168">The Loop Gain expression is:</para>
+    <para id="id45608466">L(jω) = <figure id="id41965117"><media id="id41965117_media" alt=""><image mime-type="image/png" src="../../media/graphics31-f198.png" id="id41965117__onlineimage" height="38" width="92"/></media></figure> where ∆ =<figure id="id45343437"><media id="id45343437_media" alt=""><image mime-type="image/png" src="../../media/graphics32-649b.png" id="id45343437__onlineimage" height="38" width="186"/></media></figure> and <figure id="id47739544"><media id="id47739544_media" alt=""><image mime-type="image/png" src="../../media/graphics33-fef2.png" id="id47739544__onlineimage" height="24" width="15"/></media></figure> = <figure id="id42312310"><media id="id42312310_media" alt=""><image mime-type="image/png" src="../../media/graphics34-abef.png" id="id42312310__onlineimage" height="34" width="27"/></media></figure> ;</para>
+    <para id="id43814048">Re(∆) = <figure id="id43814052"><media id="id43814052_media" alt=""><image mime-type="image/png" src="../../media/graphics35-a339.png" id="id43814052__onlineimage" height="24" width="144"/></media></figure></para>
+    <para id="id42700658">Im(∆)=<figure id="id44857139"><media id="id44857139_media" alt=""><image mime-type="image/png" src="../../media/graphics36-ada3.png" id="id44857139__onlineimage" height="24" width="92"/></media></figure></para>
+    <para id="id45649348">To satisfy the Barkhausen Criteria, Re(∆) = 0;</para>
+    <para id="id45649352">But Re∆= <figure id="id40645308"><media id="id40645308_media" alt=""><image mime-type="image/png" src="../../media/graphics37-f0ba.png" id="id40645308__onlineimage" height="24" width="175"/></media></figure></para>
+    <para id="id42204574">Therefore by cancelling<figure id="id45313143"><media id="id45313143_media" alt=""><image mime-type="image/png" src="../../media/graphics38-5db7.png" id="id45313143__onlineimage" height="24" width="19"/></media></figure> through out, we get</para>
+    <figure id="id42356620">
+      <media id="id42356620_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics39-5808.png" id="id42356620__onlineimage" height="24" width="67"/>
+      </media>
+    </figure>
+    <para id="id45738918">Therefore    <figure id="id45072802"><media id="id45072802_media" alt=""><image mime-type="image/png" src="../../media/graphics40-86f6.png" id="id45072802__onlineimage" height="31" width="68"/></media></figure> = <figure id="id45606457"><media id="id45606457_media" alt=""><image mime-type="image/png" src="../../media/graphics41-97b5.png" id="id45606457__onlineimage" height="34" width="42"/></media></figure> ;</para>
+    <para id="id44778821">Second part of the Barkhausen Criteria says that at oscillatory frequency the phase angle should be zero.</para>
+    <para id="id40590399">L(ω=<figure id="id41983738"><media id="id41983738_media" alt=""><image mime-type="image/png" src="../../media/graphics42-7754.png" id="id41983738__onlineimage" height="31" width="15"/></media></figure>) = <figure id="id42359716"><media id="id42359716_media" alt=""><image mime-type="image/png" src="../../media/graphics43-936f.png" id="id42359716__onlineimage" height="46" width="129"/></media></figure> = <figure id="id43963885"><media id="id43963885_media" alt=""><image mime-type="image/png" src="../../media/graphics44-1f38.png" id="id43963885__onlineimage" height="46" width="96"/></media></figure> = <figure id="id40901777"><media id="id40901777_media" alt=""><image mime-type="image/png" src="../../media/graphics45-1782.png" id="id40901777__onlineimage" height="39" width="61"/></media></figure>)</para>
+    <para id="id42755921">L(ω=<figure id="id42744270"><media id="id42744270_media" alt=""><image mime-type="image/png" src="../../media/graphics46-7754.png" id="id42744270__onlineimage" height="31" width="15"/></media></figure>) = <figure id="id43078616"><media id="id43078616_media" alt=""><image mime-type="image/png" src="../../media/graphics47-65a2.png" id="id43078616__onlineimage" height="34" width="36"/></media></figure>) = 1 ; </para>
+    <para id="id42030994">Therefore <figure id="id42711530"><media id="id42711530_media" alt=""><image mime-type="image/png" src="../../media/graphics48-9d44.png" id="id42711530__onlineimage" height="34" width="58"/></media></figure></para>
+  </content>
+</document>

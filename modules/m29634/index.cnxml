@@ -1,0 +1,66 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Analog Electronics Lecture 2_PartA_I-V characteristics of Vacuum Tubes</title>
+  <metadata>
+  <md:content-id>m29634</md:content-id><md:title>Analog Electronics Lecture 2_PartA_I-V characteristics of Vacuum Tubes</md:title>
+  <md:abstract>Summary: The family of Output Curves  and the incremental model of Triode, Pentode ;</md:abstract>
+  <md:uuid>51fc1737-c3ba-4467-9362-b95d07dd47a0</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1170448346912">
+      <emphasis effect="underline">LECTURE NO.2_PartA</emphasis>
+    </para>
+    <para id="id1170449318828">Analog Electronics Lecture 2_PartA_I-V characteristics of Vacuum Tubes</para>
+    <para id="id1170449555148">Key words; Triode, Pentode; </para>
+    <para id="id1170449273817">Summary: The family of Output Curves and the incremental model of Triode, Pentode ;</para>
+    <para id="id1170446595243">All the amplifying devices are Active Devices. Vacuum Tubes, Bipolar Junction Transistor(BJT) and Field Effect Transistors(FET) belong to this group. Whereas Resistors, Inductors and Capacitors are passive devices.</para>
+    <para id="id1170448399325">OUTPUT FAMILY OF CURVES OF ACTIVE DEVICES</para>
+    <para id="id1170446643996">TRIODE OUTPUT CHARACTERISTICS</para>
+    <para id="id1170446703096">The general output characteristics of a triode is as follows:</para>
+    <figure id="id1170448416218">
+      <media id="id1170448416218_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-77d0.png" id="id1170448416218__onlineimage" height="350" width="650"/>
+      </media>
+    </figure>
+    <para id="id1170446613110">But the idealized output characteristics would look like:</para>
+    <para id="id1170446270695">
+      <figure id="id1170446658003">
+        <media id="id1170446658003_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 2-c9d0.png" id="id1170446658003__onlineimage" height="351" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170448318574">Thus triode is a voltage controlled voltage source.</para>
+    <para id="id1170446618859">The incremental model of a triode is:</para>
+    <figure id="id1170448395265">
+      <media id="id1170448395265_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-52d0.png" id="id1170448395265__onlineimage" height="238" width="363"/>
+      </media>
+    </figure>
+    <para id="id1170446706097">Where r<sub>p </sub>=plate resistance</para>
+    <para id="id1170448423372">µ = Amplification factor</para>
+    <para id="id1170449376944">PENTODE OUTPUT CHARACTERISTICS</para>
+    <para id="id1170449159200">A pentode has 5 plates. They are cathode, grid, screen, suppressor and anode.</para>
+    <para id="id1170446678459"/>
+    <para id="id1170446631616">The general output characteristics of a pentode is as follows:</para>
+    <figure id="id1170448474545">
+      <media id="id1170448474545_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 4-fea0.png" id="id1170448474545__onlineimage" height="361" width="650"/>
+      </media>
+    </figure>
+    <para id="id1170446291308">But the idealized output characteristics would look like:</para>
+    <figure id="id1170446673462">
+      <media id="id1170446673462_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-83ad.png" id="id1170446673462__onlineimage" height="251" width="454"/>
+      </media>
+    </figure>
+    <para id="id1170446711607">Thus pentode is a voltage controlled current source.</para>
+    <para id="id1170446597102">The incremental model of a pentode is:</para>
+    <figure id="id1170446676624">
+      <media id="id1170446676624_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 46.png" id="id1170446676624__onlineimage" height="159" width="297"/>
+      </media>
+    </figure>
+    <para id="id1170449395526">Rp is  plate resistance and gm is transconductance and product of the two are amplication factor mu. Amplification  factor is the maximum voltage gain that can be obtained from a Common Cathode Pentode Amplifier.</para>
+  </content>
+</document>

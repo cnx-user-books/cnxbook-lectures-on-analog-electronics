@@ -1,0 +1,18 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Lecture5_PartA_The Low frequency Voltage Gain Expression by detailed circuit analysis.</title>
+  <metadata>
+  <md:content-id>m31582</md:content-id><md:title>AE_Lecture5_PartA_The Low frequency Voltage Gain Expression by detailed circuit analysis.</md:title>
+  <md:abstract>In this note, the expression for low frequency voltage gain obtained by detailed circuit analysis could not be uploaded. It is being uploaded here.</md:abstract>
+  <md:uuid>6ccc6e73-8325-4dec-883e-70a8c936c862</md:uuid>
+</metadata>
+
+<content>
+    <para id="id6438706">By detailed analysis,</para>
+    <figure id="id9071414">
+      <media id="id9071414_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-090a.png" id="id9071414__onlineimage" height="47" width="258"/>
+      </media>
+    </figure>
+    <para id="id1170757866178">Here there are two poles corresponding to two capacitors C<sub>C1</sub> and C<sub>E</sub> . The second coupling capacitor is considered to be infinity. The highest pole decides lower -3dB frequency. So 0.188Krads/sec decides the lower -3dB frequency which comes out to be 30Hz.</para>
+  </content>
+</document>

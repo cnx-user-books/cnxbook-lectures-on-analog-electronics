@@ -1,0 +1,439 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>AE_Lecture 9_revised_Noise(Untitled)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m35842</md:content-id>
+  <md:title>AE_Lecture 9_revised_Noise(Untitled)</md:title>
+  <md:abstract>AE_Lecture 9_Noise has been revised. In the previous version there were some conceptual mistakes.</md:abstract>
+  <md:uuid>f22d87c2-db69-4ebb-a14c-6555a3b81b2e</md:uuid>
+</metadata>
+
+<content>
+    <para id="id1170034063675">
+      <emphasis effect="bold">Lecture no-9 Noise sources and theoretical formulation of noise parameters.</emphasis>
+    </para>
+    <para id="id1170022641438">Internal Noise Sources</para>
+    <list id="id1170039928019" list-type="bulleted">
+      <item>Resistors</item>
+      <item>Vacuum Tubes</item>
+      <item>BJT &amp; Other Solid State Devices</item>
+    </list>
+    <para id="id1170027618817">External Noise Sources</para>
+    <list id="id1170028583890" list-type="bulleted">
+      <item>Atmospheric </item>
+      <item>Man Made Electric DC Machines</item>
+      <item>Extraterrestrial sources</item>
+      <item>Multiple Transmission Paths</item>
+      <item>Random Changes in attenuation within the transmission medium.</item>
+    </list>
+    <para id="id6936309">
+      <emphasis effect="bold">1.ATMOSPHERIC NOISES</emphasis>
+    </para>
+    <para id="id1170027988109">Due to electric discharge in thunder clouds spurious radio waves are produced.</para>
+    <para id="id1170021495784">In time domain, electric discharge is a SPIKE (or a Dirac Delta Function). In frequency domain we have uniformly distributed RF waves in MW region 540kHz to1.6 MHz. Below 100MHz field strength of the radiations from the electric discharges are significant in Medium Wave Range of RF and not in Short Wave Range. This is why during thunder storms maximum static is produced in MW Range of radio reception.</para>
+    <para id="id1170026675511">
+      <emphasis effect="bold">2.MAN MADE SOURCES</emphasis>
+    </para>
+    <list id="id1170042408489" list-type="bulleted">
+      <item>High voltage powerline corona discharge.</item>
+      <item>Commutator-generated noise in DC electric motors..</item>
+      <item>Switching gear noise.</item>
+      <item>EM Interference by high intensity radio transmitters in neighbourhood.</item>
+    </list>
+    <para id="id1170030993043">
+      <emphasis effect="bold">3.EXTRATERRESTRIAL NOISE SOURCES</emphasis>
+    </para>
+    <list id="id8946273" list-type="enumerated" number-style="lower-roman">
+      <item>Periodic increase in Solar Activities(The period is 11 years) in the form of increased sun-spots and furious sun-flares lead to major disruptions in power transmissions and communication systems. The surface of the Sun is a roiling mass of plasma- charged high-energy particles- some of which escape from the surface and travel through the space as the solar wind. During a sun storm solar wind carries billion-tonne glob of plasma, a fireball known as coronal mass ejection(CME). If the CME hits the Earth, it changes the configuration of Earth’s Magnetic field leading to severe Electro-Magnetic Induction in the long lines of Power Grids. This will cause increased dc currents leading to saturation of the magnetic core of the transformers. The saturation of magnetic cores will limit the opposing e.m.f. leading to runaway currents in the secondary coil. This leads to rapid heating, melting of the transformer. One such event in March 1989 in Quebec, Canada, left 6 million people without electricity for 9 hours. </item>
+      <item>Global Radio Broadcast at short wave RF gets seriously affected due to disruptions of ionosphere surrounding the Earth.</item>
+      <item>QUASERS-Quasi-Stellar Radio Sources are important Radio Noise Sources in frequency range from MHz to GHz.</item>
+      <item>Pulsars RF interference- Pulsars are Neutron Stars which are rapidly spinning and which have the magnetic field axis inclined to geo-graphical polar axis of spin. Due to this inclination, there is synchrotron radiation covering the entire span of spectrum. It emits radio waves, optical waves, X-Rays and Gamma Rays. This is emitted from the polar ends of the magnetic axis. Hence a beam of EM radiation are sweeping the entire space around the spinning Neutron Star at the same rate as that at which it is spinning. If our Earth falls in its line of sight, it receives periodic burst of EM radiations hence they are called pulsars. This is generally very weak hence does not cause much disturbance on Earth.</item>
+    </list>
+    <para id="id1170024682247"><emphasis effect="bold">4.MULTIPLE TRANSMISSION PATHS-</emphasis>This occurs due to reflection off buildings, earth, airplanes &amp; ships or from refraction from stratification in the transmission medium.</para>
+    <list id="id2163363" list-type="enumerated" number-style="arabic">
+      <item>Diffused Noise Source-received signals are numerous reflected components.</item>
+      <item>Specular Noise Source-Received signals are one or two reflected strong rays.</item>
+    </list>
+    <para id="id1170028359628"><emphasis effect="bold">5.RANDOM CHANGES IN ATTENNUATION IN THE ATMOSPHERE -</emphasis>this leads to fading.</para>
+    <para id="id1355428">INTERNAL NOISE SOURCES</para>
+    <para id="id1170027205354"><emphasis effect="bold">Thermal Noise</emphasis> :- Random Motion of electrons in the conductor leading to fluctuations in the conducting semi free electron density(n) in the metallic lattice. This leads to fluctuating dipole leading to thermal voltages. This directly depends on the absolute temperature of the conductor. </para>
+    <para id="id1170030233649"><emphasis effect="bold">Shot Noise</emphasis>:- Statistical fluctuations in the thermionic emissions from the cathode or the fluctuations in the forward current in the forward biased pn junction diode.</para>
+    <para id="id1170030107830"><emphasis effect="bold">Partition Noise</emphasis>:- Statistical fluctuations in the current division or current merger in Vacuum tubes or in solid state devices.</para>
+    <para id="id1170029764998"><emphasis effect="bold">Flicker Noise</emphasis>:-The number of free electrons or holes present in the channel decide the conductivity of the channel in FET devices. But due to interface states at the Gate Oxide in MOS the channel conductivity fluctuates due to random capture of majority carriers from the channel. This noise is inversely proportional to frequency. Hence it is also known as [ <figure id="id1170028198607"><media id="id1170028198607_media" alt=""><image mime-type="image/png" src="../../media/graphics1-8fdb.png" id="id1170028198607__onlineimage" height="39" width="20"/></media></figure>noise.</para>
+    <para id="id7246058">Thermal Noise in Resistors(R)</para>
+    <figure id="id7245579">
+      <media id="id7245579_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-1311.png" id="id7245579__onlineimage" height="369" width="526"/>
+      </media>
+    </figure>
+    <para id="id1170026860188">Random motion of electrons due to thermal energy(<figure id="id1170028263959"><media id="id1170028263959_media" alt=""><image mime-type="image/png" src="../../media/graphics3-01ed.png" id="id1170028263959__onlineimage" height="28" width="559"/></media></figure> )leads to fluctuating dipole in the metallic lattice. This leads to random voltage fluctuation at the terminals.</para>
+    <para id="id1170023845584">This random voltage<figure id="id1170029888067"><media id="id1170029888067_media" alt=""><image mime-type="image/png" src="../../media/graphics4-2d30.png" id="id1170029888067__onlineimage" height="26" width="128"/></media></figure></para>
+    <para id="id1170024568602">Mean Square Noise Power Spectral density=<figure id="id1170023608702"><media id="id1170023608702_media" alt=""><image mime-type="image/png" src="../../media/graphics5-e1f2.png" id="id1170023608702__onlineimage" height="39" width="232"/></media></figure></para>
+    <para id="id2570110">In double sided representation</para>
+    <figure id="id1170021575316">
+      <media id="id1170021575316_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-038b.png" id="id1170021575316__onlineimage" height="209" width="463"/>
+      </media>
+    </figure>
+    <para id="id1170023814316">Figure 2. Noise Power Spectral Density Distribution w.r.t. frequency in a double sided spectrum.</para>
+    <para id="id1170022921032">We have almost uniform Noise Power Spectral Density over the entire frequency spectrum. Therefore Thermal noise(Johnson Noise) is also known as White Noise. Just as WHITE LIGHT has all the seven colours in equal magnitude, in the same way WHITE NOISE has equal spectral components over the entire frequency spectrum.</para>
+    <para id="id1170024401722">The actual Noise Power measured will depend on the Bandwidth B Hz.</para>
+    <para id="id1170024016206">Therefore Mean Square Noise Power in a resistance over B Hz.</para>
+    <para id="id1170021721866"><figure id="id1170022741156"><media id="id1170022741156_media" alt=""><image mime-type="image/png" src="../../media/graphics7-e32e.png" id="id1170022741156__onlineimage" height="26" width="86"/></media></figure> watts= available noise power;</para>
+    <figure id="id1170023832708">
+      <media id="id1170023832708_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-e7d0.png" id="id1170023832708__onlineimage" height="26" width="146"/>
+      </media>
+    </figure>
+    <para id="id1170022844221">At 300K,<figure id="id1170024676607"><media id="id1170024676607_media" alt=""><image mime-type="image/png" src="../../media/graphics9-a1e1.png" id="id1170024676607__onlineimage" height="26" width="225"/></media></figure> = <figure id="id1170021754660"><media id="id1170021754660_media" alt=""><image mime-type="image/png" src="../../media/graphics10-a2f1.png" id="id1170021754660__onlineimage" height="26" width="171"/></media></figure></para>
+    <para id="id1170021680102">Let BW=1MHz </para>
+    <figure id="id1170029545609">
+      <media id="id1170029545609_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics11-2e13.png" id="id1170029545609__onlineimage" height="53" width="650"/>
+      </media>
+    </figure>
+    <para id="id1170021666704">This is the noise available from the resistance under consideration.</para>
+    <figure id="id1170021708584">
+      <media id="id1170021708584_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-09c6.png" id="id1170021708584__onlineimage" height="232" width="348"/>
+      </media>
+    </figure>
+    <para id="id1170024587390">
+      <emphasis effect="bold">Figure 3. Equivalent circuit of a noisy resistance connected to load. The noisy Resistor has been represented as a noise voltage source of v</emphasis>
+      <emphasis effect="bold">n</emphasis>
+      <emphasis effect="bold"> delivering noise voltage to the load and with an internal resistance R having no noise.</emphasis>
+    </para>
+    <figure id="id1170023250213">
+      <media id="id1170023250213_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-4c15.png" id="id1170023250213__onlineimage" height="47" width="145"/>
+      </media>
+    </figure>
+    <para id="id1170041933022">If R=R<sub>L</sub>, then <figure id="id1170023907244"><media id="id1170023907244_media" alt=""><image mime-type="image/png" src="../../media/graphics14-e8d6.png" id="id1170023907244__onlineimage" height="44" width="111"/></media></figure></para>
+    <para id="id1170022794603">Maximum power transferred to R<sub>L</sub> =Available noise power from the resistance to the load</para>
+    <para id="id1170042404906">=<figure id="id1170023651905"><media id="id1170023651905_media" alt=""><image mime-type="image/png" src="../../media/graphics15-a095.png" id="id1170023651905__onlineimage" height="26" width="147"/></media></figure> = kTB</para>
+    <figure id="id1170023989854">
+      <media id="id1170023989854_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-66df.png" id="id1170023989854__onlineimage" height="50" width="189"/>
+      </media>
+    </figure>
+    <figure id="id1170043699116">
+      <media id="id1170043699116_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-ea35.png" id="id1170043699116__onlineimage" height="26" width="200"/>
+      </media>
+    </figure>
+    <para id="id1170024029095">Mean Square Noise Voltage= &lt;v<sub>n</sub><sup>2</sup>&gt; = <figure id="id1170035740577"><media id="id1170035740577_media" alt=""><image mime-type="image/png" src="../../media/graphics18-60ac.png" id="id1170035740577__onlineimage" height="26" width="58"/></media></figure></para>
+    <para id="id1170028468298">RMS Value of Noise Voltage=√&lt;v<sub>n</sub><sup>2</sup>&gt; =<figure id="id1170029888474"><media id="id1170029888474_media" alt=""><image mime-type="image/png" src="../../media/graphics19-d68a.png" id="id1170029888474__onlineimage" height="29" width="72"/></media></figure></para>
+    <para id="id1170021828033">If R=1k, B=1MHz, T=300K</para>
+    <para id="id1170028642511">
+      <figure id="id1170022827538">
+        <media id="id1170022827538_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics20-cf65.png" id="id1170022827538__onlineimage" height="51" width="196"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1170021785576">
+      <media id="id1170021785576_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics21-a19c.png" id="id1170021785576__onlineimage" height="26" width="309"/>
+      </media>
+    </figure>
+    <para id="id1170025318766">The signals received at the antenna of a receiver is of comparable amount and hence the intelligent signal can easily be swamped by the thermal noise at the front end of a communication receiver. In deep space communication the problem is further compounded due to the fact that received signal from PIONEER or VOYAGER from the very edge of heliosphere is one or two orders of magnitude fainter than 4µV.</para>
+    <para id="id1170034430775">CALCULATION OF EFFECTIVE NOISE TEMPERATURE and DEFINITION of NOISE FIGURE.</para>
+    <figure id="id1170023877664">
+      <media id="id1170023877664_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics22-9719.png" id="id1170023877664__onlineimage" height="264" width="469"/>
+      </media>
+    </figure>
+    <para id="id1170022742722">Figure 4. A two port network with SNR at the input and output.</para>
+    <para id="id1170024402186">SNR=Signal to Noise Ratio=<figure id="id1170022933028"><media id="id1170022933028_media" alt=""><image mime-type="image/png" src="../../media/graphics23-b337.png" id="id1170022933028__onlineimage" height="43" width="257"/></media></figure></para>
+    <figure id="id1170023188309">
+      <media id="id1170023188309_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics24-03ca.png" id="id1170023188309__onlineimage" height="26" width="156"/>
+      </media>
+    </figure>
+    <figure id="id1170021597952">
+      <media id="id1170021597952_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics25-b3a9.png" id="id1170021597952__onlineimage" height="26" width="163"/>
+      </media>
+    </figure>
+    <para id="id1170021649768">So, ratio<figure id="id1170023868450"><media id="id1170023868450_media" alt=""><image mime-type="image/png" src="../../media/graphics26-6c3f.png" id="id1170023868450__onlineimage" height="44" width="335"/></media></figure></para>
+    <para id="id1170026209772">But actually it is not so because there is some internally generated noise in the amplifier.</para>
+    <para id="id1170022718326">Thus <figure id="id1170029900472"><media id="id1170029900472_media" alt=""><image mime-type="image/png" src="../../media/graphics27-14e9.png" id="id1170029900472__onlineimage" height="26" width="163"/></media></figure></para>
+    <para id="id1170021632520">It is actually:<figure id="id1170023394230"><media id="id1170023394230_media" alt=""><image mime-type="image/png" src="../../media/graphics28-aeec.png" id="id1170023394230__onlineimage" height="26" width="220"/></media></figure></para>
+    <para id="id1170021627880">Thus:</para>
+    <figure id="id1170022758846">
+      <media id="id1170022758846_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics29-e6d1.png" id="id1170022758846__onlineimage" height="53" width="235"/>
+      </media>
+    </figure>
+    <figure id="id1170023942419">
+      <media id="id1170023942419_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics30-443d.png" id="id1170023942419__onlineimage" height="94" width="350"/>
+      </media>
+    </figure>
+    <para id="id1170028375645">Therefore:</para>
+    <para id="id1170023010109">Noise Figure=<figure id="id1170025168436"><media id="id1170025168436_media" alt=""><image mime-type="image/png" src="../../media/graphics31-9e46.png" id="id1170025168436__onlineimage" height="58" width="259"/></media></figure></para>
+    <para id="id1170035377830">An Ideal Noise Figure for an amplifier should be 0dB but it is never 0dB in actual practice. In actual practice the noise figure can be 0.1dB/ 0.2dB/0.5dB/1 dB or more.</para>
+    <para id="id1170021833993">EFFECTIVE NOISE TEMPERATURE</para>
+    <para id="id1170023881144">At the input:</para>
+    <figure id="id1170022281537">
+      <media id="id1170022281537_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics32-6111.png" id="id1170022281537__onlineimage" height="26" width="119"/>
+      </media>
+    </figure>
+    <para id="id1170023842200">There is a thermal noise generator of equivalent temperature=<figure id="id1170023007789"><media id="id1170023007789_media" alt=""><image mime-type="image/png" src="../../media/graphics33-7ef6.png" id="id1170023007789__onlineimage" height="26" width="16"/></media></figure></para>
+    <para id="id1170026058417">This is the noise picked up by the antenna . </para>
+    <para id="id1170024917986">The noise power at the o/p:</para>
+    <figure id="id1170023870770">
+      <media id="id1170023870770_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics34-eccb.png" id="id1170023870770__onlineimage" height="26" width="199"/>
+      </media>
+    </figure>
+    <para id="id1170026161576">Here <figure id="id1170023201881"><media id="id1170023201881_media" alt=""><image mime-type="image/png" src="../../media/graphics35-ed28.png" id="id1170023201881__onlineimage" height="26" width="240"/></media></figure></para>
+    <para id="id1170024881024">Therefore:</para>
+    <figure id="id1170021624748">
+      <media id="id1170021624748_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics36-3b93.png" id="id1170021624748__onlineimage" height="51" width="240"/>
+      </media>
+    </figure>
+    <para id="id1170026161460">Thus:</para>
+    <figure id="id1170024828891">
+      <media id="id1170024828891_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics37-35b4.png" id="id1170024828891__onlineimage" height="26" width="206"/>
+      </media>
+    </figure>
+    <para id="id1170026310173">Where: <figure id="id1170026387010"><media id="id1170026387010_media" alt=""><image mime-type="image/png" src="../../media/graphics38-cc02.png" id="id1170026387010__onlineimage" height="26" width="369"/></media></figure> = <figure id="id1170027146749"><media id="id1170027146749_media" alt=""><image mime-type="image/png" src="../../media/graphics39-4dc9.png" id="id1170027146749__onlineimage" height="40" width="35"/></media></figure></para>
+    <figure id="id1170023970018">
+      <media id="id1170023970018_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics40-3084.png" id="id1170023970018__onlineimage" height="56" width="226"/>
+      </media>
+    </figure>
+    <figure id="id1170021775658">
+      <media id="id1170021775658_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics41-abec.png" id="id1170021775658__onlineimage" height="53" width="221"/>
+      </media>
+    </figure>
+    <figure id="id1170023825790">
+      <media id="id1170023825790_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics42-53bf.png" id="id1170023825790__onlineimage" height="52" width="315"/>
+      </media>
+    </figure>
+    <para id="id1170023995828">While the signal is passing through an amplifier the signal to noise ratio deterioration is defined by <figure id="id1170021676158"><media id="id1170021676158_media" alt=""><image mime-type="image/png" src="../../media/graphics43-95fe.png" id="id1170021676158__onlineimage" height="40" width="14"/></media></figure>. If by cryogenic cooling effective noise temperature of the front end amplifier is minimized to zero then we achieve the ideal N.F. of 1 or 0dB.</para>
+    <para id="id1170022843003">IN COMMUNAICATION RECEIVER SYSTEMS</para>
+    <para id="id1170024465631">
+      <figure id="id1170023882362">
+        <media id="id1170023882362_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics44-8b51.png" id="id1170023882362__onlineimage" height="314" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170021651160">
+      <emphasis effect="bold">Figure 5. A Communication Receiver in RF range. Different stages of the receiver are shown. In the first stage we have series resonance circuit tuned to a given station or tuned to a given communication frequency. At resonance frequency maximum electromagnetic induction takes place and maximum current is introduced in the primary coil of RF Transformer. The first stage is a RF tuned amplifier. After amplification, picked up radio frequency is downward frequency translated to intermediate frequency (IF). IF is 455kHz in AM Radio Receivers or 10.7MHz in TV or FM Radio.IF signal is amplified and then second detection or demodulation takes place. In the second detection it is again downward frequency translated to base band signals. This base band signal is voltage amplified by pre-amplifier and power amplified by Complementary Symmetry Amplifier. The power amplified is fed to the Speaker or Video Monitor.</emphasis>
+    </para>
+    <para id="id1657123"><emphasis effect="bold"/>The first downward frequency<emphasis effect="bold"/>translation is known as 1<sup>st</sup> detection or 1<sup>st</sup> demodulation. This is also known as superhetrodyne mixing of tuned frequency f<sub>0</sub> and f<sub>Lo </sub>and f<sub>Lo</sub> –f<sub>0</sub> = Intermediate Frequency (I.F.).</para>
+    <para id="id1170025256597">FRISS FORMULA will have to be utilized to calculate the overall noise figure.</para>
+    <para id="id1170023830388">FRISS FORMULA </para>
+    <para id="id1170039913699">What is the overall noise figure of 2 cascaded stages ?</para>
+    <para id="id1170025094178">
+      <figure id="id1170029199394">
+        <media id="id1170029199394_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics45-95f8.png" id="id1170029199394__onlineimage" height="247" width="522"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id1170023840692">Figure 6: Two Stage Cascaded Amplifier</para>
+    <para id="id1170021582914">We have a matched network for maximum power transfer.</para>
+    <para id="id8682223">Overall Noise Figure</para>
+    <figure id="id1170024586752">
+      <media id="id1170024586752_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics46-4de2.png" id="id1170024586752__onlineimage" height="53" width="148"/>
+      </media>
+    </figure>
+    <para id="id1170021706902">For n Stage cascade system:</para>
+    <figure id="id1170021716008">
+      <media id="id1170021716008_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics47-4258.png" id="id1170021716008__onlineimage" height="53" width="542"/>
+      </media>
+    </figure>
+    <para id="id1170022827480">This formula implies that the overall Noise Figure is dominated by the noise figure of the first stage.</para>
+    <para id="id1170037319962">
+      <figure id="id1170024569704">
+        <media id="id1170024569704_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics48-7815.png" id="id1170024569704__onlineimage" height="317" width="478"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id1170026309156">
+      <media id="id1170026309156_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics49-8b92.png" id="id1170026309156__onlineimage" height="303" width="476"/>
+      </media>
+    </figure>
+    <para id="id1170022811925">Front end amplifier is referred to as Low Noise Amplifier.</para>
+    <para id="id5175622">With a good front-end having cryogenic cooling, we achieve a good amplification with no deterioration in SNR as we proceed along the cascade chain.</para>
+    <para id="id1170023945841">Table 1. Typical Noise Figure</para>
+    <table id="id1170023932111" summary="">
+      <tgroup cols="6">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <tbody>
+          <row>
+            <entry>Amplifier</entry>
+            <entry>NF(abs)</entry>
+            <entry>NF(dB)</entry>
+            <entry>T<sub>e</sub> (K)</entry>
+            <entry>Gain(dB)</entry>
+            <entry>f<sub>op</sub>(GHz)</entry>
+          </row>
+          <row>
+            <entry>Parametric Amplifier(uncooled)</entry>
+            <entry>1.45</entry>
+            <entry>1.61</entry>
+            <entry>130</entry>
+            <entry>10-20</entry>
+            <entry>9</entry>
+          </row>
+          <row>
+            <entry>Parametric Amplifier(77K)</entry>
+            <entry>1.17</entry>
+            <entry>0.69</entry>
+            <entry>50</entry>
+            <entry>10-20</entry>
+            <entry>3&amp;6</entry>
+          </row>
+          <row>
+            <entry>Parametric Amplifier(4K)</entry>
+            <entry>1.03</entry>
+            <entry>0.13</entry>
+            <entry>9</entry>
+            <entry>10-20</entry>
+            <entry>4</entry>
+          </row>
+          <row>
+            <entry>Travelling Wave Tube(TWT)</entry>
+            <entry>1.59</entry>
+            <entry>2.00</entry>
+            <entry>170</entry>
+            <entry>20-30</entry>
+            <entry>2.66</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>1.86</entry>
+            <entry>2.7</entry>
+            <entry>250</entry>
+            <entry/>
+            <entry>3</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>2.69</entry>
+            <entry>4.3</entry>
+            <entry>490</entry>
+            <entry/>
+            <entry>9</entry>
+          </row>
+          <row>
+            <entry>Tunel Diode Amplifier-Ge</entry>
+            <entry>2.38</entry>
+            <entry>3.77</entry>
+            <entry>400</entry>
+            <entry>20-40</entry>
+            <entry>?</entry>
+          </row>
+          <row>
+            <entry>Tunnel Diode Amplifier-GaAs</entry>
+            <entry>1.69</entry>
+            <entry>2.28</entry>
+            <entry>200</entry>
+            <entry>20-40</entry>
+            <entry>?</entry>
+          </row>
+          <row>
+            <entry>Low Noise Heterodyne Receiver</entry>
+            <entry>2.38</entry>
+            <entry>3.77</entry>
+            <entry>400</entry>
+            <entry>20-40</entry>
+            <entry>500kHz-30MHz</entry>
+          </row>
+          <row>
+            <entry>IC BJT IF Amplifier for TV</entry>
+            <entry>5.01</entry>
+            <entry>7</entry>
+            <entry>1163</entry>
+            <entry>50</entry>
+            <entry>10.7MHz</entry>
+          </row>
+          <row>
+            <entry>GaAs MESFET Amplifier</entry>
+            <entry>?</entry>
+            <entry>?</entry>
+            <entry>?</entry>
+            <entry>?</entry>
+            <entry>?</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <para id="id1170024567500">(1)Mumford &amp; Scheibe,Noise Performance Factors in Communication Systems,Horizon House-Microwace,Inc,Dedham,Massachusets(1968),pp 36,39</para>
+    <para id="id1170024415793">(2)Linear Integrated Circuits Data Book,Motorola Inc.,(1974).</para>
+    <para id="id1170021688454">References:</para>
+    <para id="id1170023974542">1.Ziemer &amp; Tranter,Principles of Communications-System,Modulation and Noise,Wiley India,5<sup>th</sup> Edition,2002.</para>
+    <para id="id1170023919583">2. Shanmugam,Digital and Analog Communication Systems, Wiley-India,Reprint 2007.</para>
+    <para id="id1170023923063">
+      <emphasis effect="bold">APPENDIX-1. Derivation Of The FRISS FORMULA (Refer to figure 6)</emphasis>
+    </para>
+    <para id="id1170022733258">Noise at the output of the second stage is:</para>
+    <para id="id1170026467199"><figure id="id1170030271775"><media id="id1170030271775_media" alt=""><image mime-type="image/png" src="../../media/graphics50-aa15.png" id="id1170030271775__onlineimage" height="26" width="161"/></media></figure>______(1)</para>
+    <para id="id1170022709336">Similarly the output of the first stage is:</para>
+    <para id="id1170021598358"><figure id="id1170030016202"><media id="id1170030016202_media" alt=""><image mime-type="image/png" src="../../media/graphics51-e882.png" id="id1170030016202__onlineimage" height="26" width="161"/></media></figure>______(2)</para>
+    <para id="id1170023889379">Available Noise power Input at the First stage is:</para>
+    <para id="id1170022797155"><figure id="id1170021600330"><media id="id1170021600330_media" alt=""><image mime-type="image/png" src="../../media/graphics52-f219.png" id="id1170021600330__onlineimage" height="26" width="98"/></media></figure>________(3)</para>
+    <para id="id1170023998748">Substituting (3) into (2), we get,</para>
+    <para id="id1170023986142"><figure id="id1170029308881"><media id="id1170029308881_media" alt=""><image mime-type="image/png" src="../../media/graphics53-cfba.png" id="id1170029308881__onlineimage" height="26" width="174"/></media></figure>____(4)</para>
+    <para id="id1170024162164">Substituting (4)in (1),we get,</para>
+    <figure id="id1170023847904">
+      <media id="id1170023847904_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics54-c570.png" id="id1170023847904__onlineimage" height="26" width="266"/>
+      </media>
+    </figure>
+    <para id="id1170021692634">Further Simplifying it,</para>
+    <para id="id1170025194926"><figure id="id5189220"><media id="id5189220_media" alt=""><image mime-type="image/png" src="../../media/graphics55-179e.png" id="id5189220__onlineimage" height="26" width="320"/></media></figure>______(5)</para>
+    <para id="id1170046210695">But <figure id="id1170048343773"><media id="id1170048343773_media" alt=""><image mime-type="image/png" src="../../media/graphics56-f82a.png" id="id1170048343773__onlineimage" height="26" width="498"/></media></figure>__(6)</para>
+    <para id="id1170027199340">And<figure id="id1170030167174"><media id="id1170030167174_media" alt=""><image mime-type="image/png" src="../../media/graphics57-a7f5.png" id="id1170030167174__onlineimage" height="26" width="499"/></media></figure>___(7)</para>
+    <para id="id1170022713918">Also, <figure id="id1170024157339"><media id="id1170024157339_media" alt=""><image mime-type="image/png" src="../../media/graphics58-704b.png" id="id1170024157339__onlineimage" height="26" width="132"/></media></figure> and <figure id="id1170021759880"><media id="id1170021759880_media" alt=""><image mime-type="image/png" src="../../media/graphics59-54bf.png" id="id1170021759880__onlineimage" height="26" width="132"/></media></figure>_______(8)</para>
+    <para id="id1170021777282">From Eq(8), we have <figure id="id1170023254857"><media id="id1170023254857_media" alt=""><image mime-type="image/png" src="../../media/graphics60-016a.png" id="id1170023254857__onlineimage" height="26" width="139"/></media></figure>_______(9)</para>
+    <para id="id1170021601084">From Eq(9)and(7),</para>
+    <para id="id1170021722909"><figure id="id1170022926368"><media id="id1170022926368_media" alt=""><image mime-type="image/png" src="../../media/graphics61-1728.png" id="id1170022926368__onlineimage" height="26" width="284"/></media></figure>_____(10)</para>
+    <para id="id1170024913617">Using relations(6) ,(8) and(10),</para>
+    <para id="id1170023850166">Eq(5) can be re-written as:</para>
+    <figure id="id1170022765864">
+      <media id="id1170022765864_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics62-179e.png" id="id1170022765864__onlineimage" height="26" width="320"/>
+      </media>
+    </figure>
+    <figure id="id1170023905620">
+      <media id="id1170023905620_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics63-8918.png" id="id1170023905620__onlineimage" height="26" width="356"/>
+      </media>
+    </figure>
+    <para id="id1170023973208">Simplifying:<figure id="id1170024401606"><media id="id1170024401606_media" alt=""><image mime-type="image/png" src="../../media/graphics64-e649.png" id="id1170024401606__onlineimage" height="26" width="309"/></media></figure>______(11)</para>
+    <para id="id1170023893149">But,<figure id="id1170025438341"><media id="id1170025438341_media" alt=""><image mime-type="image/png" src="../../media/graphics65-f3ac.png" id="id1170025438341__onlineimage" height="26" width="154"/></media></figure> _____(12) </para>
+    <para id="id1170022831946">[this is arrived at by induction logic recognizing the N<sub>a1</sub>=g<sub>1</sub>kBF<sub>1</sub>T<sub>0</sub>]</para>
+    <para id="id1170023016879">Where F is the overall noise figure.</para>
+    <para id="id1170041061756">Hence dividing(11)by (12), we get,</para>
+    <para id="id1170030570670"><figure id="id1170022844163"><media id="id1170022844163_media" alt=""><image mime-type="image/png" src="../../media/graphics66-7f36.png" id="id1170022844163__onlineimage" height="40" width="111"/></media></figure> ______(13)</para>
+    <para id="id1170025092416">For 3 stages: <figure id="id1170022739358"><media id="id1170022739358_media" alt=""><image mime-type="image/png" src="../../media/graphics67-e618.png" id="id1170022739358__onlineimage" height="41" width="178"/></media></figure>_______(14)</para>
+    <para id="id1170022873456">For n stages:</para>
+    <para id="id1170021824321">
+      <figure id="id1170023278100">
+        <media id="id1170023278100_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics68.png" id="id1170023278100__onlineimage" height="41" width="294"/>
+        </media>
+      </figure>
+      <emphasis effect="italics">____(15) FRISS FORMULA.</emphasis>
+    </para>
+  </content>
+</document>

@@ -1,0 +1,285 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>AE_Lecture5_PartC_High Frequency Analysis of CB &amp; CC Amplifier</title>
+  <metadata>
+  <md:content-id>m31574</md:content-id><md:title>AE_Lecture5_PartC_High Frequency Analysis of CB &amp; CC Amplifier</md:title>
+  <md:abstract>In AE-Lecture5_Part C we find the analytic relationship of the upper cutoff frequency of CB and CC amplifier.</md:abstract>
+  <md:uuid>6681d752-b67a-47fb-953e-65d7d286e075</md:uuid>
+</metadata>
+
+<content>
+    <para id="id6663892">High Frequency Response Of CB Amplifier.</para>
+    <para id="id7941220">CB Amplifier is almost an uni-lateral circuit. It has negligible reverse transmission. Hence it is ideal for RF applications where there is always a danger of parasitic oscillations.</para>
+    <figure id="id17649802">
+      <media id="id17649802_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 1-07e3.png" id="id17649802__onlineimage" height="271" width="509"/>
+      </media>
+    </figure>
+    <para id="id10391372">In Figure 1, we have a CB BJT Amplifier with two battery biasing. This circuit has to be analyzed for its upper cut off frequency.</para>
+    <figure id="id6670121">
+      <media id="id6670121_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 5-db03.png" id="id6670121__onlineimage" height="220" width="651"/>
+      </media>
+    </figure>
+    <para id="id6589061">In Figure 2, we have given the high frequency model of CB BJT using the T-Model of BJT.</para>
+    <para id="id10904518">Following is the open circuit time constant method for arriving at the upper cut-off frequency of the amplifier.</para>
+    <figure id="id12712013">
+      <media id="id12712013_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics1-2c90.png" id="id12712013__onlineimage" height="24" width="180"/>
+      </media>
+    </figure>
+    <figure id="id6671666">
+      <media id="id6671666_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics2-74ab.png" id="id6671666__onlineimage" height="24" width="147"/>
+      </media>
+    </figure>
+    <figure id="id7235446">
+      <media id="id7235446_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics3-a1a6.png" id="id7235446__onlineimage" height="24" width="101"/>
+      </media>
+    </figure>
+    <para id="id9103745">
+      <figure id="id15982136">
+        <media id="id15982136_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics4-90be.png" id="id15982136__onlineimage" height="24" width="34"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id6520672">
+      <media id="id6520672_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics5-1ceb.png" id="id6520672__onlineimage" height="45" width="190"/>
+      </media>
+    </figure>
+    <para id="id10061797">HIGH FREQUENCY MODEL OF CC AMPLIFIER</para>
+    <para id="id12866941">CC Amplifier is also known as Emitter Follower. It is also known as Buffer. Buffer isolates the output system from input system. </para>
+    <para id="id7986914">It is used for driving transmission lines. It is a voltage controlled voltage source. Its output is a constant current source hence it is suitable for driving variable load.</para>
+    <figure id="id7208775">
+      <media id="id7208775_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 3-5b8d.png" id="id7208775__onlineimage" height="336" width="507"/>
+      </media>
+    </figure>
+    <para id="id7246451">In Figure 3, we have CC Amplifier with self bias. We will analyze the upper cut-off frequency of the amplifier. </para>
+    <para id="id7813513">The Trnsistor is operating at Q point (1.5mA,5V). Following Hybrid-π are given:</para>
+    <figure id="id6658245">
+      <media id="id6658245_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics6-beaa.png" id="id6658245__onlineimage" height="26" width="153"/>
+      </media>
+    </figure>
+    <figure id="id8550181">
+      <media id="id8550181_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics7-99a2.png" id="id8550181__onlineimage" height="26" width="186"/>
+      </media>
+    </figure>
+    <figure id="id9500362">
+      <media id="id9500362_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics8-d9c7.png" id="id9500362__onlineimage" height="46" width="188"/>
+      </media>
+    </figure>
+    <figure id="id10107133">
+      <media id="id10107133_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics9-3ef3.png" id="id10107133__onlineimage" height="24" width="359"/>
+      </media>
+    </figure>
+    <figure id="id7660943">
+      <media id="id7660943_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics10-4234.png" id="id7660943__onlineimage" height="42" width="316"/>
+      </media>
+    </figure>
+    <para id="id8976371">High Frequency INCREMENTAL CIRCUIT of the CC Amplifier is:</para>
+    <para id="id4031268">Figure 4 is given as supplementary of AE_lecture5_PartC</para>
+    <para id="id8270796">i<sub>b</sub><sup>’ </sup>is the useful transistor current which takes part in transistor action and is the component of i<sub>b</sub> , the base current , which flows through r<sub>π</sub> . </para>
+    <para id="id7667456">The<figure id="id4735310"><media id="id4735310_media" alt=""><image mime-type="image/png" src="../../media/graphics11-98f4.png" id="id4735310__onlineimage" height="24" width="4"/></media></figure>Thevenin Equivalent Voltage at the input of the amplifier is:</para>
+    <para id="id7058099">R<sub>Th</sub> = R<sub>S</sub> ││R<sub>B</sub></para>
+    <figure id="id16628998">
+      <media id="id16628998_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics12-5ae8.png" id="id16628998__onlineimage" height="42" width="142"/>
+      </media>
+    </figure>
+    <figure id="id9107745">
+      <media id="id9107745_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics13-ec0c.png" id="id9107745__onlineimage" height="45" width="158"/>
+      </media>
+    </figure>
+    <para id="id10324321"><figure id="id9305112"><media id="id9305112_media" alt=""><image mime-type="image/png" src="../../media/Picture 7-4eb6.png" id="id9305112__onlineimage" height="348" width="628"/></media></figure>v</para>
+    <para id="id17881079">
+      <figure id="id14051727">
+        <media id="id14051727_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 9-dfd7.png" id="id14051727__onlineimage" height="397" width="629"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id15505409">
+      <media id="id15505409_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics14-76b6.png" id="id15505409__onlineimage" height="43" width="257"/>
+      </media>
+    </figure>
+    <para id="id12838888">What is τ<sub>µo </sub>( open-circuit time constant associated with C<sub>µ</sub> ) and τ<sub>πo</sub> ( open-circuit time constant associated with C<sub>π</sub> )?</para>
+    <para id="id9084510">τ<sub>µo</sub>=(C<sub>µ</sub>)(R<sub>10</sub>)</para>
+    <para id="id7234231">τ<sub>πo</sub>=(C<sub>π</sub>)(R<sub>20</sub>)</para>
+    <para id="id18917165">Circuit for finding R<sub>1o</sub></para>
+    <para id="id14329676">
+      <figure id="id7585736">
+        <media id="id7585736_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 10-6056.png" id="id7585736__onlineimage" height="463" width="650"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id8838595">To find the equivalent resistance seen by Cµ, we apply a voltage source at base and ground.</para>
+    <para id="id7630657">Total current drawn from vo is i1+i2.</para>
+    <para id="id12623937">Therefore vo/(i1+i2)= R1o </para>
+    <figure id="id11375752">
+      <media id="id11375752_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics15-87a6.png" id="id11375752__onlineimage" height="27" width="277"/>
+      </media>
+    </figure>
+    <figure id="id12948555">
+      <media id="id12948555_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics16-1bce.png" id="id12948555__onlineimage" height="27" width="305"/>
+      </media>
+    </figure>
+    <figure id="id6914894">
+      <media id="id6914894_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics17-0a17.png" id="id6914894__onlineimage" height="24" width="222"/>
+      </media>
+    </figure>
+    <para id="id15167487">τ<sub>µo</sub>=(0.5pF x 1.1kΩ)=0.54nsec</para>
+    <para id="id4669897">Circuit for finding R<sub>2o</sub></para>
+    <para id="id8577122">
+      <figure id="id18692599">
+        <media id="id18692599_media" alt="">
+          <image mime-type="image/png" src="../../media/Picture 12-b6c7.png" id="id18692599__onlineimage" height="319" width="445"/>
+        </media>
+      </figure>
+    </para>
+    <para id="id5124414">A voltage source is applied at the node pair where Cπ was connected.</para>
+    <para id="id7623886">Total current drawn is i<sub>0</sub> = i<sub>1</sub> +i<sub>2</sub> ;</para>
+    <figure id="id4938936">
+      <media id="id4938936_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics18-f29a.png" id="id4938936__onlineimage" height="42" width="50"/>
+      </media>
+    </figure>
+    <figure id="id12709228">
+      <media id="id12709228_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics19-5293.png" id="id12709228__onlineimage" height="49" width="152"/>
+      </media>
+    </figure>
+    <figure id="id11895667">
+      <media id="id11895667_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics20-779d.png" id="id11895667__onlineimage" height="26" width="150"/>
+      </media>
+    </figure>
+    <figure id="id19212721">
+      <media id="id19212721_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 14-1962.png" id="id19212721__onlineimage" height="294" width="397"/>
+      </media>
+    </figure>
+    <figure id="id6155144">
+      <media id="id6155144_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics21-0c3e.png" id="id6155144__onlineimage" height="49" width="334"/>
+      </media>
+    </figure>
+    <para id="id7918278"/>
+    <para id="id7227506">And β<sub>f0</sub>i<sub>1 </sub>g<sub>m</sub>v<sub>π</sub></para>
+    <figure id="id6980364">
+      <media id="id6980364_media" alt="">
+        <image mime-type="image/png" src="../../media/Picture 15-5853.png" id="id6980364__onlineimage" height="294" width="443"/>
+      </media>
+    </figure>
+    <para id="id4308294">R<sub>eq</sub> = <figure id="id7062918"><media id="id7062918_media" alt=""><image mime-type="image/png" src="../../media/graphics22-a76f.png" id="id7062918__onlineimage" height="40" width="81"/></media></figure>  This expression is derived as follows(Refer to Figure 10):</para>
+    <figure id="id7246459">
+      <media id="id7246459_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics23-b3e7.png" id="id7246459__onlineimage" height="24" width="263"/>
+      </media>
+    </figure>
+    <figure id="id7196622">
+      <media id="id7196622_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics24-7120.png" id="id7196622__onlineimage" height="24" width="253"/>
+      </media>
+    </figure>
+    <figure id="id7010790">
+      <media id="id7010790_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics25-d257.png" id="id7010790__onlineimage" height="49" width="216"/>
+      </media>
+    </figure>
+    <figure id="id2473025">
+      <media id="id2473025_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics26-6050.png" id="id2473025__onlineimage" height="70" width="255"/>
+      </media>
+    </figure>
+    <figure id="id7012255">
+      <media id="id7012255_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics27-8fb4.png" id="id7012255__onlineimage" height="43" width="173"/>
+      </media>
+    </figure>
+    <figure id="id3777996">
+      <media id="id3777996_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics28-e7cc.png" id="id3777996__onlineimage" height="42" width="164"/>
+      </media>
+    </figure>
+    <figure id="id8275479">
+      <media id="id8275479_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics29-1697.png" id="id8275479__onlineimage" height="24" width="158"/>
+      </media>
+    </figure>
+    <figure id="id8725236">
+      <media id="id8725236_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics30-3f48.png" id="id8725236__onlineimage" height="24" width="129"/>
+      </media>
+    </figure>
+    <para id="id8571988">
+      <figure id="id8571992">
+        <media id="id8571992_media" alt="">
+          <image mime-type="image/png" src="../../media/graphics31-248f.png" id="id8571992__onlineimage" height="24" width="127"/>
+        </media>
+      </figure>
+    </para>
+    <figure id="id11909594">
+      <media id="id11909594_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics32-0fee.png" id="id11909594__onlineimage" height="24" width="124"/>
+      </media>
+    </figure>
+    <figure id="id6916646">
+      <media id="id6916646_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics33-86d4.png" id="id6916646__onlineimage" height="24" width="198"/>
+      </media>
+    </figure>
+    <figure id="id8274483">
+      <media id="id8274483_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics34-4f0a.png" id="id8274483__onlineimage" height="46" width="144"/>
+      </media>
+    </figure>
+    <figure id="id6554602">
+      <media id="id6554602_media" alt="">
+        <image mime-type="image/png" src="../../media/graphics35-d3db.png" id="id6554602__onlineimage" height="42" width="195"/>
+      </media>
+    </figure>
+    <para id="id5480573">CC has unity gain hence largest 159 MHz largest B.W.</para>
+    <table id="id8485172" summary="">
+      <tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <tbody>
+          <row>
+            <entry>Configuration</entry>
+            <entry>B.W.</entry>
+          </row>
+          <row>
+            <entry>CE</entry>
+            <entry>1.56MHz</entry>
+          </row>
+          <row>
+            <entry>CE Degenerate</entry>
+            <entry>10.7MHz</entry>
+          </row>
+          <row>
+            <entry>CB</entry>
+            <entry>15.9MHz</entry>
+          </row>
+          <row>
+            <entry>CC</entry>
+            <entry>159MHz</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </content>
+</document>
